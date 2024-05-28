@@ -1,0 +1,1 @@
+[{"variable_name": "地震时使用功能", "variable_type": "utility", "values": []}, {"variable_name": "支座和连接", "variable_type": "decision", "values": ["符合要求", "不符合要求"]}, {"variable_name": "相关部件的损坏", "variable_type": "chance", "values": ["损坏", "不损坏"]}]

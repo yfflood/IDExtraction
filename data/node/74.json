@@ -1,0 +1,1 @@
+[{"variable_name": "抗震设防三个水准", "variable_type": "utility", "values": ["多遇地震作用下建筑主体结构不受损坏", "罕遇地震作用下建筑主体结构遭受破坏或严重破坏但不倒塌"]}, {"variable_name": "二阶段设计方法", "variable_type": "decision", "values": ["在多遇地震作用下，建筑主体结构不受损坏，非结构构件没有过重破坏并导致人员伤亡，保证建筑的正常使用功能", "在罕遇地震作用下，建筑主体结构遭受破坏或严重破坏但不倒塌"]}, {"variable_name": "层间位移角", "variable_type": "decision", "values": ["衡量结构变形能力", "判别是否满足建筑功能要求"]}]

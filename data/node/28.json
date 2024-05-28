@@ -1,0 +1,1 @@
+[{"variable_name": "地下结构抗震性能", "variable_type": "utility", "values": ["Ⅱ级性能要求", "结构体型和抗侧力系统复杂", "应力集中", "弹塑性变形集中", "重大破坏", "倒塌危险"]}, {"variable_name": "非线性分析方法", "variable_type": "decision", "values": ["采用", "不采用"]}, {"variable_name": "抗震薄弱部位", "variable_type": "chance", "values": ["发生", "不发生"]}]

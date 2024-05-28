@@ -1,0 +1,1 @@
+[{"variable_name": "预浸料的储存条件", "variable_type": "chance", "values": ["低温冷藏", "常温储存"]}, {"variable_name": "预浸料的使用情况", "variable_type": "decision", "values": ["使用", "不使用"]}, {"variable_name": "结构加固工程的安全和质量", "variable_type": "utility", "values": ["安全", "不安全"]}]

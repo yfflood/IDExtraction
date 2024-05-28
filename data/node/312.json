@@ -1,0 +1,1 @@
+[{"variable_name": "剪力墙的单位受剪承载力", "variable_type": "utility", "values": ["高", "低"]}, {"variable_name": "窄长板材的使用", "variable_type": "decision", "values": ["过度使用", "适度使用"]}, {"variable_name": "剪力墙和楼、屋盖的受剪承载力", "variable_type": "chance", "values": ["降低", "保持"]}, {"variable_name": "窄板的数量", "variable_type": "decision", "values": ["多", "少"]}]

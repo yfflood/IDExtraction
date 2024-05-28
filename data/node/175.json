@@ -1,0 +1,1 @@
+[{"variable_name": "结构设计", "variable_type": "decision", "values": ["平面不规则", "质量与刚度偏心", "抗扭刚度太弱", "异形柱结构"]}, {"variable_name": "抗震设计", "variable_type": "decision", "values": ["重视扭转效应", "符合《建筑抗震设计规范》GB"]}, {"variable_name": "扭转效应", "variable_type": "chance", "values": ["可能导致结构严重震害"]}, {"variable_name": "结构震害", "variable_type": "utility", "values": ["严重", "不严重"]}]

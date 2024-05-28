@@ -1,0 +1,1 @@
+[{"variable_name": "地震造成的地基震害", "variable_type": "chance", "values": ["液化", "软土震陷", "不均匀地基的差异沉降"]}, {"variable_name": "构筑物的坍塌或丧失使用价值", "variable_type": "chance", "values": ["坍塌", "丧失使用价值"]}, {"variable_name": "地基基础鉴定和处理的难度", "variable_type": "utility", "values": ["大", "小"]}, {"variable_name": "抗震鉴定的范围", "variable_type": "decision", "values": ["减少", "不减少"]}]

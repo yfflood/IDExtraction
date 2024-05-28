@@ -1,0 +1,1 @@
+[{"variable_name": "钢筋锈蚀程度", "variable_type": "chance", "values": ["钢筋锈蚀导致混凝土构件表面开始出现顺筋裂缝", "钢筋截面的径向锈蚀深度达到0.1mm"]}, {"variable_name": "混凝土结构中的可维护构件", "variable_type": "decision", "values": ["采用钢筋适量锈蚀的极限状态", "不采用钢筋适量锈蚀的极限状态"]}]

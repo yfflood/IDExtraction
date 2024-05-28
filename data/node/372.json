@@ -1,0 +1,1 @@
+[{"variable_name": "屋盖整体连续倒塌的可能性", "variable_type": "chance", "values": ["可能", "不可能"]}, {"variable_name": "关键构件失效", "variable_type": "chance", "values": ["失效", "未失效"]}, {"variable_name": "屋盖支座、下部支承结构和地基基础的稳定性", "variable_type": "decision", "values": ["稳定", "不稳定"]}]

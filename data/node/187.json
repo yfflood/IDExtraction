@@ -1,0 +1,1 @@
+[{"variable_name": "建筑附属机电设备位置", "variable_type": "decision", "values": ["可能导致使用功能发生障碍的部位", "不会导致使用功能发生障碍的部位"]}, {"variable_name": "隔振装置设备振动", "variable_type": "chance", "values": ["强烈振动", "轻微振动"]}, {"variable_name": "连接件影响", "variable_type": "utility", "values": ["连接件受损", "连接件完好"]}, {"variable_name": "设备和建筑结构谐振现象", "variable_type": "utility", "values": ["发生谐振", "未发生谐振"]}]

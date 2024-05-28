@@ -1,0 +1,1 @@
+[{"variable_name": "土塞状态", "variable_type": "chance", "values": ["非完全闭塞", "完全闭塞"]}, {"variable_name": "端阻力", "variable_type": "utility", "values": ["降低", "不变", "提高"]}]

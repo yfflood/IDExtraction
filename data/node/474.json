@@ -1,0 +1,1 @@
+[{"variable_name": "起重机坠落", "variable_type": "chance", "values": ["坠落", "不坠落"]}, {"variable_name": "设备损坏", "variable_type": "chance", "values": ["损坏", "未损坏"]}, {"variable_name": "保护措施", "variable_type": "decision", "values": ["采取", "未采取"]}, {"variable_name": "事故避免", "variable_type": "utility", "values": ["避免", "未避免"]}]

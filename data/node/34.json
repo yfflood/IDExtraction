@@ -1,0 +1,1 @@
+[{"variable_name": "冻融介质", "variable_type": "chance", "values": ["淡水", "海水"]}, {"variable_name": "测温试件中心温度", "variable_type": "chance", "values": ["与其他测试试件不同", "与其他测试试件相同"]}, {"variable_name": "DF值", "variable_type": "utility", "values": ["确定", "未确定"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "支护结构重要构件状态", "variable_type": "chance", "values": ["应力骤增", "压屈", "断裂", "松弛", "破坏"]}, {"variable_name": "边坡底部或周围岩土体状态", "variable_type": "chance", "values": ["可能导致边坡剪切破坏的迹象", "其他可能影响安全的征兆"]}]

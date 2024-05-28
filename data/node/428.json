@@ -1,0 +1,42 @@
+[
+    {
+        "variable_name": "地震后建筑的破坏程度",
+        "variable_type": "chance",
+        "values": [
+            "不破坏",
+            "轻微破坏"
+        ]
+    },
+    {
+        "variable_name": "建筑的正常使用功能",
+        "variable_type": "utility",
+        "values": [
+            "保持",
+            "不保持"
+        ]
+    },
+    {
+        "variable_name": "结构的工作阶段",
+        "variable_type": "chance",
+        "values": [
+            "弹性工作阶段",
+            "非弹性工作阶段"
+        ]
+    },
+    {
+        "variable_name": "轨道的变形",
+        "variable_type": "chance",
+        "values": [
+            "过大变形",
+            "正常变形"
+        ]
+    },
+    {
+        "variable_name": "行车安全",
+        "variable_type": "utility",
+        "values": [
+            "影响",
+            "不影响"
+        ]
+    }
+]

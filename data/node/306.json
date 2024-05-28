@@ -1,0 +1,1 @@
+[{"variable_name": "建筑结构", "variable_type": "chance", "values": ["不规则", "具有明显薄弱部位"]}, {"variable_name": "地震作用", "variable_type": "chance", "values": ["罕遇地震", "弹塑性变形"]}, {"variable_name": "分析方法", "variable_type": "decision", "values": ["静力弹塑性分析", "弹塑性时程分析"]}]

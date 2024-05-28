@@ -1,0 +1,1 @@
+[{"variable_name": "金属支撑件的防火安全", "variable_type": "utility", "values": ["有效", "失效"]}, {"variable_name": "外墙板内侧与梁、柱及楼板间的调整间隙", "variable_type": "utility", "values": ["防火安全", "窜火"]}, {"variable_name": "构造措施", "variable_type": "decision", "values": ["设置", "未设置"]}, {"variable_name": "火灾蔓延", "variable_type": "chance", "values": ["防止", "未防止"]}]

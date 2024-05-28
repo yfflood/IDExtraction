@@ -1,0 +1,1 @@
+[{"variable_name": "接桩方式", "variable_type": "decision", "values": ["焊接", "法兰连接", "机械快速连接"]}, {"variable_name": "技术要点和质量控制", "variable_type": "decision", "values": ["规定", "避免质量问题"]}, {"variable_name": "沉桩过程", "variable_type": "chance", "values": ["锤击拉应力", "土体上涌接头被拉断"]}, {"variable_name": "工程实践", "variable_type": "utility", "values": ["避免接桩质量问题", "避免沉桩事故"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "应力幅", "variable_type": "chance", "values": ["低于疲劳截止限", "高于疲劳截止限"]}, {"variable_name": "疲劳强度验算", "variable_type": "decision", "values": ["使用式(16.2.1-1)和式(16.2.1-4)", "不使用式(16.2.1-1)和式(16.2.1-4)"]}, {"variable_name": "疲劳破坏", "variable_type": "utility", "values": ["不会导致", "可能导致"]}]

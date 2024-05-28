@@ -1,0 +1,1 @@
+[{"variable_name": "仪表量程", "variable_type": "decision", "values": ["过大", "过小", "预估量程低于满量程的30％"]}, {"variable_name": "测量误差", "variable_type": "chance", "values": ["偏大"]}, {"variable_name": "试验过程", "variable_type": "chance", "values": ["容易超出量程范围", "数据缺失", "损坏仪表"]}, {"variable_name": "仪表线性", "variable_type": "chance", "values": ["良好", "不良"]}]

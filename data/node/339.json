@@ -1,0 +1,1 @@
+[{"variable_name": "针刺密度", "variable_type": "decision", "values": ["均匀", "不均匀"]}, {"variable_name": "针刺均匀度", "variable_type": "decision", "values": ["高", "低"]}, {"variable_name": "膨润土颗粒分散均匀性", "variable_type": "utility", "values": ["均匀", "不均匀"]}, {"variable_name": "毯体整体防水效果", "variable_type": "utility", "values": ["高", "低"]}]

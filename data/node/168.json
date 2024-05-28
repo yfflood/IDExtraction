@@ -1,0 +1,1 @@
+[{"variable_name": "混凝土板的裂缝问题", "variable_type": "utility", "values": []}, {"variable_name": "板面构造钢筋配置", "variable_type": "decision", "values": ["钢筋截面积", "直径", "间距", "锚固长度", "板角配筋形式", "板角配筋范围"]}, {"variable_name": "构造要求的合并与简化", "variable_type": "decision", "values": []}]

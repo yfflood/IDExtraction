@@ -1,0 +1,1 @@
+[{"variable_name": "地基土的胀缩变形幅度", "variable_type": "chance", "values": ["大", "小"]}, {"variable_name": "房屋开裂破坏的抵御能力", "variable_type": "utility", "values": ["强", "弱"]}]

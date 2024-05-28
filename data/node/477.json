@@ -1,0 +1,1 @@
+[{"variable_name": "结构破坏", "variable_type": "chance", "values": ["部分结构或构件破坏", "整个结构未破坏"]}, {"variable_name": "承受能力", "variable_type": "utility", "values": ["丧失承受重力荷载、风荷载和地震作用的能力", "保持承受重力荷载、风荷载和地震作用的能力"]}, {"variable_name": "加强措施", "variable_type": "decision", "values": ["采取有效的加强措施", "未采取有效的加强措施"]}]

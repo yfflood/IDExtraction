@@ -1,0 +1,1 @@
+[{"variable_name": "场地类别", "variable_type": "decision", "values": ["Ⅰ类场地", "Ⅱ类场地", "Ⅲ类场地"]}, {"variable_name": "地震动峰值加速度", "variable_type": "chance", "values": ["低", "中", "高"]}, {"variable_name": "地震动峰值加速度调整系数Гa", "variable_type": "decision", "values": ["表5．2．2中的系数"]}, {"variable_name": "地震动特性", "variable_type": "utility", "values": ["峰值加速度", "位移改变程度"]}]

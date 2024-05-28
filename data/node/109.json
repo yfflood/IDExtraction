@@ -1,0 +1,1 @@
+[{"variable_name": "激发状况", "variable_type": "decision", "values": ["稳定", "不稳定"]}, {"variable_name": "试液中其他成分的干扰", "variable_type": "chance", "values": ["有干扰", "无干扰"]}, {"variable_name": "标准溶液配制", "variable_type": "decision", "values": ["与土样主要盐类一致", "与土样主要盐类不一致"]}]

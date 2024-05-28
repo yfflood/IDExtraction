@@ -1,0 +1,1 @@
+[{"variable_name": "声测管配置", "variable_type": "chance", "values": ["沿桩身通长配置", "未沿桩身通长配置"]}, {"variable_name": "声测管状态", "variable_type": "chance", "values": ["通畅", "堵塞"]}, {"variable_name": "检测数据完整性", "variable_type": "chance", "values": ["完整", "不全"]}, {"variable_name": "桩身完整性评定方法", "variable_type": "decision", "values": ["采用", "不得采用"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "框架柱的纵筋总截面面积", "variable_type": "decision", "values": ["增加25%", "不增加"]}, {"variable_name": "地震作用组合", "variable_type": "chance", "values": ["小偏心受拉状态", "其他状态"]}, {"variable_name": "柱的受拉纵筋屈服", "variable_type": "chance", "values": ["屈服", "不屈服"]}, {"variable_name": "包兴格效应", "variable_type": "chance", "values": ["导致纵筋压屈", "不导致纵筋压屈"]}]

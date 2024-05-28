@@ -1,0 +1,1 @@
+[{"variable_name": "预制混凝土板的抗震性能", "variable_type": "chance", "values": ["容易脱落", "不易脱落"]}, {"variable_name": "现浇楼、屋盖的使用", "variable_type": "decision", "values": ["采用", "不采用"]}, {"variable_name": "装配式楼、屋盖的整体性", "variable_type": "decision", "values": ["加强", "不加强"]}, {"variable_name": "地震中人员伤亡", "variable_type": "utility", "values": ["减少", "增加"]}]

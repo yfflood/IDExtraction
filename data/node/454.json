@@ -1,0 +1,1 @@
+[{"variable_name": "剪力墙底部加强部位高度范围内各墙肢截面的弯矩设计值", "variable_type": "decision", "values": ["墙肢底部截面的组合弯矩设计值", "不取用墙肢底部截面的组合弯矩设计值"]}, {"variable_name": "塑性铰区以上墙肢各截面的作用弯矩", "variable_type": "decision", "values": ["未增大", "增大"]}, {"variable_name": "剪力设计值", "variable_type": "decision", "values": ["未提高", "相应提高"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "地基浸水湿陷变形", "variable_type": "chance", "values": ["发生", "不发生"]}, {"variable_name": "基础变形或破坏", "variable_type": "chance", "values": ["发生", "不发生"]}, {"variable_name": "阻止湿陷继续发展", "variable_type": "decision", "values": ["采取行动", "不采取行动"]}, {"variable_name": "不均匀沉降", "variable_type": "chance", "values": ["超过国家标准", "不超过国家标准"]}]

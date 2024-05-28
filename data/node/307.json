@@ -1,0 +1,1 @@
+[{"variable_name": "基桩选型", "variable_type": "decision", "values": ["端承桩", "摩擦桩"]}, {"variable_name": "嵌岩桩", "variable_type": "chance", "values": ["嵌岩深度加大", "嵌岩深度正常"]}, {"variable_name": "施工周期", "variable_type": "utility", "values": ["延长", "正常"]}, {"variable_name": "造价", "variable_type": "utility", "values": ["增加", "正常"]}]

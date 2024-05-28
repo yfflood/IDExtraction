@@ -1,0 +1,1 @@
+[{"variable_name": "不规则指标", "variable_type": "chance", "values": ["超过本规程第3．2．2条条文说明中表1或表2所列的上限值", "某一项大大超过规定值"]}, {"variable_name": "抗震薄弱环节", "variable_type": "chance", "values": ["现有技术和经济条件不能克服", "可能导致地震破坏的严重后果"]}, {"variable_name": "地震破坏", "variable_type": "chance", "values": ["严重后果"]}]

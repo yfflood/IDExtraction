@@ -1,0 +1,1 @@
+[{"variable_name": "支撑系统", "variable_type": "decision", "values": ["完善", "不完善"]}, {"variable_name": "屋盖系统稳定性", "variable_type": "utility", "values": ["稳定", "失稳"]}, {"variable_name": "屋盖系统", "variable_type": "chance", "values": ["未倒塌", "倒塌"]}, {"variable_name": "厂房震害", "variable_type": "chance", "values": ["未发生", "发生"]}]

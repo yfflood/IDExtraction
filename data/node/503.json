@@ -1,0 +1,1 @@
+[{"variable_name": "影响大小", "variable_type": "utility", "values": ["大", "小"]}, {"variable_name": "次生灾害可能性", "variable_type": "chance", "values": ["可能", "不可能"]}, {"variable_name": "恢复重建速度", "variable_type": "utility", "values": ["快", "慢"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "地基不均匀性", "variable_type": "chance", "values": ["明显不均匀", "均匀"]}, {"variable_name": "建筑倾斜", "variable_type": "utility", "values": ["倾斜", "不倾斜"]}, {"variable_name": "电梯正常运行", "variable_type": "utility", "values": ["正常运行", "不正常运行"]}, {"variable_name": "桩基使用", "variable_type": "decision", "values": ["使用桩基", "不使用桩基"]}]

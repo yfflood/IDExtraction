@@ -1,0 +1,1 @@
+[{"variable_name": "声测管倾斜", "variable_type": "chance", "values": ["偏高", "偏低"]}, {"variable_name": "管距修正", "variable_type": "decision", "values": ["合理修正", "无法合理修正"]}, {"variable_name": "数据", "variable_type": "chance", "values": ["偏高", "偏低", "正常值"]}, {"variable_name": "检测数据", "variable_type": "utility", "values": ["作为评价桩身完整性的依据", "不得作为评价桩身完整性的依据"]}]

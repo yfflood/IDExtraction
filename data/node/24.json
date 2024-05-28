@@ -1,0 +1,1 @@
+[{"variable_name": "防渗衬层、封盖层及其他设施失效的可能性", "variable_type": "chance", "values": ["失效", "不失效"]}, {"variable_name": "坝基、坝肩、库区和其他有关部位的渗漏", "variable_type": "chance", "values": ["渗漏", "不渗漏"]}, {"variable_name": "预测水位变化及其影响", "variable_type": "decision", "values": ["水位上升", "水位下降", "水位稳定"]}]

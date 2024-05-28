@@ -1,0 +1,1 @@
+[{"variable_name": "混凝土入模温度", "variable_type": "chance", "values": ["较高", "较低"]}, {"variable_name": "混凝土预养时间", "variable_type": "chance", "values": ["不足", "充足"]}, {"variable_name": "环境温度", "variable_type": "chance", "values": ["降到混凝土冻结温度", "未降到混凝土冻结温度"]}, {"variable_name": "混凝土冻伤情况", "variable_type": "utility", "values": ["内外不一致", "内外一致"]}]

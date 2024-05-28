@@ -1,0 +1,1 @@
+[{"variable_name": "实测结果", "variable_type": "chance", "values": ["与预估情况基本一致", "与预估情况相差较大"]}, {"variable_name": "数据分析要求", "variable_type": "utility", "values": ["满足", "不满足"]}, {"variable_name": "测试参数", "variable_type": "decision", "values": ["调整", "不调整"]}, {"variable_name": "仪器设备", "variable_type": "decision", "values": ["调整", "不调整"]}]

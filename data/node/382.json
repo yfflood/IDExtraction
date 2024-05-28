@@ -1,0 +1,1 @@
+[{"variable_name": "桩身结构破坏原因", "variable_type": "utility", "values": ["桩身缺陷", "桩身截面突变处应力集中", "桩身强度不足", "锚桩质量问题"]}, {"variable_name": "试验桩和锚桩完整性检测", "variable_type": "decision", "values": ["进行完整性检测", "不进行完整性检测"]}, {"variable_name": "试桩结果", "variable_type": "chance", "values": ["试桩成功", "试桩失败", "试桩中途停顿"]}]

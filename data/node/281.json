@@ -1,0 +1,1 @@
+[{"variable_name": "工地乱用焊条", "variable_type": "chance", "values": ["发生", "不发生"]}, {"variable_name": "工程安全事故", "variable_type": "chance", "values": ["发生", "不发生"]}, {"variable_name": "明确工地乱用焊条的管理", "variable_type": "decision", "values": ["加强管理", "不加强管理"]}]

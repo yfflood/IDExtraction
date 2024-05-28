@@ -1,0 +1,1 @@
+[{"variable_name": "边坡变形观测点", "variable_type": "chance", "values": ["升降变形", "水平位移"]}, {"variable_name": "边坡影响距离", "variable_type": "chance", "values": ["至少15m"]}, {"variable_name": "水平位移量", "variable_type": "chance", "values": ["9mm"]}, {"variable_name": "坡肩地裂产生", "variable_type": "chance", "values": ["发展导致"]}]

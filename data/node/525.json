@@ -1,0 +1,1 @@
+[{"variable_name": "桩顶千斤顶接触平整度", "variable_type": "chance", "values": ["平整", "不平整"]}, {"variable_name": "桩顶混凝土再处理后强度", "variable_type": "chance", "values": ["高", "过低"]}, {"variable_name": "桩顶加固措施", "variable_type": "decision", "values": ["加钢板围裹", "设箍筋", "未加钢板围裹", "未设箍筋"]}, {"variable_name": "单桩承载力评价", "variable_type": "utility", "values": ["真实评价", "无法真实评价"]}]

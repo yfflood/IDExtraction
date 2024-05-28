@@ -1,0 +1,1 @@
+[{"variable_name": "抗震墙", "variable_type": "decision", "values": ["做成抗震墙", "不做成抗震墙"]}, {"variable_name": "主体结构破坏", "variable_type": "chance", "values": ["导致主体结构破坏", "不导致主体结构破坏"]}, {"variable_name": "隔墙稳定性", "variable_type": "utility", "values": ["保证平面外稳定性", "不保证平面外稳定性"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "风荷载标准值的表达形式", "variable_type": "decision", "values": ["平均风压加上由脉动风引起导致结构风振的等效风压", "平均风压乘以风振系数"]}, {"variable_name": "风振系数βz", "variable_type": "utility", "values": ["综合考虑了结构在风荷载作用下的动力响应", "包括风速随时间、空间的变异性和结构的阻尼特性等因素"]}]

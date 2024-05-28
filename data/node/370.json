@@ -1,0 +1,1 @@
+[{"variable_name": "建筑物风振", "variable_type": "utility", "values": ["顺风向风振", "横风向风振"]}, {"variable_name": "横风向风振激励", "variable_type": "chance", "values": ["尾流激励", "横风向紊流激励", "气动弹性激励"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "结构分缝", "variable_type": "decision", "values": ["困难", "合理", "不合理"]}, {"variable_name": "建筑立面处理", "variable_type": "decision", "values": ["容易", "困难"]}, {"variable_name": "结构单元长度", "variable_type": "chance", "values": ["超过规范限值", "符合规范"]}, {"variable_name": "工程分缝后效果", "variable_type": "utility", "values": ["结构体系合理", "建筑立面美观", "结构单元长度合规"]}]

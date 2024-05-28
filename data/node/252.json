@@ -1,0 +1,1 @@
+[{"variable_name": "竖向支承刚度分布", "variable_type": "chance", "values": ["内弱外强", "均匀分布"]}, {"variable_name": "沉降变形", "variable_type": "chance", "values": ["内大外小", "均匀分布"]}, {"variable_name": "基底反力分布", "variable_type": "chance", "values": ["内小外大", "均匀分布"]}, {"variable_name": "土与土、桩与桩、土与桩的相互作用", "variable_type": "chance", "values": ["导致变化", "无影响"]}]

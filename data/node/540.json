@@ -1,0 +1,1 @@
+[{"variable_name": "地基土的压缩模量", "variable_type": "chance", "values": ["偏小", "失真"]}, {"variable_name": "土样的采取", "variable_type": "decision", "values": ["不扰动", "扰动"]}, {"variable_name": "土的类型", "variable_type": "chance", "values": ["粉土", "砂土"]}]

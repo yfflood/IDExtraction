@@ -1,0 +1,1 @@
+[{"variable_name": "地震导致两部分地基的差异沉降", "variable_type": "chance", "values": []}, {"variable_name": "基础抵抗差异沉降的能力", "variable_type": "decision", "values": []}, {"variable_name": "上部结构相应部位在构造上抵抗附加地震作用和差异沉降的能力", "variable_type": "decision", "values": []}]

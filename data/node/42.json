@@ -1,0 +1,1 @@
+[{"variable_name": "支护结构承载能力", "variable_type": "chance", "values": ["达到最大承载能力", "未达到最大承载能力"]}, {"variable_name": "土体稳定性", "variable_type": "chance", "values": ["失稳", "稳定"]}, {"variable_name": "支护结构或基坑周边环境破坏", "variable_type": "chance", "values": ["破坏", "未破坏"]}, {"variable_name": "支护结构变形", "variable_type": "chance", "values": ["过大变形", "正常变形"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "地基类型", "variable_type": "chance", "values": ["松散填土层", "欠固结软土层", "自重湿陷性土"]}, {"variable_name": "桩间土沉陷", "variable_type": "chance", "values": ["较缓慢的发展过程"]}, {"variable_name": "复合地基载荷试验", "variable_type": "decision", "values": ["不建议采用", "采用"]}, {"variable_name": "桩网复合地基承载力", "variable_type": "utility", "values": ["确定单桩竖向抗压承载力特征值", "不通过复合地基竖向抗压载荷试验确定"]}]

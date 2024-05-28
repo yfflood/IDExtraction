@@ -1,0 +1,1 @@
+[{"variable_name": "土反力分布", "variable_type": "chance", "values": ["马鞍形", "其他形状"]}, {"variable_name": "基础的整体弯矩", "variable_type": "utility", "values": ["增大", "减小"]}, {"variable_name": "土反力", "variable_type": "chance", "values": ["按《高层建筑箱形与筏形基础技术规范》JGJ", "其他规范"]}]

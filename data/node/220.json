@@ -1,0 +1,1 @@
+[{"variable_name": "混凝土开裂", "variable_type": "chance", "values": ["荷载作用下的受力裂缝", "干缩裂缝", "伸缩裂缝"]}, {"variable_name": "控制裂缝产生", "variable_type": "decision", "values": ["减少荷载作用下的受力裂缝", "减少干缩裂缝", "减少伸缩裂缝"]}, {"variable_name": "规范伸缩缝最大间距", "variable_type": "utility", "values": ["减少伸缩裂缝产生"]}]

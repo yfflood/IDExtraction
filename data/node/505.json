@@ -1,0 +1,1 @@
+[{"variable_name": "一阶分析", "variable_type": "decision", "values": ["进行", "不进行"]}, {"variable_name": "二阶效应", "variable_type": "chance", "values": ["存在", "不存在"]}, {"variable_name": "结构变形", "variable_type": "chance", "values": ["发生", "不发生"]}, {"variable_name": "铝合金框架结构", "variable_type": "decision", "values": ["考虑二阶效应", "不考虑二阶效应"]}]

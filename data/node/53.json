@@ -1,0 +1,1 @@
+[{"variable_name": "试样的饱和度", "variable_type": "utility", "values": ["高", "低"]}, {"variable_name": "土体积的收缩量", "variable_type": "chance", "values": ["等于水分的减少量", "不等于水分的减少量"]}, {"variable_name": "计算结果", "variable_type": "chance", "values": ["准确", "失真"]}, {"variable_name": "缩限指标", "variable_type": "chance", "values": ["准确", "不准确"]}]

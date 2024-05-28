@@ -1,0 +1,1 @@
+[{"variable_name": "配筋量", "variable_type": "decision", "values": ["大", "小"]}, {"variable_name": "钢筋强度", "variable_type": "chance", "values": ["高", "低"]}, {"variable_name": "配筋方向", "variable_type": "decision", "values": ["长方向", "短方向"]}]

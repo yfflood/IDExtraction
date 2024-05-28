@@ -1,0 +1,1 @@
+[{"variable_name": "地下水流速", "variable_type": "chance", "values": ["较大", "较小"]}, {"variable_name": "灌注质量", "variable_type": "utility", "values": ["受影响", "不受影响"]}, {"variable_name": "保护措施", "variable_type": "decision", "values": ["永久套管", "护筒", "其他保护措施"]}]

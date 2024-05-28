@@ -1,0 +1,1 @@
+[{"variable_name": "混凝土密实性", "variable_type": "chance", "values": ["差", "好"]}, {"variable_name": "混凝土强度等级", "variable_type": "chance", "values": ["低于设计要求两档以上", "符合设计要求"]}, {"variable_name": "结构安全性", "variable_type": "utility", "values": ["不安全", "安全"]}]

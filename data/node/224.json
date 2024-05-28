@@ -1,0 +1,1 @@
+[{"variable_name": "搁置长度", "variable_type": "decision", "values": ["足够", "不够"]}, {"variable_name": "搁栅或支座的破坏", "variable_type": "chance", "values": ["发生", "不发生"]}, {"variable_name": "楼盖体系抗变形和抗振动能力", "variable_type": "utility", "values": ["高", "低"]}, {"variable_name": "支撑方式", "variable_type": "decision", "values": ["搁栅底撑、间撑和剪刀撑", "其他工程木产品支撑方式"]}]

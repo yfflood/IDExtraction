@@ -1,0 +1,1 @@
+[{"variable_name": "抗风柱的抗震能力", "variable_type": "decision", "values": ["上柱和下柱根部开裂、折断", "抗风柱连同山墙全部向外倾倒", "进行平面外的截面抗震验算"]}, {"variable_name": "厂房的纵向抗震安全", "variable_type": "utility", "values": ["保证厂房的纵向抗震安全", "厂房纵向抗震安全不足"]}]

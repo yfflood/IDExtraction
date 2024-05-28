@@ -1,0 +1,1 @@
+[{"variable_name": "子空间大小", "variable_type": "decision", "values": ["min{振型数+8, 振型数×2}"]}, {"variable_name": "计算收敛性", "variable_type": "chance", "values": ["收敛", "不收敛"]}, {"variable_name": "报错", "variable_type": "chance", "values": ["报错", "不报错"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "钢支撑布置", "variable_type": "decision", "values": ["避免导致扭转效应", "不避免导致扭转效应"]}, {"variable_name": "楼、屋盖长宽比", "variable_type": "decision", "values": ["符合规范6.1.6条对抗震墙间距的要求", "不符合规范6.1.6条对抗震墙间距的要求"]}, {"variable_name": "楼梯间布置", "variable_type": "decision", "values": ["布置钢支撑", "不布置钢支撑"]}]

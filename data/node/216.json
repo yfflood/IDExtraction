@@ -1,0 +1,1 @@
+[{"variable_name": "加固设计", "variable_type": "decision", "values": ["按本规范的规定进行", "对原结构进行验算"]}, {"variable_name": "原结构、构件的承载能力", "variable_type": "chance", "values": ["n倍恒载标准值", "1.2倍", "1.5倍"]}, {"variable_name": "可变荷载与永久荷载标准值之比值", "variable_type": "chance", "values": ["不大于1", "等于或大于2"]}, {"variable_name": "n的取值", "variable_type": "decision", "values": ["1.2", "1.5", "线性内插法确定"]}]

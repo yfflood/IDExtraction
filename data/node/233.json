@@ -1,0 +1,1 @@
+[{"variable_name": "混凝土入模温度", "variable_type": "chance", "values": ["较低", "接近于混凝土冻结温度"]}, {"variable_name": "混凝土冻伤", "variable_type": "utility", "values": ["立即冻伤", "内外冻伤基本一致"]}, {"variable_name": "混凝土强度检测方法", "variable_type": "decision", "values": ["取芯法", "超声回弹综合法"]}, {"variable_name": "预养冻伤", "variable_type": "chance", "values": ["受冻"]}]

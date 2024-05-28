@@ -1,0 +1,1 @@
+[{"variable_name": "混凝土扩展度测量标准", "variable_type": "utility", "values": ["原标准", "修订后标准"]}, {"variable_name": "混凝土扩展度测量", "variable_type": "decision", "values": ["最大直径", "最小直径", "最终的最大直径", "与最大直径垂直方向的直径"]}, {"variable_name": "试验误差", "variable_type": "chance", "values": ["插捣不均匀", "提筒歪斜", "底板干湿不匀"]}, {"variable_name": "测试结果", "variable_type": "utility", "values": ["客观性", "科学性"]}]

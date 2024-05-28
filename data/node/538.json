@@ -1,0 +1,1 @@
+[{"variable_name": "屋盖结构支座差异沉降", "variable_type": "chance", "values": ["大", "小"]}, {"variable_name": "地基不均匀沉降", "variable_type": "chance", "values": ["发生", "不发生"]}, {"variable_name": "下部支承结构变形", "variable_type": "chance", "values": ["发生", "不发生"]}, {"variable_name": "严格控制措施", "variable_type": "decision", "values": ["实施", "不实施"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "加固或新增构件的布置", "variable_type": "decision", "values": ["消除不利因素", "减少不利因素", "防止局部加强导致结构刚度或强度突变"]}, {"variable_name": "结构刚度或强度", "variable_type": "utility", "values": ["不突变", "保持稳定"]}]

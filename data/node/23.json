@@ -1,0 +1,1 @@
+[{"variable_name": "支撑杆件受压", "variable_type": "chance", "values": ["受压", "不受压"]}, {"variable_name": "支撑作用减弱", "variable_type": "utility", "values": ["减弱", "不减弱"]}, {"variable_name": "可靠度不足", "variable_type": "chance", "values": ["不足", "足够"]}, {"variable_name": "支撑能够起应有的作用", "variable_type": "utility", "values": ["能够", "不能"]}]

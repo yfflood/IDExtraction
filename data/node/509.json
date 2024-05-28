@@ -1,0 +1,1 @@
+[{"variable_name": "节点核心区截面大小", "variable_type": "decision", "values": ["太小", "适中"]}, {"variable_name": "混凝土承受的斜压力", "variable_type": "chance", "values": ["过大", "适中"]}, {"variable_name": "核心区混凝土破坏情况", "variable_type": "chance", "values": ["被压碎", "完好"]}]

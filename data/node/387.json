@@ -1,0 +1,1 @@
+[{"variable_name": "基底总面积", "variable_type": "decision", "values": ["足够", "不够"]}, {"variable_name": "基础交叉重叠", "variable_type": "chance", "values": ["发生", "不发生"]}]

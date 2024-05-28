@@ -1,0 +1,1 @@
+[{"variable_name": "桩身完整性类别判定", "variable_type": "decision", "values": ["有桩底反射波", "无桩底反射波"]}, {"variable_name": "桩端部分桩身阻抗", "variable_type": "chance", "values": ["匹配", "不匹配"]}, {"variable_name": "持力层阻抗", "variable_type": "chance", "values": ["匹配", "不匹配"]}, {"variable_name": "实测信号", "variable_type": "chance", "values": ["有桩底反射波", "无桩底反射波"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "钢材屈服强度", "variable_type": "chance", "values": ["Q235", "Q345", "Q420", "Q460"]}, {"variable_name": "抗力分项系数", "variable_type": "decision", "values": ["增大", "归并", "偏大"]}, {"variable_name": "安全度", "variable_type": "utility", "values": ["保证"]}]

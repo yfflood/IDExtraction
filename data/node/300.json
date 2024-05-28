@@ -1,0 +1,1 @@
+[{"variable_name": "引气量", "variable_type": "decision", "values": ["增加1%", "不增加"]}, {"variable_name": "抗压强度", "variable_type": "utility", "values": ["降低2%～6%", "不降低"]}, {"variable_name": "抗折强度", "variable_type": "utility", "values": ["降低2%～4%", "不降低"]}, {"variable_name": "弹性模量", "variable_type": "utility", "values": ["降低0.7MPa～1.38MPa", "不降低"]}]

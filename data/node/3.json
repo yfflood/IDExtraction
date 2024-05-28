@@ -1,0 +1,1 @@
+[{"variable_name": "测试数据的完整性和准确性", "variable_type": "utility", "values": []}, {"variable_name": "传感器失效", "variable_type": "chance", "values": ["失效", "正常"]}, {"variable_name": "数据缺失", "variable_type": "chance", "values": ["缺失", "完整"]}, {"variable_name": "校核性量测点布置", "variable_type": "decision", "values": ["对称性布置", "非对称性布置"]}]

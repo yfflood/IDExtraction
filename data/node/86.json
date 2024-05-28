@@ -1,0 +1,1 @@
+[{"variable_name": "混凝土结构强度", "variable_type": "chance", "values": ["未达到一定强度", "达到一定强度"]}, {"variable_name": "模板安装和拆卸", "variable_type": "decision", "values": ["过早进行", "适当时机进行"]}, {"variable_name": "混凝土强度判定", "variable_type": "decision", "values": ["依据试件强度判定", "不依据试件强度判定"]}, {"variable_name": "混凝土结构质量", "variable_type": "utility", "values": ["产生裂缝", "缺棱、掉角", "表面粘连", "无缺陷"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "混凝土徐变", "variable_type": "chance", "values": ["前3个月内主要发生", "之后徐变放缓"]}, {"variable_name": "内力重分布现象", "variable_type": "chance", "values": ["导致钢管和混凝土应力的改变"]}, {"variable_name": "构件稳定承载力", "variable_type": "utility", "values": ["下降"]}, {"variable_name": "构件承载力折减", "variable_type": "decision", "values": ["最大可折减10%"]}]

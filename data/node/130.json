@@ -1,0 +1,1 @@
+[{"variable_name": "砌体结构与框排架结构的连接方式", "variable_type": "decision", "values": ["相连", "依托"]}, {"variable_name": "地震作用", "variable_type": "chance", "values": ["大", "小"]}, {"variable_name": "抗震鉴定", "variable_type": "decision", "values": ["进行", "不进行"]}, {"variable_name": "不利影响", "variable_type": "chance", "values": ["存在", "不存在"]}]

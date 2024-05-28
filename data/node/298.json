@@ -1,0 +1,1 @@
+[{"variable_name": "DXF文件导入", "variable_type": "decision", "values": ["导入结构平面图", "导入结构三维图", "导入结构平面轴网信息", "在ETABS中绘制结构构件"]}, {"variable_name": "模型准确性", "variable_type": "utility", "values": ["提高效率", "保证模型准确性"]}, {"variable_name": "模型检查工作量", "variable_type": "chance", "values": ["增加工作量", "减少工作量"]}, {"variable_name": "模型可用性", "variable_type": "chance", "values": ["模型可用", "模型不可用"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "砂浆的抗压强度", "variable_type": "chance", "values": ["高", "低"]}, {"variable_name": "预制梁混凝土的抗压强度", "variable_type": "chance", "values": ["高", "低"]}, {"variable_name": "梁端部混凝土的压坏", "variable_type": "chance", "values": ["过早", "正常"]}]

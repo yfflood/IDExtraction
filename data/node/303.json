@@ -1,0 +1,1 @@
+[{"variable_name": "首层柱的配筋", "variable_type": "decision", "values": ["增大", "不增大"]}, {"variable_name": "首层刚度", "variable_type": "chance", "values": ["增大", "不变"]}, {"variable_name": "首层柱的安全因素", "variable_type": "utility", "values": ["存在不安全因素", "不存在不安全因素"]}, {"variable_name": "整体结构的设计计算与配筋", "variable_type": "decision", "values": ["增加", "不增加"]}]

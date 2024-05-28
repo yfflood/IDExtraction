@@ -1,0 +1,1 @@
+[{"variable_name": "结构稳定性", "variable_type": "utility", "values": ["局部破坏", "结构倒塌", "部分结构倒塌"]}, {"variable_name": "破坏扩展", "variable_type": "chance", "values": ["从构件到构件", "整个结构"]}, {"variable_name": "起因与结果的关系", "variable_type": "decision", "values": ["与起因不相称", "与起因相称"]}]

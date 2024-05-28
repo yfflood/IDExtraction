@@ -1,0 +1,1 @@
+[{"variable_name": "设计", "variable_type": "decision", "values": ["良好设计", "不良设计"]}, {"variable_name": "水的存在", "variable_type": "chance", "values": ["存在", "不存在"]}, {"variable_name": "腐蚀", "variable_type": "utility", "values": ["加速", "减缓"]}]

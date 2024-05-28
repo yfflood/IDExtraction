@@ -1,0 +1,1 @@
+[{"variable_name": "最小间隙值", "variable_type": "decision", "values": ["40mm", "50mm"]}, {"variable_name": "井架结构变形", "variable_type": "chance", "values": ["较大", "较小"]}, {"variable_name": "提升恢复速度", "variable_type": "utility", "values": ["迅速", "缓慢"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "土体膨胀隆起量", "variable_type": "chance", "values": ["大", "小"]}, {"variable_name": "桩的上拔量", "variable_type": "utility", "values": ["多", "少"]}, {"variable_name": "土层的膨胀隆起", "variable_type": "chance", "values": ["上部土层隆起", "下部土层不膨胀"]}, {"variable_name": "桩的锚固作用", "variable_type": "utility", "values": ["抑制上拔", "无锚固作用"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "芒硝的物态变化", "variable_type": "chance", "values": ["体积膨胀", "体积收缩"]}, {"variable_name": "芒硝的溶解度", "variable_type": "chance", "values": ["随着温度降低而降低", "温度在32.4℃以上时溶解度变化"]}, {"variable_name": "温度变化", "variable_type": "chance", "values": ["温度降低", "温度升高"]}, {"variable_name": "建筑物基础和洞室围岩的破坏", "variable_type": "utility", "values": ["破坏", "不破坏"]}]

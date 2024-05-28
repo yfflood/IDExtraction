@@ -1,0 +1,1 @@
+[{"variable_name": "交叉支撑产生的压力", "variable_type": "chance", "values": []}, {"variable_name": "柱设计", "variable_type": "decision", "values": ["考虑支撑作用", "不考虑支撑作用"]}, {"variable_name": "柱的轴力", "variable_type": "utility", "values": ["降低", "不降低"]}]

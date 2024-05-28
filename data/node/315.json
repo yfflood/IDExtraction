@@ -1,0 +1,1 @@
+[{"variable_name": "腐蚀性化学物质", "variable_type": "chance", "values": ["硫酸盐", "酸类", "盐分", "硫化物", "氮氧化合物"]}, {"variable_name": "混凝土腐蚀", "variable_type": "utility", "values": ["化学腐蚀", "盐结晶导致的物理破坏"]}, {"variable_name": "化学腐蚀环境", "variable_type": "decision", "values": ["不包括氯化物"]}]

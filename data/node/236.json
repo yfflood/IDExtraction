@@ -1,0 +1,1 @@
+[{"variable_name": "框架梁的类型", "variable_type": "decision", "values": ["现浇钢筋混凝土梁", "钢骨混凝土梁"]}, {"variable_name": "节点构造", "variable_type": "decision", "values": ["采取不同的措施"]}, {"variable_name": "混凝土徐变", "variable_type": "chance", "values": ["导致应力重分布"]}]

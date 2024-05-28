@@ -1,0 +1,1 @@
+[{"variable_name": "钢管混凝土桥墩截面形式", "variable_type": "decision", "values": ["圆形截面", "其他截面形式"]}, {"variable_name": "钢管套箍作用", "variable_type": "chance", "values": ["削弱", "未削弱"]}, {"variable_name": "钢管混凝土抗力", "variable_type": "utility", "values": ["衰减", "未衰减"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "地震作用", "variable_type": "chance", "values": []}, {"variable_name": "沉降差异", "variable_type": "chance", "values": []}, {"variable_name": "增强抵抗能力", "variable_type": "decision", "values": ["增强", "不增强"]}, {"variable_name": "采取相应措施", "variable_type": "decision", "values": ["采取", "不采取"]}]

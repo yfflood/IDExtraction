@@ -51,6 +51,6 @@ if __name__ == "__main__":
         try:
             get_node(file)
         except Exception as e:
-            time.sleep(60)
+            time.sleep(5)
             get_node(file)
             

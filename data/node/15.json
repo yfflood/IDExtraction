@@ -1,0 +1,1 @@
+[{"variable_name": "天窗荷载传递方式", "variable_type": "decision", "values": ["直接与下弦系紧", "不与下弦直接连接"]}, {"variable_name": "天窗边柱夹板连接方式", "variable_type": "decision", "values": ["与桁架下弦直接连接", "不与桁架下弦直接连接"]}, {"variable_name": "下弦木材状态", "variable_type": "chance", "values": ["被撕裂", "未被撕裂"]}, {"variable_name": "天窗荷载与上弦抵承情况", "variable_type": "chance", "values": ["不良", "良好"]}]

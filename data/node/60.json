@@ -1,0 +1,1 @@
+[{"variable_name": "安全措施", "variable_type": "decision", "values": []}, {"variable_name": "倾斜", "variable_type": "chance", "values": ["发生", "不发生"]}, {"variable_name": "开裂", "variable_type": "chance", "values": ["发生", "不发生"]}, {"variable_name": "局部倒塌", "variable_type": "chance", "values": ["发生", "不发生"]}]

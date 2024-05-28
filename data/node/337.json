@@ -1,0 +1,1 @@
+[{"variable_name": "大体积混凝土", "variable_type": "chance", "values": ["最小尺寸不小于1m", "因胶凝材料水化引起的温度变化和收缩而导致有害裂缝产生"]}, {"variable_name": "高层建筑底板、转换层及梁柱构件", "variable_type": "decision", "values": ["属于大体积混凝土范畴", "不属于大体积混凝土范畴"]}, {"variable_name": "大体积混凝土施工", "variable_type": "utility", "values": ["单独成节", "不单独成节"]}]

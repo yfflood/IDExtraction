@@ -1,0 +1,1 @@
+[{"variable_name": "边坡影响", "variable_type": "chance", "values": ["5°～12°边坡", "非5°～12°边坡"]}, {"variable_name": "建筑物变形", "variable_type": "utility", "values": ["临坡面变形", "非临坡面变形"]}, {"variable_name": "观测结果", "variable_type": "chance", "values": ["变形幅度1.35倍", "波状升降"]}, {"variable_name": "建筑物损坏", "variable_type": "utility", "values": ["损坏", "未损坏"]}]

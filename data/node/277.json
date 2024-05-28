@@ -1,0 +1,1 @@
+[{"variable_name": "梁翼缘的塑性截面模量与梁全截面的塑性截面模量之比", "variable_type": "chance", "values": ["小于70%", "大于等于70%"]}, {"variable_name": "梁腹板与柱的连接螺栓数量", "variable_type": "decision", "values": ["不少于二列", "一列"]}, {"variable_name": "螺栓总数", "variable_type": "decision", "values": ["不少于计算值的1.5倍", "等于计算值"]}, {"variable_name": "腹板螺栓数", "variable_type": "utility", "values": ["定量计算", "不定量计算"]}]

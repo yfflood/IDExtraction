@@ -1,0 +1,1 @@
+[{"variable_name": "楼盖面内刚度", "variable_type": "chance", "values": ["削弱", "不均匀"]}, {"variable_name": "楼盖面内变形", "variable_type": "utility", "values": ["全楼", "部分楼层", "部分区域"]}, {"variable_name": "结构分析", "variable_type": "decision", "values": ["考虑", "不考虑"]}]

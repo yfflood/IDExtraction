@@ -1,0 +1,1 @@
+[{"variable_name": "建筑物表面风压分布", "variable_type": "chance", "values": ["均匀", "不均匀"]}, {"variable_name": "局部风压", "variable_type": "chance", "values": ["低于平均风压", "超过平均风压"]}, {"variable_name": "局部风压体型系数", "variable_type": "decision", "values": ["考虑", "不考虑"]}, {"variable_name": "风压调整", "variable_type": "utility", "values": ["不调整", "调整"]}]

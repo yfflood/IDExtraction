@@ -1,0 +1,1 @@
+[{"variable_name": "支撑结构设计", "variable_type": "decision", "values": ["设置", "拆除"]}, {"variable_name": "施工与设计工况一致性", "variable_type": "chance", "values": ["一致", "不一致"]}, {"variable_name": "基坑支护结构性能", "variable_type": "utility", "values": ["承载力", "变形", "稳定性"]}, {"variable_name": "施工过程", "variable_type": "decision", "values": ["设置", "拆除", "土方开挖"]}]

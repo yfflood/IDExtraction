@@ -1,0 +1,1 @@
+[{"variable_name": "梁箍筋肢距", "variable_type": "decision", "values": ["增大", "不增大"]}, {"variable_name": "叠合梁的纵筋间距", "variable_type": "decision", "values": ["增大", "不增大"]}, {"variable_name": "钢筋直径", "variable_type": "decision", "values": ["增大", "不增大"]}, {"variable_name": "梁的裂缝宽度", "variable_type": "chance", "values": ["宽", "窄"]}]

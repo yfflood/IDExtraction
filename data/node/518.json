@@ -1,0 +1,1 @@
+[{"variable_name": "地震动的空间变化特征", "variable_type": "chance", "values": []}, {"variable_name": "城市轨道交通结构跨度", "variable_type": "decision", "values": ["超过600m", "小于600m"]}, {"variable_name": "工程结构的抗震设防", "variable_type": "decision", "values": ["考虑设计地震动参数的空间变化特征", "不考虑设计地震动参数的空间变化特征"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "场地、地基和基础的鉴定和处理难度", "variable_type": "chance", "values": []}, {"variable_name": "地基基础问题导致的实际震害例子数量", "variable_type": "chance", "values": []}, {"variable_name": "鉴定范围", "variable_type": "decision", "values": ["缩小", "不缩小"]}, {"variable_name": "原则性规定", "variable_type": "utility", "values": []}]

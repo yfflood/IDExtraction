@@ -1,0 +1,1 @@
+[{"variable_name": "标准规定", "variable_type": "chance", "values": []}, {"variable_name": "计算参数", "variable_type": "chance", "values": []}, {"variable_name": "设计方法", "variable_type": "decision", "values": ["不安全", "过于保守"]}, {"variable_name": "工程实际", "variable_type": "chance", "values": []}]

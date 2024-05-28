@@ -1,0 +1,1 @@
+[{"variable_name": "腹板产生扭矩", "variable_type": "chance", "values": ["产生", "不产生"]}, {"variable_name": "设置暗梁", "variable_type": "decision", "values": ["设置", "不设置"]}, {"variable_name": "梁在节点区配置封闭箍筋", "variable_type": "decision", "values": ["配置", "不配置"]}, {"variable_name": "抵抗扭矩的作用", "variable_type": "utility", "values": ["有效抵抗", "无效抵抗"]}]

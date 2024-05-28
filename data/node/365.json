@@ -1,0 +1,1 @@
+[{"variable_name": "复合地基试验承载力特征值", "variable_type": "chance", "values": ["较小", "较大"]}, {"variable_name": "沉降量", "variable_type": "chance", "values": ["8mm", "16mm"]}, {"variable_name": "复合土层模量系数", "variable_type": "decision", "values": ["被低估", "被准确估计"]}, {"variable_name": "实测结果与预测结果", "variable_type": "utility", "values": ["实测结果小于预测结果", "实测结果等于或大于预测结果"]}]

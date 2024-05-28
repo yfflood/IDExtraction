@@ -1,0 +1,1 @@
+[{"variable_name": "挡土墙设计", "variable_type": "decision", "values": ["考虑水平膨胀力", "不考虑水平膨胀力"]}, {"variable_name": "挡土墙高度", "variable_type": "chance", "values": ["小于3m", "大于等于3m"]}, {"variable_name": "墙背材料", "variable_type": "decision", "values": ["设置砂卵石等散体材料", "不设置散体材料"]}, {"variable_name": "挡土墙破坏失效", "variable_type": "utility", "values": ["避免", "发生"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "齿连接设计", "variable_type": "decision", "values": ["正确", "不正确"]}, {"variable_name": "齿深和齿长", "variable_type": "decision", "values": ["适当", "不适当"]}, {"variable_name": "齿连接承载能力", "variable_type": "utility", "values": ["高", "急剧下降"]}]

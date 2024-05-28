@@ -1,0 +1,1 @@
+[{"variable_name": "液化", "variable_type": "chance", "values": []}, {"variable_name": "滑移失稳", "variable_type": "chance", "values": []}, {"variable_name": "工程危害", "variable_type": "utility", "values": ["大", "小"]}, {"variable_name": "判别方法", "variable_type": "decision", "values": ["有", "无"]}, {"variable_name": "专门研究", "variable_type": "decision", "values": ["进行", "不进行"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "木结构工程的连接方式", "variable_type": "decision", "values": ["齿连接", "螺栓连接"]}, {"variable_name": "事故的发生", "variable_type": "chance", "values": ["超载破坏", "安全"]}, {"variable_name": "工程教训与试验结论", "variable_type": "utility", "values": ["规定制定", "安全重视"]}]

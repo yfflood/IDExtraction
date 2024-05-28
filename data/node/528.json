@@ -1,0 +1,1 @@
+[{"variable_name": "正截面受弯承载力提高幅度", "variable_type": "decision", "values": ["不超过40%", "超过40%"]}, {"variable_name": "受剪承载力", "variable_type": "chance", "values": ["验算通过", "验算不通过"]}, {"variable_name": "构件破坏顺序", "variable_type": "utility", "values": ["受弯破坏先于受剪破坏", "受剪破坏先于受弯破坏"]}]

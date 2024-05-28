@@ -1,0 +1,1 @@
+[{"variable_name": "长高比", "variable_type": "chance", "values": ["大于3", "小于等于3"]}, {"variable_name": "地基不均匀下沉", "variable_type": "chance", "values": ["发生", "不发生"]}, {"variable_name": "多层砌体房屋的破坏程度", "variable_type": "utility", "values": ["严重破坏", "轻微破坏", "无破坏"]}]

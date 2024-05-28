@@ -1,0 +1,1 @@
+[{"variable_name": "跨高比", "variable_type": "decision", "values": ["小于2.5", "大于2.5"]}, {"variable_name": "受力特性", "variable_type": "chance", "values": ["深梁", "浅梁"]}, {"variable_name": "连梁设计", "variable_type": "utility", "values": ["正截面承载力要求", "受剪承载力要求"]}]

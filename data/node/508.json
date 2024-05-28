@@ -1,0 +1,1 @@
+[{"variable_name": "多层厂房加层设计", "variable_type": "decision", "values": ["采取安全保障措施", "不采取安全保障措施"]}, {"variable_name": "邻近建筑基础下沉", "variable_type": "chance", "values": ["下沉", "不下沉"]}, {"variable_name": "结构开裂", "variable_type": "chance", "values": ["开裂", "不开裂"]}, {"variable_name": "多层厂房加层条件", "variable_type": "decision", "values": ["符合加层条件", "不符合加层条件"]}]

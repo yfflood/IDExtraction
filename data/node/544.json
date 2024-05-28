@@ -1,0 +1,1 @@
+[{"variable_name": "木材平衡含水率", "variable_type": "chance", "values": ["12.1%", "10.8%", "16.0%", "3.2%"]}, {"variable_name": "木结构组件加工", "variable_type": "decision", "values": ["考虑木材含水率变化", "预留伸缩量"]}, {"variable_name": "胶合木干缩和湿胀变形", "variable_type": "chance", "values": ["面积较大"]}]

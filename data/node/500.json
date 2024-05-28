@@ -1,0 +1,1 @@
+[{"variable_name": "编码器位置计数与实际传感器位置误差", "variable_type": "chance", "values": ["误差较小", "误差较大"]}, {"variable_name": "高差校核", "variable_type": "decision", "values": ["进行校核", "不进行校核"]}, {"variable_name": "换能器同步提升速度", "variable_type": "decision", "values": ["过快", "适中"]}, {"variable_name": "测试波形稳定性", "variable_type": "utility", "values": ["稳定", "不稳定"]}]

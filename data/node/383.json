@@ -1,0 +1,1 @@
+[{"variable_name": "冻融软化现象", "variable_type": "chance", "values": ["发生", "不发生"]}, {"variable_name": "基础沉陷", "variable_type": "chance", "values": ["短时沉陷", "无沉陷"]}, {"variable_name": "室内地面低于室外地面", "variable_type": "chance", "values": ["20年～30年后出现", "20年～30年后不出现"]}, {"variable_name": "进屋下台阶现象", "variable_type": "chance", "values": ["出现", "不出现"]}]

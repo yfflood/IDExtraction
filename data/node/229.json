@@ -1,0 +1,1 @@
+[{"variable_name": "结构体系的破坏", "variable_type": "chance", "values": ["丧失抗震能力", "丧失竖向承载能力"]}, {"variable_name": "抗震鉴定要求", "variable_type": "decision", "values": ["提高", "不提高"]}, {"variable_name": "结构体系的类型", "variable_type": "chance", "values": ["错层结构", "与不同类型结构相连"]}]

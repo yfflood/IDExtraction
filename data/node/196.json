@@ -1,0 +1,1 @@
+[{"variable_name": "地震稳定性", "variable_type": "chance", "values": []}, {"variable_name": "地基滑移", "variable_type": "chance", "values": []}, {"variable_name": "构筑物可能危害", "variable_type": "chance", "values": []}, {"variable_name": "地震影响增大的后果", "variable_type": "chance", "values": []}, {"variable_name": "场地评估", "variable_type": "decision", "values": ["地震稳定性", "地基滑移", "构筑物可能危害"]}]

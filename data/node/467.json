@@ -1,0 +1,1 @@
+[{"variable_name": "卷材防水层铺设", "variable_type": "decision", "values": ["外墙", "底板部位"]}, {"variable_name": "渗漏水问题", "variable_type": "chance", "values": ["产生", "不产生"]}, {"variable_name": "渗漏治理工程", "variable_type": "utility", "values": ["成功", "失败"]}]

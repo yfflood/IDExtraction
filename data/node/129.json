@@ -1,0 +1,1 @@
+[{"variable_name": "吊车梁反复屈曲", "variable_type": "chance", "values": ["发生", "不发生"]}, {"variable_name": "腹板边缘疲劳裂纹", "variable_type": "chance", "values": ["出现", "不出现"]}, {"variable_name": "有关资料充分性", "variable_type": "chance", "values": ["充分", "不充分"]}, {"variable_name": "条款适用性", "variable_type": "decision", "values": ["适用", "不适用"]}]

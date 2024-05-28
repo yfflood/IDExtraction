@@ -1,0 +1,1 @@
+[{"variable_name": "混凝土高耸筒体结构及其地基基础的抗震验算", "variable_type": "decision", "values": ["进行", "不进行"]}, {"variable_name": "高耸结构的功能", "variable_type": "chance", "values": ["多样化", "单一"]}, {"variable_name": "地震对结构验算的影响", "variable_type": "chance", "values": ["控制作用", "非控制作用"]}, {"variable_name": "高耸结构设计的安全化", "variable_type": "utility", "values": ["安全", "不安全"]}]

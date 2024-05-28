@@ -1,0 +1,1 @@
+[{"variable_name": "角柱位置变化", "variable_type": "chance", "values": ["向内偏移", "不偏移"]}, {"variable_name": "建模过程中的虚面绘制", "variable_type": "decision", "values": ["按照下部楼层平面宽度绘制", "考虑角柱位置变化绘制"]}, {"variable_name": "风荷载作用下的位移计算", "variable_type": "utility", "values": ["结果异常", "结果正常"]}]

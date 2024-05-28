@@ -1,0 +1,1 @@
+[{"variable_name": "预制桩沉桩挤土效应", "variable_type": "chance", "values": ["桩土上涌导致沉降增大", "桩土不发生上涌"]}, {"variable_name": "桩基沉降", "variable_type": "utility", "values": ["沉降量显著大于灌注桩基础", "沉降量小于或等于灌注桩基础"]}, {"variable_name": "桩长", "variable_type": "decision", "values": ["桩长较小", "桩长较大"]}, {"variable_name": "地区地层条件", "variable_type": "chance", "values": ["上海、天津、温州地区地层条件差异", "相同地区地层条件"]}]

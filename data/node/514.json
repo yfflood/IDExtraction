@@ -1,0 +1,1 @@
+[{"variable_name": "壁柱加固", "variable_type": "decision", "values": ["增设混凝土壁柱", "不增设混凝土壁柱"]}, {"variable_name": "纵向抗震能力", "variable_type": "chance", "values": ["不足", "足够"]}, {"variable_name": "横墙间距", "variable_type": "chance", "values": ["过大", "适中"]}, {"variable_name": "楼盖平面内变形", "variable_type": "chance", "values": ["导致砌体柱(墙垛)承载力不足", "不导致砌体柱(墙垛)承载力不足"]}]

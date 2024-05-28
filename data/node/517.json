@@ -1,0 +1,1 @@
+[{"variable_name": "声测线", "variable_type": "chance", "values": ["增加声测线", "扇形扫测", "交叉斜测", "CT影像技术"]}, {"variable_name": "声测管耦合", "variable_type": "chance", "values": ["耦合不良", "耦合良好"]}, {"variable_name": "换能器中点连线水平夹角", "variable_type": "decision", "values": ["大于40°", "不大于40°"]}, {"variable_name": "缺陷位置和空间分布范围", "variable_type": "utility", "values": ["确定", "未确定"]}]

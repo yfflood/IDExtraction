@@ -1,0 +1,1 @@
+[{"variable_name": "混凝土内部含水量", "variable_type": "chance", "values": ["低于85%", "高于85%"]}, {"variable_name": "冻融循环次数", "variable_type": "chance", "values": []}, {"variable_name": "最低温度", "variable_type": "chance", "values": []}, {"variable_name": "降温速率", "variable_type": "chance", "values": []}, {"variable_name": "混凝土损伤", "variable_type": "utility", "values": ["损伤", "无损伤"]}]

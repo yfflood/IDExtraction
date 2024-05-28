@@ -1,0 +1,1 @@
+[{"variable_name": "钢筋应力", "variable_type": "chance", "values": ["20N/mm2", "30N/mm2", "50N/mm2"]}, {"variable_name": "箱基顶、底板钢筋实测应力", "variable_type": "chance", "values": ["20N/mm2", "30N/mm2", "50N/mm2"]}, {"variable_name": "造成钢筋应力偏低的因素", "variable_type": "chance", "values": ["上部结构参与工作", "箱基端部土层出现塑性变形", "箱基整体弯曲应力降低"]}]

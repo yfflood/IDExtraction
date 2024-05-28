@@ -1,0 +1,1 @@
+[{"variable_name": "挡土墙设计", "variable_type": "decision", "values": ["采用挡土墙", "采用分级挡土墙"]}, {"variable_name": "防止坡地产生塑性滑动", "variable_type": "utility", "values": ["有效", "无效"]}, {"variable_name": "房屋产生过大变形", "variable_type": "chance", "values": ["产生", "不产生"]}]

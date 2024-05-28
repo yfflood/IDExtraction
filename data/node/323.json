@@ -1,0 +1,1 @@
+[{"variable_name": "楼层抗侧力结构的承载能力", "variable_type": "chance", "values": ["突变", "稳定"]}, {"variable_name": "薄弱层破坏", "variable_type": "chance", "values": ["发生", "未发生"]}, {"variable_name": "高层建筑结构的限制条件", "variable_type": "decision", "values": ["B级高度高层建筑的限制条件", "现行国家标准《建筑抗震设计规范》GB的限制条件"]}]

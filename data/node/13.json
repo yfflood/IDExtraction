@@ -1,0 +1,1 @@
+[{"variable_name": "土的含水量变化", "variable_type": "chance", "values": ["4.7%～8.4%", "1.7%～3.4%"]}, {"variable_name": "建筑物临坡面变形", "variable_type": "chance", "values": ["非临坡面的1.35倍"]}, {"variable_name": "边坡楔形干燥区", "variable_type": "utility", "values": ["三角形", "二向坡", "三向坡"]}]

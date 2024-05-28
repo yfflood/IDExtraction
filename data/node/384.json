@@ -1,0 +1,1 @@
+[{"variable_name": "倾斜角β", "variable_type": "decision", "values": ["大于等于9°", "小于9°"]}, {"variable_name": "冻胀力作用", "variable_type": "chance", "values": ["发生", "不发生"]}, {"variable_name": "冻害事故", "variable_type": "utility", "values": ["发生", "不发生"]}]

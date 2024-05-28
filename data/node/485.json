@@ -1,0 +1,1 @@
+[{"variable_name": "支撑", "variable_type": "chance", "values": ["大幅累积塑性变形", "无塑性变形"]}, {"variable_name": "被撑梁竖向支点作用", "variable_type": "utility", "values": ["几乎消失", "正常"]}]

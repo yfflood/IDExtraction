@@ -1,0 +1,1 @@
+[{"variable_name": "构件状态", "variable_type": "chance", "values": ["变形", "表面损伤严重", "不可修复"]}, {"variable_name": "处理方式", "variable_type": "decision", "values": ["矫正处理", "更换处理", "重新检验", "更换"]}, {"variable_name": "构件修复后状态", "variable_type": "utility", "values": ["修复成功", "修复失败"]}]

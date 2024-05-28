@@ -1,0 +1,1 @@
+[{"variable_name": "桩顶上拔量测量平面位置", "variable_type": "decision", "values": ["在桩身位置", "在混凝土桩的受拉钢筋上"]}, {"variable_name": "上拔量观测点设置", "variable_type": "decision", "values": ["避开混凝土明显破裂区域", "在混凝土明显破裂区域"]}, {"variable_name": "上拔量观测数据真实性", "variable_type": "utility", "values": ["真实", "失实"]}, {"variable_name": "混凝土桩保护层开裂影响", "variable_type": "chance", "values": ["开裂", "不开裂"]}]

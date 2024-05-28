@@ -1,0 +1,1 @@
+[{"variable_name": "体型复杂性", "variable_type": "chance", "values": []}, {"variable_name": "平面、立面不规则性", "variable_type": "chance", "values": []}, {"variable_name": "指标超过限值", "variable_type": "chance", "values": []}, {"variable_name": "抗震薄弱环节", "variable_type": "chance", "values": []}, {"variable_name": "地震破坏后果", "variable_type": "utility", "values": []}]

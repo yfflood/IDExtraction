@@ -1,0 +1,1 @@
+[{"variable_name": "房屋结构材料", "variable_type": "chance", "values": ["砖砌筑", "土坯砌筑", "石墙", "砖或土坯墙"]}, {"variable_name": "房屋整体性", "variable_type": "utility", "values": ["差", "好"]}, {"variable_name": "抗震承载力", "variable_type": "decision", "values": ["按上部相对较弱的墙体考虑"]}, {"variable_name": "地震破坏程度", "variable_type": "chance", "values": ["严重", "不严重"]}]

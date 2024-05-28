@@ -1,0 +1,1 @@
+[{"variable_name": "钢管作为套管的使用", "variable_type": "decision", "values": ["使用", "不使用"]}, {"variable_name": "钢管的波传播速度", "variable_type": "chance", "values": ["大于6000m/s"]}, {"variable_name": "钢管的剪切振动传播", "variable_type": "chance", "values": ["容易传播", "不易传播"]}, {"variable_name": "波的传播和接收的复杂性", "variable_type": "utility", "values": ["复杂化", "简化"]}]

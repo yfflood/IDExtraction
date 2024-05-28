@@ -1,0 +1,1 @@
+[{"variable_name": "加固后结构质量和刚度分布", "variable_type": "utility", "values": ["均匀", "对称"]}, {"variable_name": "局部加强", "variable_type": "decision", "values": ["避免", "导致结构刚度或强度突变"]}, {"variable_name": "加固后的楼层综合抗震能力指数或抗震受剪承载力", "variable_type": "decision", "values": ["不超过下一楼层的20%", "超过时增强下一楼层的抗震能力"]}]

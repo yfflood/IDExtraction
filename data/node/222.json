@@ -1,0 +1,1 @@
+[{"variable_name": "分层沉降标监测方法", "variable_type": "chance", "values": ["沉降标失灵", "沉降标正常工作"]}, {"variable_name": "水位回升", "variable_type": "chance", "values": ["水位回升导致沉降标失灵", "水位回升未影响沉降标"]}, {"variable_name": "结构封顶后停止降水", "variable_type": "decision", "values": ["停止降水", "继续降水"]}, {"variable_name": "复合地基沉降结果", "variable_type": "utility", "values": ["沉降结果正常", "沉降结果异常"]}]

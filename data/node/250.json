@@ -1,0 +1,1 @@
+[{"variable_name": "结构完整性", "variable_type": "utility", "values": ["丧失承受重力荷载、风荷载和地震作用的能力", "保持结构完整性"]}, {"variable_name": "薄弱部位", "variable_type": "decision", "values": ["未采取加强措施", "采取有效的加强措施"]}]

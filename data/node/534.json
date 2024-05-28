@@ -1,0 +1,1 @@
+[{"variable_name": "耗能钢筋", "variable_type": "decision", "values": ["穿过交界面锚固在柱内和梁上", "不穿过交界面"]}, {"variable_name": "地震", "variable_type": "chance", "values": ["发生", "不发生"]}, {"variable_name": "后张预应力筋断裂", "variable_type": "chance", "values": ["发生", "不发生"]}, {"variable_name": "结构倒塌", "variable_type": "utility", "values": ["避免", "发生"]}]

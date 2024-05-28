@@ -1,0 +1,1 @@
+[{"variable_name": "施工工艺", "variable_type": "decision", "values": ["调整", "不调整"]}, {"variable_name": "设备调平", "variable_type": "decision", "values": ["完成", "未完成"]}, {"variable_name": "桩机倾斜", "variable_type": "chance", "values": ["过大", "适中"]}, {"variable_name": "施工安全", "variable_type": "utility", "values": ["安全", "事故"]}]

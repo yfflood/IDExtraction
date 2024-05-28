@@ -1,0 +1,1 @@
+[{"variable_name": "膨胀土上的房屋", "variable_type": "chance", "values": ["受环境诸因素变化的影响", "反复不均匀升降位移", "水平位移"]}, {"variable_name": "低层砌体结构房屋的破坏", "variable_type": "chance", "values": ["导致破坏", "难于修复"]}, {"variable_name": "膨胀土的危害", "variable_type": "utility", "values": ["预防为主", "综合治理"]}]

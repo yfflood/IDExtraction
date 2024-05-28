@@ -1,0 +1,1 @@
+[{"variable_name": "天窗高度", "variable_type": "chance", "values": ["高", "低"]}, {"variable_name": "屋面刚度", "variable_type": "utility", "values": ["强", "弱"]}, {"variable_name": "天窗重心高度", "variable_type": "chance", "values": ["高", "低"]}, {"variable_name": "天窗侧向稳定性", "variable_type": "utility", "values": ["稳定", "不稳定"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "地震时使用功能不能中断或需尽快恢复的生命线相关建筑", "variable_type": "utility", "values": ["中断", "恢复"]}, {"variable_name": "地震时可能导致大量人员伤亡等重大灾害后果的建筑", "variable_type": "chance", "values": ["人员伤亡", "无人员伤亡"]}, {"variable_name": "提高设防标准", "variable_type": "decision", "values": ["提高", "不提高"]}]

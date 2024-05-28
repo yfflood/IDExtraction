@@ -1,0 +1,1 @@
+[{"variable_name": "节点域的厚度", "variable_type": "decision", "values": ["太厚", "太薄"]}, {"variable_name": "节点域的屈服承载力", "variable_type": "utility", "values": ["(0.7～1.0)倍框架梁屈服承载力"]}, {"variable_name": "折减系数ψ", "variable_type": "decision", "values": ["0.75", "0.85"]}, {"variable_name": "抗震等级", "variable_type": "decision", "values": ["三级", "四级", "一级", "二级"]}]

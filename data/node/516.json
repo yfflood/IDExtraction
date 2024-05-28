@@ -1,0 +1,1 @@
+[{"variable_name": "检验加固质量的方法", "variable_type": "decision", "values": ["触探法", "标准贯入试验", "轻便触探"]}, {"variable_name": "钻杆损坏", "variable_type": "chance", "values": ["损坏", "不损坏"]}]
