@@ -1,0 +1,1 @@
+[{"variable_name": "构件的长细比", "variable_type": "decision", "values": ["l/d＞12", "l/d＞14"]}, {"variable_name": "矩形截面边长", "variable_type": "decision", "values": ["过大"]}, {"variable_name": "纤维材料对混凝土的约束作用", "variable_type": "utility", "values": ["降低"]}, {"variable_name": "加固方法的适用范围", "variable_type": "decision", "values": ["明确规定"]}]

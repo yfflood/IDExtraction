@@ -49,7 +49,7 @@ class Node(BaseModel):
     variable_type: VariableType = Field(
         description="What is the nature of the variable? If it is an aleatory variable that cannot be intervened, output 'chance'; if it can be intervened and represents a decision to be made, output 'decision'; if it reflects the fundamental goal of decision-maker in the setting, output 'utility'.")
     values: list = Field(
-        description="Extract the possible values of the variable, complete with common knowledge if necessary, and output them as a Python list.")
+        description="Extract the possible values of the variable, at least two values are needed. Complete with common knowledge if necessary, and output them as a Python list.")
     __id: uuid.UUID = PrivateAttr(default_factory=uuid.uuid4)
 
     def __init__(self, variable_name, variable_type, values):
