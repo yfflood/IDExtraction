@@ -23,7 +23,8 @@ def edge_subst_cost(e1, e2):
                     e1.get("probabilities").get(condition).get(variable)
                     - e2.get("probabilities").get(condition).get(variable)
                 ) 
-                if e2.get("probabilities").get(condition).get(variable) is not None
+                if e2.get("probabilities").get(condition) is not None 
+                and e2.get("probabilities").get(condition).get(variable) is not None
                 else 1
             )
     cost = sum(costs)/len(costs)
