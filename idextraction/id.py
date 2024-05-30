@@ -45,7 +45,7 @@ text: {text}
 
 class Node(BaseModel):
     variable_name: str = Field(
-        description="Extract the core concept or variable related to decision-making, and output its name.")
+        description="Extract the variable, entity, action or event related to decision-making, and output its name. Make sure the name is understandable.")
     variable_type: VariableType = Field(
         description="What is the nature of the variable? If it is an aleatory variable that cannot be intervened, output 'chance'; if it can be intervened and represents a decision to be made, output 'decision'; if it reflects the fundamental goal of decision-maker in the setting, output 'utility'.")
     values: list = Field(
@@ -89,7 +89,7 @@ class List_of_Nodes(BaseModel):
 class Edge(BaseModel):
     condition: str = Field(description="Extract the condition that influences the value of another variable, and output the name of the condition.")
     variable: str = Field(description="Extract the variable that is influenced by the condition, and output the name of the variable.")
-    probabilities: Dict[str, Dict[str, float]] = Field(description="Extract the conditional probability distribution of the variable. For the mentioned value of the condition (condition_value), extract the mentioned probability (variable_value_probability) of the variable values (variable_value). The probability should be either a str of verbal description, or a float within the range from 0.0 to 1.0, where 1.0 means the variable takes the value almost surely. Output in the form of {condition_value: {variable_value: variable_value_probability}}")
+    probabilities: Dict[str, Dict[str, float]] = Field(description="Extract the conditional probability distribution of the variable. For the mentioned value of the condition (condition_value), extract the mentioned probability (variable_value_probability) of the variable values (variable_value). The probability should be either a str of verbal description, or a float within the range from 0.0 to 1.0, where 1.0 means the variable takes the value almost surely. Be accurate about the expression. For example, when something tends to happen but not with absolute certainty, 'very likely' can be more accurate than '1.0'. Output in the form of {condition_value: {variable_value: variable_value_probability}}")
     __id: uuid.UUID = PrivateAttr(default_factory=uuid.uuid4)
     def __init__(self, condition, variable, probabilities):
         super().__init__(condition=condition, variable=variable, probabilities=probabilities)
