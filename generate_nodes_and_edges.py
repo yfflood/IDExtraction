@@ -1,7 +1,7 @@
 import os
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import PromptTemplate
-from idextraction import  List_of_Nodes
+from idextraction import  List_of_Nodes, List_of_Edges
 from model import Kimi
 import json
 import time
@@ -20,6 +20,16 @@ The content should be in Chinese if the text is in Chinese.
 """
 
 def extract_node(text):
+    extract_template = """\
+    For the following text, extract every variable, entity, action or event. If none is found, output a default node, with name and type filled with empty strings and values an empty list.
+
+    text: {text}
+
+    Output using the following format:
+    {format_instructions}
+
+    The content should be in Chinese if the text is in Chinese.
+    """
     parser = JsonOutputParser(pydantic_object=List_of_Nodes)
 
     prompt = PromptTemplate(
@@ -40,6 +50,33 @@ def get_node(file):
     print(filename)
     with open(f"./data/node/{filename}.json","w",encoding="utf-8") as f:
         json.dump(nodes,f,ensure_ascii=False)
+
+
+def extract_edge(text, node_list):
+    extract_template = """\
+    For the following text, identify influence relations between the variables, and extract every expression of conditional or unconditional probability. Make sure that all conditions and variables should be members of the list: {node_list}. 
+    
+    text: {text}
+
+    Output using the following format:
+    {format_instructions}
+
+    The content should be in Chinese if the text is in Chinese.
+    """
+    parser = JsonOutputParser    (pydantic_object=List_of_Edges)
+    
+    prompt = PromptTemplate(
+        template = edge_extract_template,
+        input_variables=["text"],
+        partial_variables={
+            "format_instructions":parser.get_format_instructions(),
+            "node_list":node_list
+        }
+    )
+    chain = prompt | llm | parser
+    contents = chain.invoke({"text": text})
+    return contents['edge_list']
+
 
 if __name__ == "__main__":
     if not os.path.exists("./data/node"):
