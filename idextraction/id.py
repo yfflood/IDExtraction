@@ -50,13 +50,16 @@ class Node(BaseModel):
         description="What is the nature of the variable? If it is an aleatory variable that cannot be intervened, output 'chance'; if it can be intervened and represents a decision to be made, output 'decision'; if it reflects the fundamental goal of decision-maker in the setting, output 'utility'.")
     values: list = Field(
         description="Extract the possible values of the variable, at least two values are needed. Complete with common knowledge if necessary, and output them as a Python list.")
-    __id: uuid.UUID = PrivateAttr(default_factory=uuid.uuid4)
+    __id: uuid.UUID = PrivateAttr(default_factory=uuid.uuid1)
 
     def __init__(self, variable_name, variable_type, values):
         super().__init__(variable_name=variable_name,
                          variable_type=variable_type, values=values)
 
     def __hash__(self):
+        return self.__id
+
+    def get_id(self):
         return self.__id
 
 
@@ -90,11 +93,14 @@ class Edge(BaseModel):
     condition: str = Field(description="Extract the condition that influences the value of another variable, and output the name of the condition.")
     variable: str = Field(description="Extract the variable that is influenced by the condition, and output the name of the variable.")
     probabilities: Dict[str, Dict[str, float]] = Field(description="Extract the conditional probability distribution of the variable. For the mentioned value of the condition (condition_value), extract the mentioned probability (variable_value_probability) of the variable values (variable_value). The probability should be either a str of verbal description, or a float within the range from 0.0 to 1.0, where 1.0 means the variable takes the value almost surely. Be accurate about the expression. For example, when something tends to happen but not with absolute certainty, 'very likely' can be more accurate than '1.0'. Output in the form of {condition_value: {variable_value: variable_value_probability}}")
-    __id: uuid.UUID = PrivateAttr(default_factory=uuid.uuid4)
+    __id: uuid.UUID = PrivateAttr(default_factory=uuid.uuid1)
     def __init__(self, condition, variable, probabilities):
         super().__init__(condition=condition, variable=variable, probabilities=probabilities)
 
     def __hash__(self):
+        return self.__id
+    
+    def get_id(self):
         return self.__id
 
     @root_validator()
