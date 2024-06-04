@@ -43,6 +43,7 @@ def extract_node(text):
     return contents['node_list']
 
 def get_node(file):
+    """ extract nodes from file"""
     with open(f"./data/input_text/{file}", "r", encoding="utf-8") as f:
         text=f.readlines()[0]
     nodes=extract_node(text)
@@ -63,7 +64,7 @@ def extract_edge(text, node_list):
 
     The content should be in Chinese if the text is in Chinese.
     """
-    parser = JsonOutputParser    (pydantic_object=List_of_Edges)
+    parser = JsonOutputParser(pydantic_object=List_of_Edges)
     
     prompt = PromptTemplate(
         template = edge_extract_template,
@@ -78,16 +79,52 @@ def extract_edge(text, node_list):
     return contents['edge_list']
 
 
+
+def generate_edge(node_list):
+    """ use commonsense knowledge in the llm to directly generate edges""" 
+    generate_template = """\
+    For the following list of nodes, identify influence relations between the variables, and assign to each influential relation a corresponding conditional or unconditional probability. All conditions and variables should be members of the list: {node_list}. 
+
+    Output using the following format:
+    {format_instructions}
+
+    The content should be in Chinese if the text is in Chinese.
+    """
+    parser = JsonOutputParser(pydantic_object=List_of_Edges)
+    
+    prompt = PromptTemplate(
+        template = generate_template,
+        input_variables=["node_list"],
+        partial_variables={
+            "format_instructions":parser.get_format_instructions(),
+        }
+    )
+    chain = prompt | llm | parser
+    contents = chain.invoke({"node_list": node_list})
+    return contents['edge_list']
+
+
 if __name__ == "__main__":
-    if not os.path.exists("./data/node"):
-        os.makedirs("./data/node")
-    if not os.path.exists("./data/edge"):
-        os.makedirs("./data/edge")
-    input_text_files=os.listdir("./data/input_text")
-    for file in input_text_files:
-        try:
-            get_node(file)
-        except Exception as e:
-            time.sleep(5)
-            get_node(file)
-            
+    #if not os.path.exists("./data/node"):
+    #    os.makedirs("./data/node")
+    #if not os.path.exists("./data/edge"):
+    #    os.makedirs("./data/edge")
+    #input_text_files=os.listdir("./data/input_text")
+    #for file in input_text_files:
+    #    try:
+    #        get_node(file)
+    #    except Exception as e:
+    #        time.sleep(5)
+    #        get_node(file)
+
+    text = """Openings connecting upper and
+    lower floors within buildings compromise the in-
+    tegrity of fire compartments, potentially leading to
+    the spread of fire across multiple areas and floors.
+    Therefore, reliable fire separation measures should
+    be implemented in these connected spaces to pre-
+    vent the rapid upward spread of fire."""
+    node_list = extract_node(text)
+    print(node_list)
+    edge_list = generate_edge(node_list)
+    print(edge_list)
