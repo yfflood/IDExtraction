@@ -28,6 +28,11 @@ class similarity_schema(BaseModel):
     similarity: float = Field(description="similarity score of the two phrases, value within the range from 0.0 to 1.0.")
     synonymy: bool = Field(description="Judge if the two phrases have the same meaning in the context, output True if they are synonymy, False if not.")
 
+
+class synonymy_schema(BaseModel):
+    synonymy: bool = Field(description="Judge if the two phrases have the same meaning in the context, output True if they are synonymy, False if not.")
+
+
 def phrase_similarity_llm(phrase1, phrase2, chat_model):
     """
     similarity judgement using chat model
@@ -67,6 +72,32 @@ def phrase_similarity_llm(phrase1, phrase2, chat_model):
     return chain.invoke({"phrase1": phrase1, "phrase2": phrase2})
 
 
+def is_synonymy_llm(phrase1, phrase2, chat_model):
+    """
+    synonymy judgement using chat model
+    """
+    ## TODO: add context? 
+
+    output_parser = JsonOutputParser(pydantic_object = synonymy_schema)
+
+    format_instructions = output_parser.get_format_instructions()
+    template = """\
+        judge whether the phrase '{phrase1}' and '{phrase2}' are synonymy in the context. 
+        
+        Output using the following JSON format: 
+        
+        {format_instructions}
+        """
+
+    prompt = PromptTemplate(
+        template=template,
+        input_variables=["phrase1", "phrase2"],
+        partial_variables={"format_instructions": format_instructions}
+    )
+
+    chain = prompt | chat_model | output_parser
+    return chain.invoke({"phrase1": phrase1, "phrase2": phrase2})
+
 #%%
 if __name__=='__main__':
     llm = ChatZhipuAI(
@@ -79,4 +110,4 @@ if __name__=='__main__':
     p2 = "Under control"
 
     # print(phrase_distance_hf(p1, p2))
-    print(phrase_similarity_llm(p1,p2,llm))
+    print(is_synonymy_llm(p1,p2,llm))
