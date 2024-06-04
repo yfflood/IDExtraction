@@ -1,0 +1,42 @@
+[
+    {
+        "variable_name":"混凝土体积",
+        "variable_type":"decision",
+        "values":[
+            "大",
+            "小"
+        ]
+    },
+    {
+        "variable_name": "混凝土的浇筑温度",
+        "variable_type": "decision",
+        "values": [
+            "高",
+            "低"
+        ]
+    },
+    {
+        "variable_name": "混凝土内部温度",
+        "variable_type": "chance",
+        "values": [
+            "升高",
+            "稳定"
+        ]
+    },
+    {
+        "variable_name": "温度应力",
+        "variable_type": "chance",
+        "values": [
+            "大",
+            "小"
+        ]
+    },
+    {
+        "variable_name": "混凝土开裂",
+        "variable_type": "utility",
+        "values": [
+            "发生",
+            "不发生"
+        ]
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "variable_name": "结构的平面和竖向布置",
+        "variable_type": "decision",
+        "values": [
+            "合理刚度、合理质量、合理承载力分布",
+            "不具有"
+        ]
+    },
+    {
+        "variable_name": "薄弱部位",
+        "variable_type": "chance",
+        "values": [
+            "有",
+            "无"
+        ]
+    },
+    {
+        "variable_name": "针对薄弱位置的措施",
+        "variable_type": "decision",
+        "values": [
+            "有",
+            "无"
+        ]
+    },
+    {
+        "variable_name": "多道防线",
+        "variable_type": "decision",
+        "values": [
+            "具有",
+            "不具有"
+        ]
+    },
+    {
+        "variable_name": "结构承受荷载能力",
+        "variable_type": "utility",
+        "values": [
+            "有",
+            "无"
+        ]
+    }
+]

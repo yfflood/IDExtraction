@@ -1,12 +1,12 @@
 import os
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import PromptTemplate
-from idextraction import  List_of_Nodes, List_of_Edges
+from idextraction import List_of_Nodes, List_of_Edges
 from model import Kimi
 import json
 import time
 
-llm=Kimi()
+llm = Kimi()
 
 extract_template = """\
 For the following text, identify the fundamental goal inplied by the context (which may not directly appear in the text), and extract every variable, action or event. If none is found, output a default node, with name and type filled with empty strings and values an empty list. 
@@ -18,6 +18,7 @@ Output using the following format:
 
 The content should be in Chinese if the text is in Chinese.
 """
+
 
 def extract_node(text):
     extract_template = """\
@@ -35,21 +36,23 @@ def extract_node(text):
     prompt = PromptTemplate(
         template=extract_template,
         input_variables=["text"],
-        partial_variables={"format_instructions": parser.get_format_instructions()},
+        partial_variables={
+            "format_instructions": parser.get_format_instructions()},
     )
 
     chain = prompt | llm | parser
     contents = chain.invoke({"text": text})
     return contents['node_list']
 
+
 def get_node(file):
     with open(f"./data/input_text/{file}", "r", encoding="utf-8") as f:
-        text=f.readlines()[0]
-    nodes=extract_node(text)
-    filename=file.replace(".txt","")
+        text = f.readlines()[0]
+    nodes = extract_node(text)
+    filename = file.replace(".txt", "")
     print(filename)
-    with open(f"./data/node/{filename}.json","w",encoding="utf-8") as f:
-        json.dump(nodes,f,ensure_ascii=False)
+    with open(f"./data/node/{filename}.json", "w", encoding="utf-8") as f:
+        json.dump(nodes, f, ensure_ascii=False)
 
 
 def extract_edge(text, node_list):
@@ -63,14 +66,14 @@ def extract_edge(text, node_list):
 
     The content should be in Chinese if the text is in Chinese.
     """
-    parser = JsonOutputParser    (pydantic_object=List_of_Edges)
-    
+    parser = JsonOutputParser(pydantic_object=List_of_Edges)
+
     prompt = PromptTemplate(
-        template = edge_extract_template,
+        template=extract_template,
         input_variables=["text"],
         partial_variables={
-            "format_instructions":parser.get_format_instructions(),
-            "node_list":node_list
+            "format_instructions": parser.get_format_instructions(),
+            "node_list": node_list
         }
     )
     chain = prompt | llm | parser
@@ -83,11 +86,10 @@ if __name__ == "__main__":
         os.makedirs("./data/node")
     if not os.path.exists("./data/edge"):
         os.makedirs("./data/edge")
-    input_text_files=os.listdir("./data/input_text")
+    input_text_files = os.listdir("./data/input_text")
     for file in input_text_files:
         try:
             get_node(file)
         except Exception as e:
             time.sleep(5)
             get_node(file)
-            

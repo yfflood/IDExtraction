@@ -1,0 +1,58 @@
+[
+    {
+        "variable_name": "土工合成材料",
+        "variable_type": "decision",
+        "values": [
+            "高强度、低徐变性、延伸率适宜",
+            "不适宜"
+        ]
+    },
+    {
+        "variable_name":"土层",
+        "variable_type":"chance",
+        "values":[
+            "软弱",
+            "不软弱"
+        ]
+    },
+    {
+        "variable_name": "合成材料极限强度",
+        "variable_type": "chance",
+        "values": [
+            "超过",
+            "未超过"
+        ]
+    },
+    {
+        "variable_name": "荷载转移",
+        "variable_type": "chance",
+        "values": [
+            "由软弱土承受全部外荷",
+            "未由软弱土承受全部外荷"
+        ]
+    },
+    {
+        "variable_name": "地基整体破坏",
+        "variable_type": "chance",
+        "values": [
+            "导致",
+            "未导致"
+        ]
+    },
+    {
+        "variable_name": "上部建筑沉降",
+        "variable_type": "chance",
+        "values": [
+            "较大",
+            "较小或无"
+        ]
+    },
+    {
+        "variable_name": "建筑结构破坏",
+        "variable_type": "chance",
+        "values": [
+            "严重",
+            "轻微或无"
+        ]
+    }
+]

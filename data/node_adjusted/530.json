@@ -1,0 +1,19 @@
+[
+    {
+        "variable_name": "轴向压力",
+        "variable_type": "decision",
+        "values": [
+            "小于0.3",
+            "0.3～0.5",
+            "大于0.5"
+        ]
+    },
+    {
+        "variable_name": "受剪承载力",
+        "variable_type": "utility",
+        "values": [
+            "大",
+            "小"
+        ]
+    }
+]

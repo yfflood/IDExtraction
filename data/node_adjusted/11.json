@@ -1,0 +1,52 @@
+[
+    {
+        "variable_name": "加固新增截面材料",
+        "variable_type": "decision",
+        "values": [
+            "现浇混凝土",
+            "自密实混凝土",
+            "喷射混凝土",
+            "掺有细石混凝土的水泥基灌浆料"
+        ]
+    },
+    {
+        "variable_name": "灌浆料",
+        "variable_type": "decision",
+        "values": [
+            "可靠配置",
+            "配置不当"
+        ]
+    },
+    {
+        "variable_name": "膨胀剂",
+        "variable_type": "decision",
+        "values": [
+            "优质",
+            "劣质"
+        ]
+    },
+    {
+        "variable_name": "细石混凝土掺加比例",
+        "variable_type": "decision",
+        "values": [
+            "30%",
+            "其他"
+        ]
+    },
+    {
+        "variable_name": "粗骨料掺加",
+        "variable_type": "decision",
+        "values": [
+            "掺加16mm-20mm",
+            "其他"
+        ]
+    },
+    {
+        "variable_name": "新增面层裂缝",
+        "variable_type": "utility",
+        "values": [
+            "不产生",
+            "产生"
+        ]
+    }
+]

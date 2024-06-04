@@ -1,0 +1,42 @@
+[
+    {
+        "variable_name": "钢筋网竖筋与墙面的距离",
+        "variable_type": "decision",
+        "values": [
+            "紧靠墙面",
+            "5mm间隙"
+        ]
+    },
+    {
+        "variable_name": "钢筋网的保护层厚度",
+        "variable_type": "decision",
+        "values": [
+            "不满足规定",
+            "满足规定"
+        ]
+    },
+    {
+        "variable_name": "加固效果",
+        "variable_type": "utility",
+        "values": [
+            "失效",
+            "有效"
+        ]
+    },
+    {
+        "variable_name": "耐久性",
+        "variable_type": "utility",
+        "values": [
+            "低",
+            "高"
+        ]
+    },
+    {
+        "variable_name": "钢筋锈蚀",
+        "variable_type": "chance",
+        "values": [
+            "发生",
+            "未发生"
+        ]
+    }
+]

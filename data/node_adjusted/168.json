@@ -1,0 +1,35 @@
+[
+    {
+        "variable_name":"板类型",
+        "variable_type":"chance",
+        "values":[
+            "与支承梁或墙整体浇筑的混凝土板",
+            "嵌固在砌体墙内的现浇混凝土板",
+            "其他"
+        ]
+    },
+    {
+        "variable_name":"非受力方向负弯矩",
+        "variable_type":"chance",
+        "values":[
+            "存在",
+            "不存在"
+        ]
+    },
+    {
+        "variable_name":"板边和板角的构造钢筋",
+        "variable_type":"decision",
+        "values":[
+            "布置",
+            "不布置"
+        ]
+    },
+    {
+        "variable_name": "板面裂缝",
+        "variable_type": "utility",
+        "values": [
+            "存在",
+            "不存在"
+        ]
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "variable_name": "膨胀土防水毯倒角",
+        "variable_type": "decision",
+        "values": [
+            "倒角",
+            "不倒角"
+        ]
+    },
+    {
+        "variable_name": "转角部位剪切破坏",
+        "variable_type": "chance",
+        "values": [
+            "出现",
+            "不出现"
+        ]
+    },
+    {
+        "variable_name": "膨润土颗粒损失",
+        "variable_type": "chance",
+        "values": [
+            "损失",
+            "不损失"
+        ]
+    },
+    {
+        "variable_name": "整体防水质量",
+        "variable_type": "utility",
+        "values": [
+            "受影响",
+            "不受影响"
+        ]
+    }
+]

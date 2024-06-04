@@ -1,0 +1,26 @@
+[
+    {
+        "variable_name": "桥梁倒塌",
+        "variable_type": "utility",
+        "values": [
+            "发生",
+            "不发生"
+        ]
+    },
+    {
+        "variable_name": "抗震设计",
+        "variable_type": "decision",
+        "values": [
+            "通过验算和构造设计",
+            "未通过验算和构造设计"
+        ]
+    },
+    {
+        "variable_name": "钢筋混凝土墩柱剪切破坏",
+        "variable_type": "chance",
+        "values": [
+            "发生",
+            "不发生"
+        ]
+    }
+]

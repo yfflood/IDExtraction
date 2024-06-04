@@ -1,0 +1,26 @@
+[
+    {
+        "variable_name": "氯盐含量",
+        "variable_type": "chance",
+        "values": [
+            "高",
+            "低"
+        ]
+    },
+    {
+        "variable_name": "混凝土耐久性",
+        "variable_type": "utility",
+        "values": [
+            "好",
+            "差"
+        ]
+    },
+    {
+        "variable_name": "原材料中氯离子控制",
+        "variable_type": "decision",
+        "values": [
+            "严格",
+            "不严格"
+        ]
+    }
+]

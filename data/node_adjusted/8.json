@@ -1,0 +1,60 @@
+[
+    {
+        "variable_name": "新建建筑物的荷载",
+        "variable_type": "chance",
+        "values": [
+            "大",
+            "中",
+            "小"
+        ]
+    },
+    {
+        "variable_name": "既有建筑物紧邻新建部分的地基中的应力叠加",
+        "variable_type": "chance",
+        "values": [
+            "大",
+            "中",
+            "小"
+        ]
+    },
+    {
+        "variable_name": "既有建筑物地基土的不均匀附加压缩",
+        "variable_type": "chance",
+        "values": [
+            "存在",
+            "不存在"
+        ]
+    },
+    {
+        "variable_name": "建筑物的相对变形或挠曲",
+        "variable_type": "chance",
+        "values": [
+            "存在",
+            "不存在"
+        ]
+    },
+    {
+        "variable_name": "严重裂损",
+        "variable_type": "chance",
+        "values": [
+            "存在",
+            "不存在"
+        ]
+    },
+    {
+        "variable_name": "接建、邻建部位专门布置勘探点",
+        "variable_type": "decision",
+        "values": [
+            "是",
+            "否"
+        ]
+    },
+    {
+        "variable_name": "原位测试和室内试验",
+        "variable_type": "decision",
+        "values": [
+            "是",
+            "否"
+        ]
+    }
+]

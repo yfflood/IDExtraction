@@ -1,0 +1,34 @@
+[
+    {
+        "variable_name": "膨胀土",
+        "variable_type": "chance",
+        "values": [
+            "是",
+            "否"
+        ]
+    },
+    {
+        "variable_name": "季节气候变化",
+        "variable_type": "chance",
+        "values": [
+            "反复失水吸水",
+            "变化幅度小"
+        ]
+    },
+    {
+        "variable_name": "地基变形",
+        "variable_type": "chance",
+        "values": [
+            "反复变形",
+            "变形幅度小"
+        ]
+    },
+    {
+        "variable_name": "建筑物损坏",
+        "variable_type": "utility",
+        "values": [
+            "开裂",
+            "完好"
+        ]
+    }
+]

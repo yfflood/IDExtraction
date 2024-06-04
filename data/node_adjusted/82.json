@@ -1,0 +1,50 @@
+[
+    {
+        "variable_name": "建筑物抗震设防烈度",
+        "variable_type": "chance",
+        "values": [
+            "高于本地区抗震设防烈度",
+            "低于或等于本地区抗震设防烈度"
+        ]
+    },
+    {
+        "variable_name": "建筑物体型和抗侧力系统复杂性",
+        "variable_type": "chance",
+        "values": [
+            "复杂",
+            "不复杂"
+        ]
+    },
+    {
+        "variable_name": "结构薄弱部位的应力集中和弹塑性变形集中",
+        "variable_type": "chance",
+        "values": [
+            "发生",
+            "不发生"
+        ]
+    },
+    {
+        "variable_name": "建筑物倒塌风险",
+        "variable_type": "chance",
+        "values": [
+            "有倒塌危险",
+            "无倒塌危险"
+        ]
+    },
+    {
+        "variable_name": "检验结构抗震薄弱部位的方法",
+        "variable_type": "decision",
+        "values": [
+            "采用弹塑性分析方法",
+            "不采用弹塑性分析方法"
+        ]
+    },
+    {
+        "variable_name": "建筑物抗震性能",
+        "variable_type": "utility",
+        "values": [
+            "不致倒塌或发生危及生命的严重破坏",
+            "可能倒塌或发生危及生命的严重破坏"
+        ]
+    }
+]

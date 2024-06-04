@@ -1,0 +1,27 @@
+[
+    {
+        "variable_name": "沉降观测点位置",
+        "variable_type": "decision",
+        "values": [
+            "千斤顶底座承压板以下",
+            "承压板上",
+            "千斤顶上"
+        ]
+    },
+    {
+        "variable_name":"承压板变形",
+        "variable_type":"chance",
+        "values":[
+            "无变形",
+            "有变形"
+        ]
+    },
+    {
+        "variable_name": "沉降观测数据真实性",
+        "variable_type": "utility",
+        "values": [
+            "真实",
+            "失实"
+        ]
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "variable_name": "基础尺寸",
+        "variable_type": "decision",
+        "values": [
+            "减小",
+            "不减小"
+        ]
+    },
+    {
+        "variable_name": "基底压力",
+        "variable_type": "chance",
+        "values": [
+            "增大",
+            "不增大"
+        ]
+    },
+    {
+        "variable_name": "差异沉降",
+        "variable_type": "chance",
+        "values": [
+            "减小",
+            "不减小"
+        ]
+    },
+    {
+        "variable_name": "地基极限承载力",
+        "variable_type": "chance",
+        "values": [
+            "核算",
+            "不核算"
+        ]
+    },
+    {
+        "variable_name": "地基失稳",
+        "variable_type": "utility",
+        "values": [
+            "发生",
+            "不发生"
+        ]
+    }
+]

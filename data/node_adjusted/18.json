@@ -1,0 +1,59 @@
+[
+    {
+        "variable_name": "雨水泵房状况",
+        "variable_type": "chance",
+        "values": [
+            "完好",
+            "损坏"
+        ]
+    },
+    {
+        "variable_name": "城市排涝泵站状况",
+        "variable_type": "chance",
+        "values": [
+            "完好",
+            "损坏"
+        ]
+    },
+    {
+        "variable_name": "雨后积水",
+        "variable_type": "chance",
+        "values": [
+            "无",
+            "浅",
+            "深"
+        ]
+    },
+    {
+        "variable_name":"地下水位",
+        "variable_type":"chance",
+        "values":[
+            "正常",
+            "高"
+        ]
+    },
+    {
+        "variable_name": "雨水泵房加强措施",
+        "variable_type": "decision",
+        "values": [
+            "加强",
+            "不加强"
+        ]
+    },
+    {
+        "variable_name": "城市排涝泵站加强措施",
+        "variable_type": "decision",
+        "values": [
+            "加强",
+            "不加强"
+        ]
+    },
+    {
+        "variable_name":"震害",
+        "variable_type":"utility",
+        "values":[
+            "小",
+            "大"
+        ]
+    }
+]

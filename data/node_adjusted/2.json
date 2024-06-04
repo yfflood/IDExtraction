@@ -1,0 +1,27 @@
+[
+    {
+        "variable_name": "初始局部破坏",
+        "variable_type": "chance",
+        "values": [
+            "发生",
+            "不发生"
+        ]
+    },
+    {
+        "variable_name": "破坏扩展",
+        "variable_type": "chance",
+        "values": [
+            "发生",
+            "不发生"
+        ]
+    },
+    {
+        "variable_name": "结构",
+        "variable_type": "utility",
+        "values": [
+            "完好",
+            "部分倒塌",
+            "整体倒塌"
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "variable_name": "混凝土保护层",
+        "variable_type": "chance",
+        "values": [
+            "剥落",
+            "不剥落"
+        ]
+    },
+    {
+        "variable_name": "箍筋的无支长度",
+        "variable_type": "decision",
+        "values": [
+            "足够",
+            "过大"
+        ]
+    },
+    {
+        "variable_name": "柱核芯的约束",
+        "variable_type": "utility",
+        "values": [
+            "有效",
+            "无效"
+        ]
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "variable_name":"混凝土体积",
+        "variable_type":"chance",
+        "values":[
+            "大",
+            "小"
+        ]
+    },
+    {
+        "variable_name": "混凝土内部温度和温度应力",
+        "variable_type": "chance",
+        "values": [
+            "剧烈变化",
+            "平稳"
+        ]
+    },
+    {
+        "variable_name":"温度监测控制",
+        "variable_type":"decision",
+        "values":[
+            "有",
+            "无"
+        ]
+    },
+    {
+        "variable_name": "混凝土有害的温度裂缝",
+        "variable_type": "utility",
+        "values": [
+            "出现",
+            "未出现"
+        ]
+    }
+]

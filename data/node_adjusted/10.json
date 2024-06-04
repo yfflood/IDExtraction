@@ -1,0 +1,18 @@
+[
+    {
+        "variable_name": "基础埋深",
+        "variable_type": "chance",
+        "values": [
+            "大",
+            "小"
+        ]
+    },
+    {
+        "variable_name": "桩顶荷载",
+        "variable_type": "utility",
+        "values": [
+            "增加",
+            "减少"
+        ]
+    }
+]

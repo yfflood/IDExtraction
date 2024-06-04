@@ -1,0 +1,19 @@
+[
+    {
+        "variable_name": "注浆措施",
+        "variable_type": "decision",
+        "values": [
+            "单液注浆",
+            "多孔间隔注浆",
+            "缩短浆液凝固时间"
+        ]
+    },
+    {
+        "variable_name": "附加沉降",
+        "variable_type": "utility",
+        "values": [
+            "减少",
+            "不减少"
+        ]
+    }
+]
