@@ -64,7 +64,6 @@ def phrase_similarity_llm(phrase1, phrase2, chat_model):
     )
 
     chain = prompt | chat_model | output_parser
-    print((prompt | chat_model).invoke({"phrase1": phrase1, "phrase2": phrase2}))
     return chain.invoke({"phrase1": phrase1, "phrase2": phrase2})
 
 
