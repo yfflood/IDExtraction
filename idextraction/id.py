@@ -43,6 +43,22 @@ text: {text}
 """
 
 
+def node_to_json(node):
+    return {
+        "variable_name": node.variable_name,
+        "variable_type":node.variable_type.value,
+        "values": node.values,
+        "__id": str(node.get_id())
+    }
+
+def node_to_json(node):
+    return {
+        "variable_name": node.variable_name,
+        "variable_type":node.variable_type.value,
+        "values": node.values,
+        "__id": str(node.get_id())
+    }
+
 class Node(BaseModel):
     variable_name: str = Field(
         description="Extract the variable, entity, action or event related to decision-making, and output its name. Make sure the name is understandable.")
@@ -60,8 +76,10 @@ class Node(BaseModel):
         return self.__id
 
     def get_id(self):
-        return self.__id
+        return str(self.__id)
 
+    def set_id(self, id: str):
+        self.__id = uuid.UUID(id)
 
 class List_of_Nodes(BaseModel):
     node_list: List[Node]
@@ -101,7 +119,10 @@ class Edge(BaseModel):
         return self.__id
     
     def get_id(self):
-        return self.__id
+        return str(self.__id)
+
+    def set_id(self, id: str):
+        self.__id = uuid.UUID(id)
 
     @root_validator()
     def check_probabilities(cls, info):
@@ -150,15 +171,17 @@ class List_of_Edges(BaseModel):
 
 
 if __name__ == "__main__":
-    parser = JsonOutputParser(pydantic_object=List_of_Nodes)
-    parser.get_format_instructions()
-    prompt = PromptTemplate(
-        template=extract_template,
-        input_variables=["text"],
-        partial_variables={
-            "format_instructions": parser.get_format_instructions()},
-    )
-    print(prompt.format(text="The weather is sunny and warm."))
-    a = List_of_Nodes(node_list=test)
-    b = Edge(condition="Fire_Separation_Measures", variable="Fire_Spread", probabilities={"Implement": {
-            "Rapid_Upward": 0.8, "Contained": 0.2}, "Not_Implement": {"Rapid_Upward": 0.2, "Contained": 0.8}})
+    #parser = JsonOutputParser(pydantic_object=List_of_Nodes)
+    #parser.get_format_instructions()
+    #prompt = PromptTemplate(
+    #    template=extract_template,
+    #    input_variables=["text"],
+    #    partial_variables={
+    #        "format_instructions": parser.#get_format_instructions()},
+    #)
+    #print(prompt.format(text="The weather is sunny and warm."))
+    #a = List_of_Nodes(node_list=test)
+    #b = Edge(condition="Fire_Separation_Measures", #variable="Fire_Spread", probabilities={"Implement": {
+    #        "Rapid_Upward": 0.8, "Contained": 0.2}, #"Not_Implement": {"Rapid_Upward": 0.2, "Contained": 0.8}})
+    a = Node(test[0]["variable_name"], test[0]["variable_type"], test[0]["values"])
+    print(node_to_json(node=a))
