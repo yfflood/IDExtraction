@@ -1,0 +1,83 @@
+[
+    {
+        "variable_name": "横向裂缝宽度",
+        "variable_type": "chance",
+        "values": [
+            "无裂缝",
+            "小",
+            "大"
+        ]
+    },
+    {
+        "variable_name": "钢筋网防锈措施",
+        "variable_type": "decision",
+        "values": [
+            "有",
+            "没有"
+        ]
+    },
+    {
+        "variable_name": "混凝土保护层厚度",
+        "variable_type": "decision",
+        "values": [
+            "较大",
+            "较小"
+        ]
+    },
+    {
+        "variable_name": "钢筋网锈蚀",
+        "variable_type": "chance",
+        "values": [
+            "锈蚀",
+            "不锈蚀"
+        ]
+    },
+    {
+        "variable_name": "混凝土剥落",
+        "variable_type": "chance",
+        "values": [
+            "剥落",
+            "不剥落"
+        ]
+    },
+    {
+        "variable_name": "保护层厚度",
+        "variable_type": "chance",
+        "values": [
+            "减少",
+            "不减少"
+        ]
+    },
+    {
+        "variable_name": "构件耐久性",
+        "variable_type": "utility",
+        "values": [
+            "有害",
+            "无害"
+        ]
+    },
+    {
+        "variable_name": "结构物外观要求",
+        "variable_type": "utility",
+        "values": [
+            "受影响",
+            "不受影响"
+        ]
+    },
+    {
+        "variable_name": "防水功能",
+        "variable_type": "utility",
+        "values": [
+            "受影响",
+            "不受影响"
+        ]
+    },
+    {
+        "variable_name": "灌缝与封闭",
+        "variable_type": "decision",
+        "values": [
+            "及时进行",
+            "不及时进行"
+        ]
+    }
+]

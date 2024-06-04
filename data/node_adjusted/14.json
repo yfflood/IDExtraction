@@ -1,0 +1,36 @@
+[
+    {
+        "variable_name": "框架结构的砌体填充墙布置",
+        "variable_type": "decision",
+        "values": [
+            "合理设置",
+            "不合理设置"
+        ]
+    },
+    {
+        "variable_name": "建筑的不利布置",
+        "variable_type": "decision",
+        "values": [
+            "提出修改建议",
+            "不提出修改建议"
+        ]
+    },
+    {
+        "variable_name": "填充墙",
+        "variable_type": "decision",
+        "values": [
+            "空心砖填充墙",
+            "轻钢龙骨石膏板墙",
+            "石膏板空心墙",
+            "其他修改建议"
+        ]
+    },
+    {
+        "variable_name": "主体结构",
+        "variable_type": "utility",
+        "values": [
+            "破坏",
+            "不破坏"
+        ]
+    }
+]

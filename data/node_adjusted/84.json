@@ -1,0 +1,34 @@
+[
+    {
+        "variable_name": "风速",
+        "variable_type": "chance",
+        "values": [
+            "大",
+            "小"
+        ]
+    },
+    {
+        "variable_name": "防护装置设置",
+        "variable_type": "decision",
+        "values": [
+            "设置",
+            "不设置"
+        ]
+    },
+    {
+        "variable_name": "二氧化碳气体对焊接电弧的保护",
+        "variable_type": "chance",
+        "values": [
+            "生效",
+            "失效"
+        ]
+    },
+    {
+        "variable_name": "焊缝质量",
+        "variable_type": "utility",
+        "values": [
+            "无缺陷",
+            "有缺陷"
+        ]
+    }
+]

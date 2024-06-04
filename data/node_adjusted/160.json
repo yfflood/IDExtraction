@@ -1,0 +1,50 @@
+[
+    {
+        "variable_name": "封口高度",
+        "variable_type": "decision",
+        "values": [
+            "大于等于500mm",
+            "小于500mm"
+        ]
+    },
+    {
+        "variable_name":"桩顶上覆压力",
+        "variable_type":"chance",
+        "values":[
+            "足够",
+            "不够"
+        ]
+    },
+    {
+        "variable_name": "桩顶土隆起",
+        "variable_type": "utility",
+        "values": [
+            "发生",
+            "不发生"
+        ]
+    },
+    {
+        "variable_name": "沉降",
+        "variable_type": "utility",
+        "values": [
+            "增加",
+            "不增加"
+        ]
+    },
+    {
+        "variable_name": "桩体强度",
+        "variable_type": "utility",
+        "values": [
+            "降低",
+            "不降低"
+        ]
+    },
+    {
+        "variable_name": "封口标高",
+        "variable_type": "decision",
+        "values": [
+            "高于原地面",
+            "低于或等于原地面"
+        ]
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "variable_name": "转换层上、下部结构侧向刚度比",
+        "variable_type": "decision",
+        "values": [
+            "接近1",
+            "相差较大"
+        ]
+    },
+    {
+        "variable_name": "底部抽柱数量",
+        "variable_type": "decision",
+        "values": [
+            "合理控制",
+            "过多"
+        ]
+    },
+    {
+        "variable_name": "转换层上、下部柱截面几何形状",
+        "variable_type": "decision",
+        "values": [
+            "相同",
+            "不同"
+        ]
+    },
+    {
+        "variable_name": "结构构件的内力突变",
+        "variable_type": "chance",
+        "values": [
+            "发生",
+            "未发生"
+        ]
+    },
+    {
+        "variable_name": "构件受力状况",
+        "variable_type": "chance",
+        "values": [
+            "更加复杂",
+            "相对简单"
+        ]
+    },
+    {
+        "variable_name": "侧向刚度比满足要求",
+        "variable_type": "utility",
+        "values": [
+            "满足",
+            "不满足"
+        ]
+    }
+]

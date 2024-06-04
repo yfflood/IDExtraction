@@ -1,0 +1,34 @@
+[
+    {
+        "variable_name": "集中荷载影响区附加横向钢筋配置",
+        "variable_type": "decision",
+        "values": [
+            "配置",
+            "不配置"
+        ]
+    },
+    {
+        "variable_name": "梁受剪箍筋配筋率",
+        "variable_type": "decision",
+        "values": [
+            "满足要求",
+            "不满足要求"
+        ]
+    },
+    {
+        "variable_name": "斜截面受剪承载力",
+        "variable_type": "utility",
+        "values": [
+            "降低",
+            "不降低"
+        ]
+    },
+    {
+        "variable_name": "下部混凝土斜裂缝及局部受拉裂缝",
+        "variable_type": "chance",
+        "values": [
+            "有",
+            "无"
+        ]
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "variable_name": "核芯区受剪面积",
+        "variable_type": "chance",
+        "values": [
+            "不足",
+            "充足"
+        ]
+    },
+    {
+        "variable_name": "柱的不利扭转效应",
+        "variable_type": "utility",
+        "values": [
+            "发生",
+            "未发生"
+        ]
+    },
+    {
+        "variable_name": "抗震墙中线与柱中线之间偏心距",
+        "variable_type": "decision",
+        "values": [
+            "较大",
+            "较小"
+        ]
+    },
+    {
+        "variable_name": "梁中线与柱中线之间偏心距",
+        "variable_type": "decision",
+        "values": [
+            "较大",
+            "较小"
+        ]
+    },
+    {
+        "variable_name": "地震作用",
+        "variable_type": "chance",
+        "values": [
+            "发生",
+            "未发生"
+        ]
+    },
+    {
+        "variable_name": "避免扭转措施",
+        "variable_type": "decision",
+        "values": [
+            "采用水平加腋梁",
+            "加强柱的箍筋",
+            "不采取措施"
+        ]
+    }
+]

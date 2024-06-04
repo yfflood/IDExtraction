@@ -1,0 +1,42 @@
+[
+    {
+        "variable_name": "换能器的运动状态",
+        "variable_type": "chance",
+        "values": [
+            "静止",
+            "非匀速下降"
+        ]
+    },
+    {
+        "variable_name": "电缆线失重现象",
+        "variable_type": "chance",
+        "values": [
+            "有",
+            "无"
+        ]
+    },
+    {
+        "variable_name": "电缆线的松弛程度",
+        "variable_type": "chance",
+        "values": [
+            "松弛",
+            "不松弛"
+        ]
+    },
+    {
+        "variable_name": "换能器位置的准确性",
+        "variable_type": "utility",
+        "values": [
+            "准确",
+            "不准确"
+        ]
+    },
+    {
+        "variable_name": "检测方法",
+        "variable_type": "decision",
+        "values": [
+            "从桩底开始同步提升换能器进行检测",
+            "其他检测方法"
+        ]
+    }
+]

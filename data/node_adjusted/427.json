@@ -1,0 +1,26 @@
+[
+    {
+        "variable_name": "板齿滑移",
+        "variable_type": "chance",
+        "values": [
+            "过大",
+            "适中"
+        ]
+    },
+    {
+        "variable_name": "木桁架变形",
+        "variable_type": "utility",
+        "values": [
+            "影响正常使用",
+            "不影响正常使用"
+        ]
+    },
+    {
+        "variable_name": "板齿抗滑移承载力",
+        "variable_type": "decision",
+        "values": [
+            "验算",
+            "不验算"
+        ]
+    }
+]

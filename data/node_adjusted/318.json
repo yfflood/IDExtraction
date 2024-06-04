@@ -1,0 +1,34 @@
+[
+    {
+        "variable_name": "桩体稳定性",
+        "variable_type": "utility",
+        "values": [
+            "稳定",
+            "失稳"
+        ]
+    },
+    {
+        "variable_name": "障碍物清除",
+        "variable_type": "decision",
+        "values": [
+            "清除",
+            "未清除"
+        ]
+    },
+    {
+        "variable_name": "土层硬度",
+        "variable_type": "chance",
+        "values": [
+            "软土层",
+            "硬土层"
+        ]
+    },
+    {
+        "variable_name": "大块石或混凝土块",
+        "variable_type": "chance",
+        "values": [
+            "嵌入钢桩槽口",
+            "未嵌入钢桩槽口"
+        ]
+    }
+]

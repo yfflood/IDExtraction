@@ -1,0 +1,43 @@
+[
+    {
+        "variable_name": "桩长范围和桩端承压水土层",
+        "variable_type": "chance",
+        "values": [
+            "存在",
+            "不存在"
+        ]
+    },
+    {
+        "variable_name": "选用的成桩工艺",
+        "variable_type": "decision",
+        "values": [
+            "泥浆护壁成孔灌注成桩工艺",
+            "长螺旋钻中心压灌成桩",
+            "振动沉管灌注成桩"
+        ]
+    },
+    {
+        "variable_name": "桩端承压水水头",
+        "variable_type": "chance",
+        "values": [
+            "高",
+            "低"
+        ]
+    },
+    {
+        "variable_name":"承压水渗流",
+        "variable_type":"chance",
+        "values":[
+            "存在",
+            "不存在"
+        ] 
+    },
+    {
+        "variable_name": "桩体强度",
+        "variable_type": "utility",
+        "values": [
+            "严重降低",
+            "保持稳定"
+        ]
+    }
+]

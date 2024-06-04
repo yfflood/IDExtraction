@@ -1,0 +1,34 @@
+[
+    {
+        "variable_name": "防震缝间距",
+        "variable_type": "decision",
+        "values": [
+            "满足要求",
+            "不满足要求"
+        ]
+    },
+    {
+        "variable_name": "抗震鉴定",
+        "variable_type": "decision",
+        "values": [
+            "重视防震缝间距",
+            "不重视"
+        ]
+    },
+    {
+        "variable_name": "建筑物震害",
+        "variable_type": "utility",
+        "values": [
+            "严重",
+            "轻微"
+        ]
+    },
+    {
+        "variable_name": "通廊与建筑物的碰撞",
+        "variable_type": "chance",
+        "values": [
+            "发生",
+            "未发生"
+        ]
+    }
+]

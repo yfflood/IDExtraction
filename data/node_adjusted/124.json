@@ -1,0 +1,42 @@
+[
+    {
+        "variable_name":"打火引弧位置",
+        "variable_type":"decision",
+        "values":[
+            "焊区",
+            "母材"
+        ]
+    },
+    {
+        "variable_name": "母材表面应力集中",
+        "variable_type": "chance",
+        "values": [
+            "是",
+            "否"
+        ]
+    },
+    {
+        "variable_name": "缺口附近的断裂韧性值",
+        "variable_type": "utility",
+        "values": [
+            "降低",
+            "未降低"
+        ]
+    },
+    {
+        "variable_name": "承受动荷载时的疲劳强度",
+        "variable_type": "utility",
+        "values": [
+            "受影响",
+            "未受影响"
+        ]
+    },
+    {
+        "variable_name": "钢材类型",
+        "variable_type": "decision",
+        "values": [
+            "低合金结构钢",
+            "碳素结构钢"
+        ]
+    }
+]

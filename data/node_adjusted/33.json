@@ -1,0 +1,42 @@
+[
+    {
+        "variable_name":"火灾或高温",
+        "variable_type":"chance",
+        "values":[
+            "发生",
+            "不发生"
+        ]
+    },
+    {
+        "variable_name": "露明金属支撑件",
+        "variable_type": "chance",
+        "values": [
+            "失效",
+            "不失效"
+        ]
+    },
+    {
+        "variable_name": "外墙板掉落",
+        "variable_type": "utility",
+        "values": [
+            "掉落",
+            "不掉落"
+        ]
+    },
+    {
+        "variable_name": "火灾蔓延",
+        "variable_type": "utility",
+        "values": [
+            "蔓延",
+            "不蔓延"
+        ]
+    },
+    {
+        "variable_name": "露明金属支撑件的构造措施",
+        "variable_type": "decision",
+        "values": [
+            "设置",
+            "不设置"
+        ]
+    }
+]
