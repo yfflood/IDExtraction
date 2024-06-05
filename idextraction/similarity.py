@@ -3,9 +3,13 @@ from langchain.evaluation import load_evaluator
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
 from langchain_community.chat_models import ChatZhipuAI
+import langchain_core
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from langchain.output_parsers import ResponseSchema, StructuredOutputParser
 from langchain_core.output_parsers import JsonOutputParser
+from langchain.output_parsers import RetryOutputParser, OutputFixingParser
+from langchain_core.runnables import RunnableLambda, RunnableParallel
+
 from langchain_core.prompts import PromptTemplate
 from langchain_core.pydantic_v1 import BaseModel, Field
 
@@ -96,7 +100,23 @@ def is_synonymy_llm(phrase1, phrase2, chat_model):
     )
 
     chain = prompt | chat_model | output_parser
-    return chain.invoke({"phrase1": phrase1, "phrase2": phrase2})
+
+    try: 
+        synonymy = chain.invoke({"phrase1": phrase1, "phrase2": phrase2})
+    except langchain_core.exceptions.OutputParserException:
+        fixing_parser = OutputFixingParser.from_llm(parser=output_parser, llm=Kimi(), max_retries=3)
+
+        completion_chain = prompt | chat_model
+        main_chain = RunnableParallel(
+            completion=completion_chain, 
+            prompt = prompt
+        ) | RunnableLambda(lambda x: fixing_parser.parse_with_prompt(**x))
+        synonymy = main_chain.invoke({"phrase1": phrase1, "phrase2": phrase2})
+    
+    return synonymy
+
+
+# TODO: contextual similarity/synonymous judgement
 
 #%%
 if __name__=='__main__':
@@ -106,7 +126,7 @@ if __name__=='__main__':
         max_tokens=4096
     )
 
-    p1 = "Contained"
+    p1 = "Contained within a certain range"
     p2 = "Under control"
 
     # print(phrase_distance_hf(p1, p2))
