@@ -1,6 +1,9 @@
-from .id import Node, Edge, List_of_Nodes, List_of_Edges
-import networkx as nx
+import os
+import json
+import matplotlib.pyplot as plt
 
+from id import Node, Edge, List_of_Nodes, List_of_Edges
+import networkx as nx
 
 def node_subst_cost(n1, n2):
     cost = 0
@@ -30,6 +33,7 @@ def edge_subst_cost(e1, e2):
     cost = sum(costs)/len(costs)
     return cost
 
+
 class Id_Graph:
 
     def __init__(self, node_list, edge_list):
@@ -49,3 +53,62 @@ class Id_Graph:
             node_subst_cost=node_subst_cost,
             edge_subst_cost=edge_subst_cost
         )
+
+    def to_cid(self):
+        pass
+
+    
+if __name__=="__main__":
+    node_files=os.listdir("./data/node_adjusted")
+    edge_gen_files=os.listdir("./data/edge_generated")
+    edge_ext_files=os.listdir("./data/edge_extracted")
+
+    idx = 1
+    with open(f"./data/node_adjusted/{node_files[idx]}", "r", encoding="utf-8") as f:
+        node_list = json.load(f)
+    with open(f"./data/edge_generated/{edge_gen_files[idx]}", "r", encoding="utf-8") as f:
+        edge_gen_list = json.load(f)
+    with open(f"./data/edge_extracted/{edge_ext_files[idx]}", "r", encoding="utf-8") as f:
+        edge_ext_list = json.load(f)
+    
+    list_of_node = List_of_Nodes([
+        Node(
+            node["variable_name"],
+            node["variable_type"],
+            node["values"]
+        ) for node in node_list
+    ])
+
+    list_of_edge_gen = List_of_Edges([
+        Edge(
+            edge["condition"],
+            edge["variable"],
+            edge["probabilities"]
+        ) for edge in edge_gen_list
+    ])
+
+    list_of_edge_ext = List_of_Edges([
+        Edge(
+            edge["condition"],
+            edge["variable"],
+            edge["probabilities"]
+        ) for edge in edge_gen_list
+    ])
+
+    graph_gen = Id_Graph(list_of_node, list_of_edge_gen)
+    graph_ext = Id_Graph(list_of_node, list_of_edge_ext)
+
+
+    plt.rcParams['font.sans-serif'] = ['SimHei'] # 用来正常显示中文标签
+    plt.rcParams['axes.unicode_minus'] = False # 用来正常显示负号
+    plt.figure(figsize=(8,4))
+    plt.subplot(121)
+    graph_gen.draw()
+    plt.title("Generated")
+
+    plt.subplot(122)
+    graph_ext.draw()
+    plt.title("Extracted")
+
+    plt.tight_layout()
+    plt.show()
