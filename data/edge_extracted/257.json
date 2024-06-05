@@ -1,0 +1,47 @@
+[
+    {
+        "condition": "建筑物覆盖面积",
+        "variable": "膨胀土中的水分变化",
+        "probabilities": {
+            "大": {
+                "向中部区域迁移和聚集": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "膨胀土中的水分变化",
+        "variable": "建筑物四周的升降位移",
+        "probabilities": {
+            "向中部区域迁移和聚集": {
+                "较小幅度": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "气候变化",
+        "variable": "建筑物四周的升降位移",
+        "probabilities": {
+            "大": {
+                "较大幅度": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "建筑物四周的升降位移",
+        "variable": "建筑结构的次应力",
+        "probabilities": {
+            "较大幅度": {
+                "大": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "大型结构的跨度和结构形式",
+        "variable": "建筑物的正常使用",
+        "probabilities": {
+            "跨度大，结构形式新型": {
+                "容易遭到破坏或影响": "very likely"
+            }
+        }
+    }
+]

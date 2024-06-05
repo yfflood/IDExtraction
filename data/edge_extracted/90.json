@@ -1,0 +1,23 @@
+[
+    {
+        "condition": "上吊车的铁梯停放在吊车旁",
+        "variable": "排架侧移刚度",
+        "probabilities": {
+            "大": 1.0
+        }
+    },
+    {
+        "condition": "上吊车的铁梯停放在吊车旁",
+        "variable": "地震反应",
+        "probabilities": {
+            "大": 1.0
+        }
+    },
+    {
+        "condition": "多跨厂房各跨上吊车的铁梯集中在同一横向轴线",
+        "variable": "震害破坏",
+        "probabilities": {
+            "发生": 1.0
+        }
+    }
+]

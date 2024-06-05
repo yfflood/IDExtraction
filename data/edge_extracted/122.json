@@ -1,0 +1,38 @@
+[
+    {
+        "condition": "氯离子含量",
+        "variable": "钢筋锈蚀",
+        "probabilities": {
+            "高": {
+                "发生": 0.9
+            }
+        }
+    },
+    {
+        "condition": "混凝土碱含量",
+        "variable": "碱骨料反应",
+        "probabilities": {
+            "高": {
+                "发生": 0.9
+            }
+        }
+    },
+    {
+        "condition": "钢筋锈蚀",
+        "variable": "结构构件受力性能和耐久性",
+        "probabilities": {
+            "发生": {
+                "受损": 0.9
+            }
+        }
+    },
+    {
+        "condition": "碱骨料反应",
+        "variable": "结构构件受力性能和耐久性",
+        "probabilities": {
+            "发生": {
+                "受损": 0.9
+            }
+        }
+    }
+]

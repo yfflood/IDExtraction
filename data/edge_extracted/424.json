@@ -1,0 +1,47 @@
+[
+    {
+        "condition": "砖柱加固",
+        "variable": "抗震能力",
+        "probabilities": {
+            "加固": {
+                "强": 1.0
+            }
+        }
+    },
+    {
+        "condition": "钢筋网砂浆面层材料强度",
+        "variable": "砖柱刚度",
+        "probabilities": {
+            "合适": {
+                "增加": 0.8
+            }
+        }
+    },
+    {
+        "condition": "钢筋网砂浆面层材料强度",
+        "variable": "砖柱承载力",
+        "probabilities": {
+            "合适": {
+                "增加充足": 0.8
+            }
+        }
+    },
+    {
+        "condition": "砖柱刚度",
+        "variable": "砖柱承载力",
+        "probabilities": {
+            "增加": {
+                "增加充足": 0.8
+            }
+        }
+    },
+    {
+        "condition": "砖柱加固",
+        "variable": "钢筋网砂浆面层材料强度",
+        "probabilities": {
+            "加固": {
+                "合适": 0.8
+            }
+        }
+    }
+]

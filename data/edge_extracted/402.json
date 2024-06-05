@@ -1,0 +1,23 @@
+[
+    {
+        "condition": "浇筑长度减短",
+        "variable": "混凝土收缩",
+        "probabilities": {
+            "不发生": 0.9
+        }
+    },
+    {
+        "condition": "混凝土收缩发生",
+        "variable": "岩石的约束作用",
+        "probabilities": {
+            "产生拉应力": 0.8
+        }
+    },
+    {
+        "condition": "岩石的约束作用产生拉应力",
+        "variable": "挡土板开裂",
+        "probabilities": {
+            "发生": 0.7
+        }
+    }
+]

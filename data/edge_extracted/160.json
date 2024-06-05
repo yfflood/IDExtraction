@@ -1,0 +1,30 @@
+[
+    {
+        "condition": "封口高度大于等于500mm",
+        "variable": "桩顶上覆压力",
+        "probabilities": {
+            "足够": 1.0
+        }
+    },
+    {
+        "condition": "桩顶上覆压力不够",
+        "variable": "桩顶土隆起",
+        "probabilities": {
+            "发生": 1.0
+        }
+    },
+    {
+        "condition": "桩顶上覆压力不够",
+        "variable": "沉降",
+        "probabilities": {
+            "增加": 1.0
+        }
+    },
+    {
+        "condition": "封口标高高于原地面",
+        "variable": "桩体强度",
+        "probabilities": {
+            "不降低": 1.0
+        }
+    }
+]

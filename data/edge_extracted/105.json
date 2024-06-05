@@ -1,0 +1,44 @@
+[
+    {
+        "condition": "支撑与梁柱节点的连接方式",
+        "variable": "次弯矩",
+        "probabilities": {
+            "刚性连接": {
+                "产生": "very likely",
+                "不产生": 0.0
+            },
+            "铰接连接": {
+                "产生": 0.0,
+                "不产生": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "支撑与梁柱节点的连接方式",
+        "variable": "连接精度的控制",
+        "probabilities": {
+            "刚性连接": {
+                "容易实现": "very likely",
+                "不易实现": 0.0
+            },
+            "铰接连接": {
+                "容易实现": 0.0,
+                "不易实现": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "支撑与梁柱节点的连接方式",
+        "variable": "节点构造设计难度",
+        "probabilities": {
+            "刚性连接": {
+                "容易实现": "very likely",
+                "不易实现": 0.0
+            },
+            "铰接连接": {
+                "容易实现": 0.0,
+                "不易实现": "very likely"
+            }
+        }
+    }
+]

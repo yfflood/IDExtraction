@@ -1,0 +1,50 @@
+[
+    {
+        "condition": "地震作用",
+        "variable": "屋架上弦的附加扭矩",
+        "probabilities": {
+            "发生": {
+                "产生": 1.0
+            }
+        }
+    },
+    {
+        "condition": "屋架结构类型",
+        "variable": "屋架上弦的附加扭矩",
+        "probabilities": {
+            "拱形": {
+                "产生": 1.0
+            },
+            "折线形": {
+                "产生": 1.0
+            }
+        }
+    },
+    {
+        "condition": "上弦节间长和节间矢高",
+        "variable": "屋架上弦的附加扭矩",
+        "probabilities": {
+            "较大": {
+                "产生": 1.0
+            }
+        }
+    },
+    {
+        "condition": "屋架上弦的附加扭矩",
+        "variable": "屋架上弦的破坏",
+        "probabilities": {
+            "产生": {
+                "发生": 1.0
+            }
+        }
+    },
+    {
+        "condition": "地震烈度",
+        "variable": "截面抗扭验算",
+        "probabilities": {
+            "8度或9度": {
+                "进行": 1.0
+            }
+        }
+    }
+]

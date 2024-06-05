@@ -1,0 +1,47 @@
+[
+    {
+        "condition": "保温层位置",
+        "variable": "保护层",
+        "probabilities": {
+            "设置在防水层上部": {
+                "做保护层": 1.0
+            }
+        }
+    },
+    {
+        "condition": "保温层位置",
+        "variable": "保温性能",
+        "probabilities": {
+            "设置在防水层上部": {
+                "未受损": 1.0
+            }
+        }
+    },
+    {
+        "condition": "保温层位置",
+        "variable": "找平层",
+        "probabilities": {
+            "设置在防水层下部": {
+                "做找平层": 1.0
+            }
+        }
+    },
+    {
+        "condition": "找平层",
+        "variable": "水汽进入",
+        "probabilities": {
+            "做找平层": {
+                "不进入": 1.0
+            }
+        }
+    },
+    {
+        "condition": "找平层",
+        "variable": "保温层耐久性",
+        "probabilities": {
+            "做找平层": {
+                "提高": 1.0
+            }
+        }
+    }
+]

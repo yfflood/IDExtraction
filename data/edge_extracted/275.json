@@ -1,0 +1,47 @@
+[
+    {
+        "condition": "剪力墙承担的剪力",
+        "variable": "剪力墙的截面积",
+        "probabilities": {
+            "较大": {
+                "较小": 1.0
+            }
+        }
+    },
+    {
+        "condition": "剪力墙的截面积",
+        "variable": "剪力墙的抗剪能力",
+        "probabilities": {
+            "较小": {
+                "不提高": 1.0
+            }
+        }
+    },
+    {
+        "condition": "剪力墙的截面积",
+        "variable": "剪力墙的破坏",
+        "probabilities": {
+            "较小": {
+                "斜压脆性破坏": 1.0
+            }
+        }
+    },
+    {
+        "condition": "剪力墙承担的剪力",
+        "variable": "墙片内的水平钢筋",
+        "probabilities": {
+            "较大": {
+                "不增加": 1.0
+            }
+        }
+    },
+    {
+        "condition": "墙片内的水平钢筋",
+        "variable": "剪力墙的抗剪能力",
+        "probabilities": {
+            "不增加": {
+                "不提高": 1.0
+            }
+        }
+    }
+]

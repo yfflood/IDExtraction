@@ -1,0 +1,29 @@
+[
+    {
+        "condition": "地基土类型",
+        "variable": "预防措施",
+        "probabilities": {
+            "膨胀土": {
+                "不采取": 1.0
+            }
+        }
+    },
+    {
+        "condition": "预防措施",
+        "variable": "胀缩变形幅度",
+        "probabilities": {
+            "不采取": {
+                "10mm～20mm": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "胀缩变形幅度",
+        "variable": "砌体结构破坏",
+        "probabilities": {
+            "10mm～20mm": {
+                "发生": "very likely"
+            }
+        }
+    }
+]

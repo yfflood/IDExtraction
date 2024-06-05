@@ -1,0 +1,29 @@
+[
+    {
+        "condition": "天窗设置位置",
+        "variable": "屋面板与屋架的连接可靠性",
+        "probabilities": {
+            "第二开间": {
+                "低": 1.0
+            }
+        }
+    },
+    {
+        "condition": "天窗设置位置",
+        "variable": "地震时屋面板掉落风险",
+        "probabilities": {
+            "第二开间": {
+                "高": 1.0
+            }
+        }
+    },
+    {
+        "condition": "天窗设置位置",
+        "variable": "屋面纵向水平刚度",
+        "probabilities": {
+            "第二开间": {
+                "低": 1.0
+            }
+        }
+    }
+]

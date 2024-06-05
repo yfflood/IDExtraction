@@ -2,7 +2,7 @@ import os
 import langchain_core
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import PromptTemplate
-from langchain.output_parsers import RetryOutputParser
+from langchain.output_parsers import RetryOutputParser, OutputFixingParser
 from langchain_core.runnables import RunnableLambda, RunnableParallel
 
 from idextraction import List_of_Nodes, List_of_Edges
@@ -79,12 +79,12 @@ def extract_edge(text, node_list, chat_model):
     except langchain_core.exceptions.OutputParserException:
         print("parsing failed.")
 
-        retry_parser = RetryOutputParser.from_llm(parser=parser, llm=ChatZhipuAI(temperature=0, model="glm-4", max_tokens=4096), max_retries=10)#ChatZhipuAI(temperature=0, model="glm-4", max_tokens=4096)
+        fixing_parser = OutputFixingParser.from_llm(parser=parser, llm=Kimi(),  max_retries=3)#ChatZhipuAI(temperature=0, model="glm-4", max_tokens=4096)
 
         completion_chain = prompt | chat_model
         main_chain = RunnableParallel(
-            completion=completion_chain, prompt_value=prompt
-        ) | RunnableLambda(lambda x: retry_parser.parse_with_prompt(**x))
+            completion=completion_chain, prompt=prompt
+        ) | RunnableLambda(lambda x: fixing_parser.parse_with_prompt(**x))
         contents = main_chain.invoke({"text": text})
     return contents['edge_list']
 
@@ -112,13 +112,13 @@ def generate_edge(node_list, chat_model):
         chain = prompt | chat_model | parser
         contents = chain.invoke({"node_list": node_list})
     except langchain_core.exceptions.OutputParserException:
-        print("kimi parsing failed.")
-        retry_parser = RetryOutputParser.from_llm(parser=parser, llm=ChatZhipuAI(temperature=0, model="glm-4", max_tokens=4096))
+        print("parsing failed.")
+        fixing_parser = OutputFixingParser.from_llm(parser=parser, llm=Kimi(), max_retries=3)
 
         completion_chain = prompt | chat_model
         main_chain = RunnableParallel(
-            completion=completion_chain, prompt_value=prompt
-        ) | RunnableLambda(lambda x: retry_parser.parse_with_prompt(**x))
+            completion=completion_chain, prompt=prompt
+        ) | RunnableLambda(lambda x: fixing_parser.parse_with_prompt(**x))
         contents = main_chain.invoke({"node_list": node_list})
 
     return contents['edge_list']
@@ -182,5 +182,7 @@ if __name__ == "__main__":
 
     node_files=os.listdir("./data/node_adjusted")
     # node_files=["373.json"]
-    #generate_edge_files(node_files, kimi)
-    extract_edge_files(node_files, kimi)
+    generate_edge_files(node_files, kimi)
+
+    #node_files = [file for file in node_files if file > "437.json"]
+    #extract_edge_files(node_files, kimi)

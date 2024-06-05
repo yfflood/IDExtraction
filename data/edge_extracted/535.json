@@ -1,0 +1,47 @@
+[
+    {
+        "condition": "降水作业",
+        "variable": "水位上升",
+        "probabilities": {
+            "提前停止": {
+                "上升": 0.9
+            }
+        }
+    },
+    {
+        "condition": "水位上升",
+        "variable": "工程上浮",
+        "probabilities": {
+            "上升": {
+                "上浮": 0.9
+            }
+        }
+    },
+    {
+        "condition": "工程上浮",
+        "variable": "工程防水层破坏",
+        "probabilities": {
+            "上浮": {
+                "破坏": 0.9
+            }
+        }
+    },
+    {
+        "condition": "防水工程完工",
+        "variable": "工程上浮",
+        "probabilities": {
+            "完工": {
+                "不浮": 0.9
+            }
+        }
+    },
+    {
+        "condition": "回填作业",
+        "variable": "工程上浮",
+        "probabilities": {
+            "完成": {
+                "不浮": 0.9
+            }
+        }
+    }
+]

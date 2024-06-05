@@ -1,0 +1,29 @@
+[
+    {
+        "condition": "结构布置方案",
+        "variable": "横向支承",
+        "probabilities": {
+            "纵墙承重": {
+                "较少": 1.0
+            }
+        }
+    },
+    {
+        "condition": "横向支承",
+        "variable": "纵墙倒塌",
+        "probabilities": {
+            "较少": {
+                "可能": "很可能"
+            }
+        }
+    },
+    {
+        "condition": "纵墙倒塌",
+        "variable": "建筑安全",
+        "probabilities": {
+            "可能": {
+                "不安全": 1.0
+            }
+        }
+    }
+]

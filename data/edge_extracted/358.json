@@ -1,0 +1,39 @@
+[
+    {
+        "condition": "混凝土入模温度较高",
+        "variable": "混凝土预养时间不足",
+        "probabilities": {
+            "较高": {
+                "不足": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "混凝土预养时间不足",
+        "variable": "环境温度降到混凝土冻结温度",
+        "probabilities": {
+            "不足": {
+                "降到混凝土冻结温度": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "环境温度降到混凝土冻结温度",
+        "variable": "混凝土冻伤",
+        "probabilities": {
+            "降到混凝土冻结温度": {
+                "冻伤": 1.0
+            }
+        }
+    },
+    {
+        "condition": "混凝土冻伤",
+        "variable": "内外混凝土冻伤不一致",
+        "probabilities": {
+            "冻伤": {
+                "内部轻微": 1.0,
+                "外部较严重": 1.0
+            }
+        }
+    }
+]
