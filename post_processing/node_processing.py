@@ -7,6 +7,7 @@ sys.path.append(project_root)
 from idextraction.id import *
 from idextraction.similarity import phrase_distance_hf, is_synonymy_llm
 
+from model import Kimi
 from langchain_community.chat_models import ChatZhipuAI
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import PromptTemplate
@@ -130,6 +131,7 @@ if __name__=='__main__':
         model="glm-4",
         max_tokens=4096
     )
+    kimi = Kimi()
     #nodes = [
     #    {'variable_name': 'Fire_Spread',
     #     'variable_type': 'chance',
@@ -141,11 +143,11 @@ if __name__=='__main__':
 
     node_files=os.listdir("./data/node_adjusted")
     
-    node_list, source_dict = aggregate_nodes_from_files(node_files, chat_model=glm)
+    node_list, source_dict = aggregate_nodes_from_files(node_files, chat_model=kimi)
 
     node_out_file="./outputs/nodes.json"
     source_dict_file="./outputs/nodes_source.json"
     with open(node_out_file,"w",encoding="utf-8") as f:
-        json.dump(node_list, f,ensure_ascii=False, indent=2, default=node_to_json)
+        json.dump(node_list, f,ensure_ascii=False, indent=4, default=node_to_json)
     with open(source_dict_file,"w",encoding="utf-8") as f:
-        json.dump(source_dict,f,ensure_ascii=False, indent=2)
+        json.dump(source_dict,f,ensure_ascii=False, indent=4)
