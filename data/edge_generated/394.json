@@ -1,17 +1,30 @@
 [
     {
-        "condition": "注浆措施",
+        "condition": "单液注浆",
         "variable": "附加沉降",
         "probabilities": {
-            "单液注浆": {
-                "不减少": 0.9
-            },
-            "多孔间隔注浆": {
-                "减少": 0.9
-            },
-            "缩短浆液凝固时间": {
-                "减少": 0.85
-            }
+            "减少": 0.9
+        }
+    },
+    {
+        "condition": "多孔间隔注浆",
+        "variable": "附加沉降",
+        "probabilities": {
+            "减少": 0.85
+        }
+    },
+    {
+        "condition": "缩短浆液凝固时间",
+        "variable": "附加沉降",
+        "probabilities": {
+            "减少": 0.6
+        }
+    },
+    {
+        "condition": "附加沉降",
+        "variable": "附加沉降",
+        "probabilities": {
+            "减少": 0.8
         }
     }
 ]
