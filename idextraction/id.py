@@ -110,7 +110,7 @@ class List_of_Nodes(BaseModel):
 class Edge(BaseModel):
     condition: str = Field(description="Extract the condition that influences the value of another variable, and output the name of the condition.")
     variable: str = Field(description="Extract the variable that is influenced by the condition, and output the name of the variable.")
-    probabilities: Dict[str, Dict[str, float]] = Field(description="Extract the conditional probability distribution of the variable. For the mentioned value of the condition (condition_value), extract the mentioned probability (variable_value_probability) of the variable values (variable_value). The probability should be either a str of verbal description, or a float within the range from 0.0 to 1.0, where 1.0 means the variable takes the value almost surely. Be accurate about the expression. For example, when something tends to happen but not with absolute certainty, 'very likely' can be more accurate than '1.0'. Output in the form of {condition_value: {variable_value: variable_value_probability}}")
+    probabilities: Dict[str, Dict[str, str]] = Field(description="Extract the conditional probability distribution of the variable. For the mentioned value of the condition (condition_value), extract the mentioned probability (variable_value_probability) of the variable values (variable_value). The probability should be either a verbal description or a real number within the range from 0.0 to 1.0, where 1.0 means the variable takes the value almost surely. Be accurate about the expression. For example, when something tends to happen but not with absolute certainty, 'very likely' can be more accurate than '1.0'. Output as a dictionary, whose values are also dictionaries, in the form of {condition_value: {variable_value: variable_value_probability}}")
     __id: uuid.UUID = PrivateAttr(default_factory=uuid.uuid1)
     def __init__(self, condition, variable, probabilities):
         super().__init__(condition=condition, variable=variable, probabilities=probabilities)
@@ -124,7 +124,7 @@ class Edge(BaseModel):
     def set_id(self, id: str):
         self.__id = uuid.UUID(id)
 
-    @root_validator()
+    #@root_validator()
     def check_probabilities(cls, info):
         probabilities = info.get("probabilities")
         node_condition = list_of_nodes.find(info.get("condition"))

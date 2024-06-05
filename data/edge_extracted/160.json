@@ -1,30 +1,38 @@
 [
     {
-        "condition": "封口高度大于等于500mm",
+        "condition": "封口高度",
         "variable": "桩顶上覆压力",
         "probabilities": {
-            "足够": 1.0
+            "大于等于500mm": {
+                "足够": "几乎肯定"
+            }
         }
     },
     {
-        "condition": "桩顶上覆压力不够",
+        "condition": "桩顶上覆压力",
         "variable": "桩顶土隆起",
         "probabilities": {
-            "发生": 1.0
+            "不够": {
+                "发生": "很可能"
+            }
         }
     },
     {
-        "condition": "桩顶上覆压力不够",
+        "condition": "桩顶土隆起",
         "variable": "沉降",
         "probabilities": {
-            "增加": 1.0
+            "发生": {
+                "增加": "很可能"
+            }
         }
     },
     {
-        "condition": "封口标高高于原地面",
+        "condition": "封口标高",
         "variable": "桩体强度",
         "probabilities": {
-            "不降低": 1.0
+            "高于原地面": {
+                "不降低": "几乎肯定"
+            }
         }
     }
 ]

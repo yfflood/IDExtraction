@@ -4,12 +4,12 @@
         "variable": "平面不规则",
         "probabilities": {
             "大": {
-                "是": 0.7,
-                "否": 0.3
+                "是": "very likely",
+                "否": "unlikely"
             },
             "小": {
-                "是": 0.3,
-                "否": 0.7
+                "是": "unlikely",
+                "否": "very likely"
             }
         }
     },
@@ -18,12 +18,12 @@
         "variable": "质量与刚度偏心",
         "probabilities": {
             "是": {
-                "是": 0.8,
-                "否": 0.2
+                "是": "very likely",
+                "否": "unlikely"
             },
             "否": {
-                "是": 0.2,
-                "否": 0.8
+                "是": "unlikely",
+                "否": "very likely"
             }
         }
     },
@@ -32,12 +32,12 @@
         "variable": "抗扭刚度",
         "probabilities": {
             "是": {
-                "太弱": 0.9,
-                "足够": 0.1
+                "太弱": "very likely",
+                "足够": "unlikely"
             },
             "否": {
-                "太弱": 0.1,
-                "足够": 0.9
+                "太弱": "unlikely",
+                "足够": "very likely"
             }
         }
     },
@@ -46,12 +46,12 @@
         "variable": "结构破坏",
         "probabilities": {
             "太弱": {
-                "严重": 0.9,
-                "轻微": 0.1
+                "严重": "very likely",
+                "轻微": "unlikely"
             },
             "足够": {
-                "严重": 0.1,
-                "轻微": 0.9
+                "严重": "unlikely",
+                "轻微": "very likely"
             }
         }
     }

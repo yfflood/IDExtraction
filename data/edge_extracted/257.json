@@ -4,7 +4,12 @@
         "variable": "膨胀土中的水分变化",
         "probabilities": {
             "大": {
-                "向中部区域迁移和聚集": "very likely"
+                "向中部区域迁移和聚集": "very likely",
+                "无明显变化": "unlikely"
+            },
+            "小": {
+                "向中部区域迁移和聚集": "unlikely",
+                "无明显变化": "very likely"
             }
         }
     },
@@ -13,7 +18,12 @@
         "variable": "建筑物四周的升降位移",
         "probabilities": {
             "向中部区域迁移和聚集": {
+                "较大幅度": "unlikely",
                 "较小幅度": "very likely"
+            },
+            "无明显变化": {
+                "较大幅度": "very likely",
+                "较小幅度": "unlikely"
             }
         }
     },
@@ -22,7 +32,12 @@
         "variable": "建筑物四周的升降位移",
         "probabilities": {
             "大": {
-                "较大幅度": "very likely"
+                "较大幅度": "very likely",
+                "较小幅度": "unlikely"
+            },
+            "小": {
+                "较大幅度": "unlikely",
+                "较小幅度": "very likely"
             }
         }
     },
@@ -31,7 +46,12 @@
         "variable": "建筑结构的次应力",
         "probabilities": {
             "较大幅度": {
-                "大": "very likely"
+                "大": "very likely",
+                "小": "unlikely"
+            },
+            "较小幅度": {
+                "大": "unlikely",
+                "小": "very likely"
             }
         }
     },
@@ -40,7 +60,12 @@
         "variable": "建筑物的正常使用",
         "probabilities": {
             "跨度大，结构形式新型": {
-                "容易遭到破坏或影响": "very likely"
+                "容易遭到破坏或影响": "very likely",
+                "不易遭到破坏或影响": "unlikely"
+            },
+            "跨度小，结构形式传统": {
+                "容易遭到破坏或影响": "unlikely",
+                "不易遭到破坏或影响": "very likely"
             }
         }
     }

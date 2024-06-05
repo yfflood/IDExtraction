@@ -1,29 +1,43 @@
 [
     {
-        "condition": "屋面板与屋架的连接可靠性",
-        "variable": "地震时屋面板掉落风险",
+        "condition": "天窗设置位置",
+        "variable": "屋面纵向水平刚度",
         "probabilities": {
-            "高": {
-                "高": 0.7,
-                "低": 0.3
+            "第二开间": {
+                "高": "very likely",
+                "低": "unlikely"
             },
-            "低": {
-                "高": 0.9,
-                "低": 0.1
+            "第三开间": {
+                "高": "unlikely",
+                "低": "very likely"
             }
         }
     },
     {
         "condition": "屋面板与屋架的连接可靠性",
-        "variable": "屋面纵向水平刚度",
+        "variable": "地震时屋面板掉落风险",
         "probabilities": {
             "高": {
-                "高": 0.8,
-                "低": 0.2
+                "高": "unlikely",
+                "低": "very likely"
             },
             "低": {
-                "高": 0.3,
-                "低": 0.7
+                "高": "very likely",
+                "低": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "屋面纵向水平刚度",
+        "variable": "地震时屋面板掉落风险",
+        "probabilities": {
+            "高": {
+                "高": "unlikely",
+                "低": "very likely"
+            },
+            "低": {
+                "高": "very likely",
+                "低": "unlikely"
             }
         }
     },
@@ -32,12 +46,12 @@
         "variable": "天窗设置位置",
         "probabilities": {
             "高": {
-                "第二开间": 0.6,
-                "第三开间": 0.4
+                "第二开间": "very likely",
+                "第三开间": "unlikely"
             },
             "不太高": {
-                "第二开间": 0.4,
-                "第三开间": 0.6
+                "第二开间": "unlikely",
+                "第三开间": "very likely"
             }
         }
     }

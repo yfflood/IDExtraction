@@ -1,23 +1,29 @@
 [
     {
-        "condition": "膨胀土是",
+        "condition": "膨胀土",
         "variable": "季节气候变化",
         "probabilities": {
-            "反复失水吸水": 1.0
+            "是": {
+                "反复失水吸水": "几乎肯定"
+            }
         }
     },
     {
-        "condition": "季节气候变化反复失水吸水",
+        "condition": "季节气候变化",
         "variable": "地基变形",
         "probabilities": {
-            "反复变形": 1.0
+            "反复失水吸水": {
+                "反复变形": "几乎肯定"
+            }
         }
     },
     {
-        "condition": "地基变形反复变形",
+        "condition": "地基变形",
         "variable": "建筑物损坏",
         "probabilities": {
-            "开裂": "很可能"
+            "反复变形": {
+                "开裂": "很可能"
+            }
         }
     }
 ]

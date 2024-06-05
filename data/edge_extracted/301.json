@@ -1,10 +1,17 @@
 [
     {
+        "condition": "胶凝材料的水化放热",
+        "variable": "混凝土内部温度",
+        "probabilities": {
+            "升高": "几乎肯定"
+        }
+    },
+    {
         "condition": "混凝土体积",
         "variable": "混凝土内部温度",
         "probabilities": {
-            "大": {
-                "升高": 0.9
+            "高": {
+                "大": "更有可能"
             }
         }
     },
@@ -12,8 +19,8 @@
         "condition": "混凝土内部温度",
         "variable": "温度应力",
         "probabilities": {
-            "升高": {
-                "大": 0.9
+            "高": {
+                "升高": "几乎肯定"
             }
         }
     },
@@ -22,25 +29,7 @@
         "variable": "混凝土开裂",
         "probabilities": {
             "大": {
-                "发生": 0.9
-            }
-        }
-    },
-    {
-        "condition": "混凝土的浇筑温度",
-        "variable": "混凝土内部温度",
-        "probabilities": {
-            "高": {
-                "升高": 0.9
-            }
-        }
-    },
-    {
-        "condition": "混凝土的浇筑温度",
-        "variable": "温度应力",
-        "probabilities": {
-            "高": {
-                "大": 0.9
+                "发生": "更有可能"
             }
         }
     }

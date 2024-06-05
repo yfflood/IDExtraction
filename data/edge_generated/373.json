@@ -4,10 +4,10 @@
         "variable": "梁受剪箍筋配筋率",
         "probabilities": {
             "配置": {
-                "满足要求": 0.9
+                "满足要求": "very likely"
             },
             "不配置": {
-                "不满足要求": 0.9
+                "不满足要求": "very likely"
             }
         }
     },
@@ -16,10 +16,10 @@
         "variable": "斜截面受剪承载力",
         "probabilities": {
             "满足要求": {
-                "不降低": 0.9
+                "不降低": "very likely"
             },
             "不满足要求": {
-                "降低": 0.9
+                "降低": "very likely"
             }
         }
     },
@@ -28,10 +28,10 @@
         "variable": "下部混凝土斜裂缝及局部受拉裂缝",
         "probabilities": {
             "满足要求": {
-                "无": 0.9
+                "无": "very likely"
             },
             "不满足要求": {
-                "有": 0.9
+                "有": "very likely"
             }
         }
     }

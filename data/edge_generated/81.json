@@ -4,7 +4,10 @@
         "variable": "合成材料极限强度",
         "probabilities": {
             "高强度、低徐变性、延伸率适宜": {
-                "超过": 0.9
+                "超过": "very likely"
+            },
+            "不适宜": {
+                "未超过": "very likely"
             }
         }
     },
@@ -13,16 +16,10 @@
         "variable": "荷载转移",
         "probabilities": {
             "软弱": {
-                "未由软弱土承受全部外荷": 0.8
-            }
-        }
-    },
-    {
-        "condition": "合成材料极限强度",
-        "variable": "荷载转移",
-        "probabilities": {
-            "超过": {
-                "未由软弱土承受全部外荷": 0.8
+                "由软弱土承受全部外荷": "very likely"
+            },
+            "不软弱": {
+                "未由软弱土承受全部外荷": "very likely"
             }
         }
     },
@@ -30,26 +27,23 @@
         "condition": "荷载转移",
         "variable": "地基整体破坏",
         "probabilities": {
+            "由软弱土承受全部外荷": {
+                "导致": "very likely"
+            },
             "未由软弱土承受全部外荷": {
-                "未导致": 0.9
-            }
-        }
-    },
-    {
-        "condition": "土层",
-        "variable": "上部建筑沉降",
-        "probabilities": {
-            "软弱": {
-                "较大": 0.8
+                "未导致": "very likely"
             }
         }
     },
     {
         "condition": "地基整体破坏",
-        "variable": "建筑结构破坏",
+        "variable": "上部建筑沉降",
         "probabilities": {
+            "导致": {
+                "较大": "very likely"
+            },
             "未导致": {
-                "轻微或无": 0.9
+                "较小或无": "very likely"
             }
         }
     },
@@ -58,7 +52,10 @@
         "variable": "建筑结构破坏",
         "probabilities": {
             "较大": {
-                "严重": 0.7
+                "严重": "very likely"
+            },
+            "较小或无": {
+                "轻微或无": "very likely"
             }
         }
     }

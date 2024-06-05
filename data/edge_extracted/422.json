@@ -5,24 +5,33 @@
         "probabilities": {
             "变化过大": {
                 "过于集中": "very likely"
-            }
-        }
-    },
-    {
-        "condition": "结构沿竖向刚度或抗侧力承载力",
-        "variable": "震害",
-        "probabilities": {
-            "变化过大": {
-                "有": "very likely"
+            },
+            "变化适中": {
+                "分布均匀": "very likely"
             }
         }
     },
     {
         "condition": "薄弱层的变形和构件应力",
-        "variable": "采取加强措施",
+        "variable": "震害",
         "probabilities": {
             "过于集中": {
+                "有": "very likely"
+            },
+            "分布均匀": {
+                "无": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "结构沿竖向刚度或抗侧力承载力",
+        "variable": "采取加强措施",
+        "probabilities": {
+            "变化过大": {
                 "包括相邻楼层": "very likely"
+            },
+            "变化适中": {
+                "不采取加强措施": "very likely"
             }
         }
     }

@@ -4,7 +4,12 @@
         "variable": "剪力墙的截面积",
         "probabilities": {
             "较大": {
-                "较小": 1.0
+                "较小": "very likely",
+                "较大": "unlikely"
+            },
+            "较小": {
+                "较小": "unlikely",
+                "较大": "very likely"
             }
         }
     },
@@ -13,7 +18,12 @@
         "variable": "剪力墙的抗剪能力",
         "probabilities": {
             "较小": {
-                "不提高": 1.0
+                "提高": "unlikely",
+                "不提高": "very likely"
+            },
+            "较大": {
+                "提高": "very likely",
+                "不提高": "unlikely"
             }
         }
     },
@@ -22,7 +32,12 @@
         "variable": "剪力墙的破坏",
         "probabilities": {
             "较小": {
-                "斜压脆性破坏": 1.0
+                "斜压脆性破坏": "very likely",
+                "其他类型破坏": "unlikely"
+            },
+            "较大": {
+                "斜压脆性破坏": "unlikely",
+                "其他类型破坏": "very likely"
             }
         }
     },
@@ -31,7 +46,12 @@
         "variable": "墙片内的水平钢筋",
         "probabilities": {
             "较大": {
-                "不增加": 1.0
+                "增加": "unlikely",
+                "不增加": "very likely"
+            },
+            "较小": {
+                "增加": "very likely",
+                "不增加": "unlikely"
             }
         }
     },
@@ -39,8 +59,13 @@
         "condition": "墙片内的水平钢筋",
         "variable": "剪力墙的抗剪能力",
         "probabilities": {
+            "增加": {
+                "提高": "very likely",
+                "不提高": "unlikely"
+            },
             "不增加": {
-                "不提高": 1.0
+                "提高": "unlikely",
+                "不提高": "very likely"
             }
         }
     }

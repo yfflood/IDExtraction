@@ -4,10 +4,10 @@
         "variable": "厂房整体抗震性能",
         "probabilities": {
             "嵌砌墙": {
-                "差": 1.0
+                "差": "very likely"
             },
             "外贴墙": {
-                "好": 1.0
+                "差": "less likely"
             }
         }
     },
@@ -16,13 +16,13 @@
         "variable": "柱列纵向侧移刚度",
         "probabilities": {
             "多跨厂房": {
-                "差别悬殊": 1.0
+                "差别悬殊": "very likely"
             },
             "外纵墙不对称布置": {
-                "差别悬殊": 1.0
+                "差别悬殊": "very likely"
             },
             "单跨厂房": {
-                "相对均衡": 1.0
+                "相对均衡": "very likely"
             }
         }
     },
@@ -31,10 +31,10 @@
         "variable": "厂房纵向破坏",
         "probabilities": {
             "差别悬殊": {
-                "发生": 1.0
+                "发生": "very likely"
             },
             "相对均衡": {
-                "未发生": 1.0
+                "未发生": "very likely"
             }
         }
     },
@@ -43,7 +43,7 @@
         "variable": "柱顶节点抗震性能",
         "probabilities": {
             "集中": {
-                "差": 1.0
+                "差": "very likely"
             }
         }
     },
@@ -52,10 +52,7 @@
         "variable": "屋盖安全",
         "probabilities": {
             "差": {
-                "不安全": 1.0
-            },
-            "好": {
-                "安全": 1.0
+                "不安全": "very likely"
             }
         }
     },
@@ -64,7 +61,7 @@
         "variable": "门窗洞口处柱子的破坏",
         "probabilities": {
             "削弱和突变": {
-                "发生": 1.0
+                "发生": "very likely"
             }
         }
     }

@@ -4,10 +4,12 @@
         "variable": "混凝土折合厚度",
         "probabilities": {
             "适当放宽": {
-                "很大": 1.0
+                "很大": "very likely",
+                "较小": "unlikely"
             },
             "1m甚至更多": {
-                "很大": 1.0
+                "很大": "almost certain",
+                "较小": "impossible"
             }
         }
     },
@@ -16,10 +18,12 @@
         "variable": "自重",
         "probabilities": {
             "很大": {
-                "很大": 1.0
+                "很大": "almost certain",
+                "小": "impossible"
             },
             "较小": {
-                "小": 1.0
+                "很大": "unlikely",
+                "小": "very likely"
             }
         }
     },
@@ -28,22 +32,12 @@
         "variable": "抗震及基础负担",
         "probabilities": {
             "很大": {
-                "加大": 1.0
+                "加大": "almost certain",
+                "未加大": "unlikely"
             },
             "小": {
-                "未加大": 1.0
-            }
-        }
-    },
-    {
-        "condition": "后张预应力梁宽",
-        "variable": "浪费",
-        "probabilities": {
-            "适当放宽": {
-                "避免浪费": 1.0
-            },
-            "1m甚至更多": {
-                "形成不必要的浪费": 1.0
+                "加大": "unlikely",
+                "未加大": "very likely"
             }
         }
     },
@@ -52,10 +46,12 @@
         "variable": "浪费",
         "probabilities": {
             "加大": {
-                "形成不必要的浪费": 1.0
+                "形成不必要的浪费": "almost certain",
+                "避免浪费": "impossible"
             },
             "未加大": {
-                "避免浪费": 1.0
+                "形成不必要的浪费": "unlikely",
+                "避免浪费": "very likely"
             }
         }
     }

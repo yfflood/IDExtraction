@@ -4,10 +4,10 @@
         "variable": "新增面层裂缝",
         "probabilities": {
             "可靠配置": {
-                "不产生": 1.0
+                "不产生": "very likely"
             },
             "配置不当": {
-                "产生": 1.0
+                "产生": "very likely"
             }
         }
     },
@@ -40,7 +40,7 @@
         "variable": "细石混凝土掺加比例",
         "probabilities": {
             "掺加16mm-20mm": {
-                "其他": 1.0
+                "其他": "very likely"
             }
         }
     }

@@ -1,58 +1,50 @@
 [
     {
-        "condition": "保持基坑外水位的降深",
+        "condition": "基坑外水位的降深",
         "variable": "基坑工程安全",
         "probabilities": {
-            "安全": 0.9
-        }
-    },
-    {
-        "condition": "不保持基坑外水位的降深",
-        "variable": "基坑工程安全",
-        "probabilities": {
-            "不安全": 0.9
+            "保持": {
+                "安全": "很高"
+            },
+            "不保持": {
+                "安全": "很低"
+            }
         }
     },
     {
         "condition": "设置回灌井",
         "variable": "基坑工程安全",
         "probabilities": {
-            "安全": 0.9
-        }
-    },
-    {
-        "condition": "不设置回灌井",
-        "variable": "基坑工程安全",
-        "probabilities": {
-            "不安全": 0.9
+            "设置": {
+                "安全": "很高"
+            },
+            "不设置": {
+                "安全": "很低"
+            }
         }
     },
     {
         "condition": "设置有效的止水墙",
         "variable": "基坑工程安全",
         "probabilities": {
-            "安全": 0.9
+            "设置": {
+                "安全": "很高"
+            },
+            "不设置": {
+                "安全": "很低"
+            }
         }
     },
     {
-        "condition": "不设置有效的止水墙",
+        "condition": "止水墙工程质量",
         "variable": "基坑工程安全",
         "probabilities": {
-            "不安全": 0.9
-        }
-    },
-    {
-        "condition": "精细的止水墙工程质量",
-        "variable": "基坑工程安全",
-        "probabilities": {
-            "安全": 0.9
-        }
-    },
-    {
-        "condition": "粗糙的止水墙工程质量",
-        "variable": "基坑工程安全",
-        "probabilities": {
-            "不安全": 0.9
+            "精细": {
+                "安全": "很高"
+            },
+            "粗糙": {
+                "安全": "很低"
+            }
         }
     }
 ]

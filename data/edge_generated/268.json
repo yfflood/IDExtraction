@@ -1,33 +1,31 @@
 [
     {
-        "condition": "预防措施",
-        "variable": "胀缩变形幅度",
+        "condition": "地基土类型",
+        "variable": "预防措施",
         "probabilities": {
-            "采取": {
-                "小于10mm": 0.8,
-                "10mm～20mm": 0.2,
-                "大于20mm": 0.0
+            "膨胀土": {
+                "采取": "very likely",
+                "不采取": "unlikely"
             },
-            "不采取": {
-                "小于10mm": 0.1,
-                "10mm～20mm": 0.3,
-                "大于20mm": 0.6
+            "非膨胀土": {
+                "采取": "unlikely",
+                "不采取": "very likely"
             }
         }
     },
     {
-        "condition": "地基土类型",
+        "condition": "预防措施",
         "variable": "胀缩变形幅度",
         "probabilities": {
-            "膨胀土": {
-                "小于10mm": 0.1,
-                "10mm～20mm": 0.3,
-                "大于20mm": 0.6
+            "采取": {
+                "10mm～20mm": "unlikely",
+                "小于10mm": "likely",
+                "大于20mm": "unlikely"
             },
-            "非膨胀土": {
-                "小于10mm": 0.7,
-                "10mm～20mm": 0.2,
-                "大于20mm": 0.1
+            "不采取": {
+                "10mm～20mm": "likely",
+                "小于10mm": "unlikely",
+                "大于20mm": "likely"
             }
         }
     },
@@ -35,17 +33,17 @@
         "condition": "胀缩变形幅度",
         "variable": "砌体结构破坏",
         "probabilities": {
-            "小于10mm": {
-                "发生": 0.05,
-                "不发生": 0.95
-            },
             "10mm～20mm": {
-                "发生": 0.3,
-                "不发生": 0.7
+                "发生": "unlikely",
+                "不发生": "likely"
+            },
+            "小于10mm": {
+                "发生": "unlikely",
+                "不发生": "very likely"
             },
             "大于20mm": {
-                "发生": 0.8,
-                "不发生": 0.2
+                "发生": "likely",
+                "不发生": "unlikely"
             }
         }
     }

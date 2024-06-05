@@ -4,25 +4,16 @@
         "variable": "钢筋与混凝土间的黏结强度",
         "probabilities": {
             "存在": {
-                "降低": "很可能导致"
-            }
-        }
-    },
-    {
-        "condition": "长期高温作用",
-        "variable": "滑移",
-        "probabilities": {
-            "存在": {
-                "增大": "很可能导致"
+                "降低": "0.9"
             }
         }
     },
     {
         "condition": "钢筋与混凝土间的黏结强度",
-        "variable": "裂缝宽度",
+        "variable": "滑移",
         "probabilities": {
             "降低": {
-                "增加": "很可能导致"
+                "增大": "0.9"
             }
         }
     },
@@ -31,7 +22,16 @@
         "variable": "裂缝宽度",
         "probabilities": {
             "增大": {
-                "增加": "很可能导致"
+                "增加": "0.9"
+            }
+        }
+    },
+    {
+        "condition": "混凝土用途",
+        "variable": "裂缝宽度",
+        "probabilities": {
+            "烟囱": {
+                "增加": "0.7"
             }
         }
     }

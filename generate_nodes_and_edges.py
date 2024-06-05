@@ -4,8 +4,9 @@ from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import PromptTemplate
 from langchain.output_parsers import RetryOutputParser, OutputFixingParser
 from langchain_core.runnables import RunnableLambda, RunnableParallel
+import pydantic
 
-from idextraction import List_of_Nodes, List_of_Edges
+from idextraction import List_of_Nodes, List_of_Edges, Node, Edge
 
 from model import Kimi
 from langchain_community.chat_models import ChatZhipuAI
@@ -53,7 +54,7 @@ def get_node(file, chat_model):
 
 def extract_edge(text, node_list, chat_model):
     extract_template = """\
-    For the following list of nodes, identify influence relations between the variables based on the text, and assign to each influential relation a corresponding conditional or unconditional probability. All conditions and variables should be members of the list: {node_list}. 
+    For the following list of nodes, identify influence relations between the variables based on the text, and assign to each influential relation a corresponding conditional or unconditional probability. No cycles are allowed. For example, if the influence with condition 'a' to variable 'b' is present, there cannot be another influence with condition 'b' to variable 'a'. All conditions and variables should be members of the list: {node_list}. 
     
     text: {text}
 
@@ -86,6 +87,36 @@ def extract_edge(text, node_list, chat_model):
             completion=completion_chain, prompt=prompt
         ) | RunnableLambda(lambda x: fixing_parser.parse_with_prompt(**x))
         contents = main_chain.invoke({"text": text})
+    
+    try:
+        edge_list = List_of_Edges([
+            Edge(
+                edge["condition"],
+                edge["variable"],
+                edge["probabilities"]
+            ) for edge in contents['edge_list']
+        ])
+    except pydantic.error_wrappers.ValidationError as e:
+        print(e)
+        try:
+            retry_parser = RetryOutputParser.from_llm(parser=parser, llm=Kimi(),  max_retries=3)
+
+            completion_chain = prompt | chat_model
+            main_chain = RunnableParallel(
+                completion=completion_chain, prompt_value=prompt
+            ) | RunnableLambda(lambda x: retry_parser.parse_with_prompt(**x))
+            contents = main_chain.invoke({"text": text})
+        except langchain_core.exceptions.OutputParserException:
+            print("parsing failed.")
+
+            fixing_parser = OutputFixingParser.from_llm(parser=parser, llm=Kimi(),  max_retries=3)#ChatZhipuAI(temperature=0, model="glm-4", max_tokens=4096)
+
+            completion_chain = prompt | chat_model
+            main_chain = RunnableParallel(
+                completion=completion_chain, prompt=prompt
+            ) | RunnableLambda(lambda x: fixing_parser.parse_with_prompt(**x))
+            contents = main_chain.invoke({"text": text})
+
     return contents['edge_list']
 
 
@@ -121,6 +152,35 @@ def generate_edge(node_list, chat_model):
         ) | RunnableLambda(lambda x: fixing_parser.parse_with_prompt(**x))
         contents = main_chain.invoke({"node_list": node_list})
 
+    try:
+        edge_list = List_of_Edges([
+            Edge(
+                edge["condition"],
+                edge["variable"],
+                edge["probabilities"]
+            ) for edge in contents['edge_list']
+        ])
+    except pydantic.error_wrappers.ValidationError as e:
+        print(e)
+        try:
+            retry_parser = RetryOutputParser.from_llm(parser=parser, llm=Kimi(),  max_retries=3)
+
+            completion_chain = prompt | chat_model
+            main_chain = RunnableParallel(
+                completion=completion_chain, prompt_value=prompt
+            ) | RunnableLambda(lambda x: retry_parser.parse_with_prompt(**x))
+            contents = main_chain.invoke({"node_list": node_list})
+        except langchain_core.exceptions.OutputParserException:
+            print("parsing failed.")
+
+            fixing_parser = OutputFixingParser.from_llm(parser=parser, llm=Kimi(),  max_retries=3)#ChatZhipuAI(temperature=0, model="glm-4", max_tokens=4096)
+
+            completion_chain = prompt | chat_model
+            main_chain = RunnableParallel(
+                completion=completion_chain, prompt=prompt
+            ) | RunnableLambda(lambda x: fixing_parser.parse_with_prompt(**x))
+            contents = main_chain.invoke({"node_list": node_list})
+
     return contents['edge_list']
 
 
@@ -149,6 +209,7 @@ def extract_edge_files(node_file_list, chat_model):
 
         with open(f"./data/edge_extracted/{filename}.json", "w", encoding="utf-8") as f:
             json.dump(edge_list, f, ensure_ascii=False, indent=4)
+        
 
 if __name__ == "__main__":
     #if not os.path.exists("./data/node"):

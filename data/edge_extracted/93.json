@@ -4,10 +4,12 @@
         "variable": "结构构件的内力突变",
         "probabilities": {
             "接近1": {
-                "未发生": 1.0
+                "发生": "very likely",
+                "未发生": "very unlikely"
             },
             "相差较大": {
-                "发生": 1.0
+                "发生": "almost certain",
+                "未发生": "almost impossible"
             }
         }
     },
@@ -16,10 +18,12 @@
         "variable": "构件受力状况",
         "probabilities": {
             "相同": {
-                "相对简单": 1.0
+                "更加复杂": "unlikely",
+                "相对简单": "likely"
             },
             "不同": {
-                "更加复杂": 1.0
+                "更加复杂": "almost certain",
+                "相对简单": "almost impossible"
             }
         }
     },
@@ -28,10 +32,12 @@
         "variable": "侧向刚度比满足要求",
         "probabilities": {
             "合理控制": {
-                "满足": 1.0
+                "满足": "likely",
+                "不满足": "unlikely"
             },
             "过多": {
-                "不满足": 1.0
+                "满足": "unlikely",
+                "不满足": "likely"
             }
         }
     }

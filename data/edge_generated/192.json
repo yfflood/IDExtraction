@@ -4,12 +4,12 @@
         "variable": "雨水冲刷",
         "probabilities": {
             "强": {
-                "强": 0.8,
-                "弱": 0.2
+                "强": "very likely",
+                "弱": "unlikely"
             },
             "弱": {
-                "强": 0.2,
-                "弱": 0.8
+                "强": "unlikely",
+                "弱": "very likely"
             }
         }
     },
@@ -18,12 +18,12 @@
         "variable": "边坡稳定性",
         "probabilities": {
             "强": {
-                "稳定": 0.1,
-                "失稳": 0.9
+                "稳定": "unlikely",
+                "失稳": "very likely"
             },
             "弱": {
-                "稳定": 0.9,
-                "失稳": 0.1
+                "稳定": "very likely",
+                "失稳": "unlikely"
             }
         }
     },
@@ -32,12 +32,12 @@
         "variable": "雨水冲刷",
         "probabilities": {
             "有组织": {
-                "强": 0.3,
-                "弱": 0.7
+                "强": "unlikely",
+                "弱": "very likely"
             },
             "无组织": {
-                "强": 0.7,
-                "弱": 0.3
+                "强": "very likely",
+                "弱": "unlikely"
             }
         }
     },
@@ -46,12 +46,12 @@
         "variable": "边坡稳定性",
         "probabilities": {
             "做护坡": {
-                "稳定": 0.9,
-                "失稳": 0.1
+                "稳定": "very likely",
+                "失稳": "unlikely"
             },
             "不做护坡": {
-                "稳定": 0.5,
-                "失稳": 0.5
+                "稳定": "unlikely",
+                "失稳": "very likely"
             }
         }
     },
@@ -60,12 +60,12 @@
         "variable": "边坡稳定性",
         "probabilities": {
             "种植": {
-                "稳定": 0.8,
-                "失稳": 0.2
+                "稳定": "very likely",
+                "失稳": "unlikely"
             },
             "未种植": {
-                "稳定": 0.3,
-                "失稳": 0.7
+                "稳定": "unlikely",
+                "失稳": "very likely"
             }
         }
     }

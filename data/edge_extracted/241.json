@@ -1,20 +1,16 @@
 [
     {
-        "condition": "混凝土坍落度",
+        "condition": "混凝土坍落度过大",
         "variable": "桩顶浮浆量",
         "probabilities": {
-            "过大": {
-                "过多": 1.0
-            }
+            "过大": "很可能导致"
         }
     },
     {
-        "condition": "混凝土坍落度",
+        "condition": "混凝土坍落度过大",
         "variable": "桩体强度",
         "probabilities": {
-            "过大": {
-                "降低": 1.0
-            }
+            "降低": "很可能导致"
         }
     }
 ]

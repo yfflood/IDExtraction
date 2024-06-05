@@ -4,7 +4,7 @@
         "variable": "楼盖传力路径",
         "probabilities": {
             "大": {
-                "不连续": 1.0
+                "不连续": "very likely"
             }
         }
     },
@@ -13,7 +13,7 @@
         "variable": "楼盖传力路径",
         "probabilities": {
             "靠近桁架": {
-                "不连续": 1.0
+                "不连续": "very likely"
             }
         }
     },
@@ -22,7 +22,7 @@
         "variable": "楼盖应力集中",
         "probabilities": {
             "大": {
-                "较大": 1.0
+                "较大": "very likely"
             }
         }
     },
@@ -31,7 +31,7 @@
         "variable": "楼盖应力集中",
         "probabilities": {
             "靠近桁架": {
-                "较大": 1.0
+                "较大": "very likely"
             }
         }
     },
@@ -40,7 +40,7 @@
         "variable": "楼盖面内变形",
         "probabilities": {
             "大": {
-                "较大": 1.0
+                "较大": "very likely"
             }
         }
     },
@@ -49,7 +49,7 @@
         "variable": "楼盖面内变形",
         "probabilities": {
             "靠近桁架": {
-                "较大": 1.0
+                "较大": "very likely"
             }
         }
     },
@@ -58,7 +58,7 @@
         "variable": "楼板传力可靠性",
         "probabilities": {
             "有": {
-                "可靠": 1.0
+                "可靠": "very likely"
             }
         }
     }

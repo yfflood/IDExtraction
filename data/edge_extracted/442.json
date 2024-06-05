@@ -1,10 +1,19 @@
 [
     {
         "condition": "基础埋深",
-        "variable": "地基土冻胀性",
+        "variable": "地基浸水",
         "probabilities": {
             "浅埋": {
-                "发生": 1.0
+                "发生": "很可能导致"
+            }
+        }
+    },
+    {
+        "condition": "地基浸水",
+        "variable": "地基土冻胀性",
+        "probabilities": {
+            "发生": {
+                "增强": "几乎肯定"
             }
         }
     },
@@ -13,7 +22,7 @@
         "variable": "房屋冻胀破坏",
         "probabilities": {
             "增强": {
-                "出现": 1.0
+                "出现": "几乎肯定"
             }
         }
     }

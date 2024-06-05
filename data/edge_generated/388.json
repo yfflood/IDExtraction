@@ -4,54 +4,54 @@
         "variable": "保温性能",
         "probabilities": {
             "设置在防水层上部": {
-                "受损": 0.7,
-                "未受损": 0.3
+                "受损": "very likely",
+                "未受损": "unlikely"
             },
             "设置在防水层下部": {
-                "受损": 0.3,
-                "未受损": 0.7
+                "受损": "unlikely",
+                "未受损": "very likely"
             }
         }
     },
     {
         "condition": "保温层位置",
-        "variable": "防水效果",
+        "variable": "水汽进入",
         "probabilities": {
             "设置在防水层上部": {
-                "好": 0.3,
-                "不好": 0.7
+                "进入": "very likely",
+                "不进入": "unlikely"
             },
             "设置在防水层下部": {
-                "好": 0.7,
-                "不好": 0.3
+                "进入": "unlikely",
+                "不进入": "very likely"
             }
         }
     },
     {
         "condition": "保护层",
-        "variable": "保温层耐久性",
+        "variable": "防水效果",
         "probabilities": {
             "做保护层": {
-                "提高": 0.8,
-                "未提高": 0.2
+                "好": "very likely",
+                "不好": "unlikely"
             },
             "不做保护层": {
-                "提高": 0.2,
-                "未提高": 0.8
+                "好": "unlikely",
+                "不好": "very likely"
             }
         }
     },
     {
         "condition": "找平层",
-        "variable": "防水效果",
+        "variable": "保温层耐久性",
         "probabilities": {
             "做找平层": {
-                "好": 0.8,
-                "不好": 0.2
+                "提高": "very likely",
+                "未提高": "unlikely"
             },
             "不做找平层": {
-                "好": 0.2,
-                "不好": 0.8
+                "提高": "unlikely",
+                "未提高": "very likely"
             }
         }
     },
@@ -60,12 +60,26 @@
         "variable": "保温性能",
         "probabilities": {
             "进入": {
-                "受损": 0.6,
-                "未受损": 0.4
+                "受损": "very likely",
+                "未受损": "unlikely"
             },
             "不进入": {
-                "受损": 0.1,
-                "未受损": 0.9
+                "受损": "unlikely",
+                "未受损": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "防水效果",
+        "variable": "保温层耐久性",
+        "probabilities": {
+            "好": {
+                "提高": "very likely",
+                "未提高": "unlikely"
+            },
+            "不好": {
+                "提高": "unlikely",
+                "未提高": "very likely"
             }
         }
     }

@@ -4,22 +4,22 @@
         "variable": "相邻地面",
         "probabilities": {
             "产生挤土效应": {
-                "隆起": 1.0,
-                "下沉": 0.0,
-                "无变化": 0.0,
-                "侧向移动": 0.0
+                "隆起": "very likely",
+                "下沉": "unlikely",
+                "无变化": "unlikely",
+                "侧向移动": "unlikely"
             },
             "导致土体损失": {
-                "隆起": 0.0,
-                "下沉": 1.0,
-                "无变化": 0.0,
-                "侧向移动": 0.0
+                "隆起": "unlikely",
+                "下沉": "very likely",
+                "无变化": "unlikely",
+                "侧向移动": "unlikely"
             },
             "无作用": {
-                "隆起": 0.0,
-                "下沉": 0.0,
-                "无变化": 1.0,
-                "侧向移动": 0.0
+                "隆起": "unlikely",
+                "下沉": "unlikely",
+                "无变化": "very likely",
+                "侧向移动": "unlikely"
             }
         }
     },
@@ -28,49 +28,22 @@
         "variable": "相邻地面",
         "probabilities": {
             "长时间": {
-                "下沉": 1.0,
-                "隆起": 0.0,
-                "无变化": 0.0,
-                "侧向移动": 0.0
+                "隆起": "unlikely",
+                "下沉": "very likely",
+                "无变化": "unlikely",
+                "侧向移动": "unlikely"
             },
             "大幅度": {
-                "下沉": 1.0,
-                "隆起": 0.0,
-                "无变化": 0.0,
-                "侧向移动": 0.0
+                "隆起": "unlikely",
+                "下沉": "likely",
+                "无变化": "unlikely",
+                "侧向移动": "unlikely"
             },
             "轻微": {
-                "下沉": 0.0,
-                "隆起": 0.0,
-                "无变化": 1.0,
-                "侧向移动": 0.0
-            }
-        }
-    },
-    {
-        "condition": "基坑开挖",
-        "variable": "邻近建（构）筑物及地下管线",
-        "probabilities": {
-            "不平衡力": {
-                "变形开裂": 1.0,
-                "无损": 0.0,
-                "侧移": 0.0,
-                "沉降": 0.0,
-                "倾斜": 0.0
-            },
-            "软黏土蠕变": {
-                "变形开裂": 0.0,
-                "无损": 0.0,
-                "侧移": 1.0,
-                "沉降": 1.0,
-                "倾斜": 1.0
-            },
-            "水土流失": {
-                "变形开裂": 0.0,
-                "无损": 0.0,
-                "侧移": 0.0,
-                "沉降": 1.0,
-                "倾斜": 1.0
+                "隆起": "unlikely",
+                "下沉": "unlikely",
+                "无变化": "very likely",
+                "侧向移动": "unlikely"
             }
         }
     },
@@ -79,22 +52,89 @@
         "variable": "相邻地面",
         "probabilities": {
             "不平衡力": {
-                "隆起": 1.0,
-                "下沉": 0.0,
-                "无变化": 0.0,
-                "侧向移动": 1.0
+                "隆起": "unlikely",
+                "下沉": "unlikely",
+                "无变化": "unlikely",
+                "侧向移动": "very likely"
             },
             "软黏土蠕变": {
-                "隆起": 0.0,
-                "下沉": 1.0,
-                "无变化": 0.0,
-                "侧向移动": 0.0
+                "隆起": "unlikely",
+                "下沉": "unlikely",
+                "无变化": "unlikely",
+                "侧向移动": "likely"
             },
             "水土流失": {
-                "隆起": 0.0,
-                "下沉": 1.0,
-                "无变化": 0.0,
-                "侧向移动": 0.0
+                "隆起": "unlikely",
+                "下沉": "likely",
+                "无变化": "unlikely",
+                "侧向移动": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "基坑开挖",
+        "variable": "邻近建（构）筑物及地下管线",
+        "probabilities": {
+            "不平衡力": {
+                "变形开裂": "unlikely",
+                "无损": "unlikely",
+                "侧移": "unlikely",
+                "沉降": "unlikely",
+                "倾斜": "unlikely"
+            },
+            "软黏土蠕变": {
+                "变形开裂": "unlikely",
+                "无损": "unlikely",
+                "侧移": "unlikely",
+                "沉降": "likely",
+                "倾斜": "likely"
+            },
+            "水土流失": {
+                "变形开裂": "unlikely",
+                "无损": "unlikely",
+                "侧移": "unlikely",
+                "沉降": "very likely",
+                "倾斜": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "支护结构施工",
+        "variable": "邻近建（构）筑物及地下管线",
+        "probabilities": {
+            "产生挤土效应": {
+                "变形开裂": "unlikely",
+                "无损": "unlikely",
+                "侧移": "unlikely",
+                "沉降": "unlikely",
+                "倾斜": "unlikely"
+            },
+            "导致土体损失": {
+                "变形开裂": "unlikely",
+                "无损": "unlikely",
+                "侧移": "unlikely",
+                "沉降": "very likely",
+                "倾斜": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "降水",
+        "variable": "邻近建（构）筑物及地下管线",
+        "probabilities": {
+            "长时间": {
+                "变形开裂": "unlikely",
+                "无损": "unlikely",
+                "侧移": "unlikely",
+                "沉降": "very likely",
+                "倾斜": "very likely"
+            },
+            "大幅度": {
+                "变形开裂": "unlikely",
+                "无损": "unlikely",
+                "侧移": "unlikely",
+                "沉降": "likely",
+                "倾斜": "likely"
             }
         }
     },
@@ -103,19 +143,8 @@
         "variable": "周围环境安全性",
         "probabilities": {
             "土体加固": {
-                "安全": 1.0,
-                "一般": 0.0,
-                "危险": 0.0
-            },
-            "结构托换": {
-                "安全": 1.0,
-                "一般": 0.0,
-                "危险": 0.0
-            },
-            "架空管线": {
-                "安全": 1.0,
-                "一般": 0.0,
-                "危险": 0.0
+                "安全": "very likely",
+                "一般": "unlikely"
             }
         }
     }

@@ -4,8 +4,7 @@
         "variable": "混凝土强度",
         "probabilities": {
             "较大": {
-                "提高": "very likely",
-                "不提高": 0.0
+                "提高": "几乎肯定"
             }
         }
     },
@@ -14,8 +13,7 @@
         "variable": "成本",
         "probabilities": {
             "提高": {
-                "显著增加": "very likely",
-                "可控": 0.0
+                "显著增加": "很可能"
             }
         }
     },
@@ -24,8 +22,7 @@
         "variable": "钢筋保护层厚度",
         "probabilities": {
             "显著增加": {
-                "增加": "very likely",
-                "不增加": 0.0
+                "增加": "可能"
             }
         }
     },
@@ -34,8 +31,7 @@
         "variable": "防腐蚀措施",
         "probabilities": {
             "显著增加": {
-                "采取": "very likely",
-                "不采取": 0.0
+                "采取": "可能"
             }
         }
     },
@@ -44,12 +40,7 @@
         "variable": "耐久性要求",
         "probabilities": {
             "采取": {
-                "满足": "very likely",
-                "不满足": 0.0
-            },
-            "不采取": {
-                "满足": 0.0,
-                "不满足": "very likely"
+                "满足": "几乎肯定"
             }
         }
     }
