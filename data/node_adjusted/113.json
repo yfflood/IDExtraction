@@ -34,7 +34,7 @@
     },
     {
         "variable_name": "加筋体性能要求",
-        "variable_type": "change",
+        "variable_type": "chance",
         "values": [
             "高",
             "低"
