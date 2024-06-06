@@ -1,7 +1,12 @@
 import os
 import json
+import os
+import sys 
+script_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.dirname(script_dir)
+sys.path.append(project_root)
 
-from id import Node, Edge, List_of_Nodes, List_of_Edges, VariableType
+from idextraction.id import Node, Edge, List_of_Nodes, List_of_Edges, VariableType
 import networkx as nx
 
 import pycid
@@ -49,7 +54,11 @@ class Id_Graph:
         self.graph.add_edges_from(self.edge_list.get_edges())
 
     def draw(self):
-        nx.draw(self.graph, with_labels=True)
+        try:
+            self.to_cid()
+        except Exception as e:
+            print(e)
+            nx.draw(self.graph, with_labels=True)
 
     def compare(self, other):
         return nx.graph_edit_distance(
@@ -60,10 +69,7 @@ class Id_Graph:
         )
 
 
-    def to_cid(self):
-        decisions = []
-        utilities = []
-        
+    def to_cid(self):  
         edges = self.edge_list.get_edges()
         edges = [(h, t) for h, t, _ in edges]
 
@@ -77,6 +83,30 @@ class Id_Graph:
         cid.draw()
         return cid
 
+    def get_decision_nodes(self):
+        nodes = self.node_list.get_nodes()
+        decisions = [name for name, node in nodes if node["variable_type"]==VariableType.decision]
+        return decisions
+
+    def get_utility_nodes(self):
+        nodes = self.node_list.get_nodes()
+        utilities = [name for name, node in nodes if node["variable_type"]==VariableType.utility]
+        return utilities
+    
+    def get_root_nodes(self):
+        """ return a list of nodes which has no parent nodes"""
+        nodes = self.node_list.get_nodes()
+        edges = self.get_edges()
+        non_root_nodes = list(set([t for h, t in edges]))
+        root_nodes = [nodes.remove(node) for node in non_root_nodes]
+        return root_nodes
+
+    def get_edges(self):
+        edges = self.edge_list.get_edges()
+        edges = [(h, t) for h, t, _ in edges]
+        return edges
+
+    
 
 if __name__=="__main__":
     node_files=os.listdir("./data/node_adjusted")
@@ -108,16 +138,16 @@ if __name__=="__main__":
         ) for edge in edge_gen_list
     ])
 
-    #list_of_edge_ext = List_of_Edges([
-    #    Edge(
-    #        edge["condition"],
-    #        edge["variable"],
-    #        edge["probabilities"]
-    #    ) for edge in edge_ext_list
-    #])
+    list_of_edge_ext = List_of_Edges([
+        Edge(
+            edge["condition"],
+            edge["variable"],
+            edge["probabilities"]
+        ) for edge in edge_ext_list
+    ])
 
     graph_gen = Id_Graph(list_of_node, list_of_edge_gen)
-    #graph_ext = Id_Graph(list_of_node, list_of_edge_ext)
+    graph_ext = Id_Graph(list_of_node, list_of_edge_ext)
     
     graph_gen.to_cid()
     #print(list_of_edge_gen.get_edges()[0][0])
