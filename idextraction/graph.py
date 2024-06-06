@@ -59,6 +59,7 @@ class Id_Graph:
         except Exception as e:
             print(e)
             nx.draw(self.graph, with_labels=True)
+            plt.show()
 
     def compare(self, other):
         return nx.graph_edit_distance(
@@ -113,7 +114,7 @@ if __name__=="__main__":
     edge_gen_files=os.listdir("./data/edge_generated")
     edge_ext_files=os.listdir("./data/edge_extracted")
 
-    idx = 6
+    idx = 2
     print(node_files[idx])
     with open(f"./data/node_adjusted/{node_files[idx]}", "r", encoding="utf-8") as f:
         node_list = json.load(f)
@@ -149,20 +150,20 @@ if __name__=="__main__":
     graph_gen = Id_Graph(list_of_node, list_of_edge_gen)
     graph_ext = Id_Graph(list_of_node, list_of_edge_ext)
     
-    graph_gen.to_cid()
+    #graph_gen.to_cid()
     #print(list_of_edge_gen.get_edges()[0][0])
-    """
+    
     plt.rcParams['font.sans-serif'] = ['SimHei'] # 用来正常显示中文标签
     plt.rcParams['axes.unicode_minus'] = False # 用来正常显示负号
-    plt.figure(figsize=(8,4))
-    plt.subplot(121)
-    graph_gen.draw()
+    #plt.figure(figsize=(8,4))
+    #plt.subplot(121)
     plt.title("Generated")
+    graph_gen.draw()
 
-    plt.subplot(122)
-    graph_ext.draw()
+    #plt.subplot(122)
     plt.title("Extracted")
+    graph_ext.draw()
 
-    plt.tight_layout()
-    plt.show()
-    """
+    #plt.tight_layout()
+    #plt.show()
+    
