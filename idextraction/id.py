@@ -1,3 +1,10 @@
+import os
+import json
+import sys 
+script_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.dirname(script_dir)
+sys.path.append(project_root)
+
 from langchain_core.pydantic_v1 import BaseModel, Field, PrivateAttr, root_validator
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import PromptTemplate
@@ -170,6 +177,52 @@ class List_of_Edges(BaseModel):
         ]
 
 
+class InfluenceDiagram:
+    def __init__(self, node_list: list, edge_list: list):
+        """ 
+        input: extracted list of Dict's
+        
+        """
+        self.node_list = node_list
+        self.edge_list = edge_list
+
+    def get_edges(self):
+        edges = [(edge["condition"], edge["variable"]) for edge in edge_list]
+        return edges
+
+    def get_nodes(self):
+        nodes = [node["variable_name"] for node in node_list]
+        return nodes
+    
+    def get_root_nodes(self):
+        nodes = self.get_nodes()
+        edges = self.get_edges()
+        non_root_nodes = [t for h,t in edges]
+        root_nodes = [node for node in nodes if node not in non_root_nodes]
+        return root_nodes
+
+    def to_base_nodes(self):
+        """ turn node_list to BaseModel class instances"""
+        list_of_node = List_of_Nodes([
+            Node(
+                node["variable_name"],
+                node["variable_type"],
+                node["values"]
+            ) for node in self.node_list
+        ])
+        return list_of_node
+    
+    def to_base_edges(self):
+        """ turn edge_list to BaseModel class instances"""
+        list_of_edge = List_of_Edges([
+            Edge(
+                edge["condition"],
+                edge["variable"],
+                edge["probabilities"]
+            ) for edge in self.edge_list
+        ])
+        return list_of_edge
+
 if __name__ == "__main__":
     #parser = JsonOutputParser(pydantic_object=List_of_Nodes)
     #parser.get_format_instructions()
@@ -183,5 +236,22 @@ if __name__ == "__main__":
     #a = List_of_Nodes(node_list=test)
     #b = Edge(condition="Fire_Separation_Measures", #variable="Fire_Spread", probabilities={"Implement": {
     #        "Rapid_Upward": 0.8, "Contained": 0.2}, #"Not_Implement": {"Rapid_Upward": 0.2, "Contained": 0.8}})
-    a = Node(test[0]["variable_name"], test[0]["variable_type"], test[0]["values"])
-    print(node_to_json(node=a))
+    #a = Node(test[0]["variable_name"], test[0]["variable_type"], test[0]["values"])
+    #print(node_to_json(node=a))
+    from idextraction.graph import Id_Graph
+
+    node_files=os.listdir("./data/node_adjusted")
+    edge_gen_files=os.listdir("./data/edge_generated")
+    
+    idx = 1
+
+    with open(f"./data/node_adjusted/{node_files[idx]}", "r", encoding="utf-8") as f:
+        node_list = json.load(f)
+    with open(f"./data/edge_generated/{edge_gen_files[idx]}", "r", encoding="utf-8") as f:
+        edge_gen_list = json.load(f)
+
+    diagram1 = InfluenceDiagram(node_list, edge_gen_list)
+
+    graph1 = Id_Graph(diagram1.to_base_nodes(), diagram1.to_base_edges())
+
+    graph1.draw()

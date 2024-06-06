@@ -74,8 +74,8 @@ class Id_Graph:
         edges = [(h, t) for h, t, _ in edges]
 
         nodes = self.node_list.get_nodes()
-        decisions = [name for name, node in nodes if node["variable_type"]==VariableType.decision]
-        utilities = [name for name, node in nodes if node["variable_type"]==VariableType.utility]
+        decisions = self.get_decision_nodes()
+        utilities = self.get_utility_nodes()
 
         cid = pycid.CID(
             edges, decisions=decisions, utilities=utilities
@@ -85,12 +85,13 @@ class Id_Graph:
 
     def get_decision_nodes(self):
         nodes = self.node_list.get_nodes()
-        decisions = [name for name, node in nodes if node["variable_type"]==VariableType.decision]
+        decisions = [name for name, node in nodes if node["variable_type"].name==VariableType.decision.name]
         return decisions
 
     def get_utility_nodes(self):
         nodes = self.node_list.get_nodes()
-        utilities = [name for name, node in nodes if node["variable_type"]==VariableType.utility]
+        #print(nodes[3][1]["variable_type"].name==VariableType.utility.name)
+        utilities = [name for name, node in nodes if node["variable_type"].name==VariableType.utility.name]
         return utilities
     
     def get_root_nodes(self):
@@ -113,7 +114,7 @@ if __name__=="__main__":
     edge_gen_files=os.listdir("./data/edge_generated")
     edge_ext_files=os.listdir("./data/edge_extracted")
 
-    idx = 2
+    idx = 1
     print(node_files[idx])
     with open(f"./data/node_adjusted/{node_files[idx]}", "r", encoding="utf-8") as f:
         node_list = json.load(f)
@@ -160,8 +161,8 @@ if __name__=="__main__":
     graph_gen.draw()
 
     #plt.subplot(122)
-    plt.title("Extracted")
-    graph_ext.draw()
+    #plt.title("Extracted")
+    #graph_ext.draw()
 
     #plt.tight_layout()
     #plt.show()
