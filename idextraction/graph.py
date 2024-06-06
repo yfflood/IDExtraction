@@ -1,6 +1,5 @@
 import os
 import json
-import os
 import sys 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(script_dir)
