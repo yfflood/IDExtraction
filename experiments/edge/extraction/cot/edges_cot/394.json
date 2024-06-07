@@ -1,0 +1,29 @@
+[
+    {
+        "condition": "注浆措施",
+        "variable": "附加沉降",
+        "probabilities": {
+            "单液注浆": {
+                "减少": "很可能导致"
+            }
+        }
+    },
+    {
+        "condition": "注浆措施",
+        "variable": "附加沉降",
+        "probabilities": {
+            "多孔间隔注浆": {
+                "不减少": "很可能导致"
+            }
+        }
+    },
+    {
+        "condition": "注浆措施",
+        "variable": "附加沉降",
+        "probabilities": {
+            "缩短浆液凝固时间": {
+                "不减少": "很可能导致"
+            }
+        }
+    }
+]

@@ -1,0 +1,76 @@
+[
+    {
+        "condition": "核芯区受剪面积",
+        "variable": "地震作用",
+        "probabilities": {
+            "不足": {
+                "发生": "very likely",
+                "未发生": "unlikely"
+            },
+            "充足": {
+                "发生": "likely",
+                "未发生": "possible"
+            }
+        }
+    },
+    {
+        "condition": "柱的不利扭转效应",
+        "variable": "避免扭转措施",
+        "probabilities": {
+            "发生": {
+                "采用水平加腋梁": "very likely",
+                "加强柱的箍筋": "likely",
+                "不采取措施": "unlikely"
+            },
+            "未发生": {
+                "采用水平加腋梁": "unlikely",
+                "加强柱的箍筋": "unlikely",
+                "不采取措施": "possible"
+            }
+        }
+    },
+    {
+        "condition": "抗震墙中线与柱中线之间偏心距",
+        "variable": "柱的不利扭转效应",
+        "probabilities": {
+            "较大": {
+                "发生": "very likely",
+                "未发生": "unlikely"
+            },
+            "较小": {
+                "发生": "unlikely",
+                "未发生": "likely"
+            }
+        }
+    },
+    {
+        "condition": "梁中线与柱中线之间偏心距",
+        "variable": "柱的不利扭转效应",
+        "probabilities": {
+            "较大": {
+                "发生": "likely",
+                "未发生": "possible"
+            },
+            "较小": {
+                "发生": "unlikely",
+                "未发生": "likely"
+            }
+        }
+    },
+    {
+        "condition": "地震作用",
+        "variable": "避免扭转措施",
+        "probabilities": {
+            "发生": {
+                "采用水平加腋梁": "likely",
+                "加强柱的箍筋": "likely",
+                "不采取措施": "unlikely"
+            },
+            "未发生": {
+                "采用水平加腋梁": "unlikely",
+                "加强柱的箍筋": "unlikely",
+                "不采取措施": "possible"
+            }
+        }
+    }
+]

@@ -1,0 +1,1 @@
+[{"variable_name": "地面下沉", "variable_type": "chance", "values": ["轻微", "严重"]}, {"variable_name": "轴线两侧地面的对倾与挠曲", "variable_type": "chance", "values": ["轻微", "严重"]}, {"variable_name": "岩土工程勘察", "variable_type": "decision", "values": ["进行", "不进行"]}, {"variable_name": "施工方法、步骤和最佳保护措施", "variable_type": "decision", "values": ["保守", "激进"]}]

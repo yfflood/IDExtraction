@@ -1,0 +1,28 @@
+[
+    {
+        "condition": "钢筋混凝土墩柱剪切破坏",
+        "variable": "桥梁倒塌",
+        "probabilities": {
+            "发生": {
+                "发生": "very likely"
+            },
+            "不发生": {
+                "发生": "very unlikely"
+            }
+        }
+    },
+    {
+        "condition": "抗震设计",
+        "variable": "钢筋混凝土墩柱剪切破坏",
+        "probabilities": {
+            "通过验算和构造设计": {
+                "发生": "unlikely",
+                "不发生": "likely"
+            },
+            "未通过验算和构造设计": {
+                "发生": "likely",
+                "不发生": "unlikely"
+            }
+        }
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "condition": "现场施工条件",
+        "variable": "粉煤灰混凝土的强度发展",
+        "probabilities": {
+            "满足保温、保湿的养护条件": {
+                "正常": "very likely",
+                "不正常": "unlikely"
+            },
+            "不满足保温、保湿的养护条件": {
+                "正常": "unlikely",
+                "不正常": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "现场施工条件",
+        "variable": "薄壁混凝土结构的干缩开裂",
+        "probabilities": {
+            "满足保温、保湿的养护条件": {
+                "不容易发生": "very likely",
+                "容易发生": "unlikely"
+            },
+            "不满足保温、保湿的养护条件": {
+                "不容易发生": "unlikely",
+                "容易发生": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "粉煤灰掺量",
+        "variable": "粉煤灰混凝土的强度发展",
+        "probabilities": {
+            "适当降低": {
+                "正常": "likely",
+                "不正常": "unlikely"
+            },
+            "保持不变": {
+                "正常": "likely",
+                "不正常": "unlikely"
+            },
+            "增加": {
+                "正常": "unlikely",
+                "不正常": "likely"
+            }
+        }
+    }
+]

@@ -1,0 +1,1 @@
+[{"variable_name": "建筑主体结构损坏情况", "variable_type": "chance", "values": ["不受损坏", "遭受破坏", "严重破坏但不倒塌"]}, {"variable_name": "非结构构件损坏情况", "variable_type": "chance", "values": ["没有过重破坏", "过重破坏导致人员伤亡"]}, {"variable_name": "建筑功能要求满足情况", "variable_type": "utility", "values": ["保证正常使用功能", "功能受损"]}, {"variable_name": "层间位移角", "variable_type": "decision", "values": ["合理", "不合理"]}]

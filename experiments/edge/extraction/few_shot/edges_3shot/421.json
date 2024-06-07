@@ -1,0 +1,42 @@
+[
+    {
+        "condition": "膨胀土防水毯倒角",
+        "variable": "转角部位剪切破坏",
+        "probabilities": {
+            "不倒角": {
+                "出现": "very likely",
+                "不出现": "low"
+            }
+        }
+    },
+    {
+        "condition": "膨胀土防水毯倒角",
+        "variable": "膨润土颗粒损失",
+        "probabilities": {
+            "不倒角": {
+                "损失": "very likely",
+                "不损失": "low"
+            }
+        }
+    },
+    {
+        "condition": "转角部位剪切破坏",
+        "variable": "整体防水质量",
+        "probabilities": {
+            "出现": {
+                "受影响": "high",
+                "不受影响": "low"
+            }
+        }
+    },
+    {
+        "condition": "膨润土颗粒损失",
+        "variable": "整体防水质量",
+        "probabilities": {
+            "损失": {
+                "受影响": "high",
+                "不受影响": "low"
+            }
+        }
+    }
+]

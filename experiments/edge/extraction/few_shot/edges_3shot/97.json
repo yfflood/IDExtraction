@@ -1,0 +1,46 @@
+[
+    {
+        "condition": "环境类型",
+        "variable": "混凝土强度等级",
+        "probabilities": {
+            "一般环境": {
+                "最低强度等级": "very likely",
+                "与配筋混凝土相同强度等级": "unlikely"
+            },
+            "氯化物环境": {
+                "最低强度等级": "very likely",
+                "与配筋混凝土相同强度等级": "unlikely"
+            },
+            "冻融环境": {
+                "最低强度等级": "unlikely",
+                "与配筋混凝土相同强度等级": "very likely"
+            },
+            "化学腐蚀环境": {
+                "最低强度等级": "unlikely",
+                "与配筋混凝土相同强度等级": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "环境类型",
+        "variable": "混凝土材料劣化",
+        "probabilities": {
+            "一般环境": {
+                "劣化": "unlikely",
+                "不劣化": "very likely"
+            },
+            "氯化物环境": {
+                "劣化": "unlikely",
+                "不劣化": "very likely"
+            },
+            "冻融环境": {
+                "劣化": "very likely",
+                "不劣化": "unlikely"
+            },
+            "化学腐蚀环境": {
+                "劣化": "very likely",
+                "不劣化": "unlikely"
+            }
+        }
+    }
+]

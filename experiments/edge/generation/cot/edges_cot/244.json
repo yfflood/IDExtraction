@@ -1,0 +1,38 @@
+[
+    {
+        "condition": "洞口角部钢筋配置",
+        "variable": "局部钢筋间距",
+        "probabilities": {
+            "斜筋配置": {
+                "间距适中": "very likely"
+            },
+            "不配置斜筋": {
+                "间距过小": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "局部钢筋间距",
+        "variable": "混凝土振捣难度",
+        "probabilities": {
+            "间距适中": {
+                "振捣容易": "very likely"
+            },
+            "间距过小": {
+                "振捣困难": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "钢筋密度",
+        "variable": "混凝土振捣难度",
+        "probabilities": {
+            "较密": {
+                "振捣困难": "likely"
+            },
+            "适中": {
+                "振捣容易": "likely"
+            }
+        }
+    }
+]

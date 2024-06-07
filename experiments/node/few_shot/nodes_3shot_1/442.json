@@ -1,0 +1,1 @@
+[{"variable_name": "地基浸水", "variable_type": "chance", "values": ["发生", "未发生"]}, {"variable_name": "地基土冻胀性", "variable_type": "utility", "values": ["增强", "未增强"]}, {"variable_name": "房屋冻胀破坏", "variable_type": "utility", "values": ["出现", "未出现"]}, {"variable_name": "建筑层数", "variable_type": "chance", "values": ["三层以下", "三层以上"]}]

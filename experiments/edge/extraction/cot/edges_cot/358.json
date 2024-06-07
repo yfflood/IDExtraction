@@ -1,0 +1,29 @@
+[
+    {
+        "condition": "混凝土入模温度",
+        "variable": "混凝土冻伤",
+        "probabilities": {
+            "较高": {
+                "冻伤": "很可能导致"
+            }
+        }
+    },
+    {
+        "condition": "混凝土预养时间",
+        "variable": "混凝土冻伤",
+        "probabilities": {
+            "不足": {
+                "冻伤": "很可能导致"
+            }
+        }
+    },
+    {
+        "condition": "环境温度",
+        "variable": "混凝土冻伤",
+        "probabilities": {
+            "降到混凝土冻结温度": {
+                "冻伤": "几乎肯定"
+            }
+        }
+    }
+]

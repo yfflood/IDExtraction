@@ -1,0 +1,20 @@
+[
+    {
+        "condition": "混凝土坍落度",
+        "variable": "桩顶浮浆量",
+        "probabilities": {
+            "过大": {
+                "过多": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "混凝土坍落度",
+        "variable": "桩体强度",
+        "probabilities": {
+            "过大": {
+                "降低": "very likely"
+            }
+        }
+    }
+]

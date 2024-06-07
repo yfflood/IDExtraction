@@ -1,0 +1,30 @@
+[
+    {
+        "condition": "地基液化",
+        "variable": "上部结构地震力",
+        "probabilities": {
+            "发生": {
+                "减小": "very likely",
+                "不减小": "unlikely"
+            },
+            "不发生": {
+                "减小": "unlikely",
+                "不减小": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "地基液化",
+        "variable": "上部结构下沉或倾斜",
+        "probabilities": {
+            "发生": {
+                "过度下沉或倾斜": "very likely",
+                "不下沉或不倾斜": "unlikely"
+            },
+            "不发生": {
+                "过度下沉或倾斜": "unlikely",
+                "不下沉或不倾斜": "very likely"
+            }
+        }
+    }
+]

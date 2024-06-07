@@ -1,0 +1,1 @@
+[{"variable_name": "土体膨胀", "variable_type": "chance", "values": ["含水量增加", "密度减小"]}, {"variable_name": "土体收缩", "variable_type": "chance", "values": ["产生裂缝", "与桩体脱离"]}, {"variable_name": "桩侧阻和端阻", "variable_type": "utility", "values": ["降低", "正常"]}, {"variable_name": "桩侧阻力", "variable_type": "utility", "values": ["丧失", "保持"]}]

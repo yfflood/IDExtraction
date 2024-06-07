@@ -1,0 +1,30 @@
+[
+    {
+        "condition": "板齿滑移",
+        "variable": "木桁架变形",
+        "probabilities": {
+            "过大": {
+                "影响正常使用": "very likely",
+                "不影响正常使用": "unlikely"
+            },
+            "适中": {
+                "影响正常使用": "unlikely",
+                "不影响正常使用": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "板齿抗滑移承载力",
+        "variable": "板齿滑移",
+        "probabilities": {
+            "验算": {
+                "过大": "unlikely",
+                "适中": "very likely"
+            },
+            "不验算": {
+                "过大": "very likely",
+                "适中": "unlikely"
+            }
+        }
+    }
+]

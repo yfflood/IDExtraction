@@ -1,0 +1,48 @@
+[
+    {
+        "condition": "板厚",
+        "variable": "板件局部应力",
+        "probabilities": {
+            "过小": {
+                "过大": "very likely",
+                "适中": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "连接方式",
+        "variable": "承压承载力",
+        "probabilities": {
+            "普通螺栓": {
+                "下降": "unlikely",
+                "正常": "very likely"
+            },
+            "高墙螺栓": {
+                "下降": "unlikely",
+                "正常": "very likely"
+            },
+            "铆钉连接": {
+                "下降": "unlikely",
+                "正常": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "连接方式",
+        "variable": "摩擦系数",
+        "probabilities": {
+            "普通螺栓": {
+                "下降": "likely",
+                "正常": "unlikely"
+            },
+            "高墙螺栓": {
+                "下降": "unlikely",
+                "正常": "very likely"
+            },
+            "铆钉连接": {
+                "下降": "unlikely",
+                "正常": "very likely"
+            }
+        }
+    }
+]

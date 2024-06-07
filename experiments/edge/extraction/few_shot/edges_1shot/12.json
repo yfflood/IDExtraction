@@ -1,0 +1,72 @@
+[
+    {
+        "condition": "地震作用",
+        "variable": "建筑主体结构",
+        "probabilities": {
+            "多遇地震作用": {
+                "不受损坏": "very likely",
+                "遭受破坏或严重破坏但不倒塌": "very unlikely"
+            },
+            "罕遇地震作用": {
+                "不受损坏": "unlikely",
+                "遭受破坏或严重破坏但不倒塌": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "地震作用",
+        "variable": "非结构构件",
+        "probabilities": {
+            "多遇地震作用": {
+                "没有过重破坏并导致人员伤亡": "very likely",
+                "过重破坏导致人员伤亡": "unlikely"
+            },
+            "罕遇地震作用": {
+                "没有过重破坏并导致人员伤亡": "unlikely",
+                "过重破坏导致人员伤亡": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "地震作用",
+        "variable": "建筑的正常使用功能",
+        "probabilities": {
+            "多遇地震作用": {
+                "保证": "very likely",
+                "不保证": "unlikely"
+            },
+            "罕遇地震作用": {
+                "保证": "unlikely",
+                "不保证": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "建筑主体结构",
+        "variable": "抗震设防要求",
+        "probabilities": {
+            "不受损坏": {
+                "满足": "very likely",
+                "不满足": "unlikely"
+            },
+            "遭受破坏或严重破坏但不倒塌": {
+                "满足": "unlikely",
+                "不满足": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "非结构构件",
+        "variable": "抗震设防要求",
+        "probabilities": {
+            "没有过重破坏并导致人员伤亡": {
+                "满足": "very likely",
+                "不满足": "unlikely"
+            },
+            "过重破坏导致人员伤亡": {
+                "满足": "unlikely",
+                "不满足": "very likely"
+            }
+        }
+    }
+]

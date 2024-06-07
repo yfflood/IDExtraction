@@ -1,0 +1,1 @@
+[{"variable_name": "防震缝", "variable_type": "decision", "values": ["设缝", "不设缝"]}, {"variable_name": "地震作用", "variable_type": "chance", "values": ["强烈", "中等", "轻微"]}, {"variable_name": "结构分析模型", "variable_type": "utility", "values": ["简单", "复杂"]}, {"variable_name": "扭转地震效应", "variable_type": "chance", "values": ["显著", "不显著"]}]

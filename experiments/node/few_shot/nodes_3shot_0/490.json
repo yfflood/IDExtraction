@@ -1,0 +1,1 @@
+[{"variable_name": "膨胀土的胀缩变形", "variable_type": "chance", "values": ["吸水膨胀", "失水收缩"]}, {"variable_name": "地基的升降变形", "variable_type": "chance", "values": ["产生变形", "不产生变形"]}, {"variable_name": "建筑物的状态", "variable_type": "chance", "values": ["开裂损坏", "完好无损"]}]

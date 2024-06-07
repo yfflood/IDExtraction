@@ -1,0 +1,44 @@
+[
+    {
+        "condition": "边坡施工开挖顺序",
+        "variable": "边坡稳定性",
+        "probabilities": {
+            "自上而下": {
+                "稳定": "very likely",
+                "不稳定": "unlikely"
+            },
+            "其他顺序": {
+                "稳定": "less likely",
+                "不稳定": "more likely"
+            }
+        }
+    },
+    {
+        "condition": "边坡稳定性",
+        "variable": "弃土弃渣堆填",
+        "probabilities": {
+            "稳定": {
+                "不导致边坡附加变形或破坏": "very likely",
+                "导致边坡附加变形或破坏": "unlikely"
+            },
+            "不稳定": {
+                "不导致边坡附加变形或破坏": "unlikely",
+                "导致边坡附加变形或破坏": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "弃土弃渣堆填",
+        "variable": "边坡稳定性",
+        "probabilities": {
+            "不导致边坡附加变形或破坏": {
+                "稳定": "very likely",
+                "不稳定": "unlikely"
+            },
+            "导致边坡附加变形或破坏": {
+                "稳定": "unlikely",
+                "不稳定": "very likely"
+            }
+        }
+    }
+]

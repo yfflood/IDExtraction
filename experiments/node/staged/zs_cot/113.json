@@ -1,0 +1,1 @@
+[{"variable_name": "桩中心间距", "variable_type": "decision", "values": [5, 8]}, {"variable_name": "桩径", "variable_type": "decision", "values": ["根据项目设计和要求变化"]}, {"variable_name": "桩的竖向抗压承载力", "variable_type": "chance", "values": ["高", "低"]}]

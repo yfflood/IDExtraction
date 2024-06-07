@@ -1,0 +1,1 @@
+[{"variable_name": "灌浆料", "variable_type": "decision", "values": ["现浇混凝土", "自密实混凝土", "喷射混凝土", "掺有细石混凝土的水泥基灌浆料"]}, {"variable_name": "膨胀剂", "variable_type": "decision", "values": ["德国进口的膨胀剂", "其他优质膨胀剂"]}, {"variable_name": "细石混凝土", "variable_type": "decision", "values": ["掺加30%", "不掺加"]}, {"variable_name": "粗骨料", "variable_type": "decision", "values": ["粒径16mm～20mm", "不添加"]}]

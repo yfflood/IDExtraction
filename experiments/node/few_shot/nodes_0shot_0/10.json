@@ -1,0 +1,1 @@
+[{"variable_name": "复合地基承载力", "variable_type": "utility", "values": ["深度修正前", "深度修正后"]}, {"variable_name": "桩顶荷载", "variable_type": "chance", "values": ["未增加", "增加"]}, {"variable_name": "单桩实际分担的荷载", "variable_type": "decision", "values": ["根据经验值计算", "根据规范验算"]}, {"variable_name": "桩体强度", "variable_type": "decision", "values": ["需要验算", "已满足要求"]}]

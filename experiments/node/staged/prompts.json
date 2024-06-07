@@ -1,0 +1,22 @@
+[
+    {
+        "name": "zs_CoT",
+        "prompt": "For the following text, extract every variable, entity, action or event. If none is found, output a default node, with name and type filled with empty strings and values an empty list. Otherwise, values should include at least two distinct values of the variable. \n\nOutput using the following format:\n{format_instructions}\n\nThe content should be in Chinese if the text is in Chinese.\n\ntext: {text}\n\nLet's think step by step."
+    },
+    {
+        "name": "rule_CoT",
+        "prompt": "For the following text, extract every variable, entity, action or event. If none is found, output a default node, with name and type filled with empty strings and values an empty list. Otherwise, values should include at least two distinct values of the variable. \n\nOutput using the following format:\n{format_instructions}\n\nThe content should be in Chinese if the text is in Chinese.\n\ntext: {text}\n\nLet's think step by step. Firstly, extract all the utility nodes; secondly, extract all decision nodes; Thirdly, extract all chance nodes. Finally, put all nodes together and output according to the format instruction."
+    },
+    {
+        "name": "utility",
+        "prompt": "For the following text, extract every variable that corresponds to a utility node. A utility node is a variable related with the fundamental goals in the senario, and directly reflects losses or gains. Its variable_type is utility. If none is found, output a default node, with name and type filled with empty strings and values an empty list. Otherwise, values should include at least two distinct values of the variable. \n\nOutput using the following format:\n{format_instructions}\n\nThe content should be in Chinese if the text is in Chinese.\n\ntext: {text}"
+    },
+    {
+        "name": "decision",
+        "prompt": "For the following text, extract every variable, entity, action or event that corresponds to a decision node. A decision node is a variable related with implementable actions in the senario. Its variable_type is decision. If none is found, output a default node, with name and type filled with empty strings and values an empty list. Otherwise, values should include at least two distinct values of the variable. \n\nOutput using the following format:\n{format_instructions}\n\nThe content should be in Chinese if the text is in Chinese.\n\ntext: {text}"
+    },
+    {
+        "name": "chance",
+        "prompt": "For the following text, extract every variable, entity, action or event that corresponds to a chance node. A chance node is a variable that cannot be intervened in the senario, and is subject to uncertainty. Its variable_type is chance. If none is found, output a default node, with name and type filled with empty strings and values an empty list. Otherwise, values should include at least two distinct values of the variable. \n\nOutput using the following format:\n{format_instructions}\n\nThe content should be in Chinese if the text is in Chinese.\n\ntext: {text}"
+    }
+]

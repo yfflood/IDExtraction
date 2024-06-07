@@ -1,0 +1,1 @@
+[{"variable_name": "预应力", "variable_type": "decision", "values": ["分布均匀", "分布不均匀"]}, {"variable_name": "结构张拉形态", "variable_type": "decision", "values": ["形态稳定", "形态不稳定"]}, {"variable_name": "索或拉杆", "variable_type": "decision", "values": ["索", "拉杆"]}, {"variable_name": "结构失效", "variable_type": "chance", "values": ["发生", "不发生"]}]

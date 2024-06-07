@@ -1,0 +1,1 @@
+[{"variable_name": "地下水流速", "variable_type": "chance", "values": ["较大", "不大"]}, {"variable_name": "水泥浆、砂浆或混凝土流失", "variable_type": "chance", "values": ["发生", "未发生"]}, {"variable_name": "灌注质量", "variable_type": "utility", "values": ["受影响", "未受影响"]}, {"variable_name": "采用永久套管、护筒或其他保护措施", "variable_type": "decision", "values": ["采用", "不采用"]}]

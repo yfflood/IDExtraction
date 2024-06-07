@@ -1,0 +1,1 @@
+[{"variable_name": "沉降观测点位置", "variable_type": "decision", "values": ["千斤顶底座承压板以下", "千斤顶上或承压板上"]}, {"variable_name": "沉降观测数据准确性", "variable_type": "utility", "values": ["准确", "失实"]}]

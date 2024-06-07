@@ -1,0 +1,1 @@
+[{"variable_name": "焊接裂纹", "variable_type": "chance", "values": ["存在", "不存在"]}, {"variable_name": "裂纹修补", "variable_type": "decision", "values": ["技术人员制定返修措施", "焊工随意修补"]}, {"variable_name": "结构脆性断裂", "variable_type": "utility", "values": ["发生", "未发生"]}]

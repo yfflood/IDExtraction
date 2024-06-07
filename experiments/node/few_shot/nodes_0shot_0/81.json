@@ -1,0 +1,1 @@
+[{"variable_name": "土工合成材料", "variable_type": "chance", "values": ["高强度", "低徐变性", "延伸率适宜"]}, {"variable_name": "荷载", "variable_type": "decision", "values": ["上部荷载", "外荷"]}, {"variable_name": "软弱土层", "variable_type": "chance", "values": ["应力", "极限强度"]}, {"variable_name": "安全系数", "variable_type": "decision", "values": ["足够", "临界状态"]}]

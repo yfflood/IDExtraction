@@ -1,0 +1,1 @@
+[{"variable_name": "零应力区面积", "variable_type": "chance", "values": ["超过基础底面积的15%", "不超过基础底面积的15%"]}, {"variable_name": "外荷载偏心距", "variable_type": "decision", "values": ["偏心距大", "偏心距小"]}, {"variable_name": "受压边缘压力", "variable_type": "utility", "values": ["不满足承载力要求", "满足承载力要求"]}]

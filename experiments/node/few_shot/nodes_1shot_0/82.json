@@ -1,0 +1,1 @@
+[{"variable_name": "建筑物抗震设防烈度", "variable_type": "chance", "values": ["高于本地区抗震设防烈度", "等于或低于本地区抗震设防烈度"]}, {"variable_name": "建筑物体型和抗侧力系统复杂性", "variable_type": "decision", "values": ["复杂", "不复杂"]}, {"variable_name": "结构薄弱部位的应力集中和弹塑性变形", "variable_type": "utility", "values": ["发生", "不发生"]}, {"variable_name": "弹塑性分析方法的使用", "variable_type": "decision", "values": ["采用", "不采用"]}]

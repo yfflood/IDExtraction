@@ -1,0 +1,1 @@
+[{"variable_name": "环境作用等级", "variable_type": "decision", "values": ["较低", "较高"]}, {"variable_name": "混凝土的最低强度等级", "variable_type": "decision", "values": ["一般", "较高"]}, {"variable_name": "环境因素", "variable_type": "chance", "values": ["一般环境", "氯化物环境", "冻融环境", "化学腐蚀环境"]}, {"variable_name": "素混凝土的强度等级要求", "variable_type": "decision", "values": ["与配筋混凝土要求相同", "较低"]}]

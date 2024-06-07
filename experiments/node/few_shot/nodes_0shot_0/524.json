@@ -1,0 +1,1 @@
+[{"variable_name": "预应力筋张拉方式", "variable_type": "decision", "values": ["分段张拉锚固", "通长张拉"]}, {"variable_name": "后浇带设置", "variable_type": "decision", "values": ["设置后浇带", "不设置后浇带"]}, {"variable_name": "预应力摩擦损失", "variable_type": "chance", "values": ["损失较大", "损失较小"]}, {"variable_name": "轴向预加力吸收", "variable_type": "chance", "values": ["被竖向结构吸收较多", "被竖向结构吸收较少"]}]

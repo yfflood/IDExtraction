@@ -1,0 +1,28 @@
+[
+    {
+        "condition": "地下水流速",
+        "variable": "灌注质量",
+        "probabilities": {
+            "较大": {
+                "受影响": "very likely"
+            },
+            "较小": {
+                "不受影响": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "灌注质量",
+        "variable": "保护措施",
+        "probabilities": {
+            "受影响": {
+                "永久套管、护筒或其他保护措施": "very likely",
+                "不采取保护措施": "unlikely"
+            },
+            "不受影响": {
+                "永久套管、护筒或其他保护措施": "unlikely",
+                "不采取保护措施": "very likely"
+            }
+        }
+    }
+]

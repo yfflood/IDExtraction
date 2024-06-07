@@ -1,0 +1,1 @@
+[{"variable_name": "防震缝", "variable_type": "chance", "values": ["存在", "不存在"]}, {"variable_name": "防震缝宽度", "variable_type": "chance", "values": ["满足要求", "不满足要求"]}, {"variable_name": "抗震鉴定", "variable_type": "decision", "values": ["重视防震缝间距", "忽视防震缝间距"]}, {"variable_name": "建筑物震害", "variable_type": "utility", "values": ["严重", "轻微"]}]

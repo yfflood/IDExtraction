@@ -1,0 +1,78 @@
+[
+    {
+        "condition": "水泥用量",
+        "variable": "水化热产生速度",
+        "probabilities": {
+            "不超过350kg": {
+                "慢": "very likely"
+            },
+            "超过350kg": {
+                "快": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "水泥类型",
+        "variable": "水化热产生速度",
+        "probabilities": {
+            "水化热低的水泥": {
+                "慢": "1.0"
+            },
+            "早强水泥": {
+                "快": "1.0"
+            },
+            "其他水泥": {
+                "快": "likely",
+                "慢": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "水泥颗粒大小",
+        "variable": "水化热产生速度",
+        "probabilities": {
+            "细颗粒": {
+                "快": "likely"
+            },
+            "粗颗粒": {
+                "慢": "likely"
+            }
+        }
+    },
+    {
+        "condition": "外界温度",
+        "variable": "温差",
+        "probabilities": {
+            "低": {
+                "小": "1.0"
+            },
+            "高": {
+                "大": "1.0"
+            }
+        }
+    },
+    {
+        "condition": "温差",
+        "variable": "混凝土开裂",
+        "probabilities": {
+            "大": {
+                "易裂": "1.0"
+            },
+            "小": {
+                "不易裂": "1.0"
+            }
+        }
+    },
+    {
+        "condition": "水化热产生速度",
+        "variable": "混凝土开裂",
+        "probabilities": {
+            "快": {
+                "易裂": "likely"
+            },
+            "慢": {
+                "不易裂": "likely"
+            }
+        }
+    }
+]

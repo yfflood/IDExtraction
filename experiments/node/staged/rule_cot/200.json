@@ -1,0 +1,1 @@
+[{"variable_name": "裂缝出现率", "variable_type": "chance", "values": ["20%", "80%"]}, {"variable_name": "裂缝原因", "variable_type": "chance", "values": ["变形（温度、湿度、地基沉降）", "荷载"]}, {"variable_name": "混凝土内部温度控制", "variable_type": "decision", "values": ["监测混凝土表面和内部的温度", "采取措施控制升温速度、内外温差及降温速度"]}, {"variable_name": "混凝土裂缝预防", "variable_type": "utility", "values": ["避免有害的温度裂缝", "防止混凝土收缩"]}]

@@ -1,0 +1,65 @@
+[
+    {
+        "condition": "楼板开洞尺寸",
+        "variable": "楼盖传力路径",
+        "probabilities": {
+            "大": {
+                "不连续": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "楼板开洞位置",
+        "variable": "楼盖传力路径",
+        "probabilities": {
+            "靠近桁架": {
+                "不连续": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "楼盖传力路径",
+        "variable": "楼盖应力集中",
+        "probabilities": {
+            "不连续": {
+                "较大": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "楼盖传力路径",
+        "variable": "楼盖面内变形",
+        "probabilities": {
+            "不连续": {
+                "较大": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "楼盖应力集中",
+        "variable": "楼板加强措施",
+        "probabilities": {
+            "较大": {
+                "有": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "楼盖面内变形",
+        "variable": "楼板加强措施",
+        "probabilities": {
+            "较大": {
+                "有": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "楼板加强措施",
+        "variable": "楼板传力可靠性",
+        "probabilities": {
+            "有": {
+                "可靠": "very likely"
+            }
+        }
+    }
+]

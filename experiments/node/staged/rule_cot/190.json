@@ -1,0 +1,1 @@
+[{"variable_name": "混凝土强度", "variable_type": "decision", "values": ["提高", "不提高"]}, {"variable_name": "成本", "variable_type": "utility", "values": ["显著增加", "不显著增加"]}, {"variable_name": "钢筋保护层厚度", "variable_type": "decision", "values": ["增加", "不增加"]}, {"variable_name": "防腐蚀措施", "variable_type": "decision", "values": ["采取", "不采取"]}]

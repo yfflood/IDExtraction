@@ -1,0 +1,1 @@
+[{"variable_name": "连接方式选择", "variable_type": "decision", "values": ["齿连接", "螺栓连接"]}, {"variable_name": "事故类型", "variable_type": "chance", "values": ["齿连接超载破坏", "其他类型事故"]}, {"variable_name": "工程教训与试验结论", "variable_type": "utility", "values": ["规定制定", "事故预防"]}]

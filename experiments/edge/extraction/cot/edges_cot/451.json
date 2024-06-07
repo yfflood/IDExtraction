@@ -1,0 +1,20 @@
+[
+    {
+        "condition": "防震缝间距",
+        "variable": "抗震鉴定",
+        "probabilities": {
+            "不满足要求": {
+                "重视防震缝间距": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "通廊与建筑物的碰撞",
+        "variable": "建筑物震害",
+        "probabilities": {
+            "发生": {
+                "严重": "very likely"
+            }
+        }
+    }
+]

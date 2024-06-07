@@ -1,0 +1,1 @@
+[{"variable_name": "风速", "variable_type": "chance", "values": ["大", "小"]}, {"variable_name": "焊接电弧的保护作用", "variable_type": "chance", "values": ["被破坏", "未被破坏"]}, {"variable_name": "焊缝缺陷", "variable_type": "chance", "values": ["产生", "未产生"]}, {"variable_name": "防护装置设置", "variable_type": "decision", "values": ["设置", "未设置"]}]

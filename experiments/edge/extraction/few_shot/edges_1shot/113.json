@@ -1,0 +1,68 @@
+[
+    {
+        "condition": "桩的竖向抗压承载力",
+        "variable": "桩中心间距与桩径之比",
+        "probabilities": {
+            "高": {
+                "5～8之间": "very likely",
+                "大于8": "likely",
+                "小于5": "unlikely"
+            },
+            "低": {
+                "5～8之间": "likely",
+                "大于8": "unlikely",
+                "小于5": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "布桩间距",
+        "variable": "桩帽造价",
+        "probabilities": {
+            "3.0m以上": {
+                "升高": "very likely"
+            },
+            "小于3.0m": {
+                "升高": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "布桩间距",
+        "variable": "加筋体性能要求",
+        "probabilities": {
+            "3.0m以上": {
+                "高": "very likely"
+            },
+            "小于3.0m": {
+                "高": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "布桩间距",
+        "variable": "填土总厚度",
+        "probabilities": {
+            "3.0m以上": {
+                "大": "very likely"
+            },
+            "小于3.0m": {
+                "大": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "填土总厚度",
+        "variable": "方案合理性",
+        "probabilities": {
+            "大": {
+                "合理": "unlikely",
+                "不合理": "very likely"
+            },
+            "少": {
+                "合理": "likely",
+                "不合理": "unlikely"
+            }
+        }
+    }
+]

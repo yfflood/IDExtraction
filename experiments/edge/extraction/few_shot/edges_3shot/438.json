@@ -1,0 +1,58 @@
+[
+    {
+        "condition": "地基处理",
+        "variable": "基础的砌筑质量",
+        "probabilities": {
+            "夯实": {
+                "高质量": "very likely",
+                "低质量": "unlikely"
+            },
+            "未夯实": {
+                "高质量": "unlikely",
+                "低质量": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "基础的砌筑质量",
+        "variable": "地基不均匀沉降",
+        "probabilities": {
+            "高质量": {
+                "发生": "unlikely",
+                "未发生": "very likely"
+            },
+            "低质量": {
+                "发生": "very likely",
+                "未发生": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "地基不均匀沉降",
+        "variable": "墙体开裂",
+        "probabilities": {
+            "发生": {
+                "开裂": "very likely",
+                "未开裂": "unlikely"
+            },
+            "未发生": {
+                "开裂": "unlikely",
+                "未开裂": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "设置防潮层",
+        "variable": "墙体酥落",
+        "probabilities": {
+            "设置": {
+                "酥落": "unlikely",
+                "未酥落": "very likely"
+            },
+            "未设置": {
+                "酥落": "very likely",
+                "未酥落": "unlikely"
+            }
+        }
+    }
+]

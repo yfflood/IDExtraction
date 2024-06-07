@@ -1,0 +1,1 @@
+[{"variable_name": "结构张拉形态", "variable_type": "decision", "values": ["良好", "不良"]}, {"variable_name": "预应力分布", "variable_type": "decision", "values": ["均匀", "不均匀"]}, {"variable_name": "结构失效", "variable_type": "chance", "values": ["发生", "未发生"]}, {"variable_name": "索的松弛", "variable_type": "chance", "values": ["松弛", "不松弛"]}]

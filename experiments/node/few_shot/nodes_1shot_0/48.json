@@ -1,0 +1,1 @@
+[{"variable_name": "井架斜撑与基础的连接方式", "variable_type": "chance", "values": ["铰接连接", "刚性连接"]}, {"variable_name": "基础底部的零应力区面积", "variable_type": "chance", "values": ["超过15%", "不超过15%"]}, {"variable_name": "外荷载相对于基础形心的偏心距", "variable_type": "decision", "values": ["偏心距大", "偏心距小"]}, {"variable_name": "受压边缘的压力", "variable_type": "chance", "values": ["满足承载力要求", "不满足承载力要求"]}]

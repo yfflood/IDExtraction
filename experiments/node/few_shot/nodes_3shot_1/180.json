@@ -1,0 +1,1 @@
+[{"variable_name": "屈曲约束支撑的受力状态", "variable_type": "chance", "values": ["轴心受力", "偏心受力"]}, {"variable_name": "屈曲约束支撑的设计", "variable_type": "decision", "values": ["设计成轴心受力构件", "设计成偏心受力构件"]}, {"variable_name": "施工过程中的误差", "variable_type": "chance", "values": ["无误差", "产生误差"]}, {"variable_name": "屈曲约束支撑的破坏", "variable_type": "utility", "values": ["未破坏", "破坏"]}]

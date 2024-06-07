@@ -1,0 +1,29 @@
+[
+    {
+        "condition": "混凝土龄期",
+        "variable": "混凝土冻融损伤",
+        "probabilities": {
+            "成熟": {
+                "有冻融损伤": "A.0.2"
+            }
+        }
+    },
+    {
+        "condition": "含水情况",
+        "variable": "混凝土冻融损伤",
+        "probabilities": {
+            "含水": {
+                "有冻融损伤": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "环境正负温度的交替变化",
+        "variable": "混凝土冻融损伤",
+        "probabilities": {
+            "正负温度交替变化": {
+                "有冻融损伤": "very likely"
+            }
+        }
+    }
+]

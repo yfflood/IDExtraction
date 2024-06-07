@@ -1,0 +1,38 @@
+[
+    {
+        "condition": "地面变形",
+        "variable": "建筑物破坏",
+        "probabilities": {
+            "地面下沉": {
+                "建筑物倾斜": "likely",
+                "建筑物挠曲": "likely",
+                "建筑物破坏": "possible",
+                "建筑物完好": "unlikely"
+            },
+            "轴线两侧地面的对倾与挠曲": {
+                "建筑物倾斜": "likely",
+                "建筑物挠曲": "likely",
+                "建筑物破坏": "possible",
+                "建筑物完好": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "岩土工程勘察",
+        "variable": "建筑物破坏",
+        "probabilities": {
+            "提出合理措施": {
+                "建筑物倾斜": "unlikely",
+                "建筑物挠曲": "unlikely",
+                "建筑物破坏": "unlikely",
+                "建筑物完好": "very likely"
+            },
+            "措施不合理": {
+                "建筑物倾斜": "likely",
+                "建筑物挠曲": "likely",
+                "建筑物破坏": "likely",
+                "建筑物完好": "unlikely"
+            }
+        }
+    }
+]

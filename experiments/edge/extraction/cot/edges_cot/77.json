@@ -1,0 +1,93 @@
+[
+    {
+        "condition": "支护结构施工",
+        "variable": "相邻地面",
+        "probabilities": {
+            "产生挤土效应": {
+                "隆起": "very likely",
+                "沉降": "very likely"
+            },
+            "导致土体损失": {
+                "隆起": "very likely",
+                "沉降": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "支护结构施工",
+        "variable": "邻近建（构）筑物及地下管线",
+        "probabilities": {
+            "产生挤土效应": {
+                "变形开裂": "very likely"
+            },
+            "导致土体损失": {
+                "变形开裂": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "降水",
+        "variable": "相邻地面",
+        "probabilities": {
+            "长时间": {
+                "沉降": "likely"
+            },
+            "大幅度": {
+                "沉降": "likely"
+            }
+        }
+    },
+    {
+        "condition": "降水",
+        "variable": "邻近建（构）筑物及地下管线",
+        "probabilities": {
+            "长时间": {
+                "变形开裂": "likely"
+            },
+            "大幅度": {
+                "变形开裂": "likely"
+            }
+        }
+    },
+    {
+        "condition": "基坑开挖",
+        "variable": "相邻地面",
+        "probabilities": {
+            "不平衡力": {
+                "侧向移动": "very likely",
+                "沉降": "very likely",
+                "坑底隆起": "very likely"
+            },
+            "软黏土蠕变": {
+                "侧向移动": "very likely",
+                "沉降": "very likely",
+                "坑底隆起": "very likely"
+            },
+            "水土流失": {
+                "侧向移动": "very likely",
+                "沉降": "very likely",
+                "坑底隆起": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "基坑开挖",
+        "variable": "邻近建（构）筑物及地下管线",
+        "probabilities": {
+            "不平衡力": {
+                "侧移": "very likely",
+                "沉降": "very likely",
+                "倾斜": "very likely"
+            },
+            "软黏土蠕变": {
+                "侧移": "very likely",
+                "沉降": "very likely",
+                "倾斜": "very likely"
+            },
+            "水土流失": {
+                "侧移": "very likely",
+                "沉降": "very likely"
+            }
+        }
+    }
+]

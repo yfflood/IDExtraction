@@ -1,0 +1,1 @@
+[{"variable_name": "环境类型", "variable_type": "chance", "values": ["一般环境", "氯化物环境", "冻融环境", "化学腐蚀环境"]}, {"variable_name": "混凝土强度等级", "variable_type": "decision", "values": ["较低", "较高"]}]

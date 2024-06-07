@@ -1,0 +1,1 @@
+[{"variable_name": "养护条件", "variable_type": "decision", "values": ["满足", "不满足"]}, {"variable_name": "粉煤灰混凝土的强度发展", "variable_type": "utility", "values": ["有利影响", "不利影响"]}, {"variable_name": "粉煤灰掺量", "variable_type": "decision", "values": ["适当降低", "保持不变"]}, {"variable_name": "薄壁混凝土结构的干缩开裂", "variable_type": "chance", "values": ["容易发生", "不容易发生"]}]

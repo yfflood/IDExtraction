@@ -1,0 +1,1 @@
+[{"variable_name": "混凝土收缩", "variable_type": "chance", "values": ["室外环境", "室内结构"]}, {"variable_name": "黏结强度", "variable_type": "chance", "values": ["降低", "正常"]}, {"variable_name": "滑移", "variable_type": "chance", "values": ["增大", "稳定"]}, {"variable_name": "裂缝宽度", "variable_type": "chance", "values": ["增加", "不变"]}]

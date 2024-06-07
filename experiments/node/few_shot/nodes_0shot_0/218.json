@@ -1,0 +1,1 @@
+[{"variable_name": "地表倾斜", "type": "chance", "values": ["轻微倾斜", "严重倾斜"]}, {"variable_name": "建筑物荷重", "type": "decision", "values": ["均匀荷重", "非均匀荷重"]}, {"variable_name": "建筑结构内应力", "type": "utility", "values": ["应力增加", "应力减少"]}]

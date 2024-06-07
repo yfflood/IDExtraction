@@ -1,0 +1,1 @@
+[{"variable_name": "打火引弧位置", "variable_type": "chance", "values": ["焊区以外", "焊区内"]}, {"variable_name": "母材表面状态", "variable_type": "utility", "values": ["烧伤", "未烧伤"]}, {"variable_name": "缺口敏感性", "variable_type": "decision", "values": ["低合金结构钢", "碳素结构钢"]}, {"variable_name": "疲劳强度", "variable_type": "utility", "values": ["受影响", "未受影响"]}]

@@ -1,0 +1,6 @@
+[
+    {
+        "name": "CoT",
+        "prompt": "For the following list of nodes, identify influence relations between the variables based on the text, and assign to each influential relation a corresponding conditional or unconditional probability. No cycles are allowed. For example, if the influence with condition 'a' to variable 'b' is present, there cannot be another influence with condition 'b' to variable 'a'. All conditions and variables should be members of the list: {node_list}.\n\nOutput using the following format: \n{format_instructions}\n\nThe content should be in Chinese if the text is in Chinese.\n\ntext: {text}\n\nLet's think step by step."
+    }
+]

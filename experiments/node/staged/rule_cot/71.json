@@ -1,0 +1,1 @@
+[{"variable_name": "内模上移", "variable_type": "chance", "values": ["发生", "不发生"]}, {"variable_name": "抗浮技术措施", "variable_type": "decision", "values": ["采取", "不采取"]}, {"variable_name": "楼板施工质量", "variable_type": "utility", "values": ["受影响", "不受影响"]}]

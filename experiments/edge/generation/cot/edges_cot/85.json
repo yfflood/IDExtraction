@@ -1,0 +1,58 @@
+[
+    {
+        "condition": "盐胀临界深度",
+        "variable": "建筑物浅基的埋深",
+        "probabilities": {
+            "大于3.0m": {
+                "大于盐胀临界深度": "very likely",
+                "小于盐胀临界深度": "unlikely"
+            },
+            "小于3.0m": {
+                "大于盐胀临界深度": "unlikely",
+                "小于盐胀临界深度": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "建筑物浅基的埋深",
+        "variable": "盐胀压力",
+        "probabilities": {
+            "大于盐胀临界深度": {
+                "小于上部有效压力": "likely",
+                "大于等于上部有效压力": "unlikely"
+            },
+            "小于盐胀临界深度": {
+                "小于上部有效压力": "unlikely",
+                "大于等于上部有效压力": "likely"
+            }
+        }
+    },
+    {
+        "condition": "基础埋深",
+        "variable": "室内地面处理",
+        "probabilities": {
+            "适当浅埋": {
+                "需要处理": "likely",
+                "不需要处理": "unlikely"
+            },
+            "深埋": {
+                "需要处理": "unlikely",
+                "不需要处理": "likely"
+            }
+        }
+    },
+    {
+        "condition": "室内地面处理",
+        "variable": "地面膨胀破坏",
+        "probabilities": {
+            "需要处理": {
+                "避免": "likely",
+                "发生": "unlikely"
+            },
+            "不需要处理": {
+                "避免": "unlikely",
+                "发生": "likely"
+            }
+        }
+    }
+]

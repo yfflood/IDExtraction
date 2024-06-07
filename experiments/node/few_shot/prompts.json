@@ -1,0 +1,22 @@
+[
+    {
+        "n_shots": 0,
+        "types": 0,
+        "prompt": "For the following text, extract every variable, entity, action or event. If none is found, output a default node, with name and type filled with empty strings and values an empty list. Otherwise, values should include at least two distinct values of the variable. \n\nOutput using the following format:\n{format_instructions}\n\nThe content should be in Chinese if the text is in Chinese.\n\ntext: {text}"
+    },
+    {
+        "n_shots": 1,
+        "types": 0,
+        "prompt": "For the following text, extract every variable, entity, action or event. If none is found, output a default node, with name and type filled with empty strings and values an empty list. Otherwise, values should include at least two distinct values of the variable.\n\nOutput using the following format:\n{format_instructions}\n\nThe content should be in Chinese if the text is in Chinese.\n\nFor example, in the sentence,\nOpenings connecting upper and lower floors within buildings compromise the integrity of fire compartments.\n\nopening connecting floors is identified as a variable. Its possible values are present and not present. It is a chance node, because generally the presence of such openings is not known, and its value is provided as information for decision-making.\n\ntext: {text}"
+    },    
+    {
+        "n_shots": 3,
+        "types": 0,
+        "prompt": "For the following text, extract every variable, entity, action or event. If none is found, output a default node, with name and type filled with empty strings and values an empty list. Otherwise, values should include at least two distinct values of the variable.\n\nOutput using the following format:\n{format_instructions}\n\nThe content should be in Chinese if the text is in Chinese.\n\nA few examples are provided as follows: \n\nIn the sentence,\nOpenings connecting upper and lower floors within buildings compromise the integrity of fire compartments.\n\nopening connecting floors is identified as a variable. Its possible values are present and not present. It is a chance node, because generally the presence of such openings is not known, and its value is provided as information for decision-making.\n\nIn the sentence,\nOpenings connecting upper and lower floors within buildings compromise the integrity of fire compartments.\nintegrity of fire compartments is identified as a variable. Its possible values are compromised and not compromised. It is a chance node, because the real integrity of fire compartments is subject to uncertainty.\n\nIn the sentence,\nTherefore, reliable fire separation measures should be implemented in these connected spaces to prevent the rapid upward spread of fire.\nspread of fire is identified as a variable. Its possible values include controlled, slow, rapid, out of control. It is a chance node, because it is subject to uncertainty. It is not a utility node, because it is not directly reflecting losses or gains.\n\ntext: {text}"
+    },
+    {
+        "n_shots": 3,
+        "types": 1,
+        "prompt": "For the following text, extract every variable, entity, action or event. If none is found, output a default node, with name and type filled with empty strings and values an empty list.\n\nOutput using the following format:\n{format_instructions}\n\nThe content should be in Chinese if the text is in Chinese.\n\nA few examples are provided as follows: \n\nIn the sentence,\nOpenings connecting upper and lower floors within buildings compromise the integrity of fire compartments.\n\nopening connecting floors is identified as a variable. Its possible values are present and not present. It is a chance node, because generally the presence of such openings is not known, and its value is provided as information for decision-making.\n\nIn the sentence,\nTherefore, reliable fire separation measures should be implemented in these connected spaces to prevent the rapid upward spread of fire.\nreliable fire separation measures is identified as a variable. Its possible values include implemented and not implemented. It is a decision node, because it is an action to be decided by the decision-maker.\n\nIn the sentence,\nThe spread of fires in populated areas can easily lead to casualties.\ncasualties is identified as a variable. Its possible values include no, small and large. It is a utility node, because it directly reflects loss of lives.\n\ntext: {text}"
+    }
+]

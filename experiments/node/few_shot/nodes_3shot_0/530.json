@@ -1,0 +1,1 @@
+[{"variable_name": "轴向压力", "variable_type": "decision", "values": ["0.3～0.5", "超过0.5"]}, {"variable_name": "受剪承载力", "variable_type": "utility", "values": ["最大值", "降低"]}, {"variable_name": "破坏类型", "variable_type": "chance", "values": ["无斜裂缝", "带有斜裂缝的正截面小偏心受压破坏"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "支护结构施工", "variable_type": "decision", "values": ["挤土效应", "土体损失"]}, {"variable_name": "降水", "variable_type": "decision", "values": ["地面隆起", "地面沉降"]}, {"variable_name": "基坑开挖", "variable_type": "decision", "values": ["不平衡力", "软黏土蠕变", "水土流失"]}, {"variable_name": "土体加固", "variable_type": "decision", "values": ["结构托换", "架空管线"]}]

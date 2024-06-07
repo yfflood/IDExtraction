@@ -1,0 +1,1 @@
+[{"variable_name": "地面变形", "variable_type": "chance", "values": ["地面下沉", "轴线两侧地面对倾与挠曲"]}, {"variable_name": "岩土工程勘察任务", "variable_type": "decision", "values": ["提出合理的施工方法", "提出最佳保护措施"]}, {"variable_name": "建筑物状态", "variable_type": "utility", "values": ["建筑物倾斜", "建筑物挠曲", "建筑物破坏"]}]

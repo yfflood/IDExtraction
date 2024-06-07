@@ -1,0 +1,1 @@
+[{"variable_name": "预应力分布", "variable_type": "decision", "values": ["均匀分布", "非均匀分布"]}, {"variable_name": "结构失效", "variable_type": "chance", "values": ["因个别索松弛", "因其他原因"]}]

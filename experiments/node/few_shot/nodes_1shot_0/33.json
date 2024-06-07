@@ -1,0 +1,1 @@
+[{"variable_name": "金属支撑件的构造措施", "variable_type": "decision", "values": ["设置构造措施", "未设置构造措施"]}, {"variable_name": "外墙板内侧与结构间的调整间隙", "variable_type": "chance", "values": ["存在调整间隙", "不存在调整间隙"]}, {"variable_name": "防火安全措施", "variable_type": "utility", "values": ["有效防止火灾蔓延", "无法有效防止火灾蔓延"]}]

@@ -1,0 +1,34 @@
+[
+    {
+        "condition": "沉降观测点位置",
+        "variable": "承压板变形",
+        "probabilities": {
+            "千斤顶底座承压板以下": {
+                "无变形": "very likely",
+                "有变形": "unlikely"
+            },
+            "承压板上": {
+                "无变形": "unlikely",
+                "有变形": "very likely"
+            },
+            "千斤顶上": {
+                "无变形": "unlikely",
+                "有变形": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "承压板变形",
+        "variable": "沉降观测数据真实性",
+        "probabilities": {
+            "无变形": {
+                "真实": "very likely",
+                "失实": "unlikely"
+            },
+            "有变形": {
+                "真实": "unlikely",
+                "失实": "very likely"
+            }
+        }
+    }
+]

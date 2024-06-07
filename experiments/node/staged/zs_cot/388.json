@@ -1,0 +1,1 @@
+[{"variable_name": "保温层位置", "variable_type": "decision", "values": ["设置在防水层上部", "设置在防水层下部"]}, {"variable_name": "保护层", "variable_type": "action", "values": ["做保护层", "不做保护层"]}, {"variable_name": "受潮、吸湿", "variable_type": "chance", "values": ["受潮", "吸湿"]}, {"variable_name": "找平层", "variable_type": "action", "values": ["做找平层", "不做找平层"]}]

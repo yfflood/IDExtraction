@@ -1,0 +1,76 @@
+[
+    {
+        "condition": "墙体类型",
+        "variable": "柱顶节点抗震性能",
+        "probabilities": {
+            "嵌砌墙": {
+                "好": "very likely",
+                "差": "unlikely"
+            },
+            "外贴墙": {
+                "好": "less likely",
+                "差": "likely"
+            }
+        }
+    },
+    {
+        "condition": "厂房结构",
+        "variable": "柱列纵向侧移刚度",
+        "probabilities": {
+            "多跨厂房": {
+                "差别悬殊": "unlikely",
+                "相对均衡": "very likely"
+            },
+            "单跨厂房": {
+                "差别悬殊": "likely",
+                "相对均衡": "unlikely"
+            },
+            "外纵墙不对称布置": {
+                "差别悬殊": "very likely",
+                "相对均衡": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "柱列纵向侧移刚度",
+        "variable": "厂房纵向破坏",
+        "probabilities": {
+            "差别悬殊": {
+                "发生": "very likely",
+                "未发生": "unlikely"
+            },
+            "相对均衡": {
+                "发生": "unlikely",
+                "未发生": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "柱顶节点抗震性能",
+        "variable": "门窗洞口处柱子的破坏",
+        "probabilities": {
+            "好": {
+                "发生": "unlikely",
+                "未发生": "very likely"
+            },
+            "差": {
+                "发生": "very likely",
+                "未发生": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "厂房纵向破坏",
+        "variable": "屋盖安全",
+        "probabilities": {
+            "发生": {
+                "安全": "unlikely",
+                "不安全": "very likely"
+            },
+            "未发生": {
+                "安全": "very likely",
+                "不安全": "unlikely"
+            }
+        }
+    }
+]

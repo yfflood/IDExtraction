@@ -1,0 +1,1 @@
+[{"variable_name": "检查基准", "variable_type": "decision", "values": ["以构件的中心线为基准", "以构件的棱边、侧面对准基准线"]}, {"variable_name": "误差产生", "variable_type": "chance", "values": ["可能导致误差", "不产生误差"]}]

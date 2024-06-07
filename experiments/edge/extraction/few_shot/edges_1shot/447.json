@@ -1,0 +1,68 @@
+[
+    {
+        "condition": "水泥用量",
+        "variable": "混凝土开裂",
+        "probabilities": {
+            "不超过350kg": {
+                "不易裂": "very likely"
+            },
+            "超过350kg": {
+                "易裂": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "水泥类型",
+        "variable": "水泥颗粒大小",
+        "probabilities": {
+            "早强水泥": {
+                "细颗粒": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "水泥颗粒大小",
+        "variable": "混凝土开裂",
+        "probabilities": {
+            "细颗粒": {
+                "易裂": "very likely"
+            },
+            "粗颗粒": {
+                "不易裂": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "水化热产生速度",
+        "variable": "混凝土开裂",
+        "probabilities": {
+            "快": {
+                "易裂": "very likely"
+            },
+            "慢": {
+                "不易裂": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "外界温度",
+        "variable": "温差",
+        "probabilities": {
+            "低": {
+                "大": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "温差",
+        "variable": "混凝土开裂",
+        "probabilities": {
+            "大": {
+                "易裂": "very likely"
+            },
+            "小": {
+                "不易裂": "very likely"
+            }
+        }
+    }
+]

@@ -1,0 +1,1 @@
+[{"variable_name": "基底逆坡坡度", "variable_type": "decision", "values": ["适中", "过大"]}, {"variable_name": "挡墙稳定性", "variable_type": "utility", "values": ["增加", "不增加"]}, {"variable_name": "墙踵陷入地基", "variable_type": "chance", "values": ["发生", "不发生"]}, {"variable_name": "挡墙墙身整体性", "variable_type": "utility", "values": ["保持", "难以保持"]}]

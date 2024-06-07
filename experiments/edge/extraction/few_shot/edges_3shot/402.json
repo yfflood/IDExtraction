@@ -1,0 +1,44 @@
+[
+    {
+        "condition": "浇筑长度",
+        "variable": "挡土板开裂",
+        "probabilities": {
+            "过长": {
+                "发生": "very likely",
+                "避免": "unlikely"
+            },
+            "减短": {
+                "发生": "unlikely",
+                "避免": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "混凝土收缩",
+        "variable": "岩石的约束作用",
+        "probabilities": {
+            "发生": {
+                "产生拉应力": "very likely",
+                "不产生拉应力": "unlikely"
+            },
+            "不发生": {
+                "产生拉应力": "unlikely",
+                "不产生拉应力": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "岩石的约束作用",
+        "variable": "挡土板开裂",
+        "probabilities": {
+            "产生拉应力": {
+                "发生": "very likely",
+                "避免": "unlikely"
+            },
+            "不产生拉应力": {
+                "发生": "unlikely",
+                "避免": "very likely"
+            }
+        }
+    }
+]
