@@ -23,6 +23,8 @@ def node_subst_cost(n1, n2):
     cost += (1-(intersection/union))/2
     return cost
 
+def node_match(n1, n2):
+    return n1.get("variable_name") == n2.get("variable_name")
 
 def edge_subst_cost(e1, e2):
     keys_condition = e1.get("probabilities").keys()
@@ -41,6 +43,9 @@ def edge_subst_cost(e1, e2):
             )
     cost = sum(costs)/len(costs)
     return cost
+
+def edge_match(e1, e2):
+    return e1.get("condition") == e2.get("condition") and e1.get("variable") == e2.get("variable")
 
 
 class Id_Graph:
@@ -64,8 +69,10 @@ class Id_Graph:
         return nx.graph_edit_distance(
             self.graph,
             other.graph,
-            node_subst_cost=node_subst_cost,
-            edge_subst_cost=edge_subst_cost
+            node_match=node_match,
+            edge_match=edge_match
+            # node_subst_cost=node_subst_cost,
+            # edge_subst_cost=edge_subst_cost
         )
 
 
