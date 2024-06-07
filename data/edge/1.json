@@ -1,0 +1,56 @@
+[
+    {
+        "condition": "土体膨胀",
+        "variable": "含水量",
+        "probabilities": {
+            "发生": {
+                "增加": "很可能"
+            }
+        }
+    },
+    {
+        "condition": "土体膨胀",
+        "variable": "密度",
+        "probabilities": {
+            "发生": {
+                "减小": "很可能"
+            }
+        }
+    },
+    {
+        "condition": "含水量",
+        "variable": "桩侧阻",
+        "probabilities": {
+            "增加": {
+                "降低": "很可能"
+            }
+        }
+    },
+    {
+        "condition": "密度",
+        "variable": "桩侧阻",
+        "probabilities": {
+            "减小": {
+                "降低": "密度减小时桩侧阻很可能会降低"
+            }
+        }
+    },
+    {
+        "condition": "土体收缩",
+        "variable": "土体裂缝",
+        "probabilities": {
+            "发生": {
+                "产生": "很可能"
+            }
+        }
+    },
+    {
+        "condition": "土体裂缝",
+        "variable": "桩侧阻",
+        "probabilities": {
+            "产生": {
+                "丧失": "很可能"
+            }
+        }
+    }
+]

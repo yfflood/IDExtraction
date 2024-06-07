@@ -1,0 +1,58 @@
+[
+    {
+        "condition": "后张预应力梁宽",
+        "variable": "混凝土折合厚度",
+        "probabilities": {
+            "适当放宽": {
+                "很大": "likely",
+                "较小": "likely"
+            },
+            "1m甚至更多": {
+                "很大": "almost certain",
+                "较小": "impossible"
+            }
+        }
+    },
+    {
+        "condition": "混凝土折合厚度",
+        "variable": "自重",
+        "probabilities": {
+            "很大": {
+                "很大": "almost certain",
+                "小": "impossible"
+            },
+            "较小": {
+                "很大": "unlikely",
+                "小": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "自重",
+        "variable": "抗震及基础负担",
+        "probabilities": {
+            "很大": {
+                "加大": "almost certain",
+                "未加大": "unlikely"
+            },
+            "小": {
+                "加大": "unlikely",
+                "未加大": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "抗震及基础负担",
+        "variable": "浪费",
+        "probabilities": {
+            "加大": {
+                "形成不必要的浪费": "almost certain",
+                "避免浪费": "impossible"
+            },
+            "未加大": {
+                "形成不必要的浪费": "unlikely",
+                "避免浪费": "very likely"
+            }
+        }
+    }
+]

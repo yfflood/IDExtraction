@@ -8,9 +8,9 @@
         ]
     },
     {
-        "variable_name":"土层",
-        "variable_type":"chance",
-        "values":[
+        "variable_name": "土层",
+        "variable_type": "chance",
+        "values": [
             "软弱",
             "不软弱"
         ]
@@ -49,7 +49,7 @@
     },
     {
         "variable_name": "建筑结构破坏",
-        "variable_type": "chance",
+        "variable_type": "utility",
         "values": [
             "严重",
             "轻微或无"

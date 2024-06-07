@@ -1,0 +1,63 @@
+[
+    {
+        "condition": "混凝土用途",
+        "variable": "长期高温作用",
+        "probabilities": {
+            "烟囱": {
+                "存在": "0.7"
+            },
+            "室内结构":{
+                "不存在": "0.7"
+            }
+        }
+    },
+    {
+        "condition":"长期高温作用",
+        "variable":"混凝土收缩",
+        "probabilities":{
+            "存在":{
+                "大":"0.9"
+            },
+            "不存在":{
+                "小":"0.9"
+            }
+        }
+    },
+    {
+        "condition": "长期高温作用",
+        "variable": "钢筋与混凝土间的黏结强度",
+        "probabilities": {
+            "存在": {
+                "降低": "0.9"
+            }
+        }
+    },
+    {
+        "condition": "钢筋与混凝土间的黏结强度",
+        "variable": "滑移",
+        "probabilities": {
+            "降低": {
+                "增大": "0.9"
+            }
+        }
+    },
+    {
+        "condition": "滑移",
+        "variable": "裂缝宽度",
+        "probabilities": {
+            "增大": {
+                "增加": "0.9"
+            }
+        }
+    },
+    {
+        "condition":"混凝土收缩",
+        "variable":"裂缝宽度",
+        "probabilities":{
+            "大":{
+                "增加":"0.9"
+            }
+        }
+    }
+    
+]

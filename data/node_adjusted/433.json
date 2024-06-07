@@ -16,8 +16,8 @@
         ]
     },
     {
-        "variable_name": "粘贴薄弱部位",
-        "variable_type": "decision",
+        "variable_name": "粘钢薄弱部位",
+        "variable_type": "chance",
         "values": [
             "有",
             "无"

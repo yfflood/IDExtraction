@@ -1,0 +1,38 @@
+[
+    {
+        "condition": "先张法预应力传递长度范围内局部挤压",
+        "variable": "构件端部混凝土劈裂裂缝",
+        "probabilities": {
+            "造成环向拉应力": {
+                "出现": "very likely"
+            },
+            "不造成环向拉应力": {
+                "不出现": "very likely"
+            }
+        }
+    },
+    {
+        "condition":"构件端部混凝土劈裂裂缝",
+        "variable":"自锚端局部承载力",
+        "probabilities":{
+            "出现":{
+                "保证":"0.1"
+            },
+            "不出现":{
+                "不保证":"very likely"
+            }
+        }
+    },
+    {
+        "condition": "端部构造措施",
+        "variable": "自锚端局部承载力",
+        "probabilities": {
+            "采取": {
+                "保证": "1.0"
+            },
+            "不采取": {
+                "不保证": "very likely"
+            }
+        }
+    }
+]

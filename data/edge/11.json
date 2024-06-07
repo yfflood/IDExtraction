@@ -1,0 +1,80 @@
+[
+    {
+        "condition": "加固新增截面材料",
+        "variable": "灌浆料",
+        "probabilities": {
+            "现浇混凝土": {
+                "可靠配置": "very likely",
+                "配置不当": "unlikely"
+            },
+            "自密实混凝土": {
+                "可靠配置": "very likely",
+                "配置不当": "unlikely"
+            },
+            "喷射混凝土": {
+                "可靠配置": "very likely",
+                "配置不当": "unlikely"
+            },
+            "掺有细石混凝土的水泥基灌浆料": {
+                "可靠配置": "likely",
+                "配置不当": "likely"
+            }
+        }
+    },
+    {
+        "condition": "灌浆料",
+        "variable": "新增面层裂缝",
+        "probabilities": {
+            "可靠配置": {
+                "产生": "unlikely",
+                "不产生": "very likely"
+            },
+            "配置不当": {
+                "产生": "very likely",
+                "不产生": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "膨胀剂",
+        "variable": "灌浆料",
+        "probabilities": {
+            "优质": {
+                "可靠配置": "very likely",
+                "配置不当": "unlikely"
+            },
+            "劣质": {
+                "可靠配置": "unlikely",
+                "配置不当": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "细石混凝土掺加比例",
+        "variable": "灌浆料",
+        "probabilities": {
+            "30%": {
+                "可靠配置": "very likely",
+                "配置不当": "unlikely"
+            },
+            "其他": {
+                "可靠配置": "unlikely",
+                "配置不当": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "粗骨料掺加",
+        "variable": "灌浆料",
+        "probabilities": {
+            "掺加16mm-20mm": {
+                "可靠配置": "very likely",
+                "配置不当": "unlikely"
+            },
+            "其他": {
+                "可靠配置": "unlikely",
+                "配置不当": "very likely"
+            }
+        }
+    }
+]

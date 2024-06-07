@@ -1,7 +1,7 @@
 [
     {
         "variable_name": "基坑外水位的降深",
-        "variable_type": "decision",
+        "variable_type": "chance",
         "values": [
             "保持",
             "不保持"
@@ -21,14 +21,6 @@
         "values": [
             "设置",
             "不设置"
-        ]
-    },
-    {
-        "variable_name": "止水墙工程质量",
-        "variable_type": "decision",
-        "values": [
-            "精细",
-            "粗糙"
         ]
     },
     {

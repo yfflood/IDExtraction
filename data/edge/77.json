@@ -1,0 +1,153 @@
+[
+    {
+        "condition": "支护结构施工",
+        "variable": "相邻地面",
+        "probabilities": {
+            "产生挤土效应": {
+                "隆起": "very likely",
+                "下沉": "unlikely",
+                "无变化": "unlikely",
+                "侧向移动": "unlikely"
+            },
+            "导致土体损失": {
+                "隆起": "unlikely",
+                "下沉": "very likely",
+                "无变化": "unlikely",
+                "侧向移动": "unlikely"
+            },
+            "无作用": {
+                "隆起": "unlikely",
+                "下沉": "unlikely",
+                "无变化": "very likely",
+                "侧向移动": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "降水",
+        "variable": "相邻地面",
+        "probabilities": {
+            "长时间": {
+                "隆起": "unlikely",
+                "下沉": "very likely",
+                "无变化": "unlikely",
+                "侧向移动": "unlikely"
+            },
+            "大幅度": {
+                "隆起": "unlikely",
+                "下沉": "likely",
+                "无变化": "unlikely",
+                "侧向移动": "unlikely"
+            },
+            "轻微": {
+                "隆起": "unlikely",
+                "下沉": "unlikely",
+                "无变化": "very likely",
+                "侧向移动": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "基坑开挖",
+        "variable": "相邻地面",
+        "probabilities": {
+            "不平衡力": {
+                "隆起": "unlikely",
+                "下沉": "unlikely",
+                "无变化": "unlikely",
+                "侧向移动": "very likely"
+            },
+            "软黏土蠕变": {
+                "隆起": "unlikely",
+                "下沉": "unlikely",
+                "无变化": "unlikely",
+                "侧向移动": "likely"
+            },
+            "水土流失": {
+                "隆起": "unlikely",
+                "下沉": "likely",
+                "无变化": "unlikely",
+                "侧向移动": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "相邻地面",
+        "variable": "邻近建（构）筑物及地下管线",
+        "probabilities": {
+            "隆起":{
+                "变形开裂": "likely",
+                "无损":"unlikely",
+                "侧移":"unlikely",
+                "沉降":"unlikely",
+                "倾斜":"likely"
+            },
+            "下沉":{
+                "变形开裂": "unlikely",
+                "无损":"unlikely",
+                "侧移":"unlikely",
+                "沉降":"likely",
+                "倾斜":"unlikely"
+            },
+            "无变化":{
+                "变形开裂": "unlikely",
+                "无损":"very likely",
+                "侧移":"unlikely",
+                "沉降":"unlikely",
+                "倾斜":"unlikely"
+            },
+            "侧向移动":{
+                "变形开裂": "unlikely",
+                "无损":"unlikely",
+                "侧移":"very likely",
+                "沉降":"unlikely",
+                "倾斜":"unlikely"
+            }
+        }
+    },
+    {
+        "condition": "防范措施",
+        "variable": "相邻地面",
+        "probabilities": {
+            "土体加固": {
+                "隆起": "unlikely",
+                "下沉": "unlikely",
+                "无变化": "very likely",
+                "侧向移动": "unlikely"
+            },
+            "结构托换":{
+                "隆起": "unlikely",
+                "下沉": "unlikely",
+                "无变化": "very likely",
+                "侧向移动": "unlikely"
+            },
+            "架空管线":{
+                "隆起": "unlikely",
+                "下沉": "unlikely",
+                "无变化": "very likely",
+                "侧向移动": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "邻近建（构）筑物及地下管线",
+        "variable": "周围环境安全性",
+        "probabilities": {
+            "变形开裂":{
+                "安全": "unlikely",
+                "一般":"likely",
+                "危险":"likely"
+            },
+            "无损":{
+                "安全": "very likely",
+                "一般":"unlikely",
+                "危险":"unlikely"
+            },
+            "侧移":{
+                "安全": "unlikely",
+                "一般":"likely",
+                "危险":"likely"
+            }
+        }
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "condition": "无粘结构造层厚度",
+        "variable": "核心单元对约束单元的挤压作用",
+        "probabilities": {
+            "薄": {
+                "有": "very likely"
+            },
+            "厚": {
+                "有": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "轴压力",
+        "variable": "核心单元对约束单元的挤压作用",
+        "probabilities": {
+            "有": {
+                "有": "very likely"
+            },
+            "无": {
+                "有": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "核心单元对约束单元的挤压作用",
+        "variable": "混凝土开裂",
+        "probabilities": {
+            "有": {
+                "开裂": "very likely"
+            },
+            "无": {
+                "开裂": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "约束单元配置",
+        "variable": "无粘结构造层厚度",
+        "probabilities": {
+            "配置足够箍筋或保证钢管足够壁厚": {
+                "厚": "very likely"
+            },
+            "不足": {
+                "薄": "very likely"
+            }
+        }
+    }
+]

@@ -1,0 +1,60 @@
+[
+    {
+        "condition": "梁中线与柱中线之间偏心距",
+        "variable": "核芯区受剪面积",
+        "probabilities": {
+            "较大": {
+                "不足": "very likely",
+                "充足": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "抗震墙中线与柱中线之间偏心距",
+        "variable": "核芯区受剪面积",
+        "probabilities": {
+            "较大": {
+                "不足": "very likely",
+                "充足": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "地震作用",
+        "variable": "柱的不利扭转效应",
+        "probabilities": {
+            "发生": {
+                "发生": "likely",
+                "未发生": "unlikely"
+            }
+        }
+    },
+    {
+        "condition":"核芯区受剪面积",
+        "variable":"柱的不利扭转效应",
+        "probabilities":{
+            "不足":{
+                "发生":"very likely",
+                "未发生":"unlikely"
+            },
+            "充足":{
+                "发生":"unlikely",
+                "未发生":"very likely"
+            }
+        }
+    },
+    {
+        "condition":"避免扭转措施",
+        "variable":"柱的不利扭转效应",
+        "probabilities":{
+            "未采取":{
+                "发生":"very likely",
+                "未发生":"unlikely"
+            },
+            "采取":{
+                "发生":"unlikely",
+                "未发生":"very likely"
+            }
+        }
+    }
+]

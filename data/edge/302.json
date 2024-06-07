@@ -1,0 +1,58 @@
+[
+    {
+        "condition": "结构的扭转效应",
+        "variable": "结构破坏",
+        "probabilities": {
+            "大": {
+                "严重": "very likely",
+                "轻微": "unlikely"
+            },
+            "小": {
+                "严重": "unlikely",
+                "轻微": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "平面不规则",
+        "variable": "结构的扭转效应",
+        "probabilities": {
+            "是": {
+                "大": "very likely",
+                "小": "unlikely"
+            },
+            "否": {
+                "大": "unlikely",
+                "小": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "质量与刚度偏心",
+        "variable": "结构的扭转效应",
+        "probabilities": {
+            "是": {
+                "大": "very likely",
+                "小": "unlikely"
+            },
+            "否": {
+                "大": "unlikely",
+                "小": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "抗扭刚度",
+        "variable": "结构的扭转效应",
+        "probabilities": {
+            "太弱": {
+                "大": "very likely",
+                "小": "unlikely"
+            },
+            "足够": {
+                "大": "unlikely",
+                "小": "very likely"
+            }
+        }
+    }
+]

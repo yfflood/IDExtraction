@@ -1,0 +1,29 @@
+[
+    {
+        "condition": "基础尺寸",
+        "variable": "基底压力",
+        "probabilities": {
+            "减小": {
+                "增大": "很可能导致"
+            }
+        }
+    },
+    {
+        "condition": "基底压力",
+        "variable": "差异沉降",
+        "probabilities": {
+            "增大": {
+                "减小": "很可能导致"
+            }
+        }
+    },
+    {
+        "condition": "地基极限承载力",
+        "variable": "地基失稳",
+        "probabilities": {
+            "核算": {
+                "不发生": "几乎肯定"
+            }
+        }
+    }
+]

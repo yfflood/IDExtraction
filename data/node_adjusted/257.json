@@ -16,6 +16,14 @@
         ]
     },
     {
+        "variable_name":"中部区域隆起",
+        "variable_type": "chance",
+        "values": [
+            "大",
+            "小"
+        ]
+    },
+    {
         "variable_name": "气候变化",
         "variable_type": "chance",
         "values": [

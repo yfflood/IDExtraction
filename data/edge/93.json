@@ -1,0 +1,72 @@
+[
+    {
+        "condition": "转换层上、下部结构侧向刚度比",
+        "variable": "结构构件的内力突变",
+        "probabilities": {
+            "接近1": {
+                "发生": "very unlikely",
+                "未发生": "very likely"
+            },
+            "相差较大": {
+                "发生": "almost certain",
+                "未发生": "almost impossible"
+            }
+        }
+    },
+    {
+        "condition": "转换层上、下部柱截面几何形状",
+        "variable": "构件受力状况",
+        "probabilities": {
+            "相同": {
+                "更加复杂": "unlikely",
+                "相对简单": "likely"
+            },
+            "不同": {
+                "更加复杂": "almost certain",
+                "相对简单": "almost impossible"
+            }
+        }
+    },
+    {
+        "condition": "底部抽柱数量",
+        "variable": "转换层上、下部结构侧向刚度比",
+        "probabilities": {
+            "合理控制": {
+                "接近1": "likely",
+                "相差较大": "unlikely"
+            },
+            "过多": {
+                "接近1": "unlikely",
+                "相差较大": "likely"
+            }
+        }
+    },
+    {
+        "condition":"结构构件的内力突变",
+        "variable":"侧向刚度比满足要求",
+        "probabilities":{
+            "发生":{
+                "满足":"unlikely",
+                "不满足":"likely"
+            },
+            "未发生":{
+                "满足":"likely",
+                "不满足":"unlikely"
+            }
+        }
+    },
+    {
+        "condition":"构件受力状况",
+        "variable":"侧向刚度比满足要求",
+        "probabilities":{
+            "更加复杂":{
+                "满足":"unlikely",
+                "不满足":"likely"
+            },
+            "相对简单":{
+                "满足":"likely",
+                "不满足":"unlikely"
+            }
+        }
+    }
+]

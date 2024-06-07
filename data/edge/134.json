@@ -1,0 +1,56 @@
+[
+    {
+        "condition": "增设抗震墙",
+        "variable": "结构自重",
+        "probabilities": {
+            "增设": {
+                "增加": "very likely"
+            },
+            "不增设": {
+                "不增加": "very likely"
+            }
+        }
+    },
+    {
+        "condition":"结构自重",
+        "variable":"基础承载可能性",
+        "probabilities":{
+            "增加":{
+                "不可行":"very likely"
+            },
+            "不增加":{
+                "可行":"very likely"
+            }
+        }
+    },
+    {
+        "condition": "初始跨度",
+        "variable": "增设翼墙",
+        "probabilities": {
+            "大": {
+                "增设": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "增设翼墙",
+        "variable": "梁剪切破坏",
+        "probabilities": {
+            "增设": {
+                "不发生": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "初始跨度",
+        "variable": "梁剪切破坏",
+        "probabilities": {
+            "大": {
+                "发生": "very likely"
+            },
+            "小": {
+                "不发生": "very likely"
+            }
+        }
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "condition": "地表水流",
+        "variable": "边坡稳定性",
+        "probabilities": {
+            "强": {
+                "失稳": "很可能导致"
+            }
+        }
+    },
+    {
+        "condition": "雨水冲刷",
+        "variable": "边坡稳定性",
+        "probabilities": {
+            "强": {
+                "失稳": "很可能导致"
+            }
+        }
+    },
+    {
+        "condition":"雨水排泄",
+        "variable":"雨水冲刷",
+        "probabilities":{
+            "有组织":{
+                "强":"不太可能"
+            }
+        }
+    },
+    {
+        "condition":"雨水排泄",
+        "variable":"地表水流",
+        "probabilities":{
+            "有组织":{
+                "强":"不太可能"
+            }
+        }
+    },
+    {
+        "condition": "护坡措施",
+        "variable": "雨水冲刷",
+        "probabilities": {
+            "做护坡": {
+                "强": "不太可能"
+            },
+            "不做护坡":{
+                "强":"很可能"
+            }
+        }
+    },
+    {
+        "condition": "草皮种植",
+        "variable": "雨水冲刷",
+        "probabilities": {
+            "种植": {
+                "强": "不太可能"
+            },
+            "未种植":{
+                "强":"很可能"
+            }
+        }
+    }
+]

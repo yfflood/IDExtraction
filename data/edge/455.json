@@ -1,0 +1,65 @@
+[
+    {
+        "condition": "连接方式",
+        "variable": "地震反应",
+        "probabilities": {
+            "连接": {
+                "加大": "1.0"
+            }
+        }
+    },
+    {
+        "condition": "连接方式",
+        "variable": "应力集中",
+        "probabilities": {
+            "连接": {
+                "可能": "1.0"
+            }
+        }
+    },
+    {
+        "condition": "应力集中",
+        "variable": "短柱效应",
+        "probabilities": {
+            "可能": {
+                "可能造成": "1.0"
+            }
+        }
+    },
+    {
+        "condition": "短柱效应",
+        "variable": "排架柱影响",
+        "probabilities": {
+            "可能造成": {
+                "影响": "1.0"
+            }
+        }
+    },
+    {
+        "condition": "短柱效应",
+        "variable": "柱顶连接和屋盖结构影响",
+        "probabilities": {
+            "可能造成": {
+                "可能涉及": "1.0"
+            }
+        }
+    },
+    {
+        "condition":"柱顶连接和屋盖结构影响",
+        "variable":"计算和加强措施难度",
+        "probabilities":{
+            "可能涉及":{
+                "困难":"1.0"
+            }
+        }
+    },
+    {
+        "condition": "地震反应",
+        "variable": "计算和加强措施难度",
+        "probabilities": {
+            "加大": {
+                "困难": "1.0"
+            }
+        }
+    }
+]

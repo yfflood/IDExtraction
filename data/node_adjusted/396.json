@@ -17,7 +17,7 @@
     },
     {
         "variable_name": "差异沉降",
-        "variable_type": "chance",
+        "variable_type": "utility",
         "values": [
             "减小",
             "不减小"

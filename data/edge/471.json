@@ -1,0 +1,62 @@
+[
+    {
+        "condition": "石子级配",
+        "variable": "石子空隙率",
+        "probabilities": {
+            "合格": {
+                "合格": "很高"
+            }
+        }
+    },
+    {
+        "condition": "石子粒径",
+        "variable": "石子形状",
+        "probabilities": {
+            "合适": {
+                "合格": "很高"
+            }
+        }
+    },
+    {
+        "condition": "石子形状",
+        "variable": "灰浆用量",
+        "probabilities": {
+            "不合格": {
+                "过多": "很高"
+            }
+        }
+    },
+    {
+        "condition": "石子空隙率",
+        "variable": "灰浆用量",
+        "probabilities": {
+            "过大": {
+                "过多": "很高"
+            }
+        }
+    },
+    {
+        "condition": "灰浆用量",
+        "variable": "开裂风险",
+        "probabilities": {
+            "过多": {
+                "高": "很高"
+            }
+        }
+    },
+    {
+        "condition":"工程类型",
+        "variable":"开裂风险",
+        "probabilities":{
+            "超长工程":{
+                "高":"很高"
+            },
+            "高强易裂工程":{
+                "高":"很高"
+            },
+            "普通工程":{
+                "高":"很高"
+            }
+        }
+    }
+]

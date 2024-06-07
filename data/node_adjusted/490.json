@@ -1,6 +1,6 @@
 [
     {
-        "variable_name": "膨胀土",
+        "variable_name": "季节气候变化",
         "variable_type": "chance",
         "values": [
             "是",
@@ -8,7 +8,7 @@
         ]
     },
     {
-        "variable_name": "季节气候变化",
+        "variable_name": "膨胀土涨缩变形",
         "variable_type": "chance",
         "values": [
             "反复失水吸水",
