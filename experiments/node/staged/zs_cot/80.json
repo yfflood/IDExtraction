@@ -1,0 +1,1 @@
+[{"variable_name": "构件外形尺寸", "variable_type": "decision", "values": ["符合要求", "不符合要求"]}, {"variable_name": "节点板位置", "variable_type": "decision", "values": ["正确", "错误"]}, {"variable_name": "螺栓孔位置", "variable_type": "decision", "values": ["准确", "不准确"]}, {"variable_name": "检查基准", "variable_type": "decision", "values": ["中心线", "棱边/侧面"]}]

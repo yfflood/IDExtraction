@@ -1,0 +1,38 @@
+[
+    {
+        "condition": "预应力筋张拉锚固方式",
+        "variable": "预应力摩擦损失",
+        "probabilities": {
+            "通长张拉": {
+                "损失大": "很高"
+            }
+        }
+    },
+    {
+        "condition": "预应力筋张拉锚固方式",
+        "variable": "轴向预加力吸收",
+        "probabilities": {
+            "通长张拉": {
+                "被竖向结构吸收多": "很高"
+            }
+        }
+    },
+    {
+        "condition": "预应力摩擦损失",
+        "variable": "结构影响",
+        "probabilities": {
+            "损失大": {
+                "不利影响": "很高"
+            }
+        }
+    },
+    {
+        "condition": "轴向预加力吸收",
+        "variable": "结构影响",
+        "probabilities": {
+            "被竖向结构吸收多": {
+                "不利影响": "很高"
+            }
+        }
+    }
+]

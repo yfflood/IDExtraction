@@ -1,0 +1,1 @@
+[{"variable_name": "集中荷载", "variable_type": "chance", "values": ["在梁高范围内", "在梁下部传入"]}, {"variable_name": "附加横向钢筋", "variable_type": "decision", "values": ["配置", "不配置"]}, {"variable_name": "梁受剪箍筋配筋率", "variable_type": "decision", "values": ["满足要求", "不满足要求"]}, {"variable_name": "斜裂缝及局部受拉裂缝的宽度", "variable_type": "utility", "values": ["限制", "不限制"]}]

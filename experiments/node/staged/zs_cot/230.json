@@ -1,0 +1,1 @@
+[{"variable_name": "无粘结预应力筋", "variable_type": "chance", "values": ["高", "低"]}, {"variable_name": "抗震性能", "variable_type": "utility", "values": ["好", "差"]}]

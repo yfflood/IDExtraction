@@ -1,0 +1,38 @@
+[
+    {
+        "condition": "楼板局部开大洞",
+        "variable": "长短柱共用",
+        "probabilities": {
+            "是": {
+                "多": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "楼板局部开大洞",
+        "variable": "细腰形平面",
+        "probabilities": {
+            "是": {
+                "出现": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "细腰形平面",
+        "variable": "地震扭转效应",
+        "probabilities": {
+            "出现": {
+                "大": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "长短柱共用",
+        "variable": "地震扭转效应",
+        "probabilities": {
+            "多": {
+                "大": "very likely"
+            }
+        }
+    }
+]

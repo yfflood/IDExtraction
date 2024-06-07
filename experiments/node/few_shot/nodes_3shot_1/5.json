@@ -1,0 +1,1 @@
+[{"variable_name": "齿连接与螺栓连接共同受力", "variable_type": "chance", "values": ["发生", "未发生"]}, {"variable_name": "齿连接超载破坏", "variable_type": "chance", "values": ["发生", "未发生"]}, {"variable_name": "工程教训与试验结论", "variable_type": "decision", "values": ["遵循", "不遵循"]}]

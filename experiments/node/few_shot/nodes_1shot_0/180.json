@@ -1,0 +1,1 @@
+[{"variable_name": "屈曲约束支撑的受力状态", "variable_type": "chance", "values": ["轴心受力", "偏心受力"]}, {"variable_name": "屈曲约束支撑的施工误差", "variable_type": "decision", "values": ["过大", "适中"]}]

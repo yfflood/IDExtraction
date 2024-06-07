@@ -1,0 +1,1 @@
+[{"variable_name": "温度", "variable_type": "chance", "values": ["室内温度", "室外高温"]}, {"variable_name": "混凝土收缩", "variable_type": "utility", "values": ["室内结构", "室外环境"]}, {"variable_name": "钢筋与混凝土间的黏结强度", "variable_type": "decision", "values": ["降低", "正常"]}, {"variable_name": "裂缝宽度", "variable_type": "utility", "values": ["增加", "稳定"]}]

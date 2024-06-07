@@ -1,0 +1,1 @@
+[{"variable_name": "金属支撑件", "variable_type": "chance", "values": ["遇火或高温下失效", "正常工作"]}, {"variable_name": "外墙板内侧与梁、柱及楼板间的调整间隙", "variable_type": "chance", "values": ["蹿火", "无火灾蔓延"]}, {"variable_name": "防火安全措施", "variable_type": "decision", "values": ["设置构造措施", "无措施"]}]

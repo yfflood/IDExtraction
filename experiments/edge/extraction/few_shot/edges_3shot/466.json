@@ -1,0 +1,29 @@
+[
+    {
+        "condition": "端屋架设置",
+        "variable": "山墙",
+        "probabilities": {
+            "设置端屋架": {
+                "不易破坏": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "山墙",
+        "variable": "端开间塌落",
+        "probabilities": {
+            "容易破坏": {
+                "塌落": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "硬山搁檩做法",
+        "variable": "山墙",
+        "probabilities": {
+            "不采用": {
+                "不易破坏": "very likely"
+            }
+        }
+    }
+]

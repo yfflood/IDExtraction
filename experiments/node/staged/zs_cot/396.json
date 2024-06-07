@@ -1,0 +1,1 @@
+[{"variable_name": "地基变形控制", "variable_type": "decision", "values": ["减小基础尺寸", "加大附属建筑物基底压力"]}, {"variable_name": "地基承载力", "variable_type": "decision", "values": ["极限承载力", "强度破坏"]}, {"variable_name": "差异沉降", "variable_type": "decision", "values": ["减小差异沉降", "失稳"]}, {"variable_name": "附属建筑与高层建筑之间的差异沉降", "variable_type": "decision", "values": ["减小差异沉降", "保持稳定"]}]

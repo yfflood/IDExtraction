@@ -1,0 +1,35 @@
+[
+    {
+        "condition": "风速",
+        "variable": "二氧化碳气体对焊接电弧的保护",
+        "probabilities": {
+            "大": {
+                "失效": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "防护装置设置",
+        "variable": "二氧化碳气体对焊接电弧的保护",
+        "probabilities": {
+            "设置": {
+                "生效": "very likely"
+            },
+            "不设置": {
+                "失效": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "二氧化碳气体对焊接电弧的保护",
+        "variable": "焊缝质量",
+        "probabilities": {
+            "生效": {
+                "无缺陷": "very likely"
+            },
+            "失效": {
+                "有缺陷": "very likely"
+            }
+        }
+    }
+]

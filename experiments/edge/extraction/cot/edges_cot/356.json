@@ -1,0 +1,38 @@
+[
+    {
+        "condition": "岩土条件",
+        "variable": "边坡安全",
+        "probabilities": {
+            "土质边坡": {
+                "稳定": "very likely",
+                "失稳": "unlikely"
+            },
+            "较破碎岩质边坡": {
+                "稳定": "less likely",
+                "失稳": "more likely"
+            },
+            "破碎岩质边坡": {
+                "稳定": "unlikely",
+                "失稳": "very likely"
+            },
+            "极破碎岩质边坡": {
+                "稳定": "extremely unlikely",
+                "失稳": "almost certain"
+            }
+        }
+    },
+    {
+        "condition": "水文测试",
+        "variable": "边坡安全",
+        "probabilities": {
+            "进行": {
+                "稳定": "less likely",
+                "失稳": "more likely"
+            },
+            "不进行": {
+                "稳定": "very likely",
+                "失稳": "unlikely"
+            }
+        }
+    }
+]

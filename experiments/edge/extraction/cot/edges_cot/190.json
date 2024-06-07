@@ -1,0 +1,38 @@
+[
+    {
+        "condition": "墩柱等受压构件截面",
+        "variable": "混凝土强度",
+        "probabilities": {
+            "较大": {
+                "提高": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "混凝土强度",
+        "variable": "成本",
+        "probabilities": {
+            "提高": {
+                "显著增加": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "成本",
+        "variable": "钢筋保护层厚度",
+        "probabilities": {
+            "显著增加": {
+                "增加": "likely"
+            }
+        }
+    },
+    {
+        "condition": "成本",
+        "variable": "防腐蚀措施",
+        "probabilities": {
+            "显著增加": {
+                "采取": "likely"
+            }
+        }
+    }
+]

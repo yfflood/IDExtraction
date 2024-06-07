@@ -1,0 +1,86 @@
+[
+    {
+        "condition": "地震作用",
+        "variable": "建筑主体结构",
+        "probabilities": {
+            "多遇地震作用": {
+                "不受损坏": "very likely",
+                "遭受破坏或严重破坏但不倒塌": "unlikely"
+            },
+            "罕遇地震作用": {
+                "不受损坏": "unlikely",
+                "遭受破坏或严重破坏但不倒塌": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "建筑主体结构",
+        "variable": "非结构构件",
+        "probabilities": {
+            "不受损坏": {
+                "没有过重破坏并导致人员伤亡": "very likely",
+                "过重破坏导致人员伤亡": "unlikely"
+            },
+            "遭受破坏或严重破坏但不倒塌": {
+                "没有过重破坏并导致人员伤亡": "unlikely",
+                "过重破坏导致人员伤亡": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "建筑主体结构",
+        "variable": "建筑的正常使用功能",
+        "probabilities": {
+            "不受损坏": {
+                "保证": "very likely",
+                "不保证": "unlikely"
+            },
+            "遭受破坏或严重破坏但不倒塌": {
+                "保证": "unlikely",
+                "不保证": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "抗震设防要求",
+        "variable": "建筑主体结构",
+        "probabilities": {
+            "满足": {
+                "不受损坏": "very likely",
+                "遭受破坏或严重破坏但不倒塌": "unlikely"
+            },
+            "不满足": {
+                "不受损坏": "unlikely",
+                "遭受破坏或严重破坏但不倒塌": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "抗震设防要求",
+        "variable": "非结构构件",
+        "probabilities": {
+            "满足": {
+                "没有过重破坏并导致人员伤亡": "very likely",
+                "过重破坏导致人员伤亡": "unlikely"
+            },
+            "不满足": {
+                "没有过重破坏并导致人员伤亡": "unlikely",
+                "过重破坏导致人员伤亡": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "抗震设防要求",
+        "variable": "建筑的正常使用功能",
+        "probabilities": {
+            "满足": {
+                "保证": "very likely",
+                "不保证": "unlikely"
+            },
+            "不满足": {
+                "保证": "unlikely",
+                "不保证": "very likely"
+            }
+        }
+    }
+]

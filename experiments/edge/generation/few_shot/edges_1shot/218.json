@@ -1,0 +1,29 @@
+[
+    {
+        "condition": "地表倾斜",
+        "variable": "建筑物附加压力的重分配",
+        "probabilities": {
+            "是": {
+                "是": "很高"
+            }
+        }
+    },
+    {
+        "condition": "建筑物附加压力的重分配",
+        "variable": "建筑结构内应力变化",
+        "probabilities": {
+            "是": {
+                "是": "很高"
+            }
+        }
+    },
+    {
+        "condition": "建筑结构内应力变化",
+        "variable": "建筑破坏",
+        "probabilities": {
+            "是": {
+                "是": "增加"
+            }
+        }
+    }
+]

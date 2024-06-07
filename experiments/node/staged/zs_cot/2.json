@@ -1,0 +1,1 @@
+[{"variable_name": "局部破坏", "variable_type": "chance", "values": ["初始", "扩展"]}, {"variable_name": "结构倒塌", "variable_type": "chance", "values": ["整个结构", "部分结构"]}, {"variable_name": "起因", "variable_type": "decision", "values": ["自然灾害", "人为因素"]}]

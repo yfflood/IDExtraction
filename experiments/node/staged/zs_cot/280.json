@@ -1,0 +1,1 @@
+[{"variable_name": "核心单元的侧向膨胀", "variable_type": "decision", "values": ["配置足够的箍筋", "保证钢管具有足够的壁厚"]}, {"variable_name": "箍筋或钢管的环向拉力", "variable_type": "decision", "values": ["与核心单元的侧向膨胀力相平衡", "不平衡"]}, {"variable_name": "混凝土开裂", "variable_type": "chance", "values": ["发生", "不发生"]}, {"variable_name": "核心单元截面横向膨胀对约束单元的作用力", "variable_type": "utility", "values": ["作用力大", "作用力小"]}]

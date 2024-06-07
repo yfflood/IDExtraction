@@ -1,0 +1,32 @@
+[
+    {
+        "condition": "挡墙基底逆坡坡度",
+        "variable": "挡墙稳定性",
+        "probabilities": {
+            "小": {
+                "增加": "very likely"
+            },
+            "大": {
+                "减少": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "挡墙基底逆坡坡度",
+        "variable": "墙踵陷入地基",
+        "probabilities": {
+            "大": {
+                "发生": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "墙踵陷入地基",
+        "variable": "挡墙墙身整体性",
+        "probabilities": {
+            "发生": {
+                "破坏": "very likely"
+            }
+        }
+    }
+]

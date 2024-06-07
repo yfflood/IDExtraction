@@ -1,0 +1,1 @@
+[{"variable_name": "地下车站结构形式", "variable_type": "decision", "values": ["规则", "不规则"]}, {"variable_name": "地下车站结构薄弱部位", "variable_type": "chance", "values": ["存在", "不存在"]}, {"variable_name": "地震作用分析", "variable_type": "utility", "values": ["E2弹性内力和变形分析", "E3弹塑性变形分析"]}]

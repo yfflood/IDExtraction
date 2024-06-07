@@ -1,0 +1,1 @@
+[{"variable_name": "膨润土材料的覆盖情况", "variable_type": "decision", "values": ["覆盖塑料薄膜", "未覆盖"]}, {"variable_name": "施工时间", "variable_type": "chance", "values": ["短", "长"]}, {"variable_name": "天气状况", "variable_type": "chance", "values": ["晴天", "雨天"]}, {"variable_name": "膨润土材料的防水性能", "variable_type": "utility", "values": ["高", "低"]}]

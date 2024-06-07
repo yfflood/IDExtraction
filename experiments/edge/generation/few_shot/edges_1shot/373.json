@@ -1,0 +1,29 @@
+[
+    {
+        "condition": "集中荷载影响区附加横向钢筋配置",
+        "variable": "斜截面受剪承载力",
+        "probabilities": {
+            "配置": {
+                "不降低": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "梁受剪箍筋配筋率",
+        "variable": "斜截面受剪承载力",
+        "probabilities": {
+            "满足要求": {
+                "不降低": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "斜截面受剪承载力",
+        "variable": "下部混凝土斜裂缝及局部受拉裂缝",
+        "probabilities": {
+            "不降低": {
+                "无": "very likely"
+            }
+        }
+    }
+]

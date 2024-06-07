@@ -1,0 +1,20 @@
+[
+    {
+        "condition": "焊缝温度",
+        "variable": "焊缝出现裂缝",
+        "probabilities": {
+            "未冷却到一定温度": {
+                "出现裂缝": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "锤击",
+        "variable": "焊缝出现裂缝",
+        "probabilities": {
+            "锤击": {
+                "出现裂缝": "very likely"
+            }
+        }
+    }
+]

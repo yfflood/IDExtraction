@@ -1,0 +1,1 @@
+[{"variable_name": "开挖顺序", "variable_type": "decision", "values": ["自上而下", "自下而上"]}, {"variable_name": "边坡稳定性", "variable_type": "utility", "values": ["稳定", "不稳定"]}, {"variable_name": "弃土弃渣堆填", "variable_type": "decision", "values": ["导致边坡附加变形", "不导致边坡附加变形"]}, {"variable_name": "边坡破坏现象", "variable_type": "chance", "values": ["发生", "不发生"]}]

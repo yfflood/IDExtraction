@@ -1,0 +1,1 @@
+[{"variable_name": "水位", "variable_type": "chance", "values": ["上升", "稳定"]}, {"variable_name": "抽水作业", "variable_type": "decision", "values": ["继续", "停止"]}, {"variable_name": "工程上浮", "variable_type": "utility", "values": ["发生", "未发生"]}, {"variable_name": "防水层破坏", "variable_type": "utility", "values": ["破坏", "未破坏"]}]

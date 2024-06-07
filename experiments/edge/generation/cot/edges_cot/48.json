@@ -1,0 +1,38 @@
+[
+    {
+        "condition": "外荷载相对于基础形心的偏心距",
+        "variable": "基础的稳定性",
+        "probabilities": {
+            "偏心距大": {
+                "不稳定": "very likely"
+            },
+            "偏心距小": {
+                "稳定": "likely"
+            }
+        }
+    },
+    {
+        "condition": "零应力区面积",
+        "variable": "受压边缘的压力",
+        "probabilities": {
+            "超过基础底面积的15%": {
+                "不满足承载力要求": "very likely"
+            },
+            "不超过基础底面积的15%": {
+                "满足承载力要求": "likely"
+            }
+        }
+    },
+    {
+        "condition": "井架斜撑与基础的连接",
+        "variable": "基础的稳定性",
+        "probabilities": {
+            "铰接连接": {
+                "稳定": "likely"
+            },
+            "其他连接方式": {
+                "不稳定": "possible"
+            }
+        }
+    }
+]

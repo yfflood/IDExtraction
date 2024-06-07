@@ -1,0 +1,1 @@
+[{"variable_name": "锚固措施", "variable_type": "decision", "values": ["加强锚固", "不加强锚固"]}, {"variable_name": "粘贴规范性", "variable_type": "decision", "values": ["规范粘贴", "不规范粘贴"]}, {"variable_name": "边缘效应", "variable_type": "chance", "values": ["产生较大剪应力峰值", "不产生剪应力峰值"]}, {"variable_name": "胶层与混凝土粘合面", "variable_type": "utility", "values": ["粘合良好", "粘合不良"]}]

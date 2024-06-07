@@ -1,0 +1,1 @@
+[{"variable_name": "混凝土坍落度", "variable_type": "chance", "values": ["过大", "适中"]}, {"variable_name": "桩顶浮浆量", "variable_type": "chance", "values": ["过多", "适中"]}, {"variable_name": "桩体强度", "variable_type": "chance", "values": ["降低", "正常"]}]

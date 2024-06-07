@@ -1,0 +1,1 @@
+[{"variable_name": "屈曲约束支撑", "variable_type": "decision", "values": ["轴心受力构件", "偏心受力构件"]}, {"variable_name": "施工误差", "variable_type": "chance", "values": ["过大误差", "适当误差"]}, {"variable_name": "支撑破坏", "variable_type": "utility", "values": ["发生破坏", "未发生破坏"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "埋置深度", "variable_type": "decision", "values": ["适当", "不适当"]}, {"variable_name": "抗倾覆和抗滑移稳定性", "variable_type": "utility", "values": ["保证", "不保证"]}, {"variable_name": "严重后果", "variable_type": "chance", "values": ["可能发生", "不发生"]}]

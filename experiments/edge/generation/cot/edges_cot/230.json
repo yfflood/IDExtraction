@@ -1,0 +1,26 @@
+[
+    {
+        "condition": "无粘结预应力筋的配置",
+        "variable": "构件的延性性能",
+        "probabilities": {
+            "采用": {
+                "不降低": "very likely"
+            },
+            "不采用": {
+                "降低": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "非预应力钢筋的配置",
+        "variable": "非预应力钢筋承担的弯矩设计值",
+        "probabilities": {
+            "配置一定数量的非预应力钢筋": {
+                "不小于65％": "very likely"
+            },
+            "不配置非预应力钢筋": {
+                "小于65％": "very likely"
+            }
+        }
+    }
+]

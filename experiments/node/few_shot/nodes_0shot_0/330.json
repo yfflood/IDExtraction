@@ -1,0 +1,1 @@
+[{"variable_name": "结构布置方案", "variable_type": "decision", "values": ["纵墙承重", "横墙承重"]}, {"variable_name": "破坏类型", "variable_type": "chance", "values": ["弯曲破坏", "其他类型破坏"]}, {"variable_name": "倒塌风险", "variable_type": "utility", "values": ["倒塌", "不倒塌"]}]

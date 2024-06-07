@@ -1,0 +1,44 @@
+[
+    {
+        "condition": "桩顶上覆压力",
+        "variable": "桩顶土隆起",
+        "probabilities": {
+            "不够": {
+                "发生": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "桩顶土隆起",
+        "variable": "沉降",
+        "probabilities": {
+            "发生": {
+                "增加": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "封口高度",
+        "variable": "桩顶上覆压力",
+        "probabilities": {
+            "小于500mm": {
+                "不够": "1.0"
+            },
+            "大于等于500mm": {
+                "足够": "1.0"
+            }
+        }
+    },
+    {
+        "condition": "封口标高",
+        "variable": "桩体强度",
+        "probabilities": {
+            "低于或等于原地面": {
+                "降低": "very likely"
+            },
+            "高于原地面": {
+                "不降低": "1.0"
+            }
+        }
+    }
+]

@@ -1,0 +1,1 @@
+[{"variable_name": "洞口角部配置斜筋", "variable_type": "decision", "values": ["配置斜筋", "不配置斜筋"]}, {"variable_name": "钢筋间距", "variable_type": "chance", "values": ["间距过小", "间距适中"]}, {"variable_name": "混凝土振捣", "variable_type": "utility", "values": ["振捣困难", "振捣容易"]}, {"variable_name": "钢筋密度", "variable_type": "chance", "values": ["钢筋较密", "钢筋适中"]}]

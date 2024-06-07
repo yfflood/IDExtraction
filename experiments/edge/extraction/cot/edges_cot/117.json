@@ -1,0 +1,38 @@
+[
+    {
+        "condition": "后张预应力梁宽",
+        "variable": "混凝土折合厚度",
+        "probabilities": {
+            "适当放宽": {
+                "很大": "很可能"
+            }
+        }
+    },
+    {
+        "condition": "混凝土折合厚度",
+        "variable": "自重",
+        "probabilities": {
+            "很大": {
+                "很大": "很可能"
+            }
+        }
+    },
+    {
+        "condition": "自重",
+        "variable": "抗震及基础负担",
+        "probabilities": {
+            "很大": {
+                "加大": "很可能"
+            }
+        }
+    },
+    {
+        "condition": "抗震及基础负担",
+        "variable": "浪费",
+        "probabilities": {
+            "加大": {
+                "形成不必要的浪费": "很可能"
+            }
+        }
+    }
+]

@@ -1,0 +1,1 @@
+[{"variable_name": "地基稳定性", "variable_type": "chance", "values": ["稳定", "失稳"]}, {"variable_name": "承载能力极限状态", "variable_type": "chance", "values": ["未超过", "超过"]}, {"variable_name": "预防措施", "variable_type": "decision", "values": ["进行稳定性验算", "提请设计进行整体稳定性验算", "提供预防措施建议"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "地表倾斜", "variable_type": "chance", "values": ["发生", "不发生"]}, {"variable_name": "建筑物荷重均匀性", "variable_type": "utility", "values": ["均匀", "不均匀"]}, {"variable_name": "建筑结构内应力变化", "variable_type": "utility", "values": ["无变化", "有变化"]}, {"variable_name": "建筑物破坏", "variable_type": "utility", "values": ["未破坏", "已破坏"]}]

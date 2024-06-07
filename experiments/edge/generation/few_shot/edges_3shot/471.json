@@ -1,0 +1,92 @@
+[
+    {
+        "condition": "石子级配",
+        "variable": "石子粒径",
+        "probabilities": {
+            "合格": {
+                "合适": "very likely",
+                "过大": "unlikely",
+                "过小": "unlikely"
+            },
+            "不合格": {
+                "合适": "unlikely",
+                "过大": "likely",
+                "过小": "likely"
+            }
+        }
+    },
+    {
+        "condition": "石子级配",
+        "variable": "石子形状",
+        "probabilities": {
+            "合格": {
+                "合格": "very likely",
+                "不合格": "unlikely"
+            },
+            "不合格": {
+                "合格": "unlikely",
+                "不合格": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "石子粒径",
+        "variable": "石子空隙率",
+        "probabilities": {
+            "合适": {
+                "过大": "unlikely",
+                "合格": "very likely"
+            },
+            "过大": {
+                "过大": "likely",
+                "合格": "unlikely"
+            },
+            "过小": {
+                "过大": "unlikely",
+                "合格": "likely"
+            }
+        }
+    },
+    {
+        "condition": "工程类型",
+        "variable": "灰浆用量",
+        "probabilities": {
+            "超长工程": {
+                "过多": "unlikely",
+                "适中": "likely",
+                "过少": "unlikely"
+            },
+            "高强易裂工程": {
+                "过多": "likely",
+                "适中": "unlikely",
+                "过少": "very likely"
+            },
+            "普通工程": {
+                "过多": "unlikely",
+                "适中": "very likely",
+                "过少": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "灰浆用量",
+        "variable": "开裂风险",
+        "probabilities": {
+            "过多": {
+                "高": "unlikely",
+                "中": "unlikely",
+                "低": "very likely"
+            },
+            "适中": {
+                "高": "unlikely",
+                "中": "likely",
+                "低": "unlikely"
+            },
+            "过少": {
+                "高": "very likely",
+                "中": "unlikely",
+                "低": "unlikely"
+            }
+        }
+    }
+]

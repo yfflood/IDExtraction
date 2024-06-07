@@ -1,0 +1,83 @@
+[
+    {
+        "condition": "新建建筑物的荷载",
+        "variable": "既有建筑物紧邻新建部分的地基中的应力叠加",
+        "probabilities": {
+            "大": {
+                "大": "very likely",
+                "中": "likely",
+                "小": "unlikely"
+            },
+            "中": {
+                "大": "likely",
+                "中": "very likely",
+                "小": "likely"
+            },
+            "小": {
+                "大": "unlikely",
+                "中": "likely",
+                "小": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "既有建筑物紧邻新建部分的地基中的应力叠加",
+        "variable": "建筑物的相对变形或挠曲",
+        "probabilities": {
+            "大": {
+                "存在": "very likely",
+                "不存在": "unlikely"
+            },
+            "中": {
+                "存在": "likely",
+                "不存在": "likely"
+            },
+            "小": {
+                "存在": "unlikely",
+                "不存在": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "既有建筑物地基土的不均匀附加压缩",
+        "variable": "严重裂损",
+        "probabilities": {
+            "存在": {
+                "存在": "very likely",
+                "不存在": "unlikely"
+            },
+            "不存在": {
+                "存在": "unlikely",
+                "不存在": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "建筑物的相对变形或挠曲",
+        "variable": "严重裂损",
+        "probabilities": {
+            "存在": {
+                "存在": "likely",
+                "不存在": "unlikely"
+            },
+            "不存在": {
+                "存在": "unlikely",
+                "不存在": "likely"
+            }
+        }
+    },
+    {
+        "condition": "接建、邻建部位专门布置勘探点",
+        "variable": "原位测试和室内试验",
+        "probabilities": {
+            "是": {
+                "是": "very likely",
+                "否": "unlikely"
+            },
+            "否": {
+                "是": "unlikely",
+                "否": "very likely"
+            }
+        }
+    }
+]

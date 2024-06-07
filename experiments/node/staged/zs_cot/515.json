@@ -1,0 +1,1 @@
+[{"variable_name": "钢筋网竖筋与墙面的间隙", "variable_type": "decision", "values": [5, 10]}, {"variable_name": "钢筋网的保护层厚度", "variable_type": "decision", "values": ["满足规定", "不满足规定"]}, {"variable_name": "钢筋锈蚀", "variable_type": "chance", "values": ["发生", "不发生"]}, {"variable_name": "加固效果", "variable_type": "utility", "values": ["有效", "失效"]}]

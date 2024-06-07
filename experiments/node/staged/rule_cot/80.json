@@ -1,0 +1,1 @@
+[{"variable_name": "检查基准", "variable_type": "decision", "values": ["构件的中心线", "构件的棱边或侧面"]}, {"variable_name": "检查结果", "variable_type": "utility", "values": ["准确", "误差"]}, {"variable_name": "检查方法", "variable_type": "decision", "values": ["以构件的中心线为基准", "以构件的棱边或侧面对准基准线"]}]

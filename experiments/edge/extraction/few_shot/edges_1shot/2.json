@@ -1,0 +1,29 @@
+[
+    {
+        "condition": "初始局部破坏",
+        "variable": "破坏扩展",
+        "probabilities": {
+            "发生": {
+                "发生": "very likely"
+            },
+            "不发生": {
+                "发生": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "破坏扩展",
+        "variable": "结构",
+        "probabilities": {
+            "发生": {
+                "部分倒塌": "likely",
+                "整体倒塌": "likely"
+            },
+            "不发生": {
+                "完好": "very likely",
+                "部分倒塌": "unlikely",
+                "整体倒塌": "unlikely"
+            }
+        }
+    }
+]

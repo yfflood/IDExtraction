@@ -1,0 +1,1 @@
+[{"variable_name": "连接方式", "variable_type": "decision", "values": ["齿连接", "螺栓连接"]}, {"variable_name": "事故原因", "variable_type": "chance", "values": ["齿连接超载", "共同受力"]}]

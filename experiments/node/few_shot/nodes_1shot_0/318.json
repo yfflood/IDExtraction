@@ -1,0 +1,1 @@
+[{"variable_name": "桩位上的障碍物", "variable_type": "chance", "values": ["存在", "不存在"]}, {"variable_name": "沉桩的难易程度", "variable_type": "utility", "values": ["容易", "困难"]}, {"variable_name": "桩体稳定性", "variable_type": "utility", "values": ["稳定", "失稳"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "风速", "variable_type": "chance", "values": ["超过限值", "未超过限值"]}, {"variable_name": "防护装置设置", "variable_type": "decision", "values": ["设置防护装置", "未设置防护装置"]}, {"variable_name": "焊缝质量", "variable_type": "utility", "values": ["产生缺陷", "无缺陷"]}]

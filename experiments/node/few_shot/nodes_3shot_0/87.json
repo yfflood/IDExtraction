@@ -1,0 +1,1 @@
+[{"variable_name": "焊缝温度", "variable_type": "chance", "values": ["冷却到一定温度", "未冷却到一定温度"]}, {"variable_name": "锤击", "variable_type": "decision", "values": ["锤击", "不锤击"]}, {"variable_name": "焊缝出现裂缝", "variable_type": "chance", "values": ["出现裂缝", "未出现裂缝"]}]

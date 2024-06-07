@@ -1,0 +1,1 @@
+[{"variable_name": "屋架上弦附加扭矩", "variable_type": "chance", "values": ["产生", "不产生"]}, {"variable_name": "屋架上弦破坏", "variable_type": "chance", "values": ["发生", "未发生"]}, {"variable_name": "截面抗扭验算", "variable_type": "decision", "values": ["进行", "不进行"]}]

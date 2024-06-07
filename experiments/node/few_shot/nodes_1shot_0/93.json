@@ -1,0 +1,1 @@
+[{"variable_name": "转换层上、下部结构侧向刚度比", "variable_type": "chance", "values": ["接近1", "相差较大"]}, {"variable_name": "底部抽柱数量", "variable_type": "decision", "values": ["合理控制", "过多"]}, {"variable_name": "转换层上、下部柱截面选择", "variable_type": "decision", "values": ["合理选择", "选择不当"]}]

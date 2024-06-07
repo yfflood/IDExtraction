@@ -1,0 +1,54 @@
+[
+    {
+        "condition": "灌浆料",
+        "variable": "新增面层裂缝",
+        "probabilities": {
+            "可靠配置": {
+                "不产生": "very likely",
+                "产生": "unlikely"
+            },
+            "配置不当": {
+                "不产生": "unlikely",
+                "产生": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "膨胀剂",
+        "variable": "新增面层裂缝",
+        "probabilities": {
+            "优质": {
+                "不产生": "likely",
+                "产生": "unlikely"
+            },
+            "劣质": {
+                "不产生": "unlikely",
+                "产生": "likely"
+            }
+        }
+    },
+    {
+        "condition": "细石混凝土掺加比例",
+        "variable": "新增面层裂缝",
+        "probabilities": {
+            "30%": {
+                "不产生": "likely",
+                "产生": "unlikely"
+            },
+            "其他": {
+                "不产生": "unlikely",
+                "产生": "likely"
+            }
+        }
+    },
+    {
+        "condition": "粗骨料掺加",
+        "variable": "细石混凝土掺加比例",
+        "probabilities": {
+            "掺加16mm-20mm": {
+                "30%": "unlikely",
+                "其他": "likely"
+            }
+        }
+    }
+]

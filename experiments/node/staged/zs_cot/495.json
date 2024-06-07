@@ -1,0 +1,1 @@
+[{"variable_name": "换能器位置", "variable_type": "decision", "values": ["准确", "不准确"]}, {"variable_name": "换能器运动状态", "variable_type": "chance", "values": ["静止", "向下运动", "缓降", "快降"]}, {"variable_name": "电缆线状态", "variable_type": "utility", "values": ["松弛", "紧绷"]}]

@@ -1,0 +1,20 @@
+[
+    {
+        "condition": "氯盐含量",
+        "variable": "混凝土耐久性",
+        "probabilities": {
+            "高": {
+                "差": "几乎肯定"
+            }
+        }
+    },
+    {
+        "condition": "原材料中氯离子控制",
+        "variable": "氯盐含量",
+        "probabilities": {
+            "严格": {
+                "低": "几乎肯定"
+            }
+        }
+    }
+]

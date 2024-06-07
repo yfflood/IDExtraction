@@ -1,0 +1,6 @@
+[
+    {
+        "name": "CoT",
+        "prompt": "For the following list of nodes, identify influence relations between the variables, and assign to each influential relation a corresponding conditional or unconditional probability. All conditions and variables should be members of the list: {node_list}. \n\nOutput using the following format:\n{format_instructions}\n\nThe content should be in Chinese if the text is in Chinese.\n\nLet's think step by step."
+    }
+]

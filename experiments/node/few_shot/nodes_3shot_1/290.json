@@ -1,0 +1,1 @@
+[{"variable_name": "混凝土冻融损伤", "variable_type": "chance", "values": ["损伤", "无损伤"]}, {"variable_name": "成熟龄期", "variable_type": "chance", "values": ["成熟", "未成熟"]}, {"variable_name": "含水情况", "variable_type": "chance", "values": ["含水", "不含水"]}, {"variable_name": "环境温度变化", "variable_type": "chance", "values": ["正负温度交替变化", "温度稳定"]}]

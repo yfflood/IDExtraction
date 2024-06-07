@@ -1,0 +1,54 @@
+[
+    {
+        "condition": "水位上升",
+        "variable": "工程上浮",
+        "probabilities": {
+            "上升": {
+                "上浮": "very likely",
+                "不浮": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "防水工程完工",
+        "variable": "工程防水层破坏",
+        "probabilities": {
+            "完工": {
+                "破坏": "unlikely",
+                "不破坏": "very likely"
+            },
+            "未完工": {
+                "破坏": "likely",
+                "不破坏": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "回填作业",
+        "variable": "防水工程完工",
+        "probabilities": {
+            "完成": {
+                "完工": "very likely",
+                "未完工": "unlikely"
+            },
+            "未完成": {
+                "完工": "unlikely",
+                "未完工": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "降水作业",
+        "variable": "回填作业",
+        "probabilities": {
+            "至回填作业完成": {
+                "完成": "very likely",
+                "未完成": "unlikely"
+            },
+            "提前停止": {
+                "完成": "unlikely",
+                "未完成": "very likely"
+            }
+        }
+    }
+]

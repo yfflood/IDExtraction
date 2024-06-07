@@ -1,0 +1,1 @@
+[{"variable_name": "板厚", "variable_type": "decision", "values": ["过小", "合适"]}, {"variable_name": "连接方式", "variable_type": "decision", "values": ["普通螺栓", "高强度螺栓", "铆钉"]}, {"variable_name": "板件变形", "variable_type": "chance", "values": ["发生", "不发生"]}, {"variable_name": "摩擦系数", "variable_type": "utility", "values": ["下降", "保持"]}]

@@ -1,0 +1,1 @@
+[{"variable_name": "端屋架山墙的破坏", "variable_type": "chance", "values": ["容易破坏", "不易破坏"]}, {"variable_name": "端开间塌落", "variable_type": "chance", "values": ["塌落", "未塌落"]}, {"variable_name": "端屋架(木梁)的设置", "variable_type": "decision", "values": ["设置端屋架", "不设置端屋架"]}, {"variable_name": "硬山搁檩做法的使用", "variable_type": "decision", "values": ["采用硬山搁檩做法", "不采用硬山搁檩做法"]}]

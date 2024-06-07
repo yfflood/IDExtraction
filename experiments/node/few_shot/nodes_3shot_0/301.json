@@ -1,0 +1,1 @@
+[{"variable_name": "混凝土浇筑温度", "variable_type": "decision", "values": ["高温", "低温"]}, {"variable_name": "混凝土内部温升", "variable_type": "chance", "values": ["快速", "缓慢"]}, {"variable_name": "温度应力", "variable_type": "chance", "values": ["大", "小"]}, {"variable_name": "混凝土开裂", "variable_type": "chance", "values": ["发生", "未发生"]}]

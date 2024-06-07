@@ -1,0 +1,1 @@
+[{"variable_name": "地基液化", "variable_type": "chance", "values": ["发生", "不发生"]}, {"variable_name": "上部结构地震力", "variable_type": "utility", "values": ["减小", "不减小"]}, {"variable_name": "上部结构破坏", "variable_type": "utility", "values": ["发生", "不发生"]}]

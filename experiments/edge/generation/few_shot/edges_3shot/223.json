@@ -1,0 +1,44 @@
+[
+    {
+        "condition": "天窗设置位置",
+        "variable": "采光要求",
+        "probabilities": {
+            "第二开间": {
+                "高": "very likely",
+                "不太高": "unlikely"
+            },
+            "第三开间": {
+                "高": "unlikely",
+                "不太高": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "屋面板与屋架的连接可靠性",
+        "variable": "地震时屋面板掉落风险",
+        "probabilities": {
+            "高": {
+                "高": "unlikely",
+                "低": "very likely"
+            },
+            "低": {
+                "高": "very likely",
+                "低": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "屋面纵向水平刚度",
+        "variable": "地震时屋面板掉落风险",
+        "probabilities": {
+            "高": {
+                "高": "unlikely",
+                "低": "very likely"
+            },
+            "低": {
+                "高": "very likely",
+                "低": "unlikely"
+            }
+        }
+    }
+]

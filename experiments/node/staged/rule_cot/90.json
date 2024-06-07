@@ -1,0 +1,1 @@
+[{"variable_name": "排架侧移刚度", "variable_type": "decision", "values": ["增大", "不增大"]}, {"variable_name": "地震反应", "variable_type": "chance", "values": ["加大", "不加大"]}, {"variable_name": "多跨厂房上吊车铁梯布局", "variable_type": "decision", "values": ["集中在同一横向轴线", "分散布局"]}, {"variable_name": "震害破坏", "variable_type": "utility", "values": ["导致", "避免"]}]

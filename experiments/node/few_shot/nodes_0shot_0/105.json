@@ -1,0 +1,1 @@
+[{"variable_name": "连接方式", "variable_type": "decision", "values": ["刚性连接", "铰接连接"]}, {"variable_name": "次弯矩影响", "variable_type": "utility", "values": ["可忽略不计", "需要考虑"]}, {"variable_name": "连接精度控制", "variable_type": "chance", "values": ["易于实现", "难以实现"]}]

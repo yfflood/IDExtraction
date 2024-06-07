@@ -1,0 +1,1 @@
+[{"variable_name": "砌体填充墙的布置", "variable_type": "decision", "values": ["不合理设置", "合理设置"]}, {"variable_name": "建筑的不利布置", "variable_type": "decision", "values": ["存在", "不存在"]}, {"variable_name": "修改建议", "variable_type": "decision", "values": ["将砌体填充墙改为轻钢龙骨石膏板墙", "将空心砖填充墙改为石膏板空心墙"]}, {"variable_name": "主体结构的破坏", "variable_type": "chance", "values": ["发生", "未发生"]}]

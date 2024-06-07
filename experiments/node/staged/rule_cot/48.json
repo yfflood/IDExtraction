@@ -1,0 +1,1 @@
+[{"variable_name": "零应力区面积比例", "variable_type": "decision", "values": ["不超过15%", "超过15%"]}, {"variable_name": "外荷载偏心距", "variable_type": "decision", "values": ["尽量小", "较大"]}, {"variable_name": "受压边缘压力", "variable_type": "chance", "values": ["满足承载力要求", "不满足承载力要求"]}, {"variable_name": "基础倾斜", "variable_type": "chance", "values": ["容易发生", "不容易发生"]}]
