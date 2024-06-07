@@ -4,10 +4,10 @@
         "variable": "纤维材料对混凝土的约束作用",
         "probabilities": {
             "l/d>12": {
-                "明显降低": "very likely"
+                "明显降低": "可能"
             },
             "l/d>14": {
-                "明显降低": "very likely"
+                "明显降低": "可能"
             }
         }
     },
@@ -16,10 +16,7 @@
         "variable": "纤维材料对混凝土的约束作用",
         "probabilities": {
             "过大": {
-                "明显降低": "very likely"
-            },
-            "适中": {
-                "保持正常": "very likely"
+                "明显降低": "可能"
             }
         }
     }

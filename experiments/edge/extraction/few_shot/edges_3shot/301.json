@@ -10,14 +10,14 @@
         }
     },
     {
-        "condition": "混凝土的浇筑温度",
+        "condition": "混凝土内部温度",
         "variable": "温度应力",
         "probabilities": {
-            "高": {
+            "升高": {
                 "大": "very likely",
                 "小": "unlikely"
             },
-            "低": {
+            "稳定": {
                 "大": "unlikely",
                 "小": "very likely"
             }
@@ -38,14 +38,14 @@
         }
     },
     {
-        "condition": "混凝土内部温度",
+        "condition": "混凝土的浇筑温度",
         "variable": "温度应力",
         "probabilities": {
-            "升高": {
+            "高": {
                 "大": "likely",
                 "小": "unlikely"
             },
-            "稳定": {
+            "低": {
                 "大": "unlikely",
                 "小": "likely"
             }

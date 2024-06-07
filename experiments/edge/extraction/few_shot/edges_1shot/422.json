@@ -24,18 +24,17 @@
         }
     },
     {
-        "condition": "结构沿竖向刚度或抗侧力承载力",
-        "variable": "采取加强措施",
+        "condition": "采取加强措施",
+        "variable": "震害",
         "probabilities": {
-            "变化过大": {
-                "包括相邻楼层": "very likely",
-                "不包括相邻楼层": "unlikely",
-                "不采取加强措施": "unlikely"
+            "包括相邻楼层": {
+                "无": "very likely"
             },
-            "变化适中": {
-                "包括相邻楼层": "unlikely",
-                "不包括相邻楼层": "unlikely",
-                "不采取加强措施": "likely"
+            "不包括相邻楼层": {
+                "无": "unlikely"
+            },
+            "不采取加强措施": {
+                "无": "unlikely"
             }
         }
     }

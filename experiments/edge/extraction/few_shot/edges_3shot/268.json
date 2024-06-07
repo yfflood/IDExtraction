@@ -1,49 +1,26 @@
 [
     {
-        "condition": "地基土类型",
-        "variable": "预防措施",
-        "probabilities": {
-            "膨胀土": {
-                "采取": "very likely",
-                "不采取": "unlikely"
-            },
-            "非膨胀土": {
-                "采取": "unlikely",
-                "不采取": "very likely"
-            }
-        }
-    },
-    {
         "condition": "预防措施",
-        "variable": "胀缩变形幅度",
-        "probabilities": {
-            "采取": {
-                "10mm～20mm": "unlikely",
-                "小于10mm": "very likely",
-                "大于20mm": "unlikely"
-            },
-            "不采取": {
-                "10mm～20mm": "very likely",
-                "小于10mm": "unlikely",
-                "大于20mm": "likely"
-            }
-        }
-    },
-    {
-        "condition": "胀缩变形幅度",
         "variable": "砌体结构破坏",
         "probabilities": {
-            "10mm～20mm": {
-                "发生": "very likely",
-                "不发生": "unlikely"
+            "不采取": {
+                "发生": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "地基土类型",
+        "variable": "胀缩变形幅度",
+        "probabilities": {
+            "膨胀土": {
+                "10mm～20mm": "high",
+                "小于10mm": "low",
+                "大于20mm": "low"
             },
-            "小于10mm": {
-                "发生": "unlikely",
-                "不发生": "very likely"
-            },
-            "大于20mm": {
-                "发生": "almost certain",
-                "不发生": "impossible"
+            "非膨胀土": {
+                "10mm～20mm": "low",
+                "小于10mm": "high",
+                "大于20mm": "low"
             }
         }
     }

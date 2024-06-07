@@ -56,12 +56,34 @@
         "variable": "方案合理性",
         "probabilities": {
             "大": {
-                "合理": "unlikely",
                 "不合理": "very likely"
             },
             "少": {
-                "合理": "likely",
-                "不合理": "unlikely"
+                "合理": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "桩帽造价",
+        "variable": "方案合理性",
+        "probabilities": {
+            "升高": {
+                "不合理": "likely"
+            },
+            "降低": {
+                "合理": "likely"
+            }
+        }
+    },
+    {
+        "condition": "加筋体性能要求",
+        "variable": "方案合理性",
+        "probabilities": {
+            "高": {
+                "不合理": "likely"
+            },
+            "低": {
+                "合理": "likely"
             }
         }
     }

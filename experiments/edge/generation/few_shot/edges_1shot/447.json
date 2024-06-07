@@ -16,10 +16,10 @@
         "variable": "水化热产生速度",
         "probabilities": {
             "水化热低的水泥": {
-                "慢": "1.0"
+                "慢": "very likely"
             },
             "早强水泥": {
-                "快": "1.0"
+                "快": "very likely"
             },
             "其他水泥": {
                 "快": "likely",
@@ -44,10 +44,10 @@
         "variable": "温差",
         "probabilities": {
             "低": {
-                "小": "1.0"
+                "小": "very likely"
             },
             "高": {
-                "大": "1.0"
+                "大": "very likely"
             }
         }
     },
@@ -56,22 +56,10 @@
         "variable": "混凝土开裂",
         "probabilities": {
             "大": {
-                "易裂": "1.0"
+                "易裂": "very likely"
             },
             "小": {
-                "不易裂": "1.0"
-            }
-        }
-    },
-    {
-        "condition": "水化热产生速度",
-        "variable": "混凝土开裂",
-        "probabilities": {
-            "快": {
-                "易裂": "likely"
-            },
-            "慢": {
-                "不易裂": "likely"
+                "不易裂": "very likely"
             }
         }
     }

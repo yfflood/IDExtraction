@@ -1,10 +1,31 @@
 [
     {
         "condition": "混凝土强度",
-        "variable": "钢筋保护层厚度",
+        "variable": "成本",
         "probabilities": {
             "提高": {
-                "增加": "很高"
+                "显著增加": "very likely",
+                "可控": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "混凝土强度",
+        "variable": "耐久性要求",
+        "probabilities": {
+            "提高": {
+                "满足": "very likely",
+                "不满足": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "钢筋保护层厚度",
+        "variable": "成本",
+        "probabilities": {
+            "增加": {
+                "显著增加": "very likely",
+                "可控": "unlikely"
             }
         }
     },
@@ -13,7 +34,18 @@
         "variable": "耐久性要求",
         "probabilities": {
             "增加": {
-                "满足": "很高"
+                "满足": "very likely",
+                "不满足": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "防腐蚀措施",
+        "variable": "成本",
+        "probabilities": {
+            "采取": {
+                "显著增加": "very likely",
+                "可控": "unlikely"
             }
         }
     },
@@ -22,25 +54,28 @@
         "variable": "耐久性要求",
         "probabilities": {
             "采取": {
-                "满足": "很高"
+                "满足": "very likely",
+                "不满足": "unlikely"
             }
         }
     },
     {
-        "condition": "混凝土强度",
-        "variable": "成本",
+        "condition": "墩柱等受压构件截面",
+        "variable": "混凝土强度",
         "probabilities": {
-            "提高": {
-                "显著增加": "可能"
+            "较大": {
+                "提高": "likely",
+                "不提高": "unlikely"
             }
         }
     },
     {
-        "condition": "钢筋保护层厚度",
-        "variable": "成本",
+        "condition": "墩柱等受压构件截面",
+        "variable": "钢筋保护层厚度",
         "probabilities": {
-            "增加": {
-                "显著增加": "可能"
+            "较大": {
+                "增加": "likely",
+                "不增加": "unlikely"
             }
         }
     }

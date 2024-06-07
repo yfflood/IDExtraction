@@ -21,8 +21,8 @@
         "condition": "连接方式",
         "variable": "摩擦系数",
         "probabilities": {
-            "高墙螺栓": {
-                "下降": "likely"
+            "高强度螺栓": {
+                "下降": "very likely"
             }
         }
     }

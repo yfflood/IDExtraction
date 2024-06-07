@@ -3,27 +3,23 @@
         "condition": "转换层上、下部结构侧向刚度比",
         "variable": "结构构件的内力突变",
         "probabilities": {
-            "接近1": {
-                "发生": "低",
-                "未发生": "高"
-            },
             "相差较大": {
-                "发生": "高",
-                "未发生": "低"
+                "发生": "very likely",
+                "未发生": "unlikely"
             }
         }
     },
     {
-        "condition": "转换层上、下部柱截面几何形状",
-        "variable": "构件受力状况",
+        "condition": "转换层上、下部结构侧向刚度比",
+        "variable": "侧向刚度比满足要求",
         "probabilities": {
-            "相同": {
-                "更加复杂": "低",
-                "相对简单": "高"
+            "接近1": {
+                "满足": "likely",
+                "不满足": "unlikely"
             },
-            "不同": {
-                "更加复杂": "高",
-                "相对简单": "低"
+            "相差较大": {
+                "满足": "unlikely",
+                "不满足": "likely"
             }
         }
     },
@@ -32,12 +28,40 @@
         "variable": "侧向刚度比满足要求",
         "probabilities": {
             "合理控制": {
-                "满足": "高",
-                "不满足": "低"
+                "满足": "likely",
+                "不满足": "unlikely"
             },
             "过多": {
-                "满足": "低",
-                "不满足": "高"
+                "满足": "unlikely",
+                "不满足": "likely"
+            }
+        }
+    },
+    {
+        "condition": "转换层上、下部柱截面几何形状",
+        "variable": "构件受力状况",
+        "probabilities": {
+            "相同": {
+                "相对简单": "likely",
+                "更加复杂": "unlikely"
+            },
+            "不同": {
+                "相对简单": "unlikely",
+                "更加复杂": "likely"
+            }
+        }
+    },
+    {
+        "condition": "构件受力状况",
+        "variable": "结构构件的内力突变",
+        "probabilities": {
+            "更加复杂": {
+                "发生": "likely",
+                "未发生": "unlikely"
+            },
+            "相对简单": {
+                "发生": "unlikely",
+                "未发生": "likely"
             }
         }
     }

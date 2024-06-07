@@ -4,12 +4,26 @@
         "variable": "保温性能",
         "probabilities": {
             "设置在防水层上部": {
-                "未受损": "very likely",
-                "受损": "unlikely"
+                "受损": "very likely",
+                "未受损": "unlikely"
             },
             "设置在防水层下部": {
-                "未受损": "unlikely",
-                "受损": "very likely"
+                "受损": "unlikely",
+                "未受损": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "保温层位置",
+        "variable": "防水效果",
+        "probabilities": {
+            "设置在防水层上部": {
+                "好": "unlikely",
+                "不好": "very likely"
+            },
+            "设置在防水层下部": {
+                "好": "very likely",
+                "不好": "unlikely"
             }
         }
     },
@@ -42,44 +56,16 @@
         }
     },
     {
-        "condition": "保温层位置",
-        "variable": "水汽进入",
-        "probabilities": {
-            "设置在防水层上部": {
-                "进入": "unlikely",
-                "不进入": "very likely"
-            },
-            "设置在防水层下部": {
-                "进入": "very likely",
-                "不进入": "unlikely"
-            }
-        }
-    },
-    {
         "condition": "水汽进入",
         "variable": "保温性能",
         "probabilities": {
             "进入": {
-                "未受损": "unlikely",
-                "受损": "very likely"
+                "受损": "very likely",
+                "未受损": "unlikely"
             },
             "不进入": {
-                "未受损": "very likely",
-                "受损": "unlikely"
-            }
-        }
-    },
-    {
-        "condition": "防水效果",
-        "variable": "保温层耐久性",
-        "probabilities": {
-            "好": {
-                "提高": "likely",
-                "未提高": "unlikely"
-            },
-            "不好": {
-                "提高": "unlikely",
-                "未提高": "likely"
+                "受损": "unlikely",
+                "未受损": "very likely"
             }
         }
     }

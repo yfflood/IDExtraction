@@ -1,21 +1,15 @@
 [
     {
         "condition": "砖柱加固",
-        "variable": "砖柱刚度",
+        "variable": "抗震能力",
         "probabilities": {
             "加固": {
-                "增加": "very likely",
-                "不增加": "unlikely"
-            }
-        }
-    },
-    {
-        "condition": "砖柱加固",
-        "variable": "砖柱承载力",
-        "probabilities": {
-            "加固": {
-                "增加充足": "likely",
-                "增加不足": "very likely"
+                "强": "增加不足",
+                "弱": "增加充足"
+            },
+            "不加固": {
+                "强": "不增加",
+                "弱": "不增加"
             }
         }
     },
@@ -24,40 +18,26 @@
         "variable": "砖柱刚度",
         "probabilities": {
             "合适": {
-                "增加": "less likely",
-                "不增加": "more likely"
+                "增加": "增加不足",
+                "不增加": "增加充足"
             },
             "不合适": {
-                "增加": "very likely",
-                "不增加": "unlikely"
+                "增加": "增加充足",
+                "不增加": "增加不足"
             }
         }
     },
     {
-        "condition": "钢筋网砂浆面层材料强度",
+        "condition": "砖柱刚度",
         "variable": "砖柱承载力",
         "probabilities": {
-            "合适": {
-                "增加充足": "very likely",
-                "增加不足": "unlikely"
+            "增加": {
+                "增加充足": "增加不足",
+                "增加不足": "增加充足"
             },
-            "不合适": {
-                "增加充足": "unlikely",
-                "增加不足": "very likely"
-            }
-        }
-    },
-    {
-        "condition": "抗震能力",
-        "variable": "砖柱加固",
-        "probabilities": {
-            "强": {
-                "加固": "unlikely",
-                "不加固": "very likely"
-            },
-            "弱": {
-                "加固": "very likely",
-                "不加固": "unlikely"
+            "不增加": {
+                "增加充足": "不增加",
+                "增加不足": "不增加"
             }
         }
     }

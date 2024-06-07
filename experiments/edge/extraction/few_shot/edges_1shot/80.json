@@ -4,12 +4,10 @@
         "variable": "检查结果",
         "probabilities": {
             "构件的中心线": {
-                "无误差": "very likely",
-                "误差": "unlikely"
+                "无误差": "1.0"
             },
             "构件的棱边、侧面": {
-                "无误差": "unlikely",
-                "误差": "very likely"
+                "误差": "1.0"
             }
         }
     }

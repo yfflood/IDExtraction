@@ -1,25 +1,29 @@
 [
     {
-        "condition": "膨胀土",
-        "variable": "地基变形",
+        "condition": "季节气候变化",
+        "variable": "膨胀土涨缩变形",
         "probabilities": {
             "是": {
-                "反复变形": "很高"
+                "反复失水吸水": "very likely",
+                "变化幅度小": "unlikely"
             },
             "否": {
-                "变形幅度小": "很高"
+                "反复失水吸水": "unlikely",
+                "变化幅度小": "very likely"
             }
         }
     },
     {
-        "condition": "季节气候变化",
-        "variable": "膨胀土",
+        "condition": "膨胀土涨缩变形",
+        "variable": "地基变形",
         "probabilities": {
             "反复失水吸水": {
-                "是": "很高"
+                "反复变形": "very likely",
+                "变形幅度小": "unlikely"
             },
             "变化幅度小": {
-                "否": "很高"
+                "反复变形": "unlikely",
+                "变形幅度小": "very likely"
             }
         }
     },
@@ -28,10 +32,12 @@
         "variable": "建筑物损坏",
         "probabilities": {
             "反复变形": {
-                "开裂": "很高"
+                "开裂": "very likely",
+                "完好": "unlikely"
             },
             "变形幅度小": {
-                "完好": "很高"
+                "开裂": "unlikely",
+                "完好": "very likely"
             }
         }
     }

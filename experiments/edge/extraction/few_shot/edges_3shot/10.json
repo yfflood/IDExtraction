@@ -10,19 +10,10 @@
     },
     {
         "condition": "桩顶荷载",
-        "variable": "单桩实际分担的荷载",
+        "variable": "基础埋深",
         "probabilities": {
             "增加": {
-                "增加": "很高"
-            }
-        }
-    },
-    {
-        "condition": "单桩实际分担的荷载",
-        "variable": "桩体强度",
-        "probabilities": {
-            "增加": {
-                "需要验算": "很高"
+                "大": "很高"
             }
         }
     }

@@ -4,7 +4,7 @@
         "variable": "斜截面受剪承载力",
         "probabilities": {
             "配置": {
-                "不降低": "very likely"
+                "不降低": "很高"
             }
         }
     },
@@ -13,7 +13,7 @@
         "variable": "斜截面受剪承载力",
         "probabilities": {
             "满足要求": {
-                "不降低": "very likely"
+                "不降低": "很高"
             }
         }
     },
@@ -22,7 +22,7 @@
         "variable": "下部混凝土斜裂缝及局部受拉裂缝",
         "probabilities": {
             "不降低": {
-                "无": "very likely"
+                "无": "很高"
             }
         }
     }

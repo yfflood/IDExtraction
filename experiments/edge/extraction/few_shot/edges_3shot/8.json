@@ -25,16 +25,13 @@
         "variable": "既有建筑物地基土的不均匀附加压缩",
         "probabilities": {
             "大": {
-                "存在": "very likely",
-                "不存在": "unlikely"
+                "存在": "very likely"
             },
             "中": {
-                "存在": "likely",
-                "不存在": "likely"
+                "存在": "likely"
             },
             "小": {
-                "存在": "unlikely",
-                "不存在": "very likely"
+                "存在": "unlikely"
             }
         }
     },
@@ -45,10 +42,6 @@
             "存在": {
                 "存在": "very likely",
                 "不存在": "unlikely"
-            },
-            "不存在": {
-                "存在": "unlikely",
-                "不存在": "very likely"
             }
         }
     },
@@ -59,10 +52,6 @@
             "存在": {
                 "存在": "very likely",
                 "不存在": "unlikely"
-            },
-            "不存在": {
-                "存在": "unlikely",
-                "不存在": "very likely"
             }
         }
     },
@@ -73,10 +62,6 @@
             "存在": {
                 "是": "very likely",
                 "否": "unlikely"
-            },
-            "不存在": {
-                "是": "unlikely",
-                "否": "very likely"
             }
         }
     },
@@ -87,10 +72,6 @@
             "是": {
                 "是": "very likely",
                 "否": "unlikely"
-            },
-            "否": {
-                "是": "unlikely",
-                "否": "very likely"
             }
         }
     }

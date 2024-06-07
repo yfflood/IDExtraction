@@ -50,10 +50,10 @@
         }
     },
     {
-        "condition": "连接方式",
+        "condition": "地震反应",
         "variable": "计算和加强措施难度",
         "probabilities": {
-            "连接": {
+            "加大": {
                 "困难": "very likely",
                 "容易": "unlikely"
             }

@@ -58,7 +58,7 @@
         "variable": "楼板传力可靠性",
         "probabilities": {
             "有": {
-                "可靠": "very likely"
+                "可靠": "1.0"
             }
         }
     }

@@ -6,12 +6,12 @@
             "产生挤土效应": {
                 "不平衡力": "very likely",
                 "软黏土蠕变": "likely",
-                "水土流失": "unlikely"
+                "水土流失": "possible"
             },
             "导致土体损失": {
-                "不平衡力": "unlikely",
-                "软黏土蠕变": "likely",
-                "水土流失": "very likely"
+                "不平衡力": "likely",
+                "软黏土蠕变": "very likely",
+                "水土流失": "likely"
             },
             "无作用": {
                 "不平衡力": "unlikely",
@@ -25,13 +25,13 @@
         "variable": "基坑开挖",
         "probabilities": {
             "长时间": {
-                "不平衡力": "unlikely",
+                "不平衡力": "possible",
                 "软黏土蠕变": "likely",
                 "水土流失": "very likely"
             },
             "大幅度": {
                 "不平衡力": "likely",
-                "软黏土蠕变": "unlikely",
+                "软黏土蠕变": "possible",
                 "水土流失": "likely"
             },
             "轻微": {
@@ -49,7 +49,7 @@
                 "隆起": "unlikely",
                 "下沉": "likely",
                 "无变化": "unlikely",
-                "侧向移动": "unlikely"
+                "侧向移动": "possible"
             },
             "软黏土蠕变": {
                 "隆起": "unlikely",
@@ -59,7 +59,7 @@
             },
             "水土流失": {
                 "隆起": "unlikely",
-                "下沉": "unlikely",
+                "下沉": "possible",
                 "无变化": "unlikely",
                 "侧向移动": "likely"
             }
@@ -72,9 +72,9 @@
             "不平衡力": {
                 "变形开裂": "likely",
                 "无损": "unlikely",
-                "侧移": "unlikely",
+                "侧移": "possible",
                 "沉降": "likely",
-                "倾斜": "unlikely"
+                "倾斜": "possible"
             },
             "软黏土蠕变": {
                 "变形开裂": "unlikely",
@@ -84,64 +84,50 @@
                 "倾斜": "unlikely"
             },
             "水土流失": {
-                "变形开裂": "unlikely",
+                "变形开裂": "possible",
                 "无损": "unlikely",
                 "侧移": "likely",
-                "沉降": "unlikely",
-                "倾斜": "unlikely"
+                "沉降": "possible",
+                "倾斜": "possible"
             }
         }
     },
     {
-        "condition": "相邻地面",
+        "condition": "基坑开挖",
         "variable": "周围环境安全性",
         "probabilities": {
-            "隆起": {
+            "不平衡力": {
                 "安全": "unlikely",
-                "一般": "likely",
-                "危险": "unlikely"
-            },
-            "下沉": {
-                "安全": "unlikely",
-                "一般": "unlikely",
+                "一般": "possible",
                 "危险": "likely"
             },
-            "无变化": {
+            "软黏土蠕变": {
                 "安全": "likely",
                 "一般": "unlikely",
                 "危险": "unlikely"
             },
-            "侧向移动": {
+            "水土流失": {
                 "安全": "unlikely",
                 "一般": "likely",
-                "危险": "unlikely"
+                "危险": "possible"
             }
         }
     },
     {
-        "condition": "邻近建（构）筑物及地下管线",
+        "condition": "防范措施",
         "variable": "周围环境安全性",
         "probabilities": {
-            "变形开裂": {
-                "安全": "unlikely",
+            "土体加固": {
+                "安全": "very likely",
                 "一般": "unlikely",
-                "危险": "likely"
+                "危险": "unlikely"
             },
-            "无损": {
+            "结构托换": {
                 "安全": "likely",
-                "一般": "unlikely",
+                "一般": "possible",
                 "危险": "unlikely"
             },
-            "侧移": {
-                "安全": "unlikely",
-                "一般": "likely",
-                "危险": "unlikely"
-            },
-            "沉降": {
-                "安全": "unlikely",
-                "一般": "unlikely",
-                "危险": "likely"
-            }
+            "架空管线": {}
         }
     }
 ]

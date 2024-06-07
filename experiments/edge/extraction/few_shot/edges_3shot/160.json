@@ -4,7 +4,8 @@
         "variable": "桩顶土隆起",
         "probabilities": {
             "不够": {
-                "发生": "very likely"
+                "发生": "very likely",
+                "不发生": "low"
             }
         }
     },
@@ -13,7 +14,8 @@
         "variable": "沉降",
         "probabilities": {
             "发生": {
-                "增加": "very likely"
+                "增加": "very likely",
+                "不增加": "low"
             }
         }
     },
@@ -22,9 +24,11 @@
         "variable": "桩顶上覆压力",
         "probabilities": {
             "小于500mm": {
-                "不够": "very likely"
+                "不够": "very likely",
+                "足够": "low"
             },
             "大于等于500mm": {
+                "不够": "low",
                 "足够": "very likely"
             }
         }
@@ -34,9 +38,11 @@
         "variable": "桩体强度",
         "probabilities": {
             "低于或等于原地面": {
-                "降低": "very likely"
+                "降低": "very likely",
+                "不降低": "low"
             },
             "高于原地面": {
+                "降低": "low",
                 "不降低": "very likely"
             }
         }

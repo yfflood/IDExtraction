@@ -5,6 +5,9 @@
         "probabilities": {
             "设置端屋架": {
                 "不易破坏": "very likely"
+            },
+            "不设置端屋架": {
+                "容易破坏": "very likely"
             }
         }
     },
@@ -14,15 +17,21 @@
         "probabilities": {
             "容易破坏": {
                 "塌落": "very likely"
+            },
+            "不易破坏": {
+                "不塌落": "very likely"
             }
         }
     },
     {
         "condition": "硬山搁檩做法",
-        "variable": "山墙",
+        "variable": "端屋架设置",
         "probabilities": {
+            "采用": {
+                "不设置端屋架": "very likely"
+            },
             "不采用": {
-                "不易破坏": "very likely"
+                "设置端屋架": "very likely"
             }
         }
     }

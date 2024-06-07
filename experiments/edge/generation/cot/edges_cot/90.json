@@ -4,12 +4,10 @@
         "variable": "地震反应",
         "probabilities": {
             "大": {
-                "大": "very likely",
-                "小": "unlikely"
+                "小": "非常可能"
             },
             "小": {
-                "大": "unlikely",
-                "小": "very likely"
+                "大": "非常可能"
             }
         }
     },
@@ -18,12 +16,10 @@
         "variable": "震害破坏",
         "probabilities": {
             "停放在吊车旁": {
-                "发生": "likely",
-                "不发生": "unlikely"
+                "发生": "很可能"
             },
             "移走": {
-                "发生": "unlikely",
-                "不发生": "likely"
+                "不发生": "很可能"
             }
         }
     },
@@ -32,12 +28,10 @@
         "variable": "震害破坏",
         "probabilities": {
             "集中在同一横向轴线": {
-                "发生": "likely",
-                "不发生": "unlikely"
+                "发生": "很可能"
             },
             "不集中在同一横向轴线": {
-                "发生": "unlikely",
-                "不发生": "likely"
+                "不发生": "很可能"
             }
         }
     }

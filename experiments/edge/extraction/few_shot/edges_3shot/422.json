@@ -5,6 +5,9 @@
         "probabilities": {
             "变化过大": {
                 "过于集中": "very likely"
+            },
+            "分布均匀": {
+                "过于集中": "unlikely"
             }
         }
     },
@@ -14,15 +17,25 @@
         "probabilities": {
             "过于集中": {
                 "有": "very likely"
+            },
+            "分布均匀": {
+                "有": "unlikely"
             }
         }
     },
     {
-        "condition": "采取加强措施",
-        "variable": "结构沿竖向刚度或抗侧力承载力",
+        "condition": "结构沿竖向刚度或抗侧力承载力",
+        "variable": "采取加强措施",
         "probabilities": {
-            "包括相邻楼层": {
-                "变化适中": "likely"
+            "变化过大": {
+                "包括相邻楼层": "very likely",
+                "不包括相邻楼层": "unlikely",
+                "不采取加强措施": "unlikely"
+            },
+            "变化适中": {
+                "包括相邻楼层": "unlikely",
+                "不包括相邻楼层": "unlikely",
+                "不采取加强措施": "possible"
             }
         }
     }

@@ -14,34 +14,6 @@
         }
     },
     {
-        "condition": "钢筋网的保护层厚度",
-        "variable": "耐久性",
-        "probabilities": {
-            "不满足规定": {
-                "低": "very likely",
-                "高": "unlikely"
-            },
-            "满足规定": {
-                "低": "unlikely",
-                "高": "very likely"
-            }
-        }
-    },
-    {
-        "condition": "耐久性",
-        "variable": "钢筋锈蚀",
-        "probabilities": {
-            "低": {
-                "发生": "very likely",
-                "未发生": "unlikely"
-            },
-            "高": {
-                "发生": "unlikely",
-                "未发生": "very likely"
-            }
-        }
-    },
-    {
         "condition": "钢筋锈蚀",
         "variable": "加固效果",
         "probabilities": {

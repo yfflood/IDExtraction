@@ -1,7 +1,7 @@
 [
     {
         "condition": "墙体类型",
-        "variable": "柱顶节点抗震性能",
+        "variable": "厂房整体抗震性能",
         "probabilities": {
             "嵌砌墙": {
                 "好": "very likely",
@@ -9,7 +9,7 @@
             },
             "外贴墙": {
                 "好": "less likely",
-                "差": "likely"
+                "差": "more likely"
             }
         }
     },
@@ -22,7 +22,7 @@
                 "相对均衡": "very likely"
             },
             "单跨厂房": {
-                "差别悬殊": "likely",
+                "差别悬殊": "more likely",
                 "相对均衡": "unlikely"
             },
             "外纵墙不对称布置": {
@@ -60,16 +60,16 @@
         }
     },
     {
-        "condition": "厂房纵向破坏",
-        "variable": "屋盖安全",
+        "condition": "屋盖安全",
+        "variable": "厂房整体抗震性能",
         "probabilities": {
-            "发生": {
-                "安全": "unlikely",
-                "不安全": "very likely"
+            "安全": {
+                "好": "very likely",
+                "差": "unlikely"
             },
-            "未发生": {
-                "安全": "very likely",
-                "不安全": "unlikely"
+            "不安全": {
+                "好": "unlikely",
+                "差": "very likely"
             }
         }
     }

@@ -5,11 +5,11 @@
         "probabilities": {
             "膨胀土": {
                 "采取": "very likely",
-                "不采取": "unlikely"
+                "不采取": "very unlikely"
             },
             "非膨胀土": {
                 "采取": "unlikely",
-                "不采取": "very likely"
+                "不采取": "likely"
             }
         }
     },
@@ -18,14 +18,14 @@
         "variable": "胀缩变形幅度",
         "probabilities": {
             "采取": {
-                "小于10mm": "very likely",
                 "10mm～20mm": "unlikely",
+                "小于10mm": "likely",
                 "大于20mm": "unlikely"
             },
             "不采取": {
-                "小于10mm": "unlikely",
                 "10mm～20mm": "likely",
-                "大于20mm": "very likely"
+                "小于10mm": "unlikely",
+                "大于20mm": "likely"
             }
         }
     },
@@ -33,17 +33,17 @@
         "condition": "胀缩变形幅度",
         "variable": "砌体结构破坏",
         "probabilities": {
-            "小于10mm": {
-                "不发生": "very likely",
-                "发生": "unlikely"
-            },
             "10mm～20mm": {
-                "不发生": "unlikely",
-                "发生": "likely"
+                "发生": "likely",
+                "不发生": "unlikely"
+            },
+            "小于10mm": {
+                "发生": "unlikely",
+                "不发生": "likely"
             },
             "大于20mm": {
-                "不发生": "unlikely",
-                "发生": "very likely"
+                "发生": "very likely",
+                "不发生": "very unlikely"
             }
         }
     }

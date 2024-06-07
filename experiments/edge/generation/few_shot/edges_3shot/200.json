@@ -4,12 +4,12 @@
         "variable": "混凝土内部温度和温度应力",
         "probabilities": {
             "大": {
-                "剧烈变化": "很高",
-                "平稳": "低"
+                "剧烈变化": "very likely",
+                "平稳": "unlikely"
             },
             "小": {
-                "剧烈变化": "低",
-                "平稳": "很高"
+                "剧烈变化": "unlikely",
+                "平稳": "very likely"
             }
         }
     },
@@ -18,26 +18,26 @@
         "variable": "混凝土有害的温度裂缝",
         "probabilities": {
             "剧烈变化": {
-                "出现": "很高",
-                "未出现": "低"
+                "出现": "very likely",
+                "未出现": "unlikely"
             },
             "平稳": {
-                "出现": "低",
-                "未出现": "很高"
+                "出现": "unlikely",
+                "未出现": "very likely"
             }
         }
     },
     {
         "condition": "温度监测控制",
-        "variable": "混凝土内部温度和温度应力",
+        "variable": "混凝土有害的温度裂缝",
         "probabilities": {
             "有": {
-                "剧烈变化": "低",
-                "平稳": "很高"
+                "出现": "unlikely",
+                "未出现": "very likely"
             },
             "无": {
-                "剧烈变化": "很高",
-                "平稳": "低"
+                "出现": "very likely",
+                "未出现": "unlikely"
             }
         }
     }

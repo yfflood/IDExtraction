@@ -37,22 +37,25 @@
     },
     {
         "condition": "密度",
-        "variable": "端阻",
+        "variable": "桩侧阻",
         "probabilities": {
             "减小": {
-                "降低": "unlikely",
-                "不变": "likely",
-                "提高": "possible"
+                "降低": "likely",
+                "不变": "unlikely",
+                "提高": "unlikely",
+                "丧失": "possible"
             },
             "不变": {
                 "降低": "unlikely",
-                "不变": "very likely",
-                "提高": "unlikely"
+                "不变": "likely",
+                "提高": "possible",
+                "丧失": "unlikely"
             },
             "增加": {
-                "降低": "possible",
-                "不变": "unlikely",
-                "提高": "likely"
+                "降低": "unlikely",
+                "不变": "possible",
+                "提高": "likely",
+                "丧失": "unlikely"
             }
         }
     },
@@ -66,25 +69,23 @@
             },
             "不发生": {
                 "产生": "unlikely",
-                "不产生": "very likely"
+                "不产生": "likely"
             }
         }
     },
     {
         "condition": "土体裂缝",
-        "variable": "桩侧阻",
+        "variable": "端阻",
         "probabilities": {
             "产生": {
                 "降低": "likely",
                 "不变": "unlikely",
-                "提高": "unlikely",
-                "丧失": "possible"
+                "提高": "unlikely"
             },
             "不产生": {
                 "降低": "unlikely",
                 "不变": "likely",
-                "提高": "possible",
-                "丧失": "unlikely"
+                "提高": "possible"
             }
         }
     }

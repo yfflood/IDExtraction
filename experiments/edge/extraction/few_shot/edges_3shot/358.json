@@ -4,7 +4,12 @@
         "variable": "混凝土冻伤",
         "probabilities": {
             "较高": {
-                "冻伤": "较高"
+                "冻伤": "very likely",
+                "未冻伤": "unlikely"
+            },
+            "较低": {
+                "冻伤": "unlikely",
+                "未冻伤": "very likely"
             }
         }
     },
@@ -13,7 +18,12 @@
         "variable": "混凝土冻伤",
         "probabilities": {
             "不足": {
-                "冻伤": "较高"
+                "冻伤": "very likely",
+                "未冻伤": "unlikely"
+            },
+            "充足": {
+                "冻伤": "unlikely",
+                "未冻伤": "very likely"
             }
         }
     },
@@ -22,16 +32,12 @@
         "variable": "混凝土冻伤",
         "probabilities": {
             "降到混凝土冻结温度": {
-                "冻伤": "较高"
-            }
-        }
-    },
-    {
-        "condition": "混凝土入模温度",
-        "variable": "混凝土预养时间",
-        "probabilities": {
-            "较高": {
-                "不足": "较高"
+                "冻伤": "very likely",
+                "未冻伤": "unlikely"
+            },
+            "未降到混凝土冻结温度": {
+                "冻伤": "unlikely",
+                "未冻伤": "very likely"
             }
         }
     }

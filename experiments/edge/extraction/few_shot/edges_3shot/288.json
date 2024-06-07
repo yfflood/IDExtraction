@@ -4,10 +4,12 @@
         "variable": "索或拉杆的预应力分布",
         "probabilities": {
             "进行": {
-                "确定": "几乎肯定"
+                "确定": "very likely",
+                "未确定": "very unlikely"
             },
             "不进行": {
-                "未确定": "几乎肯定"
+                "确定": "unlikely",
+                "未确定": "likely"
             }
         }
     },
@@ -16,10 +18,12 @@
         "variable": "个别索的松弛",
         "probabilities": {
             "确定": {
-                "不发生": "很可能"
+                "发生": "unlikely",
+                "不发生": "very likely"
             },
             "未确定": {
-                "发生": "很可能"
+                "发生": "likely",
+                "不发生": "unlikely"
             }
         }
     },
@@ -28,10 +32,12 @@
         "variable": "结构失效",
         "probabilities": {
             "发生": {
-                "发生": "几乎肯定"
+                "避免": "unlikely",
+                "发生": "very likely"
             },
             "不发生": {
-                "避免": "几乎肯定"
+                "避免": "very likely",
+                "发生": "unlikely"
             }
         }
     }

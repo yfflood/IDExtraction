@@ -4,7 +4,7 @@
         "variable": "锚固加强措施",
         "probabilities": {
             "粘贴": {
-                "加强锚固": "very likely"
+                "加强锚固": "很高"
             }
         }
     },
@@ -13,16 +13,16 @@
         "variable": "锚固粘贴规范程度",
         "probabilities": {
             "加强锚固": {
-                "规范": "very likely"
+                "规范": "增加"
             }
         }
     },
     {
-        "condition": "粘贴薄弱部位",
+        "condition": "粘钢薄弱部位",
         "variable": "脆性剥离或剪坏",
         "probabilities": {
             "有": {
-                "发生": "increased risk"
+                "发生": "增加"
             }
         }
     },
@@ -30,8 +30,8 @@
         "condition": "锚固粘贴规范程度",
         "variable": "脆性剥离或剪坏",
         "probabilities": {
-            "不规范": {
-                "发生": "very likely"
+            "规范": {
+                "不发生": "增加"
             }
         }
     }

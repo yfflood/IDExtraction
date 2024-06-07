@@ -64,30 +64,30 @@
         }
     },
     {
-        "condition": "雨水泵房加强措施",
-        "variable": "雨水泵房状况",
+        "condition": "震害",
+        "variable": "雨水泵房加强措施",
         "probabilities": {
-            "加强": {
-                "完好": "very likely",
-                "损坏": "unlikely"
+            "小": {
+                "加强": "unlikely",
+                "不加强": "likely"
             },
-            "不加强": {
-                "完好": "unlikely",
-                "损坏": "very likely"
+            "大": {
+                "加强": "very likely",
+                "不加强": "unlikely"
             }
         }
     },
     {
-        "condition": "城市排涝泵站加强措施",
-        "variable": "城市排涝泵站状况",
+        "condition": "震害",
+        "variable": "城市排涝泵站加强措施",
         "probabilities": {
-            "加强": {
-                "完好": "very likely",
-                "损坏": "unlikely"
+            "小": {
+                "加强": "unlikely",
+                "不加强": "likely"
             },
-            "不加强": {
-                "完好": "unlikely",
-                "损坏": "very likely"
+            "大": {
+                "加强": "very likely",
+                "不加强": "unlikely"
             }
         }
     }

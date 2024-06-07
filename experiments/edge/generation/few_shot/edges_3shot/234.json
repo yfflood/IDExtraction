@@ -1,13 +1,27 @@
 [
     {
         "condition": "混凝土用途",
-        "variable": "钢筋与混凝土间的黏结强度",
+        "variable": "混凝土收缩",
         "probabilities": {
             "烟囱": {
+                "大": "very likely",
+                "小": "unlikely"
+            },
+            "室内结构": {
+                "大": "unlikely",
+                "小": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "混凝土收缩",
+        "variable": "钢筋与混凝土间的黏结强度",
+        "probabilities": {
+            "大": {
                 "降低": "very likely",
                 "未降低": "unlikely"
             },
-            "室内结构": {
+            "小": {
                 "降低": "unlikely",
                 "未降低": "very likely"
             }

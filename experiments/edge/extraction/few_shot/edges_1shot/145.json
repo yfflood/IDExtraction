@@ -43,15 +43,15 @@
     },
     {
         "condition": "施工季节",
-        "variable": "天气状况",
+        "variable": "膨润土防水材料的保护",
         "probabilities": {
             "雨季": {
-                "雨天": "very likely",
-                "晴天": "unlikely"
+                "覆盖塑料薄膜": "very likely",
+                "未覆盖塑料薄膜": "unlikely"
             },
             "非雨季": {
-                "雨天": "unlikely",
-                "晴天": "very likely"
+                "覆盖塑料薄膜": "likely",
+                "未覆盖塑料薄膜": "possible"
             }
         }
     }

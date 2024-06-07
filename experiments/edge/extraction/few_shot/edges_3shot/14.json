@@ -16,8 +16,9 @@
         "variable": "填充墙",
         "probabilities": {
             "提出修改建议": {
-                "轻钢龙骨石膏板墙": "very likely",
-                "石膏板空心墙": "very likely"
+                "轻钢龙骨石膏板墙": "likely",
+                "石膏板空心墙": "likely",
+                "其他修改建议": "likely"
             },
             "不提出修改建议": {
                 "空心砖填充墙": "very likely"

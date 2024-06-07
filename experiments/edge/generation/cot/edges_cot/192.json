@@ -29,15 +29,15 @@
     },
     {
         "condition": "雨水排泄",
-        "variable": "边坡稳定性",
+        "variable": "雨水冲刷",
         "probabilities": {
             "有组织": {
-                "稳定": "very likely",
-                "失稳": "unlikely"
+                "强": "unlikely",
+                "弱": "very likely"
             },
             "无组织": {
-                "稳定": "unlikely",
-                "失稳": "very likely"
+                "强": "very likely",
+                "弱": "unlikely"
             }
         }
     },

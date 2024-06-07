@@ -1,7 +1,7 @@
 [
     {
         "condition": "受弯构件受拉区粘贴钢板",
-        "variable": "粘贴薄弱部位",
+        "variable": "粘钢薄弱部位",
         "probabilities": {
             "粘贴": {
                 "有": "very likely"
@@ -16,15 +16,6 @@
                 "不发生": "very likely"
             },
             "不加强锚固": {
-                "发生": "very likely"
-            }
-        }
-    },
-    {
-        "condition": "粘贴薄弱部位",
-        "variable": "脆性剥离或剪坏",
-        "probabilities": {
-            "有": {
                 "发生": "very likely"
             }
         }

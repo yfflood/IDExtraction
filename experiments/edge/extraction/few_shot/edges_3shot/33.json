@@ -56,16 +56,30 @@
         }
     },
     {
-        "condition": "火灾蔓延",
-        "variable": "外墙板掉落",
+        "condition": "外墙板内侧与梁、柱及楼板间的调整间隙",
+        "variable": "火灾蔓延",
         "probabilities": {
-            "蔓延": {
-                "掉落": "very likely",
-                "不掉落": "unlikely"
+            "存在": {
+                "蔓延": "very likely",
+                "不蔓延": "unlikely"
             },
-            "不蔓延": {
-                "掉落": "unlikely",
-                "不掉落": "very likely"
+            "不存在": {
+                "蔓延": "unlikely",
+                "不蔓延": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "露明金属支撑件的构造措施",
+        "variable": "火灾蔓延",
+        "probabilities": {
+            "设置": {
+                "蔓延": "unlikely",
+                "不蔓延": "very likely"
+            },
+            "不设置": {
+                "蔓延": "very likely",
+                "不蔓延": "unlikely"
             }
         }
     }

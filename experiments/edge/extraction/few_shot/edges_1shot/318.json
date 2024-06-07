@@ -13,7 +13,7 @@
         "variable": "桩体稳定性",
         "probabilities": {
             "清除": {
-                "稳定": "very likely"
+                "稳定": "1.0"
             },
             "未清除": {
                 "失稳": "very likely"
@@ -26,9 +26,15 @@
         "probabilities": {
             "嵌入钢桩槽口": {
                 "失稳": "very likely"
-            },
-            "未嵌入钢桩槽口": {
-                "稳定": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "大块石或混凝土块",
+        "variable": "障碍物清除",
+        "probabilities": {
+            "嵌入钢桩槽口": {
+                "未清除": "1.0"
             }
         }
     }

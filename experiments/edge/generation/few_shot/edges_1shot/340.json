@@ -4,10 +4,12 @@
         "variable": "长短柱共用",
         "probabilities": {
             "是": {
-                "多": "很可能会增多"
+                "多": "very likely",
+                "少": "unlikely"
             },
             "否": {
-                "少": "很可能会减少"
+                "多": "unlikely",
+                "少": "very likely"
             }
         }
     },
@@ -16,10 +18,12 @@
         "variable": "细腰形平面",
         "probabilities": {
             "多": {
-                "出现": "很可能会增多"
+                "出现": "very likely",
+                "不出现": "unlikely"
             },
             "少": {
-                "不出现": "很可能会减少"
+                "出现": "unlikely",
+                "不出现": "very likely"
             }
         }
     },
@@ -28,10 +32,12 @@
         "variable": "地震扭转效应",
         "probabilities": {
             "出现": {
-                "大": "很可能会增大"
+                "大": "very likely",
+                "小": "unlikely"
             },
             "不出现": {
-                "小": "很可能会减小"
+                "大": "unlikely",
+                "小": "very likely"
             }
         }
     }

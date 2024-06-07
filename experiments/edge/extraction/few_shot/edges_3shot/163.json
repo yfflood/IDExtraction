@@ -4,37 +4,10 @@
         "variable": "屋架上弦的附加扭矩",
         "probabilities": {
             "发生": {
-                "产生": "1.0"
-            }
-        }
-    },
-    {
-        "condition": "屋架结构类型",
-        "variable": "屋架上弦的附加扭矩",
-        "probabilities": {
-            "拱形": {
-                "产生": "1.0"
+                "产生": "very likely"
             },
-            "折线形": {
-                "产生": "1.0"
-            }
-        }
-    },
-    {
-        "condition": "上弦节间长和节间矢高",
-        "variable": "屋架上弦的附加扭矩",
-        "probabilities": {
-            "较大": {
-                "产生": "1.0"
-            }
-        }
-    },
-    {
-        "condition": "地震烈度",
-        "variable": "截面抗扭验算",
-        "probabilities": {
-            "8度或9度": {
-                "进行": "1.0"
+            "不发生": {
+                "产生": "very unlikely"
             }
         }
     },
@@ -43,7 +16,49 @@
         "variable": "屋架上弦的破坏",
         "probabilities": {
             "产生": {
-                "发生": "0.9"
+                "发生": "very likely"
+            },
+            "不产生": {
+                "发生": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "地震烈度",
+        "variable": "截面抗扭验算",
+        "probabilities": {
+            "8度或9度": {
+                "进行": "very likely"
+            },
+            "其他": {
+                "进行": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "屋架结构类型",
+        "variable": "屋架上弦的附加扭矩",
+        "probabilities": {
+            "拱形": {
+                "产生": "likely"
+            },
+            "折线形": {
+                "产生": "likely"
+            },
+            "其他": {
+                "产生": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "上弦节间长和节间矢高",
+        "variable": "屋架上弦的附加扭矩",
+        "probabilities": {
+            "较大": {
+                "产生": "likely"
+            },
+            "较小": {
+                "产生": "unlikely"
             }
         }
     }

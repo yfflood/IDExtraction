@@ -4,11 +4,9 @@
         "variable": "薄弱层的变形和构件应力",
         "probabilities": {
             "变化过大": {
-                "过于集中": "very likely",
-                "分布均匀": "unlikely"
+                "过于集中": "very likely"
             },
             "变化适中": {
-                "过于集中": "unlikely",
                 "分布均匀": "very likely"
             }
         }
@@ -18,13 +16,9 @@
         "variable": "采取加强措施",
         "probabilities": {
             "过于集中": {
-                "包括相邻楼层": "very likely",
-                "不包括相邻楼层": "unlikely",
-                "不采取加强措施": "unlikely"
+                "包括相邻楼层": "very likely"
             },
             "分布均匀": {
-                "包括相邻楼层": "unlikely",
-                "不包括相邻楼层": "unlikely",
                 "不采取加强措施": "very likely"
             }
         }
@@ -34,15 +28,9 @@
         "variable": "震害",
         "probabilities": {
             "包括相邻楼层": {
-                "无": "very likely",
-                "有": "unlikely"
-            },
-            "不包括相邻楼层": {
-                "无": "likely",
-                "有": "unlikely"
+                "无": "very likely"
             },
             "不采取加强措施": {
-                "无": "unlikely",
                 "有": "very likely"
             }
         }

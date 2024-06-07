@@ -28,7 +28,7 @@
         "variable": "建筑破坏",
         "probabilities": {
             "是": {
-                "是": "1.0"
+                "是": "very likely"
             },
             "否": {
                 "否": "1.0"

@@ -5,7 +5,7 @@
         "probabilities": {
             "不倒角": {
                 "出现": "very likely",
-                "不出现": "low"
+                "不出现": "unlikely"
             }
         }
     },
@@ -15,7 +15,7 @@
         "probabilities": {
             "不倒角": {
                 "损失": "very likely",
-                "不损失": "low"
+                "不损失": "unlikely"
             }
         }
     },
@@ -24,8 +24,8 @@
         "variable": "整体防水质量",
         "probabilities": {
             "出现": {
-                "受影响": "high",
-                "不受影响": "low"
+                "受影响": "very likely",
+                "不受影响": "unlikely"
             }
         }
     },
@@ -34,8 +34,8 @@
         "variable": "整体防水质量",
         "probabilities": {
             "损失": {
-                "受影响": "high",
-                "不受影响": "low"
+                "受影响": "very likely",
+                "不受影响": "unlikely"
             }
         }
     }

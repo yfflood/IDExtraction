@@ -4,7 +4,7 @@
         "variable": "桩顶浮浆量",
         "probabilities": {
             "过大": {
-                "过多": "1.0"
+                "过多": "very likely"
             }
         }
     },
@@ -13,16 +13,7 @@
         "variable": "桩体强度",
         "probabilities": {
             "过大": {
-                "降低": "1.0"
-            }
-        }
-    },
-    {
-        "condition": "桩顶浮浆量",
-        "variable": "桩体强度",
-        "probabilities": {
-            "过多": {
-                "降低": "1.0"
+                "降低": "very likely"
             }
         }
     }

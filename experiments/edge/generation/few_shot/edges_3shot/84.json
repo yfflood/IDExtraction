@@ -8,8 +8,8 @@
                 "不设置": "unlikely"
             },
             "小": {
-                "设置": "less likely",
-                "不设置": "more likely"
+                "设置": "unlikely",
+                "不设置": "very likely"
             }
         }
     },
@@ -22,8 +22,8 @@
                 "失效": "unlikely"
             },
             "不设置": {
-                "生效": "less likely",
-                "失效": "more likely"
+                "生效": "unlikely",
+                "失效": "very likely"
             }
         }
     },
@@ -36,8 +36,8 @@
                 "有缺陷": "unlikely"
             },
             "失效": {
-                "无缺陷": "less likely",
-                "有缺陷": "more likely"
+                "无缺陷": "unlikely",
+                "有缺陷": "very likely"
             }
         }
     }

@@ -40,8 +40,26 @@
                 "不正常": "unlikely"
             },
             "增加": {
-                "正常": "unlikely",
-                "不正常": "likely"
+                "正常": "likely",
+                "不正常": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "粉煤灰掺量",
+        "variable": "薄壁混凝土结构的干缩开裂",
+        "probabilities": {
+            "适当降低": {
+                "不容易发生": "likely",
+                "容易发生": "unlikely"
+            },
+            "保持不变": {
+                "不容易发生": "likely",
+                "容易发生": "unlikely"
+            },
+            "增加": {
+                "不容易发生": "unlikely",
+                "容易发生": "likely"
             }
         }
     }

@@ -5,9 +5,6 @@
         "probabilities": {
             "较大": {
                 "提高": "very likely"
-            },
-            "其他": {
-                "不提高": "very likely"
             }
         }
     },
@@ -17,9 +14,6 @@
         "probabilities": {
             "提高": {
                 "显著增加": "very likely"
-            },
-            "不提高": {
-                "可控": "very likely"
             }
         }
     },
@@ -29,9 +23,6 @@
         "probabilities": {
             "显著增加": {
                 "增加": "likely"
-            },
-            "可控": {
-                "不增加": "very likely"
             }
         }
     },
@@ -41,21 +32,15 @@
         "probabilities": {
             "显著增加": {
                 "采取": "likely"
-            },
-            "可控": {
-                "不采取": "very likely"
             }
         }
     },
     {
-        "condition": "防腐蚀措施",
+        "condition": "混凝土强度",
         "variable": "耐久性要求",
         "probabilities": {
-            "采取": {
+            "提高": {
                 "满足": "very likely"
-            },
-            "不采取": {
-                "不满足": "very likely"
             }
         }
     }

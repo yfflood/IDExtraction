@@ -7,7 +7,7 @@
                 "受影响": "very likely"
             },
             "较小": {
-                "不受影响": "very likely"
+                "受影响": "unlikely"
             }
         }
     },

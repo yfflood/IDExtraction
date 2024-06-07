@@ -59,17 +59,15 @@
     },
     {
         "condition": "地震作用",
-        "variable": "避免扭转措施",
+        "variable": "核芯区受剪面积",
         "probabilities": {
             "发生": {
-                "采用水平加腋梁": "likely",
-                "加强柱的箍筋": "likely",
-                "不采取措施": "unlikely"
+                "不足": "very likely",
+                "充足": "unlikely"
             },
             "未发生": {
-                "采用水平加腋梁": "unlikely",
-                "加强柱的箍筋": "unlikely",
-                "不采取措施": "possible"
+                "不足": "possible",
+                "充足": "likely"
             }
         }
     }

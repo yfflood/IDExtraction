@@ -4,8 +4,7 @@
         "variable": "局部钢筋间距",
         "probabilities": {
             "斜筋配置": {
-                "间距过小": "very likely",
-                "间距适中": "unlikely"
+                "间距过小": "very likely"
             }
         }
     },
@@ -14,8 +13,7 @@
         "variable": "混凝土振捣难度",
         "probabilities": {
             "间距过小": {
-                "振捣困难": "very likely",
-                "振捣容易": "unlikely"
+                "振捣困难": "very likely"
             }
         }
     },
@@ -24,8 +22,7 @@
         "variable": "混凝土振捣难度",
         "probabilities": {
             "较密": {
-                "振捣困难": "very likely",
-                "振捣容易": "unlikely"
+                "振捣困难": "very likely"
             }
         }
     }

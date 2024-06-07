@@ -18,11 +18,11 @@
         "variable": "封口标高",
         "probabilities": {
             "大于等于500mm": {
-                "高于原地面": "very likely",
+                "高于原地面": "likely",
                 "低于或等于原地面": "unlikely"
             },
             "小于500mm": {
-                "高于原地面": "possible",
+                "高于原地面": "unlikely",
                 "低于或等于原地面": "likely"
             }
         }
@@ -33,7 +33,7 @@
         "probabilities": {
             "足够": {
                 "增加": "unlikely",
-                "不增加": "very likely"
+                "不增加": "likely"
             },
             "不够": {
                 "增加": "likely",
@@ -51,7 +51,7 @@
             },
             "不发生": {
                 "增加": "unlikely",
-                "不增加": "very likely"
+                "不增加": "likely"
             }
         }
     },
@@ -65,7 +65,7 @@
             },
             "不增加": {
                 "降低": "unlikely",
-                "不降低": "very likely"
+                "不降低": "likely"
             }
         }
     }

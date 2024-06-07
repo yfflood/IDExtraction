@@ -4,46 +4,25 @@
         "variable": "石子粒径",
         "probabilities": {
             "合格": {
-                "合适": "very likely",
-                "过大": "unlikely",
-                "过小": "unlikely"
-            },
-            "不合格": {
-                "合适": "unlikely",
-                "过大": "likely",
-                "过小": "likely"
-            }
-        }
-    },
-    {
-        "condition": "石子级配",
-        "variable": "石子形状",
-        "probabilities": {
-            "合格": {
-                "合格": "very likely",
-                "不合格": "unlikely"
-            },
-            "不合格": {
-                "合格": "unlikely",
-                "不合格": "very likely"
+                "合适": "很高"
             }
         }
     },
     {
         "condition": "石子粒径",
-        "variable": "石子空隙率",
+        "variable": "石子形状",
         "probabilities": {
             "合适": {
-                "过大": "unlikely",
-                "合格": "very likely"
-            },
-            "过大": {
-                "过大": "likely",
-                "合格": "unlikely"
-            },
-            "过小": {
-                "过大": "unlikely",
-                "合格": "likely"
+                "合格": "很高"
+            }
+        }
+    },
+    {
+        "condition": "石子粒径, 石子形状",
+        "variable": "石子空隙率",
+        "probabilities": {
+            "合适, 合格": {
+                "合格": "很高"
             }
         }
     },
@@ -52,19 +31,19 @@
         "variable": "灰浆用量",
         "probabilities": {
             "超长工程": {
-                "过多": "unlikely",
-                "适中": "likely",
-                "过少": "unlikely"
+                "适中": "中等",
+                "过多": "较低",
+                "过少": "较低"
             },
             "高强易裂工程": {
-                "过多": "likely",
-                "适中": "unlikely",
-                "过少": "very likely"
+                "适中": "较高",
+                "过多": "较低",
+                "过少": "较高"
             },
             "普通工程": {
-                "过多": "unlikely",
-                "适中": "very likely",
-                "过少": "unlikely"
+                "适中": "很高",
+                "过多": "较低",
+                "过少": "较低"
             }
         }
     },
@@ -72,20 +51,20 @@
         "condition": "灰浆用量",
         "variable": "开裂风险",
         "probabilities": {
-            "过多": {
-                "高": "unlikely",
-                "中": "unlikely",
-                "低": "very likely"
-            },
             "适中": {
-                "高": "unlikely",
-                "中": "likely",
-                "低": "unlikely"
+                "低": "很高",
+                "中": "较低",
+                "高": "很低"
+            },
+            "过多": {
+                "低": "较低",
+                "中": "较高",
+                "高": "很高"
             },
             "过少": {
-                "高": "very likely",
-                "中": "unlikely",
-                "低": "unlikely"
+                "低": "较低",
+                "中": "很高",
+                "高": "较高"
             }
         }
     }

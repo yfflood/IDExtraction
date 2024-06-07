@@ -18,12 +18,12 @@
         "variable": "地基不均匀沉降",
         "probabilities": {
             "高质量": {
-                "发生": "unlikely",
-                "未发生": "very likely"
+                "未发生": "very likely",
+                "发生": "unlikely"
             },
             "低质量": {
-                "发生": "very likely",
-                "未发生": "unlikely"
+                "未发生": "unlikely",
+                "发生": "very likely"
             }
         }
     },
@@ -46,12 +46,12 @@
         "variable": "墙体酥落",
         "probabilities": {
             "设置": {
-                "酥落": "unlikely",
-                "未酥落": "very likely"
+                "未酥落": "very likely",
+                "酥落": "unlikely"
             },
             "未设置": {
-                "酥落": "very likely",
-                "未酥落": "unlikely"
+                "未酥落": "unlikely",
+                "酥落": "very likely"
             }
         }
     }

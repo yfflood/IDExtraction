@@ -8,12 +8,6 @@
                 "不变": "unlikely",
                 "提高": "unlikely",
                 "丧失": "possible"
-            },
-            "不发生": {
-                "降低": "unlikely",
-                "不变": "likely",
-                "提高": "possible",
-                "丧失": "unlikely"
             }
         }
     },
@@ -27,7 +21,7 @@
             },
             "不变": {
                 "发生": "possible",
-                "不发生": "likely"
+                "不发生": "possible"
             },
             "减少": {
                 "发生": "unlikely",
@@ -41,9 +35,9 @@
         "probabilities": {
             "减小": {
                 "降低": "likely",
-                "不变": "unlikely",
+                "不变": "possible",
                 "提高": "unlikely",
-                "丧失": "possible"
+                "丧失": "unlikely"
             },
             "不变": {
                 "降低": "unlikely",
@@ -66,10 +60,6 @@
             "发生": {
                 "产生": "likely",
                 "不产生": "unlikely"
-            },
-            "不发生": {
-                "产生": "unlikely",
-                "不产生": "likely"
             }
         }
     },
@@ -79,13 +69,8 @@
         "probabilities": {
             "产生": {
                 "降低": "likely",
-                "不变": "unlikely",
+                "不变": "possible",
                 "提高": "unlikely"
-            },
-            "不产生": {
-                "降低": "unlikely",
-                "不变": "likely",
-                "提高": "possible"
             }
         }
     }

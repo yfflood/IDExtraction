@@ -28,20 +28,20 @@
         "variable": "相邻地面",
         "probabilities": {
             "长时间": {
-                "沉降": "very likely",
+                "下沉": "very likely",
                 "隆起": "unlikely",
                 "无变化": "unlikely",
                 "侧向移动": "unlikely"
             },
             "大幅度": {
-                "沉降": "likely",
+                "下沉": "likely",
                 "隆起": "unlikely",
                 "无变化": "unlikely",
                 "侧向移动": "unlikely"
             },
             "轻微": {
                 "无变化": "very likely",
-                "沉降": "unlikely",
+                "下沉": "unlikely",
                 "隆起": "unlikely",
                 "侧向移动": "unlikely"
             }
@@ -52,20 +52,20 @@
         "variable": "相邻地面",
         "probabilities": {
             "不平衡力": {
-                "侧向移动": "very likely",
-                "隆起": "unlikely",
+                "侧向移动": "likely",
                 "下沉": "unlikely",
+                "隆起": "unlikely",
                 "无变化": "unlikely"
             },
             "软黏土蠕变": {
-                "沉降": "likely",
+                "下沉": "likely",
                 "隆起": "unlikely",
                 "无变化": "unlikely",
                 "侧向移动": "unlikely"
             },
             "水土流失": {
-                "沉降": "likely",
-                "隆起": "unlikely",
+                "下沉": "likely",
+                "隆起": "likely",
                 "无变化": "unlikely",
                 "侧向移动": "unlikely"
             }
@@ -76,25 +76,25 @@
         "variable": "邻近建（构）筑物及地下管线",
         "probabilities": {
             "不平衡力": {
-                "侧移": "very likely",
                 "变形开裂": "likely",
                 "无损": "unlikely",
+                "侧移": "unlikely",
                 "沉降": "unlikely",
                 "倾斜": "unlikely"
             },
             "软黏土蠕变": {
                 "变形开裂": "likely",
-                "侧移": "unlikely",
                 "无损": "unlikely",
-                "沉降": "very likely",
-                "倾斜": "unlikely"
+                "侧移": "unlikely",
+                "沉降": "likely",
+                "倾斜": "likely"
             },
             "水土流失": {
-                "沉降": "likely",
                 "变形开裂": "unlikely",
-                "侧移": "unlikely",
-                "无损": "unlikely",
-                "倾斜": "unlikely"
+                "无损": "likely",
+                "侧移": "likely",
+                "沉降": "likely",
+                "倾斜": "likely"
             }
         }
     },

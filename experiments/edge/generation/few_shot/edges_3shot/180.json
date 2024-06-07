@@ -4,26 +4,26 @@
         "variable": "支撑破坏",
         "probabilities": {
             "轴心受力构件": {
-                "避免": "0.9",
-                "发生": "0.1"
+                "避免": "very likely",
+                "发生": "unlikely"
             },
             "偏心受力构件": {
-                "避免": "0.3",
-                "发生": "0.7"
+                "避免": "less likely",
+                "发生": "more likely"
             }
         }
     },
     {
         "condition": "施工误差",
-        "variable": "支撑破坏",
+        "variable": "屈曲约束支撑的设计",
         "probabilities": {
             "过大": {
-                "避免": "0.2",
-                "发生": "0.8"
+                "轴心受力构件": "unlikely",
+                "偏心受力构件": "likely"
             },
             "适中": {
-                "避免": "0.7",
-                "发生": "0.3"
+                "轴心受力构件": "likely",
+                "偏心受力构件": "unlikely"
             }
         }
     }

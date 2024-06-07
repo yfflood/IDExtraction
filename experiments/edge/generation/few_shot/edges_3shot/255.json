@@ -46,12 +46,12 @@
         "variable": "结构安全",
         "probabilities": {
             "考虑": {
-                "安全": "unlikely",
-                "不安全": "very likely"
+                "安全": "likely",
+                "不安全": "unlikely"
             },
             "不考虑": {
-                "安全": "very likely",
-                "不安全": "unlikely"
+                "安全": "unlikely",
+                "不安全": "likely"
             }
         }
     },

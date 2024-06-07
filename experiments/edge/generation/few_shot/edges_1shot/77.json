@@ -26,13 +26,13 @@
         "probabilities": {
             "长时间": {
                 "不平衡力": "unlikely",
-                "软黏土蠕变": "likely",
-                "水土流失": "very likely"
+                "软黏土蠕变": "very likely",
+                "水土流失": "likely"
             },
             "大幅度": {
                 "不平衡力": "likely",
-                "软黏土蠕变": "unlikely",
-                "水土流失": "likely"
+                "软黏土蠕变": "likely",
+                "水土流失": "very likely"
             },
             "轻微": {
                 "不平衡力": "unlikely",

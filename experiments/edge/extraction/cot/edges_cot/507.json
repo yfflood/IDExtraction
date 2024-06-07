@@ -6,10 +6,6 @@
             "保持": {
                 "安全": "very likely",
                 "不安全": "unlikely"
-            },
-            "不保持": {
-                "安全": "unlikely",
-                "不安全": "very likely"
             }
         }
     },
@@ -20,10 +16,6 @@
             "设置": {
                 "保持": "very likely",
                 "不保持": "unlikely"
-            },
-            "不设置": {
-                "保持": "unlikely",
-                "不保持": "very likely"
             }
         }
     },
@@ -34,10 +26,6 @@
             "设置": {
                 "安全": "very likely",
                 "不安全": "unlikely"
-            },
-            "不设置": {
-                "安全": "unlikely",
-                "不安全": "very likely"
             }
         }
     },
@@ -48,10 +36,6 @@
             "设置": {
                 "保持": "very likely",
                 "不保持": "unlikely"
-            },
-            "不设置": {
-                "保持": "unlikely",
-                "不保持": "very likely"
             }
         }
     },
@@ -62,24 +46,6 @@
             "设置": {
                 "安全": "very likely",
                 "不安全": "unlikely"
-            },
-            "不设置": {
-                "安全": "unlikely",
-                "不安全": "very likely"
-            }
-        }
-    },
-    {
-        "condition": "止水墙工程质量",
-        "variable": "基坑工程安全",
-        "probabilities": {
-            "精细": {
-                "安全": "very likely",
-                "不安全": "unlikely"
-            },
-            "粗糙": {
-                "安全": "unlikely",
-                "不安全": "very likely"
             }
         }
     }

@@ -13,11 +13,16 @@
         }
     },
     {
-        "condition": "板齿滑移过大",
+        "condition": "板齿滑移",
         "variable": "板齿抗滑移承载力",
         "probabilities": {
-            "验算": "1.0",
-            "不验算": "0.0"
+            "过大": {
+                "验算": "very likely"
+            },
+            "适中": {
+                "验算": "unlikely",
+                "不验算": "likely"
+            }
         }
     }
 ]

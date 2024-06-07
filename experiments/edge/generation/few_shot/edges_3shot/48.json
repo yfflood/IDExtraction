@@ -28,10 +28,10 @@
         "variable": "基础的稳定性",
         "probabilities": {
             "铰接连接": {
-                "不稳定": "likely"
+                "稳定": "likely"
             },
             "其他连接方式": {
-                "稳定": "likely"
+                "不稳定": "likely"
             }
         }
     }

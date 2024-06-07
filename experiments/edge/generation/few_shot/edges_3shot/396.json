@@ -4,7 +4,12 @@
         "variable": "基底压力",
         "probabilities": {
             "减小": {
-                "增大": "very likely"
+                "增大": "very likely",
+                "不增大": "unlikely"
+            },
+            "不减小": {
+                "增大": "likely",
+                "不增大": "possible"
             }
         }
     },
@@ -13,7 +18,12 @@
         "variable": "差异沉降",
         "probabilities": {
             "减小": {
-                "减小": "likely"
+                "减小": "very likely",
+                "不减小": "unlikely"
+            },
+            "不减小": {
+                "减小": "possible",
+                "不减小": "likely"
             }
         }
     },
@@ -22,7 +32,12 @@
         "variable": "地基极限承载力",
         "probabilities": {
             "增大": {
-                "不核算": "likely"
+                "核算": "unlikely",
+                "不核算": "very likely"
+            },
+            "不增大": {
+                "核算": "likely",
+                "不核算": "possible"
             }
         }
     },
@@ -31,7 +46,12 @@
         "variable": "地基失稳",
         "probabilities": {
             "减小": {
-                "不发生": "likely"
+                "发生": "unlikely",
+                "不发生": "very likely"
+            },
+            "不减小": {
+                "发生": "likely",
+                "不发生": "possible"
             }
         }
     },
@@ -39,8 +59,13 @@
         "condition": "地基极限承载力",
         "variable": "地基失稳",
         "probabilities": {
+            "核算": {
+                "发生": "unlikely",
+                "不发生": "very likely"
+            },
             "不核算": {
-                "发生": "very likely"
+                "发生": "very likely",
+                "不发生": "unlikely"
             }
         }
     }

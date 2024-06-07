@@ -56,16 +56,16 @@
         }
     },
     {
-        "condition": "露明金属支撑件的构造措施",
-        "variable": "火灾蔓延",
+        "condition": "火灾蔓延",
+        "variable": "露明金属支撑件的构造措施",
         "probabilities": {
-            "设置": {
-                "蔓延": "unlikely",
-                "不蔓延": "very likely"
+            "蔓延": {
+                "设置": "unlikely",
+                "不设置": "very likely"
             },
-            "不设置": {
-                "蔓延": "very likely",
-                "不蔓延": "unlikely"
+            "不蔓延": {
+                "设置": "very likely",
+                "不设置": "unlikely"
             }
         }
     }

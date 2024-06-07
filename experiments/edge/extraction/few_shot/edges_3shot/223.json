@@ -36,11 +36,11 @@
         }
     },
     {
-        "condition": "屋面板与屋架的连接可靠性",
-        "variable": "地震时屋面板掉落风险",
+        "condition": "山墙能够开窗",
+        "variable": "天窗设置位置",
         "probabilities": {
-            "低": {
-                "高": "very likely"
+            "true": {
+                "第三开间": "very likely"
             }
         }
     }

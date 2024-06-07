@@ -4,8 +4,8 @@
         "variable": "工程上浮",
         "probabilities": {
             "上升": {
-                "上浮": "很高的可能性",
-                "不浮": "较低的可能性"
+                "上浮": "very likely",
+                "不浮": "unlikely"
             }
         }
     },
@@ -14,8 +14,12 @@
         "variable": "工程防水层破坏",
         "probabilities": {
             "完工": {
-                "破坏": "较低的可能性",
-                "不破坏": "很高的可能性"
+                "破坏": "unlikely",
+                "不破坏": "very likely"
+            },
+            "未完工": {
+                "破坏": "likely",
+                "不破坏": "unlikely"
             }
         }
     },
@@ -24,8 +28,12 @@
         "variable": "防水工程完工",
         "probabilities": {
             "完成": {
-                "完工": "很高的可能性",
-                "未完工": "较低的可能性"
+                "完工": "very likely",
+                "未完工": "unlikely"
+            },
+            "未完成": {
+                "完工": "unlikely",
+                "未完工": "very likely"
             }
         }
     },
@@ -34,12 +42,12 @@
         "variable": "回填作业",
         "probabilities": {
             "至回填作业完成": {
-                "完成": "很高的可能性",
-                "未完成": "较低的可能性"
+                "完成": "very likely",
+                "未完成": "unlikely"
             },
             "提前停止": {
-                "完成": "较低的可能性",
-                "未完成": "很高的可能性"
+                "完成": "unlikely",
+                "未完成": "very likely"
             }
         }
     }

@@ -46,7 +46,7 @@
         "variable": "沉降",
         "probabilities": {
             "发生": {
-                "增加": "very likely",
+                "增加": "likely",
                 "不增加": "unlikely"
             },
             "不发生": {

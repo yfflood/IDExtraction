@@ -1,31 +1,33 @@
 [
     {
-        "condition": "地基土类型",
-        "variable": "预防措施",
-        "probabilities": {
-            "膨胀土": {
-                "采取": "very likely",
-                "不采取": "unlikely"
-            },
-            "非膨胀土": {
-                "采取": "less likely",
-                "不采取": "more likely"
-            }
-        }
-    },
-    {
         "condition": "预防措施",
         "variable": "胀缩变形幅度",
         "probabilities": {
             "采取": {
-                "10mm～20mm": "less likely",
-                "小于10mm": "very likely",
-                "大于20mm": "unlikely"
+                "小于10mm": "很大概率",
+                "10mm～20mm": "较小概率",
+                "大于20mm": "极小概率"
             },
             "不采取": {
-                "10mm～20mm": "more likely",
-                "小于10mm": "unlikely",
-                "大于20mm": "very likely"
+                "小于10mm": "较小概率",
+                "10mm～20mm": "较大概率",
+                "大于20mm": "很大的概率"
+            }
+        }
+    },
+    {
+        "condition": "地基土类型",
+        "variable": "胀缩变形幅度",
+        "probabilities": {
+            "膨胀土": {
+                "小于10mm": "极小概率",
+                "10mm～20mm": "较小概率",
+                "大于20mm": "很大的概率"
+            },
+            "非膨胀土": {
+                "小于10mm": "很大的概率",
+                "10mm～20mm": "较小概率",
+                "大于20mm": "极小概率"
             }
         }
     },
@@ -33,17 +35,17 @@
         "condition": "胀缩变形幅度",
         "variable": "砌体结构破坏",
         "probabilities": {
-            "10mm～20mm": {
-                "发生": "less likely",
-                "不发生": "very likely"
-            },
             "小于10mm": {
-                "发生": "unlikely",
-                "不发生": "almost certain"
+                "发生": "极小概率",
+                "不发生": "很大的概率"
+            },
+            "10mm～20mm": {
+                "发生": "较小概率",
+                "不发生": "较大的概率"
             },
             "大于20mm": {
-                "发生": "very likely",
-                "不发生": "unlikely"
+                "发生": "很大的概率",
+                "不发生": "极小概率"
             }
         }
     }

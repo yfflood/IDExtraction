@@ -1,37 +1,43 @@
 [
     {
-        "condition": "长期高温作用",
-        "variable": "钢筋与混凝土间的黏结强度",
+        "condition": "混凝土用途",
+        "variable": "混凝土收缩",
         "probabilities": {
-            "存在": {
-                "降低": "very likely"
+            "烟囱": {
+                "大": "very likely",
+                "小": "very unlikely"
             },
-            "不存在": {
-                "未降低": "very likely"
+            "室内结构": {
+                "大": "unlikely",
+                "小": "likely"
             }
         }
     },
     {
         "condition": "长期高温作用",
-        "variable": "滑移",
+        "variable": "钢筋与混凝土间的黏结强度",
         "probabilities": {
             "存在": {
-                "增大": "very likely"
+                "降低": "very likely",
+                "未降低": "unlikely"
             },
             "不存在": {
-                "未增大": "very likely"
+                "降低": "unlikely",
+                "未降低": "likely"
             }
         }
     },
     {
         "condition": "钢筋与混凝土间的黏结强度",
-        "variable": "裂缝宽度",
+        "variable": "滑移",
         "probabilities": {
             "降低": {
-                "增加": "very likely"
+                "增大": "very likely",
+                "未增大": "unlikely"
             },
             "未降低": {
-                "未增加": "very likely"
+                "增大": "unlikely",
+                "未增大": "likely"
             }
         }
     },
@@ -40,10 +46,12 @@
         "variable": "裂缝宽度",
         "probabilities": {
             "增大": {
-                "增加": "very likely"
+                "增加": "very likely",
+                "未增加": "unlikely"
             },
             "未增大": {
-                "未增加": "very likely"
+                "增加": "unlikely",
+                "未增加": "likely"
             }
         }
     }

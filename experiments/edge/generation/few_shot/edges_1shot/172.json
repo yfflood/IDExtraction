@@ -14,16 +14,16 @@
         "variable": "承压承载力",
         "probabilities": {
             "普通螺栓": {
-                "下降": "unlikely",
-                "正常": "very likely"
+                "下降": "likely",
+                "正常": "unlikely"
             },
-            "高墙螺栓": {
+            "高强度螺栓": {
                 "下降": "unlikely",
-                "正常": "very likely"
+                "正常": "likely"
             },
             "铆钉连接": {
                 "下降": "unlikely",
-                "正常": "very likely"
+                "正常": "likely"
             }
         }
     },
@@ -35,13 +35,27 @@
                 "下降": "likely",
                 "正常": "unlikely"
             },
-            "高墙螺栓": {
+            "高强度螺栓": {
                 "下降": "unlikely",
-                "正常": "very likely"
+                "正常": "likely"
             },
             "铆钉连接": {
                 "下降": "unlikely",
-                "正常": "very likely"
+                "正常": "likely"
+            }
+        }
+    },
+    {
+        "condition": "板件局部应力",
+        "variable": "承压承载力",
+        "probabilities": {
+            "过大": {
+                "下降": "very likely",
+                "正常": "unlikely"
+            },
+            "适中": {
+                "下降": "unlikely",
+                "正常": "likely"
             }
         }
     }

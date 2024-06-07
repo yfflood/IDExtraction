@@ -32,7 +32,7 @@
         }
     },
     {
-        "condition": "非受力方向负弯矩",
+        "condition": "板面裂缝",
         "variable": "板边和板角的构造钢筋",
         "probabilities": {
             "存在": {

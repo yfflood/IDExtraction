@@ -4,7 +4,10 @@
         "variable": "混凝土耐久性",
         "probabilities": {
             "高": {
-                "差": "几乎肯定"
+                "差": "very likely"
+            },
+            "低": {
+                "好": "very likely"
             }
         }
     },
@@ -13,10 +16,10 @@
         "variable": "氯盐含量",
         "probabilities": {
             "严格": {
-                "低": "很高"
+                "低": "very likely"
             },
             "不严格": {
-                "高": "很高"
+                "高": "very likely"
             }
         }
     }
