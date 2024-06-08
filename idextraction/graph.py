@@ -1,18 +1,18 @@
+import matplotlib.pyplot as plt
+import pycid
+import networkx as nx
+from idextraction.id import Node, Edge, List_of_Nodes, List_of_Edges, VariableType
 import os
 import json
-import sys 
+import sys
 script_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(script_dir)
 sys.path.append(project_root)
 
-from idextraction.id import Node, Edge, List_of_Nodes, List_of_Edges, VariableType
-import networkx as nx
 
-import pycid
-import matplotlib.pyplot as plt
+plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
+plt.rcParams['axes.unicode_minus'] = False  # 用来正常显示负号
 
-plt.rcParams['font.sans-serif'] = ['SimHei'] # 用来正常显示中文标签
-plt.rcParams['axes.unicode_minus'] = False # 用来正常显示负号
 
 def node_subst_cost(n1, n2):
     cost = 0
@@ -23,8 +23,10 @@ def node_subst_cost(n1, n2):
     cost += (1-(intersection/union))/2
     return cost
 
+
 def node_match(n1, n2):
     return n1.get("variable_name") == n2.get("variable_name")
+
 
 def edge_subst_cost(e1, e2):
     keys_condition = e1.get("probabilities").keys()
@@ -36,13 +38,14 @@ def edge_subst_cost(e1, e2):
                 abs(
                     e1.get("probabilities").get(condition).get(variable)
                     - e2.get("probabilities").get(condition).get(variable)
-                ) 
-                if e2.get("probabilities").get(condition) is not None 
+                )
+                if e2.get("probabilities").get(condition) is not None
                 and e2.get("probabilities").get(condition).get(variable) is not None
                 else 1
             )
     cost = sum(costs)/len(costs)
     return cost
+
 
 def edge_match(e1, e2):
     return e1.get("condition") == e2.get("condition") and e1.get("variable") == e2.get("variable")
@@ -75,32 +78,41 @@ class Id_Graph:
             # edge_subst_cost=edge_subst_cost
         )
 
-
-    def to_cid(self):  
+    def to_cid(self):
         edges = self.edge_list.get_edges()
         edges = [(h, t) for h, t, _ in edges]
+        edges = list(set(edges))
 
         nodes = self.node_list.get_nodes()
         decisions = self.get_decision_nodes()
         utilities = self.get_utility_nodes()
 
+        for i in edges:
+            for j in edges:
+                if i[0]==j[1] and i[1]==j[0]:
+                    print(i[0],i[1])
+                    edges.remove(i)
+                    edges.remove(j)
+
         cid = pycid.CID(
             edges, decisions=decisions, utilities=utilities
         )
-        cid.draw()
+        cid.draw(layout=nx.random_layout)
         return cid
 
     def get_decision_nodes(self):
         nodes = self.node_list.get_nodes()
-        decisions = [name for name, node in nodes if node["variable_type"].name==VariableType.decision.name]
+        decisions = [
+            name for name, node in nodes if node["variable_type"].name == VariableType.decision.name]
         return decisions
 
     def get_utility_nodes(self):
         nodes = self.node_list.get_nodes()
-        #print(nodes[3][1]["variable_type"].name==VariableType.utility.name)
-        utilities = [name for name, node in nodes if node["variable_type"].name==VariableType.utility.name]
+        # print(nodes[3][1]["variable_type"].name==VariableType.utility.name)
+        utilities = [
+            name for name, node in nodes if node["variable_type"].name == VariableType.utility.name]
         return utilities
-    
+
     def get_root_nodes(self):
         """ return a list of nodes which has no parent nodes"""
         nodes = self.node_list.get_nodes()
@@ -114,12 +126,11 @@ class Id_Graph:
         edges = [(h, t) for h, t, _ in edges]
         return edges
 
-    
 
-if __name__=="__main__":
-    node_files=os.listdir("./data/node_adjusted")
-    edge_gen_files=os.listdir("./data/edge_generated")
-    edge_ext_files=os.listdir("./data/edge_extracted")
+if __name__ == "__main__":
+    node_files = os.listdir("./data/node_adjusted")
+    edge_gen_files = os.listdir("./data/edge_generated")
+    edge_ext_files = os.listdir("./data/edge_extracted")
 
     idx = 1
     print(node_files[idx])
@@ -129,7 +140,7 @@ if __name__=="__main__":
         edge_gen_list = json.load(f)
     with open(f"./data/edge_extracted/{edge_ext_files[idx]}", "r", encoding="utf-8") as f:
         edge_ext_list = json.load(f)
-    
+
     list_of_node = List_of_Nodes([
         Node(
             node["variable_name"],
@@ -156,21 +167,20 @@ if __name__=="__main__":
 
     graph_gen = Id_Graph(list_of_node, list_of_edge_gen)
     graph_ext = Id_Graph(list_of_node, list_of_edge_ext)
-    
-    #graph_gen.to_cid()
-    #print(list_of_edge_gen.get_edges()[0][0])
-    
-    plt.rcParams['font.sans-serif'] = ['SimHei'] # 用来正常显示中文标签
-    plt.rcParams['axes.unicode_minus'] = False # 用来正常显示负号
-    #plt.figure(figsize=(8,4))
-    #plt.subplot(121)
+
+    # graph_gen.to_cid()
+    # print(list_of_edge_gen.get_edges()[0][0])
+
+    plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
+    plt.rcParams['axes.unicode_minus'] = False  # 用来正常显示负号
+    # plt.figure(figsize=(8,4))
+    # plt.subplot(121)
     plt.title("Generated")
     graph_gen.draw()
 
-    #plt.subplot(122)
-    #plt.title("Extracted")
-    #graph_ext.draw()
+    # plt.subplot(122)
+    # plt.title("Extracted")
+    # graph_ext.draw()
 
-    #plt.tight_layout()
-    #plt.show()
-    
+    # plt.tight_layout()
+    # plt.show()
