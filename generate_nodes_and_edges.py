@@ -89,6 +89,13 @@ def extract_edge(
         ) | RunnableLambda(lambda x: fixing_parser.parse_with_prompt(**x))
         contents = main_chain.invoke({"text": text})
     
+    ################
+    ## remove edges without condition, variable, or probabilities
+    for edge in contents['edge_list']:
+        if "condition" not in edge or "variable" not in edge or "probabilities" not in edge:
+            contents['edge_list'].remove(edge)
+    ################
+    
     try:
         edge_list = List_of_Edges([
             Edge(

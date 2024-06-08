@@ -1,21 +1,38 @@
-from idextraction import Id_Graph, Node, Edge, List_of_Nodes, List_of_Edges, set_list_of_nodes
+from idextraction import Id_Graph, InfluenceDiagram
+from generate_nodes_and_edges import extract_node, extract_edge
 import matplotlib.pyplot as plt
+from model import Kimi
+import json
+from tqdm import tqdm
 
 if __name__ == "__main__":
-    node_list = List_of_Nodes(node_list=[Node(variable_name="A", variable_type="chance", values=["a", "b"]),
-                                         Node(variable_name="B", variable_type="chance", values=["c", "d"])])
-    set_list_of_nodes(node_list)
-    edge_list = List_of_Edges(edge_list=[Edge(
-        condition="A", variable="B", probabilities={"a": {"c": 0.5, "d": 0.5}, "b": {"c": 0.3, "d": 0.7}})])
-    id_graph = Id_Graph(node_list=node_list, edge_list=edge_list)
+    kimi = Kimi()
+    with open("./experiments/node/few_shot/prompts.json", "r", encoding="utf-8") as f:
+        prompts = json.load(f)
+    with open("./experiments/edge/extraction/few_shot/prompts.json", "r", encoding="utf-8") as f:
+        edge_prompts = json.load(f)
+    with open("./case_study/case.txt", "r", encoding="utf-8") as f:
+        texts = f.readlines()
+    # node_lists=[]
+    # for text in tqdm(texts):
+    #     node_list = extract_node(
+    #         text, kimi, extract_template=prompts[3]["prompt"])
+    #     node_lists+=node_list
+    # with open("./case_study/node.json", "w", encoding="utf-8") as f:
+    #     json.dump(node_lists, f, ensure_ascii=False, indent=4)
+    with open("./case_study/node.json", "r", encoding="utf-8") as f:
+        node_lists = json.load(f)
+    # edge_lists = []
+    # for text in tqdm(texts):
+    #     edge_list = extract_edge(text=text, chat_model=kimi, node_list=node_lists, extract_template=edge_prompts[1]["prompt"])
+    #     # print(edge_list)
+    #     edge_lists += edge_list
+    # with open("./case_study/edge.json", "w", encoding="utf-8") as f:
+    #     json.dump(edge_lists, f, ensure_ascii=False, indent=4)
+    with open("./case_study/edge.json", "r", encoding="utf-8") as f:
+        edge_lists = json.load(f)
+    diagram1 = InfluenceDiagram(node_lists, edge_lists)
 
-    node_list2 = List_of_Nodes(node_list=[Node(variable_name="A", variable_type="chance", values=["a", "e"]),
-                                         Node(variable_name="B", variable_type="chance", values=["c", "d"])])
-    set_list_of_nodes(node_list2)
-    edge_list2 = List_of_Edges(edge_list=[Edge(
-        condition="A", variable="B", probabilities={"a": {"c": 0.6, "d": 0.4},"e": {"c": 0.3, "d": 0.7}})])
-    id_graph2 = Id_Graph(node_list=node_list2, edge_list=edge_list2)
-    print(id_graph.compare(id_graph2))
-    id_graph.draw()
-    plt.show()
+    graph1 = Id_Graph(diagram1.to_base_nodes(), diagram1.to_base_edges())
 
+    graph1.draw()

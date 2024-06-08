@@ -187,11 +187,11 @@ class InfluenceDiagram:
         self.edge_list = edge_list
 
     def get_edges(self):
-        edges = [(edge["condition"], edge["variable"]) for edge in edge_list]
+        edges = [(edge["condition"], edge["variable"]) for edge in self.edge_list]
         return edges
 
     def get_nodes(self):
-        nodes = [node["variable_name"] for node in node_list]
+        nodes = [node["variable_name"] for node in self.node_list]
         return nodes
     
     def get_root_nodes(self):
