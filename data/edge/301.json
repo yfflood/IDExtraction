@@ -9,13 +9,6 @@
         }
     },
     {
-        "condition": "胶凝材料的水化放热",
-        "variable": "混凝土内部温度",
-        "probabilities": {
-            "升高": "几乎肯定"
-        }
-    },
-    {
         "condition": "混凝土体积",
         "variable": "混凝土内部温度",
         "probabilities": {
