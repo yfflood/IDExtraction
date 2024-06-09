@@ -50,13 +50,20 @@ def evaluation(idx, truth_path, experienment_path, node_truth_files, node_predic
                        for node in node_truth_list]
     name_predict_list = [node.get("variable_name", "")
                          for node in node_predict_list]
-
-    name_compare_list = if_same_compare(name_truth_list, name_predict_list)
-    name_accuracy = len(name_compare_list) / \
+    if os.path.exists(f"{experienment_path}/ans.csv"):
+        results = pd.read_csv(f"{experienment_path}/ans.csv", encoding="utf-8-sig")
+        name_compare_list = ast.literal_eval(results.loc[results["index"]==idx, "name_info"].values[0])
+    else:
+        name_compare_list = if_same_compare(name_truth_list, name_predict_list)
+    name_recall = len(name_compare_list) / \
         len(node_truth_list) if len(node_truth_list) > 0 else 0
-    if name_accuracy>1:
-        name_accuracy=1
-    # print(f"Accuracy: {name_accuracy}")
+    name_precision = len(name_compare_list) / \
+        len(node_predict_list) if len(node_predict_list) > 0 else 0
+    if name_recall>1:
+        name_recall=1
+    if name_precision>1:
+        name_precision=1
+    # print(f"recall: {name_recall}")
     type_dict = {}
     value_dict = {}
     for pair in name_compare_list:
@@ -70,18 +77,27 @@ def evaluation(idx, truth_path, experienment_path, node_truth_files, node_predic
                             type_dict[true_name] = 1
                         else:
                             type_dict[true_name] = 0
-                        value_compare_list = if_same_compare(
-                            [str(true_name)+":"+str(i)
-                             for i in true_node.get("values", [])],
-                            [str(true_name)+":"+str(i)
-                             for i in pred_node.get("values", [])]
-                        )
+                        if os.path.exists(f"{experienment_path}/ans.csv"):
+                            results = pd.read_csv(f"{experienment_path}/ans.csv", encoding="utf-8-sig")
+                            value_dict = ast.literal_eval(results.loc[results["index"]==idx, "value_info"].values[0])
+                            value_compare_list=value_dict.get(true_name, {}).get("content", [])
+                            value_dict={}
+                        else:
+                            value_compare_list = if_same_compare(
+                                [str(true_name)+":"+str(i)
+                                for i in true_node.get("values", [])],
+                                [str(true_name)+":"+str(i)
+                                for i in pred_node.get("values", [])]
+                            )
                         value_dict[true_name] = {
                             "content": value_compare_list,
-                            "accuracy": len(value_compare_list)/len(true_node.get("values", [])) if len(true_node.get("values", [])) > 0 else 0
+                            "recall": len(value_compare_list)/len(true_node.get("values", [])) if len(true_node.get("values", [])) > 0 else 0,
+                            "precision": len(value_compare_list)/len(pred_node.get("values", [])) if len(pred_node.get("values", [])) > 0 else 0,
                         }
-                        if value_dict[true_name]["accuracy"]>1:
-                            value_dict[true_name]["accuracy"]=1
+                        if value_dict[true_name]["recall"]>1:
+                            value_dict[true_name]["recall"]=1
+                        if value_dict[true_name]["precision"]>1:
+                            value_dict[true_name]["precision"]=1
                         break
                 if true_name in type_dict and true_name in value_dict:
                     continue
@@ -90,16 +106,22 @@ def evaluation(idx, truth_path, experienment_path, node_truth_files, node_predic
     if type_accuracy>1:
         type_accuracy=1
     # print(f"Type Accuracy: {type_accuracy}")
-    value_accuracy = sum([value.get("accuracy", 0) for value in value_dict.values(
+    value_recall = sum([value.get("recall", 0) for value in value_dict.values(
     )])/len(value_dict) if len(value_dict) > 0 else 0
-    if value_accuracy>1:    
-        value_accuracy=1
-    # print(f"Value Accuracy: {value_accuracy}")
+    if value_recall>1:    
+        value_recall=1
+    valu_precision = sum([value.get("precision", 0) for value in value_dict.values(
+    )])/len(value_dict) if len(value_dict) > 0 else 0
+    if valu_precision>1:
+        valu_precision=1
+    # print(f"Value recall: {value_recall}")
     result = {
         "index": idx,
-        "name_accuracy": name_accuracy,
+        "name_recall": name_recall,
+        "name_precision": name_precision,
         "type_accuracy": type_accuracy,
-        "value_accuracy": value_accuracy,
+        "value_recall": value_recall,
+        "value_precision": valu_precision,
         "name_info": name_compare_list,
         "type_info": type_dict,
         "value_info": value_dict
@@ -142,12 +164,14 @@ if __name__ == "__main__":
         "./experiments/node/staged/rule_cot",
         "./experiments/node/staged/zs_cot",
     ]
-    for e_idx in range(5):
+    for e_idx in range(6):
         experienment_path = node_experiment_paths[e_idx]
+
         node_predict_files = os.listdir(experienment_path)
         try:
             node_predict_files.remove("results.pkl")
             node_predict_files.remove("ans.csv")
+            node_predict_files.remove("ans.xlsx")
         except:
             pass
         node_truth_files.sort(key=lambda x: int(x.split(".")[0]))
@@ -161,18 +185,5 @@ if __name__ == "__main__":
             truth_path, experienment_path, node_truth_files, node_predict_files, 16)
         data.to_csv(f"{experienment_path}/ans.csv",
                     index=False, encoding="utf-8-sig")
-        
-        # a=pd.read_csv(f"{experienment_path}/ans.csv",encoding="utf-8-sig")
-        # for i in range(len(a)-1):
-        #     value_dict=ast.literal_eval(a.loc[i,"value_info"])
-        #     for key in value_dict.keys():
-        #         if value_dict[key]["accuracy"]>1:
-        #             value_dict[key]["accuracy"]=1
-        #     a.loc[i,"value_info"]=str(value_dict)
-        #     name_dict=ast.literal_eval(a.loc[i,"name_info"])
-        #     value_accuracy=sum([value.get("accuracy", 0) for value in value_dict.values()])/len(value_dict) if len(value_dict) > 0 else 0
-        #     if value_accuracy>1:
-        #         value_accuracy=1
-        #     a.loc[i,"value_accuracy"]=float(value_accuracy)
-        # a.to_csv(f"{experienment_path}/ans.csv",
-        #             index=False, encoding="utf-8-sig")
+        data.to_excel(f"{experienment_path}/ans.xlsx",
+                    index=False)
