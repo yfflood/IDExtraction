@@ -1,0 +1,128 @@
+[
+    {
+        "condition": "chemical usage decision",
+        "variable": "economic value of the product",
+        "probabilities": {
+            "ban": {
+                "high": "low",
+                "medium": "low",
+                "low": "high"
+            },
+            "restrict": {
+                "high": "medium",
+                "medium": "high",
+                "low": "medium"
+            },
+            "permit": {
+                "high": "high",
+                "medium": "medium",
+                "low": "low"
+            }
+        }
+    },
+    {
+        "condition": "chemical usage decision",
+        "variable": "cancer cost attributed to the product",
+        "probabilities": {
+            "ban": {
+                "high": "low",
+                "medium": "low",
+                "low": "low"
+            },
+            "restrict": {
+                "high": "medium",
+                "medium": "medium",
+                "low": "low"
+            },
+            "permit": {
+                "high": "high",
+                "medium": "high",
+                "low": "medium"
+            }
+        }
+    },
+    {
+        "condition": "cancer cost attributed to the product",
+        "variable": "net value of the chemical",
+        "probabilities": {
+            "high": {
+                "positive": "low",
+                "negative": "high",
+                "neutral": "low"
+            },
+            "medium": {
+                "positive": "medium",
+                "negative": "medium",
+                "neutral": "high"
+            },
+            "low": {
+                "positive": "high",
+                "negative": "low",
+                "neutral": "medium"
+            }
+        }
+    },
+    {
+        "condition": "economic value of the product",
+        "variable": "net value of the chemical",
+        "probabilities": {
+            "high": {
+                "positive": "high",
+                "negative": "low",
+                "neutral": "low"
+            },
+            "medium": {
+                "positive": "medium",
+                "negative": "medium",
+                "neutral": "high"
+            },
+            "low": {
+                "positive": "low",
+                "negative": "high",
+                "neutral": "medium"
+            }
+        }
+    },
+    {
+        "condition": "carcinogenic activity of the chemical",
+        "variable": "cancer cost attributed to the product",
+        "probabilities": {
+            "high": {
+                "high": "high",
+                "medium": "medium",
+                "low": "low"
+            },
+            "medium": {
+                "high": "medium",
+                "medium": "medium",
+                "low": "low"
+            },
+            "low": {
+                "high": "low",
+                "medium": "low",
+                "low": "low"
+            }
+        }
+    },
+    {
+        "condition": "human exposure to the chemical",
+        "variable": "cancer cost attributed to the product",
+        "probabilities": {
+            "high": {
+                "high": "high",
+                "medium": "medium",
+                "low": "low"
+            },
+            "medium": {
+                "high": "medium",
+                "medium": "medium",
+                "low": "low"
+            },
+            "low": {
+                "high": "low",
+                "medium": "low",
+                "low": "low"
+            }
+        }
+    }
+]
