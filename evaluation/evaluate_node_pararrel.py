@@ -1,3 +1,5 @@
+import sys
+sys.append("")
 from idextraction import Id_Graph
 import os
 import json

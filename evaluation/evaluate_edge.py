@@ -1,3 +1,5 @@
+import sys
+sys.path.append("")
 from idextraction.graph import Id_Graph
 from idextraction import InfluenceDiagram
 import os
@@ -13,12 +15,14 @@ if __name__ == "__main__":
     edge_files = os.listdir(edge_true_path)
     edge_files.sort(key=lambda x: int(x.split(".")[0]))
     edge_experiment_paths = [
-        "./experiments/edge/extraction/cot/edges_cot",
-        "./experiments/edge/extraction/few_shot/edges_1shot",
-        "./experiments/edge/extraction/few_shot/edges_3shot",
-        "./experiments/edge/generation/cot/edges_cot",
-        "./experiments/edge/generation/few_shot/edges_1shot",
-        "./experiments/edge/generation/few_shot/edges_3shot"
+        # "./experiments/edge/extraction/cot/edges_cot",
+        "./experiments/edge/extraction/few_shot/edges_0shot",
+        # "./experiments/edge/extraction/few_shot/edges_1shot",
+        # "./experiments/edge/extraction/few_shot/edges_3shot",
+        # "./experiments/edge/generation/cot/edges_cot",
+        "./experiments/edge/generation/few_shot/edges_0shot",
+        # "./experiments/edge/generation/few_shot/edges_1shot",
+        # "./experiments/edge/generation/few_shot/edges_3shot"
     ]
     e_idx=0
     for e_idx in range(6):
