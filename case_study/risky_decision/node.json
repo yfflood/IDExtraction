@@ -1,0 +1,56 @@
+[
+    {
+        "variable_name": "chemical usage decision",
+        "variable_type": "decision",
+        "values": [
+            "ban",
+            "restrict",
+            "permit"
+        ]
+    },
+    {
+        "variable_name": "economic value of the product",
+        "variable_type": "utility",
+        "values": [
+            "high",
+            "medium",
+            "low"
+        ]
+    },
+    {
+        "variable_name": "cancer cost attributed to the product",
+        "variable_type": "utility",
+        "values": [
+            "high",
+            "medium",
+            "low"
+        ]
+    },
+    {
+        "variable_name": "human exposure to the chemical",
+        "variable_type": "chance",
+        "values": [
+            "high",
+            "medium",
+            "low"
+        ]
+    },
+    {
+        "variable_name": "carcinogenic activity of the chemical",
+        "variable_type": "chance",
+        "values": [
+            "high",
+            "medium",
+            "low"
+        ]
+    },
+    {
+        "variable_name": "net value of the chemical",
+        "variable_type": "utility",
+        "values": [
+            "positive",
+            "negative",
+            "neutral"
+        ]
+    }
+]

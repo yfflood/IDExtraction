@@ -1,0 +1,698 @@
+[
+    {
+        "variable_name": "烟控系统",
+        "variable_type": "decision",
+        "values": [
+            "有效",
+            "无效"
+        ]
+    },
+    {
+        "variable_name": "生命安全",
+        "variable_type": "utility",
+        "values": [
+            "保障",
+            "未保障"
+        ]
+    },
+    {
+        "variable_name": "烟控系统",
+        "variable_type": "chance",
+        "values": [
+            "存在",
+            "不存在"
+        ]
+    },
+    {
+        "variable_name": "建筑用途",
+        "variable_type": "decision",
+        "values": [
+            "体育赛事",
+            "音乐会",
+            "宗教或非宗教仪式",
+            "大会",
+            "商品交易会",
+            "卡车展览会"
+        ]
+    },
+    {
+        "variable_name": "可移动座椅",
+        "variable_type": "chance",
+        "values": [
+            "有",
+            "没有"
+        ]
+    },
+    {
+        "variable_name": "火灾危险区域",
+        "variable_type": "chance",
+        "values": [
+            "售货亭",
+            "高火灾荷载储藏室"
+        ]
+    },
+    {
+        "variable_name": "火灾场景",
+        "variable_type": "chance",
+        "values": []
+    },
+    {
+        "variable_name": "起火位置",
+        "variable_type": "chance",
+        "values": []
+    },
+    {
+        "variable_name": "火灾发生",
+        "variable_type": "chance",
+        "values": [
+            "发生",
+            "未发生"
+        ]
+    },
+    {
+        "variable_name": "体育赛事举办",
+        "variable_type": "decision",
+        "values": [
+            "举办",
+            "不举办"
+        ]
+    },
+    {
+        "variable_name": "竞技场内火灾应对措施",
+        "variable_type": "decision",
+        "values": [
+            "有效",
+            "无效"
+        ]
+    },
+    {
+        "variable_name": "火灾导致的伤亡",
+        "variable_type": "utility",
+        "values": [
+            "无伤亡",
+            "轻微伤亡",
+            "重大伤亡"
+        ]
+    },
+    {
+        "variable_name": "使用人员数量",
+        "variable_type": "chance",
+        "values": [
+            "大量",
+            "少量"
+        ]
+    },
+    {
+        "variable_name": "观众位置",
+        "variable_type": "chance",
+        "values": [
+            "阶梯座位上",
+            "其他位置"
+        ]
+    },
+    {
+        "variable_name": "暴露于烟气层的危险",
+        "variable_type": "chance",
+        "values": [
+            "增加",
+            "未增加"
+        ]
+    },
+    {
+        "variable_name": "可移动座椅的使用",
+        "variable_type": "decision",
+        "values": [
+            "使用",
+            "不使用"
+        ]
+    },
+    {
+        "variable_name": "专职消防值班人员的存在",
+        "variable_type": "chance",
+        "values": [
+            "有",
+            "没有"
+        ]
+    },
+    {
+        "variable_name": "火灾荷载",
+        "variable_type": "chance",
+        "values": [
+            "高",
+            "低"
+        ]
+    },
+    {
+        "variable_name": "火灾增长",
+        "variable_type": "chance",
+        "values": [
+            "快",
+            "慢"
+        ]
+    },
+    {
+        "variable_name": "热释放速率的峰值",
+        "variable_type": "chance",
+        "values": [
+            "高",
+            "低"
+        ]
+    },
+    {
+        "variable_name": "体育馆用途",
+        "variable_type": "decision",
+        "values": [
+            "用于其他用途",
+            "不用于其他用途"
+        ]
+    },
+    {
+        "variable_name": "火灾发生",
+        "variable_type": "chance",
+        "values": [
+            "发生",
+            "未发生"
+        ]
+    },
+    {
+        "variable_name": "观众位置",
+        "variable_type": "chance",
+        "values": [
+            "在阶梯座位上",
+            "不在阶梯座位上"
+        ]
+    },
+    {
+        "variable_name": "活动类型",
+        "variable_type": "chance",
+        "values": [
+            "摇滚音乐会",
+            "其他活动"
+        ]
+    },
+    {
+        "variable_name": "火灾荷载",
+        "variable_type": "chance",
+        "values": [
+            "大",
+            "小"
+        ]
+    },
+    {
+        "variable_name": "火灾增长速率",
+        "variable_type": "chance",
+        "values": [
+            "快",
+            "慢"
+        ]
+    },
+    {
+        "variable_name": "使用影视烟雾",
+        "variable_type": "chance",
+        "values": [
+            "是",
+            "否"
+        ]
+    },
+    {
+        "variable_name": "感烟探测系统是否关闭",
+        "variable_type": "chance",
+        "values": [
+            "关闭",
+            "开启"
+        ]
+    },
+    {
+        "variable_name": "是否有专职消防值班人员",
+        "variable_type": "chance",
+        "values": [
+            "有",
+            "没有"
+        ]
+    },
+    {
+        "variable_name": "阶梯座椅区域发生火灾",
+        "variable_type": "chance",
+        "values": [
+            "发生",
+            "未发生"
+        ]
+    },
+    {
+        "variable_name": "观众存在",
+        "variable_type": "chance",
+        "values": [
+            "存在",
+            "不存在"
+        ]
+    },
+    {
+        "variable_name": "人员分布",
+        "variable_type": "chance",
+        "values": [
+            "相同",
+            "不同"
+        ]
+    },
+    {
+        "variable_name": "火灾位置",
+        "variable_type": "chance",
+        "values": [
+            "场景1",
+            "场景2",
+            "其他位置"
+        ]
+    },
+    {
+        "variable_name": "座椅材料",
+        "variable_type": "chance",
+        "values": [
+            "阻燃",
+            "非阻燃"
+        ]
+    },
+    {
+        "variable_name": "座椅下废弃物",
+        "variable_type": "chance",
+        "values": [
+            "参与燃烧",
+            "不参与燃烧"
+        ]
+    },
+    {
+        "variable_name": "火灾发生地点",
+        "variable_type": "chance",
+        "values": [
+            "竞技场",
+            "其他地点"
+        ]
+    },
+    {
+        "variable_name": "竞技场用途",
+        "variable_type": "chance",
+        "values": [
+            "商品交易会",
+            "其他用途"
+        ]
+    },
+    {
+        "variable_name": "观众分布",
+        "variable_type": "chance",
+        "values": [
+            "阶梯座位上",
+            "非阶梯座位区域"
+        ]
+    },
+    {
+        "variable_name": "火灾应对措施",
+        "variable_type": "decision",
+        "values": [
+            "实施",
+            "未实施"
+        ]
+    },
+    {
+        "variable_name": "火灾蔓延速度",
+        "variable_type": "utility",
+        "values": [
+            "快速",
+            "缓慢"
+        ]
+    },
+    {
+        "variable_name": "伤亡情况",
+        "variable_type": "utility",
+        "values": [
+            "无",
+            "轻微",
+            "严重"
+        ]
+    },
+    {
+        "variable_name": "人员荷载",
+        "variable_type": "chance",
+        "values": [
+            "较低",
+            "较高"
+        ]
+    },
+    {
+        "variable_name": "人员流动性",
+        "variable_type": "chance",
+        "values": [
+            "较大",
+            "较小"
+        ]
+    },
+    {
+        "variable_name": "寻找路径的困难程度",
+        "variable_type": "chance",
+        "values": [
+            "困难",
+            "容易"
+        ]
+    },
+    {
+        "variable_name": "人们专注于展览的程度",
+        "variable_type": "chance",
+        "values": [
+            "专注",
+            "不专注"
+        ]
+    },
+    {
+        "variable_name": "看不见出口标志的可能性",
+        "variable_type": "chance",
+        "values": [
+            "可能",
+            "不可能"
+        ]
+    },
+    {
+        "variable_name": "火灾荷载",
+        "variable_type": "chance",
+        "values": [
+            "高于场景1",
+            "低于场景1"
+        ]
+    },
+    {
+        "variable_name": "火灾增长速率",
+        "variable_type": "chance",
+        "values": [
+            "高于场景1",
+            "低于场景1"
+        ]
+    },
+    {
+        "variable_name": "HRR峰值",
+        "variable_type": "chance",
+        "values": [
+            "高于场景1",
+            "低于场景1"
+        ]
+    },
+    {
+        "variable_name": "火灾发生地点",
+        "variable_type": "chance",
+        "values": [
+            "人员聚集区域",
+            "竞技场",
+            "观众席"
+        ]
+    },
+    {
+        "variable_name": "火灾发生区域类型",
+        "variable_type": "decision",
+        "values": [
+            "商店",
+            "宾客休息区"
+        ]
+    },
+    {
+        "variable_name": "火灾增长速率",
+        "variable_type": "chance",
+        "values": [
+            "具有快速增长速率",
+            "不具有快速增长速率"
+        ]
+    },
+    {
+        "variable_name": "火灾荷载和HRR峰值",
+        "variable_type": "chance",
+        "values": [
+            "低于竞技场景",
+            "等于或高于竞技场景"
+        ]
+    },
+    {
+        "variable_name": "商场和宾客休息区的位置",
+        "variable_type": "chance",
+        "values": [
+            "位于临近观众席出口的地下室里",
+            "不位于临近观众席出口的地下室里"
+        ]
+    },
+    {
+        "variable_name": "紧急出口堵塞的可能性",
+        "variable_type": "utility",
+        "values": [
+            "增加",
+            "不增加"
+        ]
+    },
+    {
+        "variable_name": "火灾发生地点",
+        "variable_type": "chance",
+        "values": [
+            "储藏区",
+            "其他区域"
+        ]
+    },
+    {
+        "variable_name": "可燃材料的存储",
+        "variable_type": "chance",
+        "values": [
+            "大量",
+            "少量"
+        ]
+    },
+    {
+        "variable_name": "热释放速率",
+        "variable_type": "chance",
+        "values": [
+            "增长快",
+            "增长慢"
+        ]
+    },
+    {
+        "variable_name": "热释放速率峰值",
+        "variable_type": "chance",
+        "values": [
+            "高",
+            "低"
+        ]
+    },
+    {
+        "variable_name": "大门与升降机区域的连接",
+        "variable_type": "chance",
+        "values": [
+            "连接",
+            "不连接"
+        ]
+    },
+    {
+        "variable_name": "入口大小",
+        "variable_type": "decision",
+        "values": [
+            "大",
+            "小"
+        ]
+    },
+    {
+        "variable_name": "阻塞发生的可能性",
+        "variable_type": "utility",
+        "values": [
+            "高",
+            "低"
+        ]
+    },
+    {
+        "variable_name": "潜在的火灾危害",
+        "variable_type": "chance",
+        "values": [
+            "低",
+            "中",
+            "高"
+        ]
+    },
+    {
+        "variable_name": "火灾的影响",
+        "variable_type": "utility",
+        "values": []
+    },
+    {
+        "variable_name": "主动系统",
+        "variable_type": "decision",
+        "values": [
+            "存在",
+            "缺失"
+        ]
+    },
+    {
+        "variable_name": "被动系统",
+        "variable_type": "decision",
+        "values": [
+            "存在",
+            "缺失"
+        ]
+    },
+    {
+        "variable_name": "疏散系统",
+        "variable_type": "decision",
+        "values": [
+            "存在",
+            "缺失"
+        ]
+    },
+    {
+        "variable_name": "系统成功的概率",
+        "variable_type": "chance",
+        "values": [
+            "零",
+            "非零"
+        ]
+    },
+    {
+        "variable_name": "自动喷水灭火系统",
+        "variable_type": "chance",
+        "values": [
+            "存在",
+            "不存在"
+        ]
+    },
+    {
+        "variable_name": "感烟探测系统",
+        "variable_type": "chance",
+        "values": [
+            "存在",
+            "不存在"
+        ]
+    },
+    {
+        "variable_name": "自动烟控系统",
+        "variable_type": "chance",
+        "values": [
+            "存在",
+            "不存在"
+        ]
+    },
+    {
+        "variable_name": "火灾报警系统",
+        "variable_type": "chance",
+        "values": [
+            "触发",
+            "未触发"
+        ]
+    },
+    {
+        "variable_name": "自闭门",
+        "variable_type": "chance",
+        "values": [
+            "触发",
+            "未触发"
+        ]
+    },
+    {
+        "variable_name": "观众区和竞技区防火分区",
+        "variable_type": "decision",
+        "values": [
+            "已分隔",
+            "未分隔"
+        ]
+    },
+    {
+        "variable_name": "大厅/接待区防火分区",
+        "variable_type": "decision",
+        "values": [
+            "已分隔",
+            "未分隔"
+        ]
+    },
+    {
+        "variable_name": "商业区和顾客区防火分区",
+        "variable_type": "decision",
+        "values": [
+            "已分隔",
+            "未分隔"
+        ]
+    },
+    {
+        "variable_name": "专用逃生路线防火分区",
+        "variable_type": "decision",
+        "values": [
+            "已分隔",
+            "未分隔"
+        ]
+    },
+    {
+        "variable_name": "储藏区防火分区",
+        "variable_type": "decision",
+        "values": [
+            "已分隔",
+            "未分隔"
+        ]
+    },
+    {
+        "variable_name": "疏散指示标志",
+        "variable_type": "decision",
+        "values": [
+            "有",
+            "没有"
+        ]
+    },
+    {
+        "variable_name": "应急照明",
+        "variable_type": "decision",
+        "values": [
+            "有",
+            "没有"
+        ]
+    },
+    {
+        "variable_name": "疏散管理员",
+        "variable_type": "decision",
+        "values": [
+            "有",
+            "没有"
+        ]
+    },
+    {
+        "variable_name": "语音广播系统",
+        "variable_type": "decision",
+        "values": [
+            "有",
+            "没有"
+        ]
+    },
+    {
+        "variable_name": "人员响应",
+        "variable_type": "decision",
+        "values": [
+            "迅速",
+            "缓慢"
+        ]
+    },
+    {
+        "variable_name": "人员实施灭火",
+        "variable_type": "decision",
+        "values": [
+            "实施灭火",
+            "不实施灭火"
+        ]
+    },
+    {
+        "variable_name": "消防管理员协助疏散",
+        "variable_type": "decision",
+        "values": [
+            "协助疏散",
+            "不协助疏散"
+        ]
+    },
+    {
+        "variable_name": "使用人员察觉火灾",
+        "variable_type": "chance",
+        "values": [
+            "察觉火灾",
+            "未察觉火灾"
+        ]
+    },
+    {
+        "variable_name": "使用人员打开房门",
+        "variable_type": "decision",
+        "values": [
+            "打开房门",
+            "未打开房门"
+        ]
+    }
+]

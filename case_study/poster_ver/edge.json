@@ -1,0 +1,1721 @@
+[
+    {
+        "condition": "烟控系统",
+        "variable": "生命安全",
+        "probabilities": {
+            "有效": {
+                "保障": "very likely"
+            },
+            "无效": {
+                "未保障": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "烟控系统",
+        "variable": "生命安全",
+        "probabilities": {
+            "有效": {
+                "保障": "very likely"
+            },
+            "无效": {
+                "未保障": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "建筑用途",
+        "variable": "火灾荷载",
+        "probabilities": {
+            "体育赛事": {
+                "低": "very likely"
+            },
+            "音乐会": {
+                "低": "likely"
+            },
+            "宗教或非宗教仪式": {
+                "低": "likely"
+            },
+            "大会": {
+                "低": "likely"
+            },
+            "商品交易会": {
+                "高": "likely"
+            },
+            "卡车展览会": {
+                "高": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "可移动座椅",
+        "variable": "火灾场景",
+        "probabilities": {
+            "有": {
+                "阶梯座位上": "very likely"
+            },
+            "没有": {
+                "其他位置": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "火灾危险区域",
+        "variable": "火灾发生",
+        "probabilities": {
+            "售货亭": {
+                "发生": "likely"
+            },
+            "高火灾荷载储藏室": {
+                "发生": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "火灾发生",
+        "variable": "火灾导致的伤亡",
+        "probabilities": {
+            "发生": {
+                "无伤亡": "unlikely",
+                "轻微伤亡": "likely",
+                "重大伤亡": "possible"
+            }
+        }
+    },
+    {
+        "condition": "使用人员数量",
+        "variable": "火灾应对措施",
+        "probabilities": {
+            "大量": {
+                "有效": "unlikely",
+                "无效": "very likely"
+            },
+            "少量": {
+                "有效": "likely",
+                "无效": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "火灾荷载",
+        "variable": "火灾增长",
+        "probabilities": {
+            "高": {
+                "快": "very likely"
+            },
+            "低": {
+                "慢": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "火灾增长",
+        "variable": "热释放速率的峰值",
+        "probabilities": {
+            "快": {
+                "高": "very likely"
+            },
+            "慢": {
+                "低": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "体育馆用途",
+        "variable": "火灾发生地点",
+        "probabilities": {
+            "用于其他用途": {
+                "竞技场": "unlikely",
+                "其他地点": "very likely"
+            },
+            "不用于其他用途": {
+                "竞技场": "very likely",
+                "其他地点": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "火灾发生地点",
+        "variable": "火灾应对措施",
+        "probabilities": {
+            "竞技场": {
+                "实施": "very likely"
+            },
+            "其他地点": {
+                "未实施": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "火灾应对措施",
+        "variable": "火灾蔓延速度",
+        "probabilities": {
+            "实施": {
+                "缓慢": "very likely"
+            },
+            "未实施": {
+                "快速": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "火灾蔓延速度",
+        "variable": "伤亡情况",
+        "probabilities": {
+            "快速": {
+                "严重": "very likely"
+            },
+            "缓慢": {
+                "无": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "人员流动性",
+        "variable": "寻找路径的困难程度",
+        "probabilities": {
+            "较大": {
+                "容易": "unlikely",
+                "困难": "very likely"
+            },
+            "较小": {
+                "容易": "very likely",
+                "困难": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "人们专注于展览的程度",
+        "variable": "看不见出口标志的可能性",
+        "probabilities": {
+            "专注": {
+                "可能": "very likely"
+            },
+            "不专注": {
+                "不可能": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "建筑用途",
+        "variable": "火灾危险区域",
+        "probabilities": {
+            "体育赛事": {
+                "售货亭": "高",
+                "高火灾荷载储藏室": "低"
+            },
+            "音乐会": {
+                "售货亭": "中",
+                "高火灾荷载储藏室": "中"
+            },
+            "宗教或非宗教仪式": {
+                "售货亭": "低",
+                "高火灾荷载储藏室": "低"
+            },
+            "大会": {
+                "售货亭": "中",
+                "高火灾荷载储藏室": "中"
+            },
+            "商品交易会": {
+                "售货亭": "高",
+                "高火灾荷载储藏室": "高"
+            },
+            "卡车展览会": {
+                "售货亭": "中",
+                "高火灾荷载储藏室": "高"
+            }
+        }
+    },
+    {
+        "condition": "可移动座椅",
+        "variable": "火灾场景",
+        "probabilities": {
+            "有": {
+                "阶梯座椅区域发生火灾": "高",
+                "其他位置": "低"
+            },
+            "没有": {
+                "阶梯座椅区域发生火灾": "低",
+                "其他位置": "高"
+            }
+        }
+    },
+    {
+        "condition": "火灾荷载",
+        "variable": "火灾增长",
+        "probabilities": {
+            "高": {
+                "快": "高",
+                "慢": "低"
+            },
+            "低": {
+                "快": "低",
+                "慢": "高"
+            }
+        }
+    },
+    {
+        "condition": "火灾增长",
+        "variable": "热释放速率的峰值",
+        "probabilities": {
+            "快": {
+                "高": "高",
+                "低": "低"
+            },
+            "慢": {
+                "高": "低",
+                "低": "高"
+            }
+        }
+    },
+    {
+        "condition": "火灾发生",
+        "variable": "火灾导致的伤亡",
+        "probabilities": {
+            "发生": {
+                "无伤亡": "低",
+                "轻微伤亡": "中",
+                "重大伤亡": "高"
+            },
+            "未发生": {
+                "无伤亡": "高",
+                "轻微伤亡": "低",
+                "重大伤亡": "低"
+            }
+        }
+    },
+    {
+        "condition": "使用人员数量",
+        "variable": "火灾应对措施",
+        "probabilities": {
+            "大量": {
+                "有效": "低",
+                "无效": "高"
+            },
+            "少量": {
+                "有效": "高",
+                "无效": "低"
+            }
+        }
+    },
+    {
+        "condition": "观众位置",
+        "variable": "暴露于烟气层的危险",
+        "probabilities": {
+            "阶梯座位上": {
+                "增加": "高",
+                "未增加": "低"
+            },
+            "其他位置": {
+                "增加": "低",
+                "未增加": "高"
+            }
+        }
+    },
+    {
+        "condition": "火灾荷载",
+        "variable": "火灾蔓延速度",
+        "probabilities": {
+            "大": {
+                "快速": "高",
+                "缓慢": "低"
+            },
+            "小": {
+                "快速": "低",
+                "缓慢": "高"
+            }
+        }
+    },
+    {
+        "condition": "火灾增长速率",
+        "variable": "伤亡情况",
+        "probabilities": {
+            "快": {
+                "无": "低",
+                "轻微": "中",
+                "严重": "高"
+            },
+            "慢": {
+                "无": "高",
+                "轻微": "低",
+                "严重": "低"
+            }
+        }
+    },
+    {
+        "condition": "人员流动性",
+        "variable": "寻找路径的困难程度",
+        "probabilities": {
+            "较大": {
+                "困难": "低",
+                "容易": "高"
+            },
+            "较小": {
+                "困难": "高",
+                "容易": "低"
+            }
+        }
+    },
+    {
+        "condition": "人员实施灭火",
+        "variable": "火灾影响",
+        "probabilities": {
+            "实施灭火": {
+                "低": "高",
+                "中": "低",
+                "高": "低"
+            },
+            "不实施灭火": {}
+        }
+    },
+    {
+        "condition": "体育赛事举办",
+        "variable": "火灾发生",
+        "probabilities": {
+            "举办": {
+                "发生": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "烟控系统",
+        "variable": "生命安全",
+        "probabilities": {
+            "有效": {
+                "保障": "high"
+            },
+            "无效": {
+                "未保障": "high"
+            }
+        }
+    },
+    {
+        "condition": "火灾发生",
+        "variable": "火灾导致的伤亡",
+        "probabilities": {
+            "发生": {
+                "无伤亡": "low",
+                "轻微伤亡": "medium",
+                "重大伤亡": "high"
+            }
+        }
+    },
+    {
+        "condition": "竞技场内火灾应对措施",
+        "variable": "火灾导致的伤亡",
+        "probabilities": {
+            "有效": {
+                "无伤亡": "high",
+                "轻微伤亡": "medium",
+                "重大伤亡": "low"
+            },
+            "无效": {
+                "无伤亡": "low",
+                "轻微伤亡": "medium",
+                "重大伤亡": "high"
+            }
+        }
+    },
+    {
+        "condition": "可移动座椅的使用",
+        "variable": "火灾蔓延速度",
+        "probabilities": {
+            "使用": {
+                "快速": "high"
+            },
+            "不使用": {
+                "快速": "low"
+            }
+        }
+    },
+    {
+        "condition": "火灾荷载",
+        "variable": "火灾增长",
+        "probabilities": {
+            "高": {
+                "快": "high"
+            },
+            "低": {
+                "慢": "high"
+            }
+        }
+    },
+    {
+        "condition": "火灾增长",
+        "variable": "热释放速率的峰值",
+        "probabilities": {
+            "快": {
+                "高": "high"
+            },
+            "慢": {
+                "低": "high"
+            }
+        }
+    },
+    {
+        "condition": "火灾荷载",
+        "variable": "热释放速率峰值",
+        "probabilities": {
+            "大": {
+                "高": "high"
+            },
+            "小": {
+                "低": "high"
+            }
+        }
+    },
+    {
+        "condition": "使用影视烟雾",
+        "variable": "火灾荷载",
+        "probabilities": {
+            "是": {
+                "高": "high"
+            },
+            "否": {
+                "低": "high"
+            }
+        }
+    },
+    {
+        "condition": "感烟探测系统是否关闭",
+        "variable": "火灾报警系统",
+        "probabilities": {
+            "关闭": {
+                "触发": "low"
+            },
+            "开启": {
+                "触发": "high"
+            }
+        }
+    },
+    {
+        "condition": "火灾报警系统",
+        "variable": "人员响应",
+        "probabilities": {
+            "触发": {
+                "迅速": "high"
+            },
+            "未触发": {
+                "缓慢": "high"
+            }
+        }
+    },
+    {
+        "condition": "人员响应",
+        "variable": "火灾应对措施",
+        "probabilities": {
+            "迅速": {
+                "实施": "high"
+            },
+            "缓慢": {
+                "未实施": "high"
+            }
+        }
+    },
+    {
+        "condition": "火灾应对措施",
+        "variable": "火灾蔓延速度",
+        "probabilities": {
+            "实施": {
+                "缓慢": "high"
+            },
+            "未实施": {
+                "快速": "high"
+            }
+        }
+    },
+    {
+        "condition": "火灾蔓延速度",
+        "variable": "伤亡情况",
+        "probabilities": {
+            "快速": {
+                "严重": "high"
+            },
+            "缓慢": {
+                "无": "high"
+            }
+        }
+    },
+    {
+        "condition": "疏散系统",
+        "variable": "人员流动性",
+        "probabilities": {
+            "存在": {
+                "较大": "high"
+            },
+            "缺失": {
+                "较小": "high"
+            }
+        }
+    },
+    {
+        "condition": "使用人员数量",
+        "variable": "暴露于烟气层的危险",
+        "probabilities": {
+            "大量": {
+                "增加": "很可能"
+            }
+        }
+    },
+    {
+        "condition": "观众位置",
+        "variable": "暴露于烟气层的危险",
+        "probabilities": {
+            "阶梯座位上": {
+                "增加": "很可能"
+            }
+        }
+    },
+    {
+        "condition": "可移动座椅的使用",
+        "variable": "暴露于烟气层的危险",
+        "probabilities": {
+            "使用": {
+                "增加": "可能"
+            },
+            "不使用": {
+                "未增加": "可能"
+            }
+        }
+    },
+    {
+        "condition": "专职消防值班人员的存在",
+        "variable": "火灾应对措施",
+        "probabilities": {
+            "有": {
+                "有效": "可能"
+            },
+            "没有": {
+                "无效": "可能"
+            }
+        }
+    },
+    {
+        "condition": "火灾荷载",
+        "variable": "火灾增长",
+        "probabilities": {
+            "高": {
+                "快": "可能"
+            },
+            "低": {
+                "慢": "可能"
+            }
+        }
+    },
+    {
+        "condition": "火灾增长",
+        "variable": "热释放速率的峰值",
+        "probabilities": {
+            "快": {
+                "高": "可能"
+            },
+            "慢": {
+                "低": "可能"
+            }
+        }
+    },
+    {
+        "condition": "体育馆用途",
+        "variable": "火灾发生",
+        "probabilities": {
+            "用于其他用途": {
+                "发生": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "观众位置",
+        "variable": "暴露于烟气层的危险",
+        "probabilities": {
+            "阶梯座位上": {
+                "增加": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "活动类型",
+        "variable": "火灾发生",
+        "probabilities": {
+            "摇滚音乐会": {
+                "发生": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "火灾发生",
+        "variable": "火灾场景",
+        "probabilities": {
+            "发生": {
+                "场景2": "1.0"
+            }
+        }
+    },
+    {
+        "condition": "火灾发生",
+        "variable": "火灾位置",
+        "probabilities": {
+            "发生": {
+                "竞技场": "1.0"
+            }
+        }
+    },
+    {
+        "condition": "火灾发生",
+        "variable": "火灾应对措施",
+        "probabilities": {
+            "发生": {
+                "实施": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "火灾应对措施",
+        "variable": "火灾蔓延速度",
+        "probabilities": {
+            "实施": {
+                "缓慢": "very likely"
+            },
+            "未实施": {
+                "快速": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "火灾蔓延速度",
+        "variable": "伤亡情况",
+        "probabilities": {
+            "快速": {
+                "严重": "very likely"
+            },
+            "缓慢": {
+                "无": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "火灾荷载",
+        "variable": "火灾增长速率",
+        "probabilities": {
+            "大": {
+                "快": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "使用影视烟雾",
+        "variable": "感烟探测系统是否关闭",
+        "probabilities": {
+            "是": {
+                "关闭": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "感烟探测系统是否关闭",
+        "variable": "火灾报警系统",
+        "probabilities": {
+            "关闭": {
+                "未触发": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "火灾荷载",
+        "variable": "火灾的影响",
+        "probabilities": {
+            "大": {
+                "严重": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "是否有专职消防值班人员",
+        "variable": "火灾应对措施",
+        "probabilities": {
+            "有": {
+                "实施": "very likely"
+            },
+            "没有": {
+                "未实施": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "火灾应对措施",
+        "variable": "火灾蔓延速度",
+        "probabilities": {
+            "实施": {
+                "缓慢": "very likely"
+            },
+            "未实施": {
+                "快速": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "火灾蔓延速度",
+        "variable": "伤亡情况",
+        "probabilities": {
+            "快速": {
+                "严重": "very likely"
+            },
+            "缓慢": {
+                "无": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "观众存在",
+        "variable": "阶梯座椅区域发生火灾",
+        "probabilities": {
+            "存在": {
+                "发生": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "人员分布",
+        "variable": "火灾发生地点",
+        "probabilities": {
+            "相同": {
+                "场景1": "高",
+                "场景2": "高",
+                "其他位置": "低"
+            }
+        }
+    },
+    {
+        "condition": "座椅材料",
+        "variable": "火灾增长速率",
+        "probabilities": {
+            "阻燃": {
+                "快": "低"
+            },
+            "非阻燃": {
+                "快": "高"
+            }
+        }
+    },
+    {
+        "condition": "座椅下废弃物",
+        "variable": "火灾增长速率",
+        "probabilities": {
+            "参与燃烧": {
+                "快": "高"
+            },
+            "不参与燃烧": {
+                "快": "低"
+            }
+        }
+    },
+    {
+        "condition": "体育馆用途",
+        "variable": "火灾发生地点",
+        "probabilities": {
+            "用于其他用途": {
+                "商品交易会": "很可能会发生在商品交易会区域"
+            }
+        }
+    },
+    {
+        "condition": "观众位置",
+        "variable": "火灾发生地点",
+        "probabilities": {
+            "不在阶梯座位上": {
+                "商品交易会": "很可能会发生在观众不在阶梯座位上的区域"
+            }
+        }
+    },
+    {
+        "condition": "火灾发生",
+        "variable": "火灾场景",
+        "probabilities": {
+            "发生": {
+                "场景4": "几乎肯定"
+            }
+        }
+    },
+    {
+        "condition": "火灾发生地点",
+        "variable": "火灾应对措施",
+        "probabilities": {
+            "商品交易会": {
+                "有效": "可能较低，因为可能缺乏针对商品交易会的特定应对措施"
+            }
+        }
+    },
+    {
+        "condition": "火灾发生地点",
+        "variable": "火灾荷载",
+        "probabilities": {
+            "商品交易会": {
+                "高": "可能性较高，因为商品交易会可能存在大量可燃物品"
+            }
+        }
+    },
+    {
+        "condition": "火灾荷载",
+        "variable": "火灾增长速率",
+        "probabilities": {
+            "高": {
+                "快": "几乎肯定，因为高火灾荷载可能导致火势迅速蔓延"
+            }
+        }
+    },
+    {
+        "condition": "火灾增长速率",
+        "variable": "热释放速率的峰值",
+        "probabilities": {
+            "快": {
+                "高": "可能性较高，因为火势蔓延快可能导致热释放速率迅速增加"
+            }
+        }
+    },
+    {
+        "condition": "火灾发生地点",
+        "variable": "伤亡情况",
+        "probabilities": {
+            "商品交易会": {
+                "严重": "可能性较高，因为人员密集且可能存在大量可燃物品"
+            }
+        }
+    },
+    {
+        "condition": "火灾发生地点",
+        "variable": "人员流动性",
+        "probabilities": {
+            "商品交易会": {
+                "较大": "可能性较高，因为商品交易会通常人流量大"
+            }
+        }
+    },
+    {
+        "condition": "人员流动性",
+        "variable": "寻找路径的困难程度",
+        "probabilities": {
+            "较大": {
+                "困难": "可能性较高，因为人流量大可能导致疏散路径拥挤"
+            }
+        }
+    },
+    {
+        "condition": "火灾发生地点",
+        "variable": "人员荷载",
+        "probabilities": {
+            "商品交易会": {
+                "较高": "几乎肯定，因为商品交易会通常参与人数众多"
+            }
+        }
+    },
+    {
+        "condition": "火灾发生地点",
+        "variable": "火灾应对措施",
+        "probabilities": {
+            "商品交易会": {
+                "未实施": "可能性较高，因为可能缺乏针对商品交易会的火灾应对措施"
+            }
+        }
+    },
+    {
+        "condition": "人员荷载",
+        "variable": "人员流动性",
+        "probabilities": {
+            "较低": {
+                "较大": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "人员流动性",
+        "variable": "寻找路径的困难程度",
+        "probabilities": {
+            "较大": {
+                "困难": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "人们专注于展览的程度",
+        "variable": "看不见出口标志的可能性",
+        "probabilities": {
+            "专注": {
+                "可能": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "火灾荷载",
+        "variable": "火灾增长速率",
+        "probabilities": {
+            "高于场景1": {
+                "高于场景1": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "火灾增长速率",
+        "variable": "HRR峰值",
+        "probabilities": {
+            "高于场景1": {
+                "高于场景1": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "火灾发生地点",
+        "variable": "火灾发生区域类型",
+        "probabilities": {
+            "人员聚集区域": {
+                "商店": "高",
+                "宾客休息区": "高"
+            },
+            "竞技场": {
+                "商店": "低",
+                "宾客休息区": "低"
+            },
+            "观众席": {
+                "商店": "低",
+                "宾客休息区": "低"
+            }
+        }
+    },
+    {
+        "condition": "火灾增长速率",
+        "variable": "紧急出口堵塞的可能性",
+        "probabilities": {
+            "不具有快速增长速率": {
+                "增加": "较低"
+            }
+        }
+    },
+    {
+        "condition": "商场和宾客休息区的位置",
+        "variable": "紧急出口堵塞的可能性",
+        "probabilities": {
+            "位于临近观众席出口的地下室里": {
+                "增加": "较高"
+            }
+        }
+    },
+    {
+        "condition": "火灾荷载和HRR峰值",
+        "variable": "火灾增长速率",
+        "probabilities": {
+            "低于竞技场景": {
+                "快": "较低",
+                "慢": "较高"
+            }
+        }
+    },
+    {
+        "condition": "火灾发生地点",
+        "variable": "火灾发生",
+        "probabilities": {
+            "储藏区": {
+                "发生": "几乎肯定"
+            }
+        }
+    },
+    {
+        "condition": "火灾发生地点",
+        "variable": "火灾发生区域类型",
+        "probabilities": {
+            "储藏区": {
+                "商店": "可能",
+                "宾客休息区": "可能"
+            }
+        }
+    },
+    {
+        "condition": "可燃材料的存储",
+        "variable": "火灾荷载",
+        "probabilities": {
+            "大量": {
+                "高": "可能",
+                "低": "不太可能"
+            },
+            "少量": {
+                "高": "不太可能",
+                "低": "可能"
+            }
+        }
+    },
+    {
+        "condition": "火灾荷载",
+        "variable": "热释放速率",
+        "probabilities": {
+            "高": {
+                "增长快": "可能",
+                "增长慢": "不太可能"
+            },
+            "低": {
+                "增长快": "不太可能",
+                "增长慢": "可能"
+            }
+        }
+    },
+    {
+        "condition": "热释放速率",
+        "variable": "热释放速率峰值",
+        "probabilities": {
+            "增长快": {
+                "高": "可能",
+                "低": "不太可能"
+            },
+            "增长慢": {
+                "高": "不太可能",
+                "低": "可能"
+            }
+        }
+    },
+    {
+        "condition": "可燃材料的存储",
+        "variable": "热释放速率",
+        "probabilities": {
+            "大量": {
+                "增长快": "very likely",
+                "增长慢": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "可燃材料的存储",
+        "variable": "热释放速率峰值",
+        "probabilities": {
+            "大量": {
+                "高": "very likely",
+                "低": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "大门与升降机区域的连接",
+        "variable": "入口大小",
+        "probabilities": {
+            "连接": {
+                "大": "very likely",
+                "小": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "入口大小",
+        "variable": "阻塞发生的可能性",
+        "probabilities": {
+            "大": {
+                "高": "unlikely",
+                "低": "very likely"
+            },
+            "小": {
+                "高": "very likely",
+                "低": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "潜在的火灾危害",
+        "variable": "火灾发生",
+        "probabilities": {
+            "低": {
+                "未发生": "高"
+            },
+            "中": {
+                "发生": "较高",
+                "未发生": "较低"
+            },
+            "高": {
+                "发生": "非常高",
+                "未发生": "非常低"
+            }
+        }
+    },
+    {
+        "condition": "火灾发生",
+        "variable": "火灾导致的伤亡",
+        "probabilities": {
+            "发生": {
+                "无伤亡": "低",
+                "轻微伤亡": "中",
+                "重大伤亡": "高"
+            },
+            "未发生": {
+                "无伤亡": "非常高"
+            }
+        }
+    },
+    {
+        "condition": "火灾发生",
+        "variable": "火灾蔓延速度",
+        "probabilities": {
+            "发生": {
+                "快速": "高",
+                "缓慢": "低"
+            },
+            "未发生": {
+                "快速": "非常低",
+                "缓慢": "非常高"
+            }
+        }
+    },
+    {
+        "condition": "火灾发生",
+        "variable": "火灾应对措施",
+        "probabilities": {
+            "发生": {
+                "实施": "高",
+                "未实施": "低"
+            },
+            "未发生": {
+                "实施": "非常低",
+                "未实施": "非常高"
+            }
+        }
+    },
+    {
+        "condition": "火灾应对措施",
+        "variable": "火灾增长速率",
+        "probabilities": {
+            "实施": {
+                "快": "低",
+                "慢": "高"
+            },
+            "未实施": {
+                "快": "高",
+                "慢": "低"
+            }
+        }
+    },
+    {
+        "condition": "火灾增长速率",
+        "variable": "热释放速率的峰值",
+        "probabilities": {
+            "快": {
+                "高": "高",
+                "低": "低"
+            },
+            "慢": {
+                "高": "低",
+                "低": "高"
+            }
+        }
+    },
+    {
+        "condition": "火灾荷载",
+        "variable": "热释放速率",
+        "probabilities": {
+            "高": {
+                "增长快": "高",
+                "增长慢": "低"
+            },
+            "低": {
+                "增长快": "低",
+                "增长慢": "高"
+            }
+        }
+    },
+    {
+        "condition": "热释放速率峰值",
+        "variable": "火灾的影响",
+        "probabilities": {
+            "高": {
+                "严重": "高",
+                "轻微": "低"
+            },
+            "低": {
+                "严重": "低",
+                "轻微": "高"
+            }
+        }
+    },
+    {
+        "condition": "火灾荷载",
+        "variable": "火灾增长速率",
+        "probabilities": {
+            "高": {
+                "快": "高",
+                "慢": "低"
+            },
+            "低": {
+                "快": "低",
+                "慢": "高"
+            }
+        }
+    },
+    {
+        "condition": "火灾增长速率",
+        "variable": "火灾蔓延速度",
+        "probabilities": {
+            "快": {
+                "快速": "高",
+                "缓慢": "低"
+            },
+            "慢": {
+                "快速": "低",
+                "缓慢": "高"
+            }
+        }
+    },
+    {
+        "condition": "火灾发生",
+        "variable": "伤亡情况",
+        "probabilities": {
+            "发生": {
+                "无": "低",
+                "轻微": "中",
+                "严重": "高"
+            },
+            "未发生": {
+                "无": "非常高"
+            }
+        }
+    },
+    {
+        "condition": "火灾发生地点",
+        "variable": "紧急出口堵塞的可能性",
+        "probabilities": {
+            "储藏区": {
+                "增加": "高"
+            },
+            "其他区域": {
+                "增加": "低"
+            }
+        }
+    },
+    {
+        "condition": "火灾发生",
+        "variable": "人员流动性",
+        "probabilities": {}
+    },
+    {
+        "condition": "烟控系统",
+        "variable": "生命安全",
+        "probabilities": {
+            "有效": {
+                "保障": "very likely"
+            },
+            "无效": {
+                "未保障": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "建筑用途",
+        "variable": "火灾危险区域",
+        "probabilities": {
+            "体育赛事": {
+                "售货亭": "low",
+                "高火灾荷载储藏室": "low"
+            },
+            "音乐会": {
+                "售货亭": "low",
+                "高火灾荷载储藏室": "low"
+            },
+            "宗教或非宗教仪式": {
+                "售货亭": "low",
+                "高火灾荷载储藏室": "low"
+            },
+            "大会": {
+                "售货亭": "low",
+                "高火灾荷载储藏室": "low"
+            },
+            "商品交易会": {
+                "售货亭": "high",
+                "高火灾荷载储藏室": "high"
+            },
+            "卡车展览会": {
+                "售货亭": "high",
+                "高火灾荷载储藏室": "high"
+            }
+        }
+    },
+    {
+        "condition": "火灾荷载",
+        "variable": "火灾增长",
+        "probabilities": {
+            "高": {
+                "快": "high"
+            },
+            "低": {
+                "慢": "high"
+            }
+        }
+    },
+    {
+        "condition": "火灾增长",
+        "variable": "热释放速率的峰值",
+        "probabilities": {
+            "快": {
+                "高": "high"
+            },
+            "慢": {
+                "低": "high"
+            }
+        }
+    },
+    {
+        "condition": "火灾发生",
+        "variable": "火灾导致的伤亡",
+        "probabilities": {
+            "发生": {
+                "无伤亡": "low",
+                "轻微伤亡": "medium",
+                "重大伤亡": "high"
+            }
+        }
+    },
+    {
+        "condition": "竞技场内火灾应对措施",
+        "variable": "火灾导致的伤亡",
+        "probabilities": {
+            "有效": {
+                "无伤亡": "high",
+                "轻微伤亡": "medium",
+                "重大伤亡": "low"
+            },
+            "无效": {
+                "无伤亡": "low",
+                "轻微伤亡": "medium",
+                "重大伤亡": "high"
+            }
+        }
+    },
+    {
+        "condition": "可移动座椅的使用",
+        "variable": "暴露于烟气层的危险",
+        "probabilities": {
+            "使用": {
+                "增加": "high"
+            },
+            "不使用": {
+                "未增加": "high"
+            }
+        }
+    },
+    {
+        "condition": "火灾荷载",
+        "variable": "火灾蔓延速度",
+        "probabilities": {
+            "大": {
+                "快速": "high"
+            },
+            "小": {
+                "缓慢": "high"
+            }
+        }
+    },
+    {
+        "condition": "火灾增长速率",
+        "variable": "火灾蔓延速度",
+        "probabilities": {
+            "快": {
+                "快速": "high"
+            },
+            "慢": {
+                "缓慢": "high"
+            }
+        }
+    },
+    {
+        "condition": "火灾报警系统",
+        "variable": "人员响应",
+        "probabilities": {
+            "触发": {
+                "迅速": "high"
+            },
+            "未触发": {
+                "缓慢": "high"
+            }
+        }
+    },
+    {
+        "condition": "疏散指示标志",
+        "variable": "人员实施灭火",
+        "probabilities": {
+            "有": {
+                "实施灭火": "high"
+            },
+            "没有": {
+                "不实施灭火": "high"
+            }
+        }
+    },
+    {
+        "condition": "消防管理员协助疏散",
+        "variable": "人员响应",
+        "probabilities": {
+            "协助疏散": {
+                "迅速": "high"
+            },
+            "不协助疏散": {
+                "缓慢": "high"
+            }
+        }
+    },
+    {
+        "condition": "使用人员察觉火灾",
+        "variable": "使用人员打开房门",
+        "probabilities": {
+            "察觉火灾": {
+                "打开房门": "high"
+            },
+            "未察觉火灾": {
+                "未打开房门": "high"
+            }
+        }
+    },
+    {
+        "condition": "主动系统",
+        "variable": "系统成功的概率",
+        "probabilities": {
+            "存在": {
+                "非零": "高"
+            },
+            "缺失": {
+                "零": "1.0"
+            }
+        }
+    },
+    {
+        "condition": "被动系统",
+        "variable": "系统成功的概率",
+        "probabilities": {
+            "存在": {
+                "非零": "高"
+            },
+            "缺失": {
+                "零": "1.0"
+            }
+        }
+    },
+    {
+        "condition": "疏散系统",
+        "variable": "系统成功的概率",
+        "probabilities": {
+            "存在": {
+                "非零": "高"
+            },
+            "缺失": {
+                "零": "1.0"
+            }
+        }
+    },
+    {
+        "condition": "火灾报警系统触发",
+        "variable": "烟控系统有效",
+        "probabilities": {
+            "触发": {
+                "有效": "很高"
+            }
+        }
+    },
+    {
+        "condition": "火灾报警系统触发",
+        "variable": "自闭门触发",
+        "probabilities": {
+            "触发": {
+                "触发": "很高"
+            }
+        }
+    },
+    {
+        "condition": "感烟探测系统存在",
+        "variable": "火灾报警系统触发",
+        "probabilities": {
+            "存在": {
+                "触发": "很高"
+            }
+        }
+    },
+    {
+        "condition": "自动喷水灭火系统存在",
+        "variable": "火灾应对措施有效",
+        "probabilities": {
+            "存在": {
+                "有效": "很高"
+            }
+        }
+    },
+    {
+        "condition": "自动烟控系统存在",
+        "variable": "火灾应对措施有效",
+        "probabilities": {
+            "存在": {
+                "有效": "很高"
+            }
+        }
+    },
+    {
+        "condition": "观众区和竞技区防火分区",
+        "variable": "被动系统",
+        "probabilities": {
+            "已分隔": {
+                "存在": "高",
+                "缺失": "低"
+            }
+        }
+    },
+    {
+        "condition": "大厅/接待区防火分区",
+        "variable": "被动系统",
+        "probabilities": {
+            "已分隔": {
+                "存在": "高",
+                "缺失": "低"
+            }
+        }
+    },
+    {
+        "condition": "商业区和顾客区防火分区",
+        "variable": "被动系统",
+        "probabilities": {
+            "已分隔": {
+                "存在": "高",
+                "缺失": "低"
+            }
+        }
+    },
+    {
+        "condition": "专用逃生路线防火分区",
+        "variable": "被动系统",
+        "probabilities": {
+            "已分隔": {
+                "存在": "高",
+                "缺失": "低"
+            }
+        }
+    },
+    {
+        "condition": "储藏区防火分区",
+        "variable": "被动系统",
+        "probabilities": {
+            "已分隔": {
+                "存在": "高",
+                "缺失": "低"
+            }
+        }
+    },
+    {
+        "condition": "疏散指示标志",
+        "variable": "人员响应",
+        "probabilities": {
+            "有": {
+                "迅速": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "应急照明",
+        "variable": "人员响应",
+        "probabilities": {
+            "有": {
+                "迅速": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "疏散管理员",
+        "variable": "人员响应",
+        "probabilities": {
+            "有": {
+                "迅速": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "语音广播系统",
+        "variable": "人员响应",
+        "probabilities": {
+            "有": {
+                "迅速": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "人员响应",
+        "variable": "火灾应对措施",
+        "probabilities": {
+            "迅速": {
+                "实施": "very likely",
+                "未实施": "unlikely"
+            },
+            "缓慢": {
+                "实施": "unlikely",
+                "未实施": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "人员响应",
+        "variable": "消防管理员协助疏散",
+        "probabilities": {
+            "迅速": {
+                "协助疏散": "very likely",
+                "不协助疏散": "unlikely"
+            },
+            "缓慢": {
+                "协助疏散": "unlikely",
+                "不协助疏散": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "人员响应",
+        "variable": "人员实施灭火",
+        "probabilities": {
+            "迅速": {
+                "实施灭火": "very likely",
+                "不实施灭火": "unlikely"
+            },
+            "缓慢": {
+                "实施灭火": "unlikely",
+                "不实施灭火": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "人员响应",
+        "variable": "使用人员察觉火灾",
+        "probabilities": {
+            "迅速": {
+                "察觉火灾": "very likely",
+                "未察觉火灾": "unlikely"
+            },
+            "缓慢": {
+                "察觉火灾": "unlikely",
+                "未察觉火灾": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "人员响应",
+        "variable": "使用人员打开房门",
+        "probabilities": {
+            "迅速": {
+                "打开房门": "very likely",
+                "未打开房门": "unlikely"
+            },
+            "缓慢": {
+                "打开房门": "unlikely",
+                "未打开房门": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "人员实施灭火",
+        "variable": "消防管理员协助疏散",
+        "probabilities": {
+            "实施灭火": {
+                "协助疏散": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "使用人员察觉火灾",
+        "variable": "使用人员打开房门",
+        "probabilities": {
+            "察觉火灾": {
+                "打开房门": "very likely"
+            }
+        }
+    }
+]
