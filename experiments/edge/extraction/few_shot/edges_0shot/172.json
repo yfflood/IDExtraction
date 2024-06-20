@@ -1,0 +1,29 @@
+[
+    {
+        "condition": "板厚",
+        "variable": "承压承载力",
+        "probabilities": {
+            "过小": {
+                "下降": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "板厚",
+        "variable": "板件局部应力",
+        "probabilities": {
+            "过小": {
+                "过大": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "连接方式",
+        "variable": "摩擦系数",
+        "probabilities": {
+            "高强度螺栓": {
+                "下降": "very likely"
+            }
+        }
+    }
+]

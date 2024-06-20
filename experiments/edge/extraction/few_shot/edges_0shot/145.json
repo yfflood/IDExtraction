@@ -1,0 +1,58 @@
+[
+    {
+        "condition": "施工时间",
+        "variable": "膨润土材料的膨胀",
+        "probabilities": {
+            "长": {
+                "膨胀": "very likely",
+                "未膨胀": "very unlikely"
+            },
+            "短": {
+                "膨胀": "unlikely",
+                "未膨胀": "likely"
+            }
+        }
+    },
+    {
+        "condition": "天气状况",
+        "variable": "膨润土材料的膨胀",
+        "probabilities": {
+            "雨天": {
+                "膨胀": "very likely",
+                "未膨胀": "unlikely"
+            },
+            "晴天": {
+                "膨胀": "unlikely",
+                "未膨胀": "likely"
+            }
+        }
+    },
+    {
+        "condition": "膨润土防水材料的保护",
+        "variable": "膨润土材料的膨胀",
+        "probabilities": {
+            "未覆盖塑料薄膜": {
+                "膨胀": "likely",
+                "未膨胀": "unlikely"
+            },
+            "覆盖塑料薄膜": {
+                "膨胀": "unlikely",
+                "未膨胀": "likely"
+            }
+        }
+    },
+    {
+        "condition": "施工季节",
+        "variable": "天气状况",
+        "probabilities": {
+            "雨季": {
+                "雨天": "likely",
+                "晴天": "unlikely"
+            },
+            "非雨季": {
+                "雨天": "unlikely",
+                "晴天": "likely"
+            }
+        }
+    }
+]

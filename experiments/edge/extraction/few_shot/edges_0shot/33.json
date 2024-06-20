@@ -1,0 +1,72 @@
+[
+    {
+        "condition": "火灾或高温",
+        "variable": "露明金属支撑件",
+        "probabilities": {
+            "发生": {
+                "失效": "very likely",
+                "不失效": "unlikely"
+            },
+            "不发生": {
+                "失效": "unlikely",
+                "不失效": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "露明金属支撑件的构造措施",
+        "variable": "露明金属支撑件",
+        "probabilities": {
+            "设置": {
+                "失效": "unlikely",
+                "不失效": "very likely"
+            },
+            "不设置": {
+                "失效": "very likely",
+                "不失效": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "露明金属支撑件",
+        "variable": "外墙板掉落",
+        "probabilities": {
+            "失效": {
+                "掉落": "very likely",
+                "不掉落": "unlikely"
+            },
+            "不失效": {
+                "掉落": "unlikely",
+                "不掉落": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "露明金属支撑件的构造措施",
+        "variable": "外墙板掉落",
+        "probabilities": {
+            "设置": {
+                "掉落": "unlikely",
+                "不掉落": "very likely"
+            },
+            "不设置": {
+                "掉落": "very likely",
+                "不掉落": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "火灾蔓延",
+        "variable": "外墙板掉落",
+        "probabilities": {
+            "蔓延": {
+                "掉落": "very likely",
+                "不掉落": "unlikely"
+            },
+            "不蔓延": {
+                "掉落": "unlikely",
+                "不掉落": "very likely"
+            }
+        }
+    }
+]

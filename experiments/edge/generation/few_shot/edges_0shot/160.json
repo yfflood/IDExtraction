@@ -1,0 +1,72 @@
+[
+    {
+        "condition": "封口高度",
+        "variable": "桩顶土隆起",
+        "probabilities": {
+            "大于等于500mm": {
+                "发生": "very likely",
+                "不发生": "unlikely"
+            },
+            "小于500mm": {
+                "发生": "likely",
+                "不发生": "possible"
+            }
+        }
+    },
+    {
+        "condition": "桩顶上覆压力",
+        "variable": "沉降",
+        "probabilities": {
+            "足够": {
+                "增加": "unlikely",
+                "不增加": "very likely"
+            },
+            "不够": {
+                "增加": "likely",
+                "不增加": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "封口标高",
+        "variable": "桩体强度",
+        "probabilities": {
+            "高于原地面": {
+                "降低": "unlikely",
+                "不降低": "very likely"
+            },
+            "低于或等于原地面": {
+                "降低": "likely",
+                "不降低": "possible"
+            }
+        }
+    },
+    {
+        "condition": "桩顶土隆起",
+        "variable": "沉降",
+        "probabilities": {
+            "发生": {
+                "增加": "very likely",
+                "不增加": "unlikely"
+            },
+            "不发生": {
+                "增加": "unlikely",
+                "不增加": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "桩体强度",
+        "variable": "沉降",
+        "probabilities": {
+            "降低": {
+                "增加": "likely",
+                "不增加": "unlikely"
+            },
+            "不降低": {
+                "增加": "unlikely",
+                "不增加": "very likely"
+            }
+        }
+    }
+]

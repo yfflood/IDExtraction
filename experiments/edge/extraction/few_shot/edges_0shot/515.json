@@ -1,0 +1,30 @@
+[
+    {
+        "condition": "钢筋网竖筋与墙面的距离",
+        "variable": "加固效果",
+        "probabilities": {
+            "紧靠墙面": {
+                "失效": "very likely",
+                "有效": "very unlikely"
+            },
+            "5mm间隙": {
+                "失效": "unlikely",
+                "有效": "likely"
+            }
+        }
+    },
+    {
+        "condition": "钢筋锈蚀",
+        "variable": "加固效果",
+        "probabilities": {
+            "发生": {
+                "失效": "very likely",
+                "有效": "unlikely"
+            },
+            "未发生": {
+                "失效": "unlikely",
+                "有效": "likely"
+            }
+        }
+    }
+]

@@ -1,5 +1,9 @@
 [
     {
+        "n_shots": 0,
+        "prompt": "For the following list of nodes, identify influence relations between the variables based on the text, and assign to each influential relation a corresponding conditional or unconditional probability. No cycles are allowed. For example, if the influence with condition 'a' to variable 'b' is present, there cannot be another influence with condition 'b' to variable 'a'. All conditions and variables should be members of the list: {node_list}.\n\nOutput using the following format: \n{format_instructions}\n\nThe content should be in Chinese if the text is in Chinese.\n\ntext: {text}"
+    },
+    {
         "n_shots": 1,
         "prompt": "For the following list of nodes, identify influence relations between the variables based on the text, and assign to each influential relation a corresponding conditional or unconditional probability. No cycles are allowed. For example, if the influence with condition 'a' to variable 'b' is present, there cannot be another influence with condition 'b' to variable 'a'. All conditions and variables should be members of the list: {node_list}.\n\nFor example, given nodes cold weather and respiratory diseases, in the sentence \nCold weather greatly increases the probability of respiratory diseases.\nthere is an edge, where cold weather is the condition, and respiratory diseases is the variable. When condition cold weather is present, the probability of respiratory diseases occuring is high; the rationale is then transformed into a nested dictionary.\n\nOutput using the following format: \n{format_instructions}\n\nThe content should be in Chinese if the text is in Chinese.\n\ntext: {text}"
     },

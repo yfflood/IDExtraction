@@ -1,0 +1,75 @@
+[
+    {
+        "condition": "支护结构施工",
+        "variable": "相邻地面",
+        "probabilities": {
+            "产生挤土效应": {
+                "隆起": "very likely",
+                "沉降": "very likely"
+            },
+            "导致土体损失": {
+                "沉降": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "降水",
+        "variable": "相邻地面",
+        "probabilities": {
+            "长时间": {
+                "沉降": "likely"
+            },
+            "大幅度": {
+                "沉降": "likely"
+            }
+        }
+    },
+    {
+        "condition": "基坑开挖",
+        "variable": "相邻地面",
+        "probabilities": {
+            "不平衡力": {
+                "侧向移动": "likely",
+                "沉降": "likely"
+            },
+            "软黏土蠕变": {
+                "沉降": "likely"
+            },
+            "水土流失": {
+                "沉降": "likely"
+            }
+        }
+    },
+    {
+        "condition": "基坑开挖",
+        "variable": "邻近建（构）筑物及地下管线",
+        "probabilities": {
+            "不平衡力": {
+                "侧移": "likely",
+                "沉降": "likely"
+            },
+            "软黏土蠕变": {
+                "变形开裂": "likely"
+            },
+            "水土流失": {
+                "侧移": "likely",
+                "沉降": "likely"
+            }
+        }
+    },
+    {
+        "condition": "防范措施",
+        "variable": "周围环境安全性",
+        "probabilities": {
+            "土体加固": {
+                "安全": "very likely"
+            },
+            "结构托换": {
+                "安全": "very likely"
+            },
+            "架空管线": {
+                "安全": "likely"
+            }
+        }
+    }
+]

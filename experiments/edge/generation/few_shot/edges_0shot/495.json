@@ -1,0 +1,42 @@
+[
+    {
+        "condition": "换能器的运动状态",
+        "variable": "电缆线失重现象",
+        "probabilities": {
+            "非匀速下降": {
+                "有": "very likely",
+                "无": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "电缆线的松弛程度",
+        "variable": "换能器的运动状态",
+        "probabilities": {
+            "松弛": {
+                "非匀速下降": "very likely",
+                "静止": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "换能器位置的准确性",
+        "variable": "检测方法",
+        "probabilities": {
+            "不准确": {
+                "其他检测方法": "very likely",
+                "从桩底开始同步提升换能器进行检测": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "检测方法",
+        "variable": "换能器位置的准确性",
+        "probabilities": {
+            "从桩底开始同步提升换能器进行检测": {
+                "准确": "very likely",
+                "不准确": "unlikely"
+            }
+        }
+    }
+]

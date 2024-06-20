@@ -210,6 +210,8 @@ def extract_edge_files(
     for node_file in node_file_list:
         filename = node_file.split(".")[0]
         #print(filename)
+        if os.path.exists(f"{out_dir}/{filename}.json"):
+            continue
         with open(f"./data/node_adjusted/{node_file}", "r", encoding="utf-8") as f:
             node_list=json.load(f)
         with open(f"./data/input_text/{filename}.txt", "r", encoding="utf-8") as f:

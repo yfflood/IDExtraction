@@ -1,0 +1,58 @@
+[
+    {
+        "condition": "混凝土体积",
+        "variable": "混凝土内部温度",
+        "probabilities": {
+            "大": {
+                "升高": "very likely",
+                "稳定": "unlikely"
+            },
+            "小": {
+                "升高": "less likely",
+                "稳定": "likely"
+            }
+        }
+    },
+    {
+        "condition": "混凝土的浇筑温度",
+        "variable": "混凝土内部温度",
+        "probabilities": {
+            "高": {
+                "升高": "very likely",
+                "稳定": "unlikely"
+            },
+            "低": {
+                "升高": "less likely",
+                "稳定": "likely"
+            }
+        }
+    },
+    {
+        "condition": "混凝土内部温度",
+        "variable": "温度应力",
+        "probabilities": {
+            "升高": {
+                "大": "very likely",
+                "小": "unlikely"
+            },
+            "稳定": {
+                "大": "less likely",
+                "小": "likely"
+            }
+        }
+    },
+    {
+        "condition": "温度应力",
+        "variable": "混凝土开裂",
+        "probabilities": {
+            "大": {
+                "发生": "very likely",
+                "不发生": "unlikely"
+            },
+            "小": {
+                "发生": "less likely",
+                "不发生": "likely"
+            }
+        }
+    }
+]

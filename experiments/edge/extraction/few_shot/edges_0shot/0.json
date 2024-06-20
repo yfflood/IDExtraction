@@ -1,0 +1,23 @@
+[
+    {
+        "condition": "构件的长细比",
+        "variable": "纤维材料对混凝土的约束作用",
+        "probabilities": {
+            "l/d>12": {
+                "明显降低": "very likely"
+            },
+            "l/d>14": {
+                "明显降低": "almost certain"
+            }
+        }
+    },
+    {
+        "condition": "矩形截面边长",
+        "variable": "纤维材料对混凝土的约束作用",
+        "probabilities": {
+            "过大": {
+                "明显降低": "very likely"
+            }
+        }
+    }
+]

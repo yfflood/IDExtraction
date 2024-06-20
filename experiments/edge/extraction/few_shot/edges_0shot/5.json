@@ -1,0 +1,40 @@
+[
+    {
+        "condition": "齿连接",
+        "variable": "受力",
+        "probabilities": {
+            "采用": {
+                "共同受力": "very likely"
+            },
+            "分别受力": {
+                "共同受力": "0.0"
+            }
+        }
+    },
+    {
+        "condition": "螺栓连接",
+        "variable": "受力",
+        "probabilities": {
+            "采用": {
+                "共同受力": "very likely"
+            },
+            "不采用": {
+                "共同受力": "0.0"
+            }
+        }
+    },
+    {
+        "condition": "受力",
+        "variable": "木结构工程",
+        "probabilities": {
+            "共同受力": {
+                "超载破坏": "very likely",
+                "安全": "0.0"
+            },
+            "分别受力": {
+                "超载破坏": "0.0",
+                "安全": "very likely"
+            }
+        }
+    }
+]

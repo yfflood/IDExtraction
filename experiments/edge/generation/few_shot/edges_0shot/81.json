@@ -1,0 +1,68 @@
+[
+    {
+        "condition": "土工合成材料",
+        "variable": "合成材料极限强度",
+        "probabilities": {
+            "高强度、低徐变性、延伸率适宜": {
+                "超过": "very likely",
+                "未超过": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "土层",
+        "variable": "荷载转移",
+        "probabilities": {
+            "软弱": {
+                "由软弱土承受全部外荷": "very likely",
+                "未由软弱土承受全部外荷": "unlikely"
+            },
+            "不软弱": {
+                "由软弱土承受全部外荷": "unlikely",
+                "未由软弱土承受全部外荷": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "荷载转移",
+        "variable": "地基整体破坏",
+        "probabilities": {
+            "由软弱土承受全部外荷": {
+                "导致": "likely",
+                "未导致": "unlikely"
+            },
+            "未由软弱土承受全部外荷": {
+                "导致": "unlikely",
+                "未导致": "likely"
+            }
+        }
+    },
+    {
+        "condition": "地基整体破坏",
+        "variable": "上部建筑沉降",
+        "probabilities": {
+            "导致": {
+                "较大": "likely",
+                "较小或无": "unlikely"
+            },
+            "未导致": {
+                "较大": "unlikely",
+                "较小或无": "likely"
+            }
+        }
+    },
+    {
+        "condition": "上部建筑沉降",
+        "variable": "建筑结构破坏",
+        "probabilities": {
+            "较大": {
+                "严重": "likely",
+                "轻微或无": "unlikely"
+            },
+            "较小或无": {
+                "严重": "unlikely",
+                "轻微或无": "likely"
+            }
+        }
+    }
+]

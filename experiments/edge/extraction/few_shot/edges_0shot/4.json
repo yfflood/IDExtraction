@@ -1,0 +1,100 @@
+[
+    {
+        "condition": "地形地貌",
+        "variable": "地基稳定性",
+        "probabilities": {
+            "平坦": {
+                "稳定": "very likely",
+                "不稳定": "unlikely"
+            },
+            "不平坦": {
+                "稳定": "unlikely",
+                "不稳定": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "设计方案",
+        "variable": "地基稳定性",
+        "probabilities": {
+            "合理": {
+                "稳定": "very likely",
+                "不稳定": "unlikely"
+            },
+            "不合理": {
+                "稳定": "unlikely",
+                "不稳定": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "建筑地基侧限",
+        "variable": "地基稳定性",
+        "probabilities": {
+            "削弱": {
+                "稳定": "unlikely",
+                "不稳定": "very likely"
+            },
+            "未削弱": {
+                "稳定": "very likely",
+                "不稳定": "unlikely"
+            }
+        }
+    },
+    {
+        "condition": "软弱地基",
+        "variable": "承载能力极限状态",
+        "probabilities": {
+            "存在": {
+                "超过": "very likely",
+                "未超过": "unlikely"
+            },
+            "不存在": {
+                "超过": "unlikely",
+                "未超过": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "暗浜暗塘",
+        "variable": "承载能力极限状态",
+        "probabilities": {
+            "存在": {
+                "超过": "very likely",
+                "未超过": "unlikely"
+            },
+            "不存在": {
+                "超过": "unlikely",
+                "未超过": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "承载能力极限状态",
+        "variable": "稳定性验算",
+        "probabilities": {
+            "超过": {
+                "进行": "very likely",
+                "不进行": "unlikely"
+            },
+            "未超过": {
+                "进行": "unlikely",
+                "不进行": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "稳定性验算",
+        "variable": "预防措施建议",
+        "probabilities": {
+            "进行": {
+                "提供": "very likely",
+                "不提供": "unlikely"
+            },
+            "不进行": {
+                "提供": "unlikely",
+                "不提供": "very likely"
+            }
+        }
+    }
+]

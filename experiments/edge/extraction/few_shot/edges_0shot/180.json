@@ -1,0 +1,30 @@
+[
+    {
+        "condition": "屈曲约束支撑的设计",
+        "variable": "支撑破坏",
+        "probabilities": {
+            "轴心受力构件": {
+                "避免": "very likely",
+                "发生": "very unlikely"
+            },
+            "偏心受力构件": {
+                "避免": "very unlikely",
+                "发生": "very likely"
+            }
+        }
+    },
+    {
+        "condition": "施工误差",
+        "variable": "屈曲约束支撑的设计",
+        "probabilities": {
+            "过大": {
+                "轴心受力构件": "unlikely",
+                "偏心受力构件": "likely"
+            },
+            "适中": {
+                "轴心受力构件": "likely",
+                "偏心受力构件": "unlikely"
+            }
+        }
+    }
+]

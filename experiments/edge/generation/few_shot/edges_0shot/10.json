@@ -1,0 +1,16 @@
+[
+    {
+        "condition": "基础埋深",
+        "variable": "桩顶荷载",
+        "probabilities": {
+            "大": {
+                "增加": "very likely",
+                "减少": "unlikely"
+            },
+            "小": {
+                "增加": "unlikely",
+                "减少": "very likely"
+            }
+        }
+    }
+]
