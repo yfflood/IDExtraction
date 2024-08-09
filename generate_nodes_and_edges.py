@@ -14,7 +14,7 @@ from langchain_community.chat_models import ChatZhipuAI
 import json
 import time
 
-os.environ["ZHIPUAI_API_KEY"] = '8adac289dfd59cb2006ccea31a82efab.GhrrpvmaygKVqjxS'
+os.environ["ZHIPUAI_API_KEY"] = 'YOUR ZHIPUAI API KEY'
 
 
 def extract_node(
