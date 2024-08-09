@@ -22,7 +22,7 @@ class Kimi(LLM):
 
             client = OpenAI(
                 # 此处请替换自己的api
-                api_key="sk-0yRuXHOELeuX5HRd8CY6d5OjTxxApeamcxpHXPGf3FoK1dF9",
+                api_key="YOUR KIMI API KEY",
                 base_url="https://api.moonshot.cn/v1",
             )
             completion = client.chat.completions.create(
